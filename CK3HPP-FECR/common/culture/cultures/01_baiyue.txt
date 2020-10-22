@@ -106,8 +106,14 @@ female_names = {
 		dynasty_title_names = yes
 
 		ethnicities = {
-			10 = basic_sinid
-			5 = shanid
+			15 = basic_south_mongolid
+			19 = basic_sinid
+			31 = tonkinesid
+			3 = tibetid
+			12 = shanid
+			4 = kham
+			18 = changkiangid
+			31 = annamid
 		}
 	}
 }
