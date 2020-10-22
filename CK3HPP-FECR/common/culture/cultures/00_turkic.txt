@@ -271,7 +271,11 @@
 
 		ethnicities = {
 			10 = basic_armenoid
+			10 = iranid
 			2 = basic_turanid
+			2 = basic_armenoid
+			2 = mtebid
+			1 = basic_nordid
 		}
 	}
 
@@ -521,8 +525,17 @@
 		founder_named_dynasties = yes
 
 		ethnicities = {
-			10 = anatolid
-			2 = basic_turanid
+			20 = anatolid
+			4 = basic_turanid
+			4 = pontid
+			3 = iranid
+			3 = andronovo_turanid
+			2 = plains_pamirid
+			2 = assyroid
+			2 = litorid
+			1 = eurafricanid
+			1 = north_pontid
+			1 = basic_nordid
 		}
 	}
 
