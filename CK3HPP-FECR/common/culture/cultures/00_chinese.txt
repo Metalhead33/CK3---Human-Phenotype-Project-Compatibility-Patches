@@ -106,18 +106,22 @@ female_names = {
 		dynasty_title_names = yes
 
 		ethnicities = {
-			3 = basic_turanid
-			2 = basic_tungid
-			35 = basic_sinid
-			1 = yakonin
-			3 = tibetid
+			39 = basic_sinid
+			32 = changkiangid
+			15 = huanghoid
+			3 = chukiangid
+			2 = basic_turanid
+			2 = kham
 			2 = manchukorean
-			4 = kham
-			11 = huanghoid
-			2 = gobid
+			2 = plains_pamirid
+			2 = tibetid
+			1 = basic_south_mongolid
+			1 = basic_tungid
 			1 = choshiu
-			28 = changkiangid
-			3 = plains_pamirid
+			1 = gobid
+			1 = shanid
+			1 = tonkinesid
+			1 = yakonin
 		}
 	}
 	
@@ -221,16 +225,20 @@ female_names = {
 		dynasty_title_names = yes
 
 		ethnicities = {
-			9 = basic_south_mongolid
-			25 = basic_sinid
-			11 = tonkinesid
-			3 = tibetid
-			2 = shanid
-			4 = kham
-			15 = chukiangid
-			1 = huanghoid
-			38 = changkiangid
-			11 = annamid
+			34 = basic_sinid
+			21 = changkiangid
+			19 = basic_south_mongolid
+			19 = chukiangid
+			4 = huanghoid
+			2 = kham
+			2 = tonkinesid
+			1 = annamid
+			1 = basic_turanid
+			1 = gobid
+			1 = manchukorean
+			1 = plains_pamirid
+			1 = shanid
+			1 = tibetid
 		}
 		graphical_cultures = {
 			chinese_group_coa_gfx
