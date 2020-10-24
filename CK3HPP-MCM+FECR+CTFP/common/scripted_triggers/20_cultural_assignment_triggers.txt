@@ -18,7 +18,7 @@ central_asian_hair_trigger = {
 	AND = {
 	culture_group = culture_group:turkic_group
 	NOT = { culture = culture:anatolian_turkish }
-	NOT = { culture = culture:azeri_turkish }
+	NOT = { culture = culture:azeri }
 	}
 	}
 }
@@ -56,7 +56,7 @@ mena_hair_trigger = {
 	culture_group = culture_group:berber_group
 	culture_group = culture_group:east_african_group
 	culture_group = culture_group:somalian_group
-	culture = culture:azeri_turkish
+	culture = culture:azeri
 	culture = gypsy_egypt
 	culture = gypsy_caucasus
 	}
