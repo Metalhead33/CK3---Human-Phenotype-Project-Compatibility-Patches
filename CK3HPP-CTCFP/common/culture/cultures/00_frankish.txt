@@ -1501,6 +1501,8 @@
 			1 = eurafricanid
 			2 = litorid
 			1 = assyroid
+			1 = basic_nordid
+			1 = halstatt
 		}
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.

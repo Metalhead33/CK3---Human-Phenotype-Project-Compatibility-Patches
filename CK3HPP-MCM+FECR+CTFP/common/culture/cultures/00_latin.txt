@@ -3135,6 +3135,14 @@
 	}
 		moldavian = {
 
+		graphical_cultures = {
+			south_slavic_group_coa_gfx
+			western_coa_gfx
+			mediterranean_building_gfx
+			byzantine_clothing_gfx
+			slavic_clothing_gfx
+			eastern_unit_gfx
+		}
 		color = { 179 21 37 }
 
 		cadet_dynasty_names = {
@@ -3360,6 +3368,14 @@
 	
 	vlach = {
 
+		graphical_cultures = {
+			south_slavic_group_coa_gfx
+			western_coa_gfx
+			mediterranean_building_gfx
+			byzantine_clothing_gfx
+			slavic_clothing_gfx
+			eastern_unit_gfx
+		}
 		color = { 0.3 0.2 0.2 }
 
 		cadet_dynasty_names = {

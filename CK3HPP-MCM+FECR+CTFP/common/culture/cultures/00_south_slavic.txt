@@ -5,6 +5,7 @@
 		western_coa_gfx
 		mediterranean_building_gfx
 		byzantine_clothing_gfx
+		slavic_clothing_gfx
 		eastern_unit_gfx
 	}
 
