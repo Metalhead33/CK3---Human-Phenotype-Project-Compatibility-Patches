@@ -42,12 +42,12 @@ western_hair_trigger = {
 	culture_group = culture_group:latin_group
 	culture_group = culture_group:south_slavic_group
 	culture_group = culture_group:west_slavic_group
-	culture = gypsy_hun
-	culture = gypsy_romanian
-	culture = gypsy_slav
-	culture = gypsy_iberian
-	culture = gypsy_french
-	culture = gypsy_italian
+	culture = culture:gypsy_hun
+	culture = culture:gypsy_romanian
+	culture = culture:gypsy_slav
+	culture = culture:gypsy_iberian
+	culture = culture:gypsy_french
+	culture = culture:gypsy_italian
 	}
 }
 mena_hair_trigger = {
@@ -57,8 +57,8 @@ mena_hair_trigger = {
 	culture_group = culture_group:east_african_group
 	culture_group = culture_group:somalian_group
 	culture = culture:azeri_turkish
-	culture = gypsy_egypt
-	culture = gypsy_caucasus
+	culture = culture:gypsy_egypt
+	culture = culture:gypsy_caucasus
 	}
 }
 byzantine_hair_trigger = {
@@ -66,7 +66,7 @@ byzantine_hair_trigger = {
 	culture_group = culture_group:byzantine_group
 	culture_group = culture_group:israelite_group
 	culture = culture:anatolian_turkish
-	culture = gypsy_greek
+	culture = culture:gypsy_greek
 	}
 }
 indian_hair_trigger = {
@@ -78,7 +78,7 @@ indian_hair_trigger = {
 	NOT = { culture = culture:nepali }
 	}
 	culture_group = culture_group:dravidian_group
-	culture = gypsy_india
+	culture = culture:gypsy_india
 	}
 }
 subsaharan_hair_trigger = {
