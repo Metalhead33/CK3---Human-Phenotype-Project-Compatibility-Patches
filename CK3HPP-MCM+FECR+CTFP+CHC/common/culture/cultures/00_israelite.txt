@@ -209,6 +209,12 @@ female_names = {
 		dynasty_name_first = yes
 		dynasty_title_names = yes
 
+		graphical_cultures = {
+			israelite_group_coa_gfx
+			indian_building_gfx
+			chinese_clothing_gfx
+			mongol_unit_gfx
+		}
 		ethnicities = {
 			39 = basic_sinid
 			32 = changkiangid

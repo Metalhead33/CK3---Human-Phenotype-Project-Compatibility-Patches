@@ -1,17 +1,14 @@
 ﻿
-beards = {
+hairstyles = {
 
-	usage = game
+    usage = game
 
-    selection_behavior = weighted_random
-
-
-    east_asian_beard = {
+    east_asian_hair = {
          dna_modifiers = {
              accessory = {
                  mode = replace
-                 gene = beards
-                 template = steppe_beards
+                 gene = hairstyles
+                 template = chinese_hairstyles
                  range = { 0 1 } # For the randomness to work correctly
              }
 		}   
@@ -27,12 +24,12 @@ beards = {
             }
         }
     }
-    central_asian_beard = {
+    central_asian_hair = {
          dna_modifiers = {
              accessory = {
                  mode = replace
-                 gene = beards
-                 template = steppe_beards
+                 gene = hairstyles
+                 template = steppe_hairstyles
                  range = { 0 1 } # For the randomness to work correctly
              }
 		}   
@@ -48,12 +45,12 @@ beards = {
             }
         }
     }
-    northern_beard = {
+    northern_hair = {
          dna_modifiers = {
              accessory = {
                  mode = replace
-                 gene = beards
-                 template = northern_beards
+                 gene = hairstyles
+                 template = northern_hairstyles
                  range = { 0 1 } # For the randomness to work correctly
              }
 		}   
@@ -69,12 +66,12 @@ beards = {
             }
         }
     }
-    western_beard = {
+    western_hair = {
          dna_modifiers = {
              accessory = {
                  mode = replace
-                 gene = beards
-                 template = western_beards
+                 gene = hairstyles
+                 template = western_hairstyles
                  range = { 0 1 } # For the randomness to work correctly
              }
 		}   
@@ -90,12 +87,12 @@ beards = {
             }
         }
     }
-    mena_beard = {
+    mena_hair = {
          dna_modifiers = {
              accessory = {
                  mode = replace
-                 gene = beards
-                 template = mena_beards
+                 gene = hairstyles
+                 template = mena_hairstyles
                  range = { 0 1 } # For the randomness to work correctly
              }
 		}   
@@ -111,12 +108,12 @@ beards = {
             }
         }
     }
-    byzantine_beard = {
+    byzantine_hair = {
          dna_modifiers = {
              accessory = {
                  mode = replace
-                 gene = beards
-                 template = western_beards
+                 gene = hairstyles
+                 template = byzantine_hairstyles
                  range = { 0 1 } # For the randomness to work correctly
              }
 		}   
@@ -132,12 +129,12 @@ beards = {
             }
         }
     }
-    indian_beard = {
+    indian_hair = {
          dna_modifiers = {
              accessory = {
                  mode = replace
-                 gene = beards
-                 template = indian_beards
+                 gene = hairstyles
+                 template = indian_hairstyles
                  range = { 0 1 } # For the randomness to work correctly
              }
 		}   
@@ -153,33 +150,12 @@ beards = {
             }
         }
     }
-    subsaharan_beard = {
+    circumpolar_hair = {
          dna_modifiers = {
              accessory = {
                  mode = replace
-                 gene = beards
-                 template = sub_saharan_beards
-                 range = { 0 1 } # For the randomness to work correctly
-             }
-		}   
-        weight = {
-            base = 0
-            modifier = {
-                add = 20
-                subsaharan_hair_trigger = yes
-            }
-            modifier = {
-                add = -50
-                has_character_flag = has_scripted_appearance
-            }
-        }
-    }
-    circumpolar_beard = {
-         dna_modifiers = {
-             accessory = {
-                 mode = replace
-                 gene = beards
-                 template = steppe_beards
+                 gene = hairstyles
+                 template = northern_hairstyles
                  range = { 0 1 } # For the randomness to work correctly
              }
 		}   
@@ -195,114 +171,66 @@ beards = {
             }
         }
     }
+    subsaharan_hair = {
+         dna_modifiers = {
+             accessory = {
+                 mode = replace
+                 gene = hairstyles
+                 template = sub_saharan_hairstyles
+                 range = { 0 1 } # For the randomness to work correctly
+             }
+		}   
+        weight = {
+            base = 0
+            modifier = {
+                add = 20
+                subsaharan_hair_trigger = yes
+            }
+            modifier = {
+                add = -50
+                has_character_flag = has_scripted_appearance
+            }
+        }
+    }
     
-	no_beard_for_children = {
+	baby_hair = {
         dna_modifiers = {
             accessory = {
                 mode = replace
-                gene = beards
-                template = no_beard
+                gene = hairstyles
+                template = western_baby_hairstyles
                 range = { 0 1 } # For the randomness to work correctly
             }
         }   
+        # outfit_tags = { no_clothes }
         weight = {
             base = 0
             modifier = {
                 add = 100
-                age < 18
+                age < 5
+                NOT = { portrait_african_clothing_trigger = yes } # Should be replaced with a has_gene trigger when we get that
             }
         }
     }
 
-    has_no_beard = { # This is to give a random chance of a clean shaven look
+    baby_hair_sub_saharan = {
         dna_modifiers = {
             accessory = {
                 mode = replace
-                gene = beards
-                template = no_beard
+                gene = hairstyles
+                template = sub_saharan_baby_hairstyles
                 range = { 0 1 } # For the randomness to work correctly
             }
         }   
+        # outfit_tags = { no_clothes }
         weight = {
-            base = 30 
+            base = 0
             modifier = {
-                add = -50
-                has_character_flag = has_scripted_appearance
-            }
-            modifier = { # Different likelyhood of a clean shaven look in different cultures
-                add = 0
-                portrait_western_clothing_trigger = yes
-            }
-            modifier = { # Different likelyhood of a clean shaven look in different cultures
-                add = -10
-                portrait_northern_clothing_trigger = yes
-            }		
-            modifier = { # Different likelyhood of a clean shaven look in different cultures
-                add = -10
-                portrait_norse_clothing_trigger = yes
-            }
-            modifier = { # Different likelyhood of a clean shaven look in different cultures
-                add = -10
-                portrait_steppe_clothing_trigger = yes
-            }
-            modifier = { # Different likelyhood of a clean shaven look in different cultures
-                add = -50
-                portrait_mena_clothing_trigger = yes
-            }
-        }
-    }
-    has_beard = { # Will always give a beard
-        # dna_modifiers = {
-        #     accessory = {
-        #         mode = replace
-        #         gene = beards
-        #         template = no_beard
-        #         range = { 0 1 } # For the randomness to work correctly
-        #     }
-        # }   
-        weight = {
-            base = 70
-            modifier = { # Muslims should always have a beard
                 add = 100
-				religion = religion:islam_religion
-				AND = {
-					faith = faith:orthodox
-					OR = {
-						is_theocratic_lessee = yes
-						AND = { is_ruler = yes has_government = theocracy_government}
-						has_trait = devoted					
-					}
-				}
-            }
-            modifier = {
-                add = -100
-                has_character_flag = has_scripted_appearance
+                age < 5
+                portrait_african_clothing_trigger = yes # Should be replaced with a has_gene trigger when we get that
             }
         }
     }
-
-    # muslim_western_beard = {
-    #     dna_modifiers = {
-    #         accessory = {
-    #             mode = replace
-    #             gene = beards
-    #             template = western_beards_religious
-    #             range = { 0 1 } # For the randomness to work correctly
-    #         }
-    #     }   
-    #     # outfit_tags = { no_clothes }
-    #     weight = {
-    #         base = 0
-    #     modifier = {
-    #         faith = { religion_tag = christianity_religion }
-    #         has_gene = {
-    #             category = beards
-    #             template = western_beards
-    #         }
-    #     add = 100
-    #     }
-
-    #     }
-    # }
 
 }

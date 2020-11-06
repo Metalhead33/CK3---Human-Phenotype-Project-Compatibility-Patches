@@ -2,7 +2,7 @@
 	graphical_cultures = {
 		chinese_group_coa_gfx
 		indian_building_gfx
-		mongol_clothing_gfx
+		chinese_clothing_gfx
 		mongol_unit_gfx
 	}
 
@@ -256,6 +256,12 @@ dynasty_names = {
 		dynasty_name_first = yes
 		dynasty_title_names = yes
 
+		graphical_cultures = {
+		steppe_coa_gfx
+		indian_building_gfx
+		mongol_clothing_gfx
+		mongol_unit_gfx
+		}
 		ethnicities = {
 			21 = basic_ainuid
 			11 = ishikawa

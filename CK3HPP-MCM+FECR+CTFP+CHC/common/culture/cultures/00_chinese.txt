@@ -2,7 +2,7 @@
 	graphical_cultures = {
 		chinese_group_coa_gfx
 		indian_building_gfx
-		mongol_clothing_gfx
+		chinese_clothing_gfx
 		mongol_unit_gfx
 	}
 
@@ -239,12 +239,6 @@ female_names = {
 			1 = plains_pamirid
 			1 = shanid
 			1 = tibetid
-		}
-		graphical_cultures = {
-			chinese_group_coa_gfx
-			indian_building_gfx
-			indian_clothing_gfx
-			indian_unit_gfx
 		}
 	}
 }

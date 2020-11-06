@@ -10,6 +10,7 @@ dependencies={
 	"MCM (Multiple Cultures Mod)"
 	"Community Flavor Pack"
 	"Clothing tweaks"
+	"华夏衣冠"
 	"CK3 Human Phenotype Project"
 }
 path = "mod/CK3HPP-MCM+FECR+CTFP"
