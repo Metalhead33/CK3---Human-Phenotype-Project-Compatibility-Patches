@@ -11,6 +11,7 @@ dependencies={
 	"Community Flavor Pack"
 	"Clothing tweaks"
 	"CK3 Human Phenotype Project"
+	"华夏衣冠"
 }
 path = "mod/CK3HPP-MCM+FECR+CTFP+CHC"
 picture="thumbnail.png"
