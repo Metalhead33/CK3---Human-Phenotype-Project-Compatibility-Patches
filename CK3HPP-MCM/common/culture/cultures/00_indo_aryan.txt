@@ -1589,7 +1589,6 @@
 			1 = basic_tungid
 			1 = basic_south_mongolid
 			1 = basic_sinid
-			1 = basic_orientalid
 		}
 
 		mercenary_names = {

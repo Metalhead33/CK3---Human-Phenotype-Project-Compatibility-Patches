@@ -97,7 +97,7 @@
 		mother_name_chance = 20
 
 		ethnicities = {
-			64 = baskid
+			44 = baskid
 			17 = atlanto_mediterranean
 			14 = west_alpinid
 			14 = basic_mediterranean

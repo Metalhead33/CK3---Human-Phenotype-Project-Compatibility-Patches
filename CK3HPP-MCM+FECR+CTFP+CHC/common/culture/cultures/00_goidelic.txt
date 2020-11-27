@@ -10,7 +10,7 @@
 		graphical_cultures = {
 			irish_coa_gfx
 		}
-		ethnicities = {
+		ethnicities = { 	
 			31 = north_atlantid
 			20 = paleo_atlantid
 			13 = litorid

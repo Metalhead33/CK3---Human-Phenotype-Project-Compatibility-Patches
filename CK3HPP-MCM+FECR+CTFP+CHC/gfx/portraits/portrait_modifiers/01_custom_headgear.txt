@@ -110,12 +110,17 @@
 
 	add_accessory_modifiers = {
 		gene = headgear
-		template = old_saxon_royalty
+		template = anglo_saxon_royalty
 	}
 	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = hungarian_high_nobility
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = hungarian_royalty
 	}
 	
 	add_accessory_modifiers = {
@@ -169,6 +174,18 @@
 		template = byzantine_war
 	}
 
+	########### CFP ###########
+	add_accessory_modifiers = {
+		gene = headgear
+		template = rre_imperial
+	}
+	
+	add_accessory_modifiers = {
+		gene = headgear
+		template = trait_laurel
+	}
+	########### /CFP ###########
+	
 	add_accessory_modifiers = {
 		gene = headgear
 		template = mena_common
@@ -320,7 +337,7 @@
 		template = dde_hre_war_high_nobility
 		is_valid_custom = {
 			has_dlc = "Garments of the Holy Roman Empire"
-			}
+		}
 	}
 	### /CFP ###
 	

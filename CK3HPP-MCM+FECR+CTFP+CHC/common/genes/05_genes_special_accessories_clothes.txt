@@ -1369,22 +1369,23 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
-
-## CHINA ##
+		
+		## CHINA ##
 
 		chinese_commoner_clothes = {
-			index = 68
+			index = 74
 
 			male = {
 				1 = male_clothes_secular_steppe_nobility_01_common
-				1 = male_clothes_secular_steppe_nobility_02_common
 				1 = male_clothes_secular_dde_abbasid_nobility_01_common
+				1 = male_clothes_secular_chinese_nobility_01_common
 			}
 
 			female = {
 				1 = female_clothes_secular_steppe_nobility_01_common
 				1 = female_clothes_secular_steppe_nobility_02_common
 				1 = female_clothes_secular_dde_abbasid_nobility_02_common
+				3 = female_clothes_secular_chinese_nobility_01_common
 			}
 
 			boy = male
@@ -1392,12 +1393,12 @@ accessory_genes = {
 		}
 
 	    chinese_low_nobility_clothes = {
-			index = 69
+			index = 75
 
 			male = {
 				1 = male_clothes_secular_steppe_nobility_01_low
-				1 = male_clothes_secular_steppe_nobility_02_low
 				1 = male_clothes_secular_dde_abbasid_nobility_01_low
+				1 = male_clothes_secular_chinese_nobility_01_low
 				
 			}
 
@@ -1405,6 +1406,7 @@ accessory_genes = {
 				1 = female_clothes_secular_steppe_nobility_01_low
 				1 = female_clothes_secular_steppe_nobility_02_low
 				1 = female_clothes_secular_dde_abbasid_nobility_02_low
+				4 = female_clothes_secular_chinese_nobility_01_low
 				
 			}
 			boy = male
@@ -1412,18 +1414,35 @@ accessory_genes = {
 		}
 
 		chinese_high_nobility_clothes = {
-			index = 70
+			index = 76
 
 			male = {
 				1 = male_clothes_secular_steppe_nobility_01_high
-				1 = male_clothes_secular_steppe_nobility_02_high
 				1 = male_clothes_secular_dde_abbasid_nobility_01_high
+				1 = male_clothes_secular_chinese_nobility_01_high
 			}
 
 			female = {
 				1 = female_clothes_secular_steppe_nobility_01_high
 				1 = female_clothes_secular_steppe_nobility_02_high
 				1 = female_clothes_secular_dde_abbasid_nobility_02_high
+				5 = female_clothes_secular_chinese_nobility_01_high
+				
+			}
+			boy = male
+			girl = female
+		}
+		
+		chinese_imperial_clothes = {
+			index = 77
+
+			male = {
+				1 = male_clothes_secular_chinese_imperial_01
+			}
+
+			female = {
+
+				1 = female_clothes_secular_chinese_nobility_01_high
 				
 			}
 			boy = male
@@ -1431,7 +1450,7 @@ accessory_genes = {
 		}
 
 		chinese_war_nobility_clothes = {
-			index = 71
+			index = 78
 
 			male = {
 				1 = male_clothes_secular_steppe_war_nobility_01_low
@@ -1444,7 +1463,11 @@ accessory_genes = {
 			boy = male
 			girl = female
 		}
+
+
 	}
+	
 }
+
 
 }

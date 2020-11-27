@@ -231,7 +231,6 @@
 	hungarian = {
 		graphical_cultures = {
 			western_coa_gfx
-			hungarian_clothing_gfx
 			western_clothing_gfx
 		}
 		color = { 0.5 0.6 0.3 }
@@ -428,7 +427,8 @@
 
 		dynasty_name_first = yes
 		
-		ethnicities = {			11 = gorid
+		ethnicities = {
+			11 = gorid
 			11 = neo_danubian
 			11 = basic_alpine
 			11 = basic_dinarid
@@ -462,14 +462,12 @@
 			1 = aralid
 			1 = andronovo_turanid
 			1 = anatolid
-
 		}
 	}
 
 		szekely = {
 		graphical_cultures = {
 			western_coa_gfx
-			hungarian_clothing_gfx
 			western_clothing_gfx
 		}
 		color = rgb { 0 91 161 }

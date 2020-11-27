@@ -313,7 +313,11 @@
 		mother_name_chance = 0
 
 		ethnicities = {
-			10 = mediterranean
+			10 = atlanto_mediterranean
+			10 = west_alpinid
+			10 = basic_mediterranean
+			10 = basic_alpine
+			10 = basic_dinarid
 		}
 	}
 
@@ -735,8 +739,8 @@
 		mother_name_chance = 25
 
 		ethnicities = {
+			63 = paleo_sardinian
 			36 = basic_mediterranean
-			23 = paleo_sardinian
 			19 = litorid
 			12 = atlanto_mediterranean
 			2 = basic_alpine
@@ -1434,33 +1438,32 @@
 		patronym_prefix_female = "dynnpat_pre_di"
 	
 		ethnicities = {
-			16 = basic_dinarid
-			16 = norid
-			11 = gorid
-			11 = basic_alpine
-			7 = carpathid
-			6 = litorid
-			6 = neo_danubian
-			6 = basic_east_europid
-			6 = basic_mediterranean
-			6 = eurafricanid
-			5 = pre_slavic
+			17 = atlanto_mediterranean
+			12 = basic_dinarid
+			10 = west_alpinid
+			10 = norid
+			10 = litorid
+			10 = basic_alpine
+			8 = basic_mediterranean
+			7 = eurafricanid
+			5 = carpathid
+			3 = subnordid
+			3 = basic_nordid
+			3 = north_atlantid
+			3 = halstatt
+			1 = pre_slavic
 			1 = pontid
-			1 = north_atlantid
+			1 = paleo_sardinian
 			1 = north_pontid
-			1 = west_alpinid
-			1 = subnordid
-			1 = tavastid
-			1 = alfoeld
-			1 = halstatt
 			1 = faelid
-			1 = borreby
-			1 = basic_turanid
-			1 = basic_nordid
-			1 = basic_armenoid
-			1 = atlanto_mediterranean
-			1 = assyroid
+			1 = neo_danubian
+			1 = gorid
 			1 = anglo_saxon
+			1 = borreby
+			1 = berberid
+			1 = basic_east_europid
+			1 = basic_armenoid
+			1 = assyroid
 		}
 	}
 
@@ -1878,37 +1881,33 @@
 		mother_name_chance = 5
 	
 		ethnicities = {
-			19 = basic_dinarid
-			12 = norid
-			12 = basic_mediterranean
-			10 = eurafricanid
-			7 = gorid
-			7 = basic_alpine
+			16 = basic_dinarid
+			16 = norid
+			11 = gorid
+			11 = basic_alpine
+			7 = carpathid
 			6 = litorid
-			5 = basic_east_europid
-			5 = neo_danubian
-			5 = borreby
-			4 = north_pontid
-			4 = pontid
-			3 = carpathid
-			2 = pre_slavic
-			1 = west_alpinid
+			6 = neo_danubian
+			6 = basic_east_europid
+			6 = basic_mediterranean
+			6 = eurafricanid
+			5 = pre_slavic
+			1 = pontid
 			1 = north_atlantid
-			1 = paleo_sardinian
+			1 = north_pontid
+			1 = west_alpinid
 			1 = subnordid
 			1 = tavastid
 			1 = alfoeld
 			1 = halstatt
 			1 = faelid
+			1 = borreby
 			1 = basic_turanid
 			1 = basic_nordid
 			1 = basic_armenoid
 			1 = atlanto_mediterranean
 			1 = assyroid
-			1 = asian_alpine
 			1 = anglo_saxon
-			1 = andronovo_turanid
-			1 = anatolid
 		}
 
 		mercenary_names = {
@@ -2028,6 +2027,7 @@
 			1 = carpathid
 			1 = borreby
 			1 = basic_east_europid
+
 		}
 	}
 
@@ -3133,16 +3133,9 @@
 			{ name = "mercenary_company_condottiere_band" }
 		}
 	}
-		moldavian = {
+	
+	moldavian = {
 
-		graphical_cultures = {
-			south_slavic_group_coa_gfx
-			western_coa_gfx
-			mediterranean_building_gfx
-			byzantine_clothing_gfx
-			slavic_clothing_gfx
-			eastern_unit_gfx
-		}
 		color = { 179 21 37 }
 
 		cadet_dynasty_names = {
@@ -3368,14 +3361,6 @@
 	
 	vlach = {
 
-		graphical_cultures = {
-			south_slavic_group_coa_gfx
-			western_coa_gfx
-			mediterranean_building_gfx
-			byzantine_clothing_gfx
-			slavic_clothing_gfx
-			eastern_unit_gfx
-		}
 		color = { 0.3 0.2 0.2 }
 
 		cadet_dynasty_names = {

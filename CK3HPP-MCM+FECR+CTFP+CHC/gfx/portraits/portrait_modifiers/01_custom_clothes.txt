@@ -1,7 +1,32 @@
 ﻿custom_clothes = {
 	usage = customization
 	interface_position = 0
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = chinese_commoner_clothes
+	}
 	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = chinese_low_nobility_clothes
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = chinese_high_nobility_clothes
+	}
+	
+	add_accessory_modifiers = {
+		gene = clothes
+		template = chinese_imperial_clothes
+	}
+
+	add_accessory_modifiers = {
+		gene = clothes
+		template = chinese_war_nobility_clothes
+	}
+
 	add_accessory_modifiers = {
 		gene = clothes
 		template = western_commoner_clothes
@@ -164,25 +189,6 @@
 	add_accessory_modifiers = {
 		gene = clothes
 		template = turkic_war_nobility_clothes
-	}
-	add_accessory_modifiers = {
-		gene = clothes
-		template = chinese_commoner_clothes
-	}
-	
-	add_accessory_modifiers = {
-		gene = clothes
-		template = chinese_low_nobility_clothes
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = chinese_high_nobility_clothes
-	}
-
-	add_accessory_modifiers = {
-		gene = clothes
-		template = chinese_war_nobility_clothes
 	}
 ########### /CFP ###########
 	add_accessory_modifiers = {

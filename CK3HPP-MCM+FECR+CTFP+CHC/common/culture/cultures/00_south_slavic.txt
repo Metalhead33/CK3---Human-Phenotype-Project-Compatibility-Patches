@@ -5,7 +5,6 @@
 		western_coa_gfx
 		mediterranean_building_gfx
 		byzantine_clothing_gfx
-		slavic_clothing_gfx
 		eastern_unit_gfx
 	}
 
@@ -393,7 +392,7 @@
 			{ name = "mercenary_company_allemannic_guard" }
 		}
 	}
-	
+
 	bulgarian = {
 		
 		color = { 0.7 0.5 0.5 }
@@ -644,7 +643,6 @@
 			1 = anglo_saxon
 		}	
 	}
-
 
 	macedonian = {
 		
@@ -1168,37 +1166,35 @@
 		mother_name_chance = 5
 	
 		ethnicities = {
-			21 = basic_mediterranean
-			20 = pontid
-			16 = litorid
-			7 = basic_armenoid
-			6 = anatolid
-			6 = north_pontid
-			6 = basic_dinarid
-			5 = basic_alpine
-			4 = asian_alpine
-			3 = eurafricanid
-			2 = west_alpinid
-			2 = paleo_sardinian
-			2 = neo_danubian
-			2 = basic_east_europid
+			12 = gorid
+			12 = basic_alpine
+			11 = north_pontid
+			11 = basic_dinarid
+			10 = pontid
+			10 = basic_mediterranean
+			8 = carpathid
+			7 = neo_danubian
+			5 = litorid
+			4 = basic_east_europid
+			3 = anatolid
+			3 = basic_turanid
+			3 = basic_armenoid
+			2 = andronovo_turanid
 			2 = basic_nordid
-			1 = atlanto_mediterranean
-			1 = alfoeld
+			1 = asian_alpine
+			1 = west_alpinid
+			1 = troender
 			1 = pre_slavic
-			1 = andronovo_turanid
+			1 = alfoeld
 			1 = plains_pamirid
-			1 = arabid
-			1 = aralid
 			1 = norid
-			1 = assyroid
+			1 = aralid
+			1 = ladogan
 			1 = halstatt
-			1 = gorid
-			1 = carpathid
+			1 = assyroid
+			1 = faelid
+			1 = eurafricanid
 			1 = borreby
-			1 = berberid
-			1 = basic_turanid
-			1 = basic_orientalid
 		}	
 	}
 }

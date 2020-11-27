@@ -851,30 +851,34 @@
 		patronym_prefix_female = "dynnpat_pre_duda"
 
 		ethnicities = {
-			22 = basic_turanid
-			18 = central_pamirid
-			12 = indo_nordid
-			12 = indo_iranid
-			7 = north_indid
-			7 = basic_indid
-			6 = plains_pamirid
-			5 = mountain_indid
-			3 = aralid
-			2 = tibetid
-			2 = basic_orientalid
-			2 = basic_nordid
+			24 = iranid
+			24 = basic_orientalid
+			15 = indo_iranid
+			9 = assyroid
+			6 = basic_mediterranean
+			6 = basic_armenoid
+			5 = pontid
 			2 = basic_alpine
 			2 = asian_alpine
-			1 = basic_tungid
-			1 = basic_sinid
-			1 = changkiangid
-			1 = east_brachid
-			1 = gobid
-			1 = gracile_indid
+			2 = basic_nordid
+			2 = arabid
+			1 = north_pontid
+			1 = north_indid
+			1 = plains_pamirid
+			1 = mtebid
+			1 = mountain_indid
+			1 = litorid
+			1 = indo_nordid
+			1 = basic_veddoid
 			1 = indo_brachid
-			1 = iranid
-			1 = kham
-			1 = basic_armenoid
+			1 = gracile_indid
+			1 = eurafricanid
+			1 = central_pamirid
+			1 = anatolid
+			1 = basic_turanid
+			1 = basic_indid
+			1 = basic_ethiopid
+			1 = aralid
 			1 = andronovo_turanid
 		}
 	}
@@ -1060,31 +1064,31 @@
 		patronym_suffix_female = "dynnpat_suf_zk"
 
 		ethnicities = {
-			22 = basic_turanid
-			18 = central_pamirid
-			12 = indo_nordid
-			12 = indo_iranid
-			7 = north_indid
-			7 = basic_indid
-			6 = plains_pamirid
-			5 = mountain_indid
-			3 = aralid
-			2 = tibetid
-			2 = basic_orientalid
-			2 = basic_nordid
-			2 = basic_alpine
-			2 = asian_alpine
-			1 = basic_tungid
-			1 = basic_sinid
-			1 = changkiangid
-			1 = east_brachid
-			1 = gobid
-			1 = gracile_indid
-			1 = indo_brachid
+			34 = aralid
+			25 = basic_turanid
+			18 = andronovo_turanid
+			9 = plains_pamirid
+			8 = basic_sibirid
+			2 = basic_armenoid
+			2 = basic_tungid
+			2 = gobid
+			1 = fenno_nordid
+			1 = tibetid
+			1 = north_indid
+			1 = neo_danubian
+			1 = mountain_indid
+			1 = ladogan
 			1 = iranid
-			1 = kham
-			1 = basic_armenoid
-			1 = andronovo_turanid
+			1 = indo_nordid
+			1 = indo_iranid
+			1 = asian_alpine
+			1 = central_pamirid
+			1 = anatolid
+			1 = basic_orientalid
+			1 = basic_nordid
+			1 = basic_indid
+			1 = basic_east_europid
+			1 = basic_alpine
 		}
 
 		mercenary_names = {
@@ -1335,6 +1339,7 @@
 			1 = assyroid
 			1 = asian_alpine
 			1 = arabid
+
 		}
 
 		mercenary_names = {
@@ -1519,5 +1524,4 @@
 			1 = asian_alpine
 			1 = arabid
 		}
-	}
 }

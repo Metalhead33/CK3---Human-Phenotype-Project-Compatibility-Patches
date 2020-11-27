@@ -1355,31 +1355,27 @@
 		patronym_suffix_female = "dynnpat_suf_y_chyzg"
 		
 		ethnicities = {
-			22 = basic_turanid
-			18 = central_pamirid
-			12 = indo_nordid
-			12 = indo_iranid
-			7 = north_indid
-			7 = basic_indid
-			6 = plains_pamirid
-			5 = mountain_indid
-			3 = aralid
-			2 = tibetid
+			21 = mtebid
+			20 = basic_mediterranean
+			20 = pontid
+			9 = basic_armenoid
+			8 = north_pontid
+			7 = anatolid
+			3 = asian_alpine
+			3 = basic_alpine
+			2 = andronovo_turanid
+			2 = aralid
+			2 = plains_pamirid
+			2 = iranid
+			2 = basic_turanid
 			2 = basic_orientalid
 			2 = basic_nordid
-			2 = basic_alpine
-			2 = asian_alpine
-			1 = basic_tungid
-			1 = basic_sinid
-			1 = changkiangid
-			1 = east_brachid
-			1 = gobid
-			1 = gracile_indid
-			1 = indo_brachid
-			1 = iranid
-			1 = kham
-			1 = basic_armenoid
-			1 = andronovo_turanid
+			2 = basic_dinarid
+			2 = assyroid
+			1 = gorid
+			1 = arabid
+			1 = neo_danubian
+			1 = basic_east_europid
 		}
 	}
 	
@@ -2949,25 +2945,36 @@
 		dynasty_of_location_prefix = "dynnp_of"
 		
 		ethnicities = {
-			24 = basic_mediterranean
-			20 = basic_armenoid
-			16 = pontid
-			16 = litorid
-			12 = anatolid
-			6 = eurafricanid
-			4 = paleo_sardinian
-			2 = basic_alpine
-			1 = basic_nordid
-			1 = west_alpinid
-			1 = troender
+			16 = basic_orientalid
+			15 = assyroid
+			14 = arabid
+			11 = asian_alpine
+			11 = basic_alpine
+			11 = basic_armenoid
+			10 = iranid
+			4 = basic_mediterranean
+			3 = pontid
+			3 = litorid
+			3 = anatolid
+			2 = eurafricanid
+			2 = basic_nordid
+			1 = indo_iranid
+			1 = basic_veddoid
 			1 = libyid
+			1 = mtebid
+			1 = north_indid
+			1 = north_pontid
+			1 = plains_pamirid
+			1 = indo_brachid
+			1 = gracile_indid
+			1 = egyptid
 			1 = berberid
-			1 = basic_orientalid
+			1 = basic_turanid
+			1 = basic_indid
+			1 = basic_ethiopid
 			1 = basic_dinarid
-			1 = atlanto_mediterranean
-			1 = assyroid
-			1 = asian_alpine
-			1 = arabid
+			1 = aralid
+			1 = andronovo_turanid
 		}
 	}
 
@@ -5207,7 +5214,7 @@
 		dynasty_of_location_prefix = "dynnp_of"
 		
 		ethnicities = {
-			78 = egyptid
+			66 = egyptid
 			22 = basic_orientalid
 			13 = arabid
 			13 = libyid
@@ -5225,6 +5232,819 @@
 			1 = basic_sudanid
 			1 = basic_nordid
 			1 = basic_nilotid
+		}
+	}
+
+	abkhaz = {
+
+		color = { 193 59 227 }
+
+		cadet_dynasty_names = {
+			"dynn_Abshilava"
+			"dynn_Adamia"
+			"dynn_Agbalyan"
+			"dynn_Akhalaia"
+			"dynn_Akhvledyan"
+			"dynn_Akobia"
+			"dynn_Alania"
+			"dynn_Antia"
+			"dynn_Aqubardia"
+			"dynn_Arakhamia"
+			"dynn_Arqania"
+			"dynn_Baramia"
+			"dynn_Baraturia"
+			"dynn_Barishvili"
+			"dynn_Basaria"
+			"dynn_Bazagh"
+			"dynn_Belqania"
+			"dynn_Bendelyan"
+			"dynn_Benidze"
+			"dynn_Beraia"
+			"dynn_Beria"
+			"dynn_Berishvili"
+			"dynn_Berulava"
+			"dynn_Beselia"
+			"dynn_Bigvava"
+			"dynn_Bokuchava"
+			"dynn_Bukia"
+			"dynn_Buliskeria"
+			"dynn_Bzikadze"
+			"dynn_Charkvyan"
+			"dynn_Cherqezia"
+			"dynn_Chiqovani"
+			"dynn_Chitaia"
+			"dynn_Chkhetyan"
+			"dynn_Choplyan"
+			"dynn_Danelia"
+			"dynn_Darsalia"
+			"dynn_Darsania"
+			"dynn_Dgebuadze"
+			"dynn_Dzadzamia"
+			"dynn_Dzandzava"
+			"dynn_Dzidziguri"
+			"dynn_Eliava"
+			"dynn_Esiava"
+			"dynn_Ezugbaia"
+			"dynn_Fatsulia"
+			"dynn_Gabedava"
+			"dynn_Gabelia"
+			"dynn_Gabunia"
+			"dynn_Gadelia"
+			"dynn_Gadilia"
+			"dynn_Gagua"
+			"dynn_Gamisonia"
+			"dynn_Gamsakhurdia"
+			"dynn_Gamurelidze"
+			"dynn_Gasvyan"
+			"dynn_Gegetchkori"
+			"dynn_Gelashvili"
+			"dynn_Gergedava"
+			"dynn_Gerlyan"
+			"dynn_Gertsin"
+			"dynn_Ghvinjilia"
+			"dynn_Giorbelidze"
+			"dynn_Gobejishvili"
+			"dynn_Gogia"
+			"dynn_Goginava"
+			"dynn_Gogoberishvili"
+			"dynn_Gogokhia"
+			"dynn_Gogoryan"
+			"dynn_Gogsadze"
+			"dynn_Gogua"
+			"dynn_Gotsiridze"
+			"dynn_Gugesashvili"
+			"dynn_Gujejyan"
+			"dynn_Gulbani"
+			"dynn_Gulordava"
+			"dynn_Gulua"
+			"dynn_Gunia"
+			"dynn_Gvalia"
+			"dynn_Gvaramia"
+			"dynn_Gvasalia"
+			"dynn_Gvazava"
+			"dynn_Gvilava"
+			"dynn_Jajvani"
+			"dynn_Jakhaia"
+			"dynn_Jalaghonia"
+			"dynn_Janashia"
+			"dynn_Janjghava"
+			"dynn_Japaridze"
+			"dynn_Jeladze"
+			"dynn_Jgerenaia"
+			"dynn_Jgharkava"
+			"dynn_Jijelava"
+			"dynn_Jiqia"
+			"dynn_Jobava"
+			"dynn_Jojua"
+			"dynn_Jokhadze"
+			"dynn_Jomidava"
+			"dynn_Kakulia"
+			"dynn_Kalandia"
+			"dynn_Kaltsova"
+			"dynn_Karaeva"
+			"dynn_Kartozia"
+			"dynn_Katsia"
+			"dynn_Kereselidze"
+			"dynn_Kharaishvili"
+			"dynn_Kharbedia"
+			"dynn_Kharebava"
+			"dynn_Kharzyan"
+			"dynn_Khasaia"
+			"dynn_Khavtasia"
+			"dynn_Khelaia"
+			"dynn_Khetsuryan"
+			"dynn_Kholbaia"
+			"dynn_Khorava"
+			"dynn_Khupenia"
+			"dynn_Khurashvili"
+			"dynn_Khurtsidze"
+			"dynn_Khurtsilava"
+			"dynn_Khutsishvili"
+			"dynn_Khviblyan"
+			"dynn_Khvistani"
+			"dynn_Kikoria"
+			"dynn_Kilasonia"
+			"dynn_Kiviladze"
+			"dynn_Kobakhidze"
+			"dynn_Kokaia"
+			"dynn_Kopalyan"
+			"dynn_Kukava"
+			"dynn_Kukhalashvili"
+			"dynn_Kuprava"
+			"dynn_Kupreishvili"
+			"dynn_Kutsia"
+			"dynn_Kvaratskhelia"
+			"dynn_Kvashilava"
+			"dynn_Kvekveskiri"
+			"dynn_Kveselava"
+			"dynn_Kvirkvelia"
+			"dynn_Kvitsyan"
+			"dynn_Lagvilava"
+			"dynn_Lashkhia"
+			"dynn_Lemonjava"
+			"dynn_Lezhava"
+			"dynn_Lipartelyan"
+			"dynn_Lipartia"
+			"dynn_Lobjanidze"
+			"dynn_Lomidze"
+			"dynn_Lukava"
+			"dynn_Maisashvili"
+			"dynn_Maisuradze"
+			"dynn_Malania"
+			"dynn_Mamardashvili"
+			"dynn_Managadze"
+			"dynn_Mania"
+			"dynn_Margyan"
+			"dynn_Maruashvili"
+			"dynn_Mebonia"
+			"dynn_Melashvili"
+			"dynn_Meskhia"
+			"dynn_Metreveli"
+			"dynn_Miqadze"
+			"dynn_Miqaia"
+			"dynn_Miqava"
+			"dynn_Mirtskhulava"
+			"dynn_Morgoshia"
+			"dynn_Mushkudyan"
+			"dynn_Nadareishvili"
+			"dynn_Nakhopia"
+			"dynn_Narmania"
+			"dynn_Naroushvili"
+			"dynn_Natchkhebia"
+			"dynn_Nizharadze"
+			"dynn_Ochigava"
+			"dynn_Okujava"
+			"dynn_Pangani"
+			"dynn_Pantsulaia"
+			"dynn_Papava"
+			"dynn_Partsvania"
+			"dynn_Parulava"
+			"dynn_Patsatsia"
+			"dynn_Pertaia"
+			"dynn_Pipia"
+			"dynn_Pirtskhalava"
+			"dynn_Pirveli"
+			"dynn_Popkhadze"
+			"dynn_Qajaia"
+			"dynn_Qaldani"
+			"dynn_Qarchava"
+			"dynn_Qardava"
+			"dynn_Qiria"
+			"dynn_Qobalia"
+			"dynn_Qvartskhava"
+			"dynn_Ratyan"
+			"dynn_Rekhviashvili"
+			"dynn_Rukhaia"
+			"dynn_Rvatslyan"
+			"dynn_Sajaia"
+			"dynn_Saminava"
+			"dynn_Samushia"
+			"dynn_Sanaeva"
+			"dynn_Sanaia"
+			"dynn_Saria"
+			"dynn_Sartania"
+			"dynn_Shakaia"
+			"dynn_Shamatava"
+			"dynn_Shamugia"
+			"dynn_Shelia"
+			"dynn_Shengelia"
+			"dynn_Shonia"
+			"dynn_Shubitidze"
+			"dynn_Sigua"
+			"dynn_Silagadze"
+			"dynn_Siradze"
+			"dynn_Skhulukhia"
+			"dynn_Soselia"
+			"dynn_Surmava"
+			"dynn_Svanidze"
+			"dynn_Tabaghua"
+			"dynn_Tabatadze"
+			"dynn_Tchakvetadze"
+			"dynn_Tchanturia"
+			"dynn_Tchitanava"
+			"dynn_Tchkadua"
+			"dynn_Tcholaria"
+			"dynn_Tebetsaeva"
+			"dynn_Todua"
+			"dynn_Tolordava"
+			"dynn_Topuria"
+			"dynn_Toria"
+			"dynn_Tsaava"
+			"dynn_Tsabria"
+			"dynn_Tsaldadze"
+			"dynn_Tsanava"
+			"dynn_Tsatsua"
+			"dynn_Tseladze"
+			"dynn_Tsibaeva"
+			"dynn_Tsikheladze"
+			"dynn_Tsikolia"
+			"dynn_Tsitsava"
+			"dynn_Tsiviladze"
+			"dynn_Tskhoidze"
+			"dynn_Tsomaia"
+			"dynn_Tsotsonava"
+			"dynn_Tsudia"
+			"dynn_Tsulaia"
+			"dynn_Tsurtsumia"
+			"dynn_Ubilava"
+			"dynn_Ubiria"
+			"dynn_Ugrekhelidze"
+			"dynn_Ugulava"
+			"dynn_Vekua"
+			"dynn_Zaqaraia"
+			"dynn_Zarandia"
+			"dynn_Zarqua"
+			"dynn_Zukhbaia"			
+		}
+
+		dynasty_names = {
+			"dynn_Abshilava"
+			"dynn_Adamia"
+			"dynn_Agbalyan"
+			"dynn_Akhalaia"
+			"dynn_Akhvledyan"
+			"dynn_Akobia"
+			"dynn_Alania"
+			"dynn_Antia"
+			"dynn_Aqubardia"
+			"dynn_Arakhamia"
+			"dynn_Arqania"
+			"dynn_Baramia"
+			"dynn_Baraturia"
+			"dynn_Barishvili"
+			"dynn_Basaria"
+			"dynn_Bazagh"
+			"dynn_Belqania"
+			"dynn_Bendelyan"
+			"dynn_Benidze"
+			"dynn_Beraia"
+			"dynn_Beria"
+			"dynn_Berishvili"
+			"dynn_Berulava"
+			"dynn_Beselia"
+			"dynn_Bigvava"
+			"dynn_Bokuchava"
+			"dynn_Bukia"
+			"dynn_Buliskeria"
+			"dynn_Bzikadze"
+			"dynn_Charkvyan"
+			"dynn_Cherqezia"
+			"dynn_Chiqovani"
+			"dynn_Chitaia"
+			"dynn_Chkhetyan"
+			"dynn_Choplyan"
+			"dynn_Danelia"
+			"dynn_Darsalia"
+			"dynn_Darsania"
+			"dynn_Dgebuadze"
+			"dynn_Dzadzamia"
+			"dynn_Dzandzava"
+			"dynn_Dzidziguri"
+			"dynn_Eliava"
+			"dynn_Esiava"
+			"dynn_Ezugbaia"
+			"dynn_Fatsulia"
+			"dynn_Gabedava"
+			"dynn_Gabelia"
+			"dynn_Gabunia"
+			"dynn_Gadelia"
+			"dynn_Gadilia"
+			"dynn_Gagua"
+			"dynn_Gamisonia"
+			"dynn_Gamsakhurdia"
+			"dynn_Gamurelidze"
+			"dynn_Gasvyan"
+			"dynn_Gegetchkori"
+			"dynn_Gelashvili"
+			"dynn_Gergedava"
+			"dynn_Gerlyan"
+			"dynn_Gertsin"
+			"dynn_Ghvinjilia"
+			"dynn_Giorbelidze"
+			"dynn_Gobejishvili"
+			"dynn_Gogia"
+			"dynn_Goginava"
+			"dynn_Gogoberishvili"
+			"dynn_Gogokhia"
+			"dynn_Gogoryan"
+			"dynn_Gogsadze"
+			"dynn_Gogua"
+			"dynn_Gotsiridze"
+			"dynn_Gugesashvili"
+			"dynn_Gujejyan"
+			"dynn_Gulbani"
+			"dynn_Gulordava"
+			"dynn_Gulua"
+			"dynn_Gunia"
+			"dynn_Gvalia"
+			"dynn_Gvaramia"
+			"dynn_Gvasalia"
+			"dynn_Gvazava"
+			"dynn_Gvilava"
+			"dynn_Jajvani"
+			"dynn_Jakhaia"
+			"dynn_Jalaghonia"
+			"dynn_Janashia"
+			"dynn_Janjghava"
+			"dynn_Japaridze"
+			"dynn_Jeladze"
+			"dynn_Jgerenaia"
+			"dynn_Jgharkava"
+			"dynn_Jijelava"
+			"dynn_Jiqia"
+			"dynn_Jobava"
+			"dynn_Jojua"
+			"dynn_Jokhadze"
+			"dynn_Jomidava"
+			"dynn_Kakulia"
+			"dynn_Kalandia"
+			"dynn_Kaltsova"
+			"dynn_Karaeva"
+			"dynn_Kartozia"
+			"dynn_Katsia"
+			"dynn_Kereselidze"
+			"dynn_Kharaishvili"
+			"dynn_Kharbedia"
+			"dynn_Kharebava"
+			"dynn_Kharzyan"
+			"dynn_Khasaia"
+			"dynn_Khavtasia"
+			"dynn_Khelaia"
+			"dynn_Khetsuryan"
+			"dynn_Kholbaia"
+			"dynn_Khorava"
+			"dynn_Khupenia"
+			"dynn_Khurashvili"
+			"dynn_Khurtsidze"
+			"dynn_Khurtsilava"
+			"dynn_Khutsishvili"
+			"dynn_Khviblyan"
+			"dynn_Khvistani"
+			"dynn_Kikoria"
+			"dynn_Kilasonia"
+			"dynn_Kiviladze"
+			"dynn_Kobakhidze"
+			"dynn_Kokaia"
+			"dynn_Kopalyan"
+			"dynn_Kukava"
+			"dynn_Kukhalashvili"
+			"dynn_Kuprava"
+			"dynn_Kupreishvili"
+			"dynn_Kutsia"
+			"dynn_Kvaratskhelia"
+			"dynn_Kvashilava"
+			"dynn_Kvekveskiri"
+			"dynn_Kveselava"
+			"dynn_Kvirkvelia"
+			"dynn_Kvitsyan"
+			"dynn_Lagvilava"
+			"dynn_Lashkhia"
+			"dynn_Lemonjava"
+			"dynn_Lezhava"
+			"dynn_Lipartelyan"
+			"dynn_Lipartia"
+			"dynn_Lobjanidze"
+			"dynn_Lomidze"
+			"dynn_Lukava"
+			"dynn_Maisashvili"
+			"dynn_Maisuradze"
+			"dynn_Malania"
+			"dynn_Mamardashvili"
+			"dynn_Managadze"
+			"dynn_Mania"
+			"dynn_Margyan"
+			"dynn_Maruashvili"
+			"dynn_Mebonia"
+			"dynn_Melashvili"
+			"dynn_Meskhia"
+			"dynn_Metreveli"
+			"dynn_Miqadze"
+			"dynn_Miqaia"
+			"dynn_Miqava"
+			"dynn_Mirtskhulava"
+			"dynn_Morgoshia"
+			"dynn_Mushkudyan"
+			"dynn_Nadareishvili"
+			"dynn_Nakhopia"
+			"dynn_Narmania"
+			"dynn_Naroushvili"
+			"dynn_Natchkhebia"
+			"dynn_Nizharadze"
+			"dynn_Ochigava"
+			"dynn_Okujava"
+			"dynn_Pangani"
+			"dynn_Pantsulaia"
+			"dynn_Papava"
+			"dynn_Partsvania"
+			"dynn_Parulava"
+			"dynn_Patsatsia"
+			"dynn_Pertaia"
+			"dynn_Pipia"
+			"dynn_Pirtskhalava"
+			"dynn_Pirveli"
+			"dynn_Popkhadze"
+			"dynn_Qajaia"
+			"dynn_Qaldani"
+			"dynn_Qarchava"
+			"dynn_Qardava"
+			"dynn_Qiria"
+			"dynn_Qobalia"
+			"dynn_Qvartskhava"
+			"dynn_Ratyan"
+			"dynn_Rekhviashvili"
+			"dynn_Rukhaia"
+			"dynn_Rvatslyan"
+			"dynn_Sajaia"
+			"dynn_Saminava"
+			"dynn_Samushia"
+			"dynn_Sanaeva"
+			"dynn_Sanaia"
+			"dynn_Saria"
+			"dynn_Sartania"
+			"dynn_Shakaia"
+			"dynn_Shamatava"
+			"dynn_Shamugia"
+			"dynn_Shelia"
+			"dynn_Shengelia"
+			"dynn_Shonia"
+			"dynn_Shubitidze"
+			"dynn_Sigua"
+			"dynn_Silagadze"
+			"dynn_Siradze"
+			"dynn_Skhulukhia"
+			"dynn_Soselia"
+			"dynn_Surmava"
+			"dynn_Svanidze"
+			"dynn_Tabaghua"
+			"dynn_Tabatadze"
+			"dynn_Tchakvetadze"
+			"dynn_Tchanturia"
+			"dynn_Tchitanava"
+			"dynn_Tchkadua"
+			"dynn_Tcholaria"
+			"dynn_Tebetsaeva"
+			"dynn_Todua"
+			"dynn_Tolordava"
+			"dynn_Topuria"
+			"dynn_Toria"
+			"dynn_Tsaava"
+			"dynn_Tsabria"
+			"dynn_Tsaldadze"
+			"dynn_Tsanava"
+			"dynn_Tsatsua"
+			"dynn_Tseladze"
+			"dynn_Tsibaeva"
+			"dynn_Tsikheladze"
+			"dynn_Tsikolia"
+			"dynn_Tsitsava"
+			"dynn_Tsiviladze"
+			"dynn_Tskhoidze"
+			"dynn_Tsomaia"
+			"dynn_Tsotsonava"
+			"dynn_Tsudia"
+			"dynn_Tsulaia"
+			"dynn_Tsurtsumia"
+			"dynn_Ubilava"
+			"dynn_Ubiria"
+			"dynn_Ugrekhelidze"
+			"dynn_Ugulava"
+			"dynn_Vekua"
+			"dynn_Zaqaraia"
+			"dynn_Zarandia"
+			"dynn_Zarqua"
+			"dynn_Zukhbaia"			
+		}
+
+		male_names = {
+			Abeli Abesalom Abram Adam Adgur Ainar Akaki Akhra Alan Albert Alberti Aleko Aleksandr Aleksey Aleqsandr Aleqsandre Aleqsi Alexander Alexey Alik Alika Aliko Aliosha Alkhas Almaskhan Alyas Ambrosi Ameran Amiran Amirani Anatol Anatoli Anatoliy Andrei Andrey Andria Andro Anri Anton Anzor Anzori Apalon Apolon Aqvsenti Archil Archili Ardevan Arkadi Armen Arsen Arsena Arshako Artashes Artem Artur Artyom Arvelod Arvelodi Ashot Aslan Asta Astamur Astik Atiko Avedis Aveli Avtandil Avtandili Babitso Badri Bagrat Bakur Bakuri Baqar Batal Batsia Batsu Batsuna Beglar Bejan Beno Beqa Berdia Besarion Besik Besiki Beslan Beso Biqtor Bitsiko Bondo Boris Borisi Bukhuti Butsuki Bziana Daisi Dalosti Damir Daniel Daniil Danil Data Datiko Dato Daur David Davit Daviti Dazmer Dazmir Demetre Demna Demur Demuri Denis Devi Diego Dima Dimitri Dito Dmitriy Dmitry Domenti Durmishkhan Edemi Edgar Edik Edisher Eduard Egnate Egor Eldar Eldari Elguja Elizbar Elvard Elvardi Emir Emiri Emzar Emzari Enver Erekle Erik Evgeni Evgeny Gabriel Gaga Gaioz Galaqtion Gedevan Gegi Gela Genad Genadi Gennadiy Geno Genri Georgi Georgiy Georgy German Germane Geronti Ghughuni Gia Giga Gigi Gigla Gio Giorgi Giuli Givi Giya Gizo Gocha Goga Gogi Gogita Goneli Goneri Gotsag Gramiton Grigol Grigoli Grigor Grigori Grisha Gugusha Gulad Guladi Guliver Gulver Guram Gurami Gurgen Gurgeni Hamlet Iago Iakob Iakobi Ian Iasha Iason Igor Igori Ika Ilarion Ilia Iliko Ilya Imedi Imedo Inal Indiko Inver Ioane Iona Ioseb Ipolite Iradion Irakli Irakliy Irod Irodi Irodion Iura Iuri Iuza Ivan Ivane Iveri Ivliane Jaba Jambul Jambuli Janiko Jano Jansugh Jemal Jemali Jibo Jimi Jimsher Jiuli Jokhra Jondo Joni Jorji Joto Jumber Jumberi Justan Kakha Kakhaber Kakhaberi Kako Kalistrate Kapiton Karen Karlo Kaxa Khariton Khukhuti Khuta Khvicha Kirile Kirill Klimenti Koba Koka Kolyan Konstantin Konstantine Kote Kukuri Lado Lasa Lasha Lavrenti Lazare Leon Leonid Leonti Leqso Leri Levan Levani Levter Livter Luka Magara Maizer Maksim Malkhaz Malkhazi Mamanti Mamia Mamuka Mamuli Manuchar Manuchari Maqsime Mark Marlen Mate Maxim Megona Melor Merab Merabi Mevlud Mikhail Mikheil Mikheili Mindia Mirian Miriane Miro Mironi Mirza Misa Misha Mishiko Mitusha Mogeli Mukhran Murad Muradi Murman Murmani Murtaz Murtazi Mushni Napo Neliko Nestor Niaz Niazi Nika Nikita Niko Nikolay Nikoloz Nikolozi Nodar Nodari Noe Noshrevan Nugzar Nugzari Nukri Nuri Oleg Olegi Omar Omari Oner Oneri Onise Orden Otar Otari Paata Paliko Papuna Parmen Patiko Pavel Pavle Petr Petre Piruz Platon Pridon Pridoni Qartlos Qishvard Qishvardi Radion Raiko Raindi Ramaz Ramazi Ramin Rapiel Rati Raul Rauli Razhden Remiko Reno Revaz Revazi Reziko Rezo Robert Roberti Robinzon Roin Roini Roland Rolandi Roma Roman Romani Romanoz Romeo Rostom Ruben Ruda Ruslan Rustam Ruzgen Saba Said Saler Saliko Salva Samil Samson Samvel Sandro Sanya Saya Sergei Sergey Sergo Seriozha Severian Shakhi Shaqro Shermadin Shmagi Shuqri Shuquri Simon Sio Slava Slavik Solomon Soso Sozar Sozon Spartak Spiridon Stanislav Stas Sulkhan Suren Tamaz Tamazi Tariel Tarieli Tato Tedo Tedore Teimuraz Teimurazi Temo Temur Temuri Tengiz Tengizi Tengo Terenti Tigran Timur Titiko Toma Tornike Tristan Tsezar Tsitsiko Tsotne Ucha Ushangi Vadim Vaja Vakhtang Vakhtangi Valer Valera Valeri Valeriane Valeriy Valiko Valodia Valter Vano Vanya Varden Varlam Vartkes Vasiko Vasil Vasili Vaso Vasya Vekhvia Velod Velodi Venedi Vepkhia Vianor Viatcheslav Viktor Viqtor Vitali Vitaliy Vitaly Vlad Vladimer Vladimeri Vladimir Vladislav Vyacheslav Yura Yury Zaal Zaali Zaliko Zamir Zaqaria Zaqro Zaur Zauri Zaza Zhenya Zura Zurab Zurabi Zuri Zuriko Zviad Zviadi
+
+		}
+		
+		female_names = {
+			Ada Agrapina Aida Aira Ala Albina Aldona Aleksandra Alena Aleqsandra Alina Aliona Alisa Aliya Alla Amalia Amina Ana Anaida Anano Anastasia Anastasiya Anela Aneta Angelina Ani Aniko Anjela Anjelika Anna Antisa Antonina Anya Anzhela Anzhelika Aqsana Ariadna Asida Asmat Astanda Avelina Aza Babilina Babutsa Barbare Bedisa Bela Brolisa Butsa Dali Dalila Darejan Dariko Dasha Dea Deniza Diana Dina Dinara Dodo Donara Dunia Dusa Dzaba Edita Eka Ekaterina Ekaterine Ela Elana Elena Elene Eleonora Eliko Elisabed Eliso Eliza Elizaveta Elmira Elvara Elvira Elza Ema Emali Emma Esma Eter Eteri Eva Evdokia Evelina Evgenia Fatima Galina Gayana Gayane Genrieta Goderzi Gogo Gogola Gogona Gogosha Gogutsa Gugula Guguli Guli Guliko Gulisa Guliza Gulnara Gulnaz Gulnazi Gulo Gunda Guranda Gvantsa Ia Iamze Iana Ilona Imeda Ina Indira Ineza Inga Inna Inola Ira Irena Irina Irine Irma Iulia Iveta Ivlita Iza Izabela Izo Izolda Jamila Jana Janeta Jeiran Jena Jeneti Jilda Jina Jujuna Juleta Julieta Juna Kama Kamila Karina Karine Kato Katya Kesaria Keso Khamida Khatia Khatuna Klara Klavdia Kristina Lala Lali Lalita Lamara Lamzira Lana Lara Larisa Latavra Laura Ledi Leila Lela Lena Lia Lialia Liana Lida Lidia Lika Lile Lili Lilia Liliana Lina Linda Lira Liubov Liudmila Liutsia Liza Lizi Lola Lolita Londa Lora Lorena Loreta Lorita Luara Luba Lubov Luda Ludmila Luiza Luna Lusa Lusia Lyubov Lyudmila Madina Madlena Madona Magda Magdana Maguli Maia Maiko Maka Malina Maluza Malvina Manana Manera Mania Manija Manon Manoni Marekhi Margalita Margarita Margo Mari Maria Mariam Mariami Mariana Marianna Marieta Marika Marina Marine Mariya Maro Marta Marusia Masha Maula Mavlina Mavra Mayya Medea Medeia Mediko Megi Melania Melano Meliko Meri Meriko Milana Milena Mimia Mimoza Miranda Mokona Monika Mtvarisa Mzeona Mzevinar Mzia Mziana Mzisa Mzisadar Mzisana Mziur Mziuri Nadezhda Nadia Naili Naira Nana Nani Nano Nanul Nanuli Nargiza Nargizi Nari Nastya Nata Natali Natalia Natalya Natasha Natela Natia Natiko Natka Nato Natrul Natruli Nazi Nazia Nazibrola Naziko Nazo Neli Nero Nestan Nia Nina Ninela Nineli Nini Nino Niura Nona Nora Nunu Nura Nutsa Oksana Olga Olgha Olia Olya Oqsana Pasha Pati Patima Patman Patsia Patsiko Pedosia Penia Peride Piqria Piruza Plora Polina Popina Potola Pupa Qetevan Qetevani Qeti Qetino Qeto Qordiko Qristina Qristine Qsenia Quchuchi Rafida Raia Raisa Renata Rima Rita Roena Roza Rozeta Rusiko Rusudan Rusudani Ruzana Sabina Saida Salome Sasha Sesili Shorena Shota Shushanika Sonia Sopia Sopiko Sopio Sopo Sorena Suliko Sura Susana Sveta Svetlana Taliko Tamar Tamara Tamari Tamila Tamriko Tamta Tamuna Tania Tanya Taras Taso Tata Tatia Tatiana Tatusha Tatyana Tavela Tea Tekla Tekle Teo Teolina Teona Tina Tinatin Tinatini Tiniko Tsatsa Tsiala Tsira Tsisana Tsito Tsitsa Tsitsana Tsitsino Tsitso Tsiur Tsiuri Tsuta Tsutsa Valentina Valerian Valery Valia Valida Valina Vanda Vara Vardiko Vardisa Vardo Varvara Venera Venia Vera Veriko Veronika Vika Viktoria Viktoriya Viola Violeta Viqtoria Vita Vova Yana Yuliya Yuriy Zabuli Zaira Zamira Zania Zeinab Zempira Zevinar Zhanna Zhozepina Zina Zinaida Zita Zoiaa
+		}
+		
+		dynasty_of_location_prefix = "dynnp_i"
+		
+		ethnicities = {
+			10 = mediterranean_byzantine
+		}
+	}
+
+	ossetian = {
+
+		color = { 96 28 115 }
+
+		cadet_dynasty_names = {
+			"dynn_Abaev"
+			"dynn_Abayty"
+			"dynn_Abisalov"
+			"dynn_Aboev"
+			"dynn_Aguzarov"
+			"dynn_Akoev"
+			"dynn_Alborty"
+			"dynn_Alkatsev"
+			"dynn_Baimatov"
+			"dynn_Baitsaev"
+			"dynn_Batsazov"
+			"dynn_Bazaev"
+			"dynn_Bazzaev"
+			"dynn_Bazzaty"
+			"dynn_Bekuzarov"
+			"dynn_Berezov"
+			"dynn_Bestaev"
+			"dynn_Bestauty"
+			"dynn_Bibilov"
+			"dynn_Bigulov"
+			"dynn_Biragov"
+			"dynn_Budtuev"
+			"dynn_Byasov"
+			"dynn_BA_zzaty"
+			"dynn_Chabiev"
+			"dynn_Chikhtisov"
+			"dynn_Didarov"
+			"dynn_Doev"
+			"dynn_Driaev"
+			"dynn_Dudaraty"
+			"dynn_Dudarov"
+			"dynn_Dudayev"
+			"dynn_Dudiyev"
+			"dynn_Dzabolov"
+			"dynn_Dzaparov"
+			"dynn_Dzebissov"
+			"dynn_Dzhanaev"
+			"dynn_Dzhioev"
+			"dynn_Dzhioyev"
+			"dynn_Dzodziev"
+			"dynn_Dzottsoev"
+			"dynn_Dzugaev"
+			"dynn_Dzugkoev"
+			"dynn_Dzutagov"
+			"dynn_Edziev"
+			"dynn_Fidarov"
+			"dynn_Gabaraev"
+			"dynn_Gabaraty"
+			"dynn_Gabuev"
+			"dynn_Gadiev"
+			"dynn_Gadziev"
+			"dynn_Gagloev"
+			"dynn_GalaztA_"
+			"dynn_Gazaev"
+			"dynn_Gazdanov"
+			"dynn_Gazdiev"
+			"dynn_Gochiev"
+			"dynn_Guriev"
+			"dynn_Gurtsiev"
+			"dynn_Gusalov"
+			"dynn_GA_bA_raty"
+			"dynn_GA_zzaty"
+			"dynn_Kachmazov"
+			"dynn_Kadzaev"
+			"dynn_Kallagov"
+			"dynn_Kantemirov"
+			"dynn_Karaev"
+			"dynn_Karazhaev"
+			"dynn_Kargaev"
+			"dynn_Karginov"
+			"dynn_Kertibiev"
+			"dynn_Kesaev"
+			"dynn_Kharebaty"
+			"dynn_Khautov"
+			"dynn_Khetagurov"
+			"dynn_Khinchagov"
+			"dynn_Khokhoev"
+			"dynn_Khugaev"
+			"dynn_Kisiev"
+			"dynn_Kornaev"
+			"dynn_Kubatiev"
+			"dynn_Kusov"
+			"dynn_Mamiev"
+			"dynn_Margiev"
+			"dynn_Merdenov"
+			"dynn_Mildzikhov"
+			"dynn_Mirikov"
+			"dynn_Morgoev"
+			"dynn_Nafiev"
+			"dynn_Parastaev"
+			"dynn_Pliev"
+			"dynn_Rubaev"
+			"dynn_Salbiev"
+			"dynn_Sokaev"
+			"dynn_Suanov"
+			"dynn_Sugarov"
+			"dynn_Sumenov"
+			"dynn_Takazov"
+			"dynn_Tavasiev"
+			"dynn_Tavitov"
+			"dynn_Tegkaev"
+			"dynn_Tetdoev"
+			"dynn_Tmenov"
+			"dynn_Tolasov"
+			"dynn_Tomaev"
+			"dynn_Torchinov"
+			"dynn_Totoonti"
+			"dynn_Totrov"
+			"dynn_Tsaliev"
+			"dynn_Tseboev"
+			"dynn_Tskhurbati"
+			"dynn_Tsokolaev"
+			"dynn_Tuganov"
+			"dynn_Turgiev"
+			"dynn_Urtaev"
+			"dynn_A_huyzarty"		
+		}
+
+		dynasty_names = {
+			"dynn_Abaev"
+			"dynn_Abayty"
+			"dynn_Abisalov"
+			"dynn_Aboev"
+			"dynn_Aguzarov"
+			"dynn_Akoev"
+			"dynn_Alborty"
+			"dynn_Alkatsev"
+			"dynn_Baimatov"
+			"dynn_Baitsaev"
+			"dynn_Batsazov"
+			"dynn_Bazaev"
+			"dynn_Bazzaev"
+			"dynn_Bazzaty"
+			"dynn_Bekuzarov"
+			"dynn_Berezov"
+			"dynn_Bestaev"
+			"dynn_Bestauty"
+			"dynn_Bibilov"
+			"dynn_Bigulov"
+			"dynn_Biragov"
+			"dynn_Budtuev"
+			"dynn_Byasov"
+			"dynn_BA_zzaty"
+			"dynn_Chabiev"
+			"dynn_Chikhtisov"
+			"dynn_Didarov"
+			"dynn_Doev"
+			"dynn_Driaev"
+			"dynn_Dudaraty"
+			"dynn_Dudarov"
+			"dynn_Dudayev"
+			"dynn_Dudiyev"
+			"dynn_Dzabolov"
+			"dynn_Dzaparov"
+			"dynn_Dzebissov"
+			"dynn_Dzhanaev"
+			"dynn_Dzhioev"
+			"dynn_Dzhioyev"
+			"dynn_Dzodziev"
+			"dynn_Dzottsoev"
+			"dynn_Dzugaev"
+			"dynn_Dzugkoev"
+			"dynn_Dzutagov"
+			"dynn_Edziev"
+			"dynn_Fidarov"
+			"dynn_Gabaraev"
+			"dynn_Gabaraty"
+			"dynn_Gabuev"
+			"dynn_Gadiev"
+			"dynn_Gadziev"
+			"dynn_Gagloev"
+			"dynn_GalaztA_"
+			"dynn_Gazaev"
+			"dynn_Gazdanov"
+			"dynn_Gazdiev"
+			"dynn_Gochiev"
+			"dynn_Guriev"
+			"dynn_Gurtsiev"
+			"dynn_Gusalov"
+			"dynn_GA_bA_raty"
+			"dynn_GA_zzaty"
+			"dynn_Kachmazov"
+			"dynn_Kadzaev"
+			"dynn_Kallagov"
+			"dynn_Kantemirov"
+			"dynn_Karaev"
+			"dynn_Karazhaev"
+			"dynn_Kargaev"
+			"dynn_Karginov"
+			"dynn_Kertibiev"
+			"dynn_Kesaev"
+			"dynn_Kharebaty"
+			"dynn_Khautov"
+			"dynn_Khetagurov"
+			"dynn_Khinchagov"
+			"dynn_Khokhoev"
+			"dynn_Khugaev"
+			"dynn_Kisiev"
+			"dynn_Kornaev"
+			"dynn_Kubatiev"
+			"dynn_Kusov"
+			"dynn_Mamiev"
+			"dynn_Margiev"
+			"dynn_Merdenov"
+			"dynn_Mildzikhov"
+			"dynn_Mirikov"
+			"dynn_Morgoev"
+			"dynn_Nafiev"
+			"dynn_Parastaev"
+			"dynn_Pliev"
+			"dynn_Rubaev"
+			"dynn_Salbiev"
+			"dynn_Sokaev"
+			"dynn_Suanov"
+			"dynn_Sugarov"
+			"dynn_Sumenov"
+			"dynn_Takazov"
+			"dynn_Tavasiev"
+			"dynn_Tavitov"
+			"dynn_Tegkaev"
+			"dynn_Tetdoev"
+			"dynn_Tmenov"
+			"dynn_Tolasov"
+			"dynn_Tomaev"
+			"dynn_Torchinov"
+			"dynn_Totoonti"
+			"dynn_Totrov"
+			"dynn_Tsaliev"
+			"dynn_Tseboev"
+			"dynn_Tskhurbati"
+			"dynn_Tsokolaev"
+			"dynn_Tuganov"
+			"dynn_Turgiev"
+			"dynn_Urtaev"
+			"dynn_A_huyzarty"
+		}
+
+		male_names = {
+			Afako Akhsar Alibeg Alibek Alimbeg Alyksandr Amirkhan Amurkhan Aslan Aslanbeg Aslanbek Aslænbeg Asmat Atsamaz Atsæmæz Azamat Azæmæt Barybsi Batradz Batyradz Bega Dauyt Dimitr Dzakhot Dzambeg Dzambolat Dzantemir Dzaug Dzhambulad Elbazduko Elbrus Fedyr Gaito Geuærgi Giuærgi Gæmæt Ibragim Irbek Isaq Kazbek Khadzhimurat Khasan Khazbi Khetag Khetæg Khæmyts Kuydzæg Lazær Makharbeg Makharbek Mushtæfa Mustæfa Muzafer Mysost Mækhæmæt Nart Nikala Nikhala Niqala Qambolat Qazybeg Sakhandzheri Sarmat Sauarmag Sauarmæg Seqa Soslan Soslanbek Soslænbek Sozyr Sozyryqo Særmæt Taimuraz Taymuraz Torez Totradz Totraz Tsomak Tsomaq Tugan Uryzmag Uyryzmag Vano Zaur Zaurbek Zauyr Znaur Znauyr Ækhsar Ækhsærtæg Afako Akhsar Akhsarbek Akhsartag Alan Alibeg Alibek Alyksandr Amirkhan Amurkhan Aslan Aslanbeg Aslanbek Aslænbeg Asmat Atsamaz Atsæmæz Azamat Azæmæt Bakhva Barybsi Batraz Batyradz Bega Bekyzæ Dauyt Dimitr Dzakhot Dzambeg Dzambolat Dzantemir Dzaug Dzhambulad Dzæuyg Elbrus Fedyr Gaito Geuærgi Gæmæt Ibragim Irbeg Isaq Kaurbek Kazbek Khasan Khazbi Khetag Khetæg Khæmyts Lazær Makhamat Makharbeg Makharbek Mushtæfa Mustæfa Muzafer Mysost Mækhæmæt Nikala Nikhala Niqala Phaule Qambolat Qazybeg Ruslan Sakhandzheri Sarmat Sauarmag Sauarmæg Seqa Soslan Soslanbek Soslænbeg Sozyr Sozyryqo Særmæt Taimuraz Tamerlan Taymuraz Torez Totradz Totraz Tsomak Tsomaq Tsotsoko Tugan Tætærqan Uryzmag Uyryzmag Vano Zaur Zaurbek Zauyr Zauyrbeg Zhamiræt Znaur Znauyr Ækhsar Ækhsarbeg Ækhsærtæg
+		}
+		
+		female_names = {
+			Agafia Agnessa Agrafena Agunda Aguyndæ Aksinya Aleksandra Alenka Alina Allæ Amalia Amaliya Anastasiya Angelika Angelina Anninka Anouska Arianæ Beatrisa Bogdana Celestyna Dominika Dzerassa Dzerassæ Elena Elenæ Eleonora Elisaveta Emiliya Emma Eudokia Evdokiya Fatimæ Fyodora Galina Galinka Galya Inessa Irinæ Ivanna Jelena Jereni Kapitolina Katusha Khristina Khristya Kira Klara Klavdia Kristina Kseniya Lara Lena Lera Lisenka Lizavieta Ludmila Luiza Manka Marfa Margarita Marianna Marina Marinka Mariya Marta Maruska Marya Masha Matryona Maya Melashka Milda Miloslava Mira Nadka Nasha Nastka Natalia Natalya Natasha Nelya Nessia Nina Nyura Nyusha Oksana Olena Olesya Olgæ Olya Orya Polina Praskovya Raisa Raya Rosina Roza Rukhsana Rushana Ruzha Selinka Snezana Snezhana Sofia Sofya Stanislava Stella Stesha Svetla Svetlana Svetlanæ Tanka Tanya Tatiana Terezilya Tomochka Ulyana Valka Varvara Vasilissa Vera Veronika Veronikæ Viktoria Yekaterina Yevdokiya Yulinka Yuliya Zalina Zarina Zarinæ Zinæ Zoya
+		}
+		
+		dynasty_of_location_prefix = "dynnp_tsur"
+		
+		ethnicities = {
+			21 = mtebid
+			20 = basic_mediterranean
+			20 = pontid
+			9 = basic_armenoid
+			8 = north_pontid
+			7 = anatolid
+			3 = asian_alpine
+			3 = basic_alpine
+			2 = andronovo_turanid
+			2 = aralid
+			2 = plains_pamirid
+			2 = iranid
+			2 = basic_turanid
+			2 = basic_orientalid
+			2 = basic_nordid
+			2 = basic_dinarid
+			2 = assyroid
+			1 = gorid
+			1 = arabid
+			1 = neo_danubian
+			1 = basic_east_europid
 		}
 	}
 }
