@@ -18,11 +18,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 east_asian_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -39,11 +39,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 central_asian_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -60,11 +60,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 northern_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -81,11 +81,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 western_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -102,11 +102,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 mena_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -123,11 +123,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 byzantine_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -144,11 +144,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 indian_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -165,11 +165,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 subsaharan_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -186,11 +186,11 @@ beards = {
         weight = {
             base = 0
             modifier = {
-                add = 20
+                add = 70
                 circumpolar_hair_trigger = yes
             }
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
             }
         }
@@ -226,8 +226,12 @@ beards = {
         weight = {
             base = 30 
             modifier = {
-                add = -50
+                add = -100
                 has_character_flag = has_scripted_appearance
+            }
+            modifier = {
+                add = 30
+                east_asian_hair_trigger = yes
             }
             modifier = { # Different likelyhood of a clean shaven look in different cultures
                 add = 0
@@ -246,7 +250,7 @@ beards = {
                 portrait_steppe_clothing_trigger = yes
             }
             modifier = { # Different likelyhood of a clean shaven look in different cultures
-                add = -50
+                add = -10
                 portrait_mena_clothing_trigger = yes
             }
         }
