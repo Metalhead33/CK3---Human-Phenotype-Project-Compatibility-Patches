@@ -7,4 +7,5 @@ Compatibility patches for [the CK3 Human Phenotype Project](https://github.com/M
 * **CK3-HP+MB** requires the [More Bookmarks+](https://steamcommunity.com/sharedfiles/filedetails/?id=2216670956)
 * **CK3-HP+MHG** requires the [More Holding Graphics](https://steamcommunity.com/sharedfiles/filedetails/?id=2262523658)
 * **CK3-HP+CHC** requires [Chinese Headgear and Clothing](https://steamcommunity.com/sharedfiles/filedetails/?id=2277707334)
+* **CK3-HP+FECR+CHC** requires [Far Eastern Cultures and Religions](https://git.sonck.nl/metalhead/paradox-mods/far-eastern-cultures-ck3) **AND** [Chinese Headgear and Clothing](https://steamcommunity.com/sharedfiles/filedetails/?id=2277707334)
 * **CK3-HP-NGE** requires [Northern Graphics Extended](https://steamcommunity.com/sharedfiles/filedetails/?id=2230109820)
