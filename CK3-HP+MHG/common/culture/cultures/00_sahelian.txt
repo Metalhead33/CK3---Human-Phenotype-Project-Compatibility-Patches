@@ -98,89 +98,6 @@
 			1 = westcongolesid
 		}
 	}
-	bozo= {
-		
-		color = hsv{ 0.12 1.0 0.5}
-
-		cadet_dynasty_names = {
-			"dynn_Jenama"
-			"dynn_Bangime"
-			"dynn_Niakhate"
-			"dynn_Sorogaama"
-			"dynn_Kelenga"
-			"dynn_Tieyaxo"
-			"dynn_Tiema_Ce"
-			"dynn_Pondori"
-			"dynn_Kotya"
-			"dynn_Korondugu"
-			"dynn_Debo"
-			"dynn_Konna"
-			"dynn_Bangande"
-			"dynn_Namague"
-			"dynn_Kargue"
-			"dynn_Bounou"
-			"dynn_Bara"
-		}
-		dynasty_names = {
-			"dynn_Jenama"
-			"dynn_Bangime"
-			"dynn_Niakhate"
-			"dynn_Sorogaama"
-			"dynn_Kelenga"
-			"dynn_Tieyaxo"
-			"dynn_Tiema_Ce"
-			"dynn_Pondori"
-			"dynn_Kotya"
-			"dynn_Korondugu"
-			"dynn_Debo"
-			"dynn_Konna"
-			"dynn_Bangande"
-			"dynn_Namague"
-			"dynn_Kargue"
-			"dynn_Bounou"
-			"dynn_Bara"
-		}
-
-		male_names = {
-			Abubakar Akoi Alayaman BE_rE_tE_ Bathily BadA_ Barri Bamari Bannu Birama Bisi Biyu Bilali Bomou Bunama
-			Cissi DiobE_ Dabo Diakhaba Diawara Daffi Dagnokho Doucouri Dalante Dankaran Demba Daoud Diara Dinka Dire
-			Fissourou Fadiga FA_dazu Fuluku Gane Gassama Gole Jawuru
-			Kaba Kabayo Kalabi Kanafa Kambine Kassa Kaya Kayna Kinkin Kukuray Kusoy
-			Marega M_Bali Maghan Majan Mamadi Mamoudou Mari-Djata Musa 
-			NiakhatE_ Nintasanay Wague Wali Wati
-			Reidja Sy Sylla Sakho Soukhouna Sima SoumarE_ Sakoura Salman Sandaki Soumaba Soumaoro Soundiata Sulayman 
-			Tandian Tunka Tunka-Menin Tabouri Tounkara Touri Tandi Takoi Tib  
-			YansanE_ YatabE_ri Yama Yasiboy Zakoi Zenku
-			Kiffa Niakhata Biranin Fakoli Niaware Sirman Yerelenko Mana
-		}
-		female_names = {
-			Adja Alima Amita Aoua Aminata Aichata Aissata
-			Barakissa Bintou Deye Djeneba Djenly Djire
-			Fadima Fatim Fatoumata Halima Hawa
-			Ina Kondolon Kadi Kilia Kolonkan 
-			Lorane Mariam NamandjE_ 
-			Nafissa Namiss Nana
-			SanE_ Sogolon Safiatou Salimata SidibE_ Siya Tekhaye
-			Youma Zeinab
-		}
-		
-		#founder_named_dynasties = yes
-		
-
-		ethnicities = {
-			31 = moorish
-			31 = sudanid
-			16 = fezzanid
-			12 = saharan_ethiopid
-			8 = west_ethiopid
-			2 = bobo
-			2 = senegalid
-			1 = berberid
-			1 = guinesid
-			1 = libyid
-			1 = targid
-		}
-	}
 	soninke= {
 		
 		color = hsv{ 0.15 1.0 0.7 }
@@ -414,6 +331,89 @@
 			Guessrima Haoua Kadi Kenga Kisswendsida Leila Madina Maimouna Mariam
 			Nadege Nafi Nafissatou Ouedraogo Pengdwende Pogbi Poko Pokobila Rasmata Relwende Rikki
 			Salimata Sanpoko Sibiri Solange Tatiana Wamanegdo Wend_Kouni Wenkouni
+		}
+		
+		#founder_named_dynasties = yes
+		
+
+		ethnicities = {
+			31 = moorish
+			31 = sudanid
+			16 = fezzanid
+			12 = saharan_ethiopid
+			8 = west_ethiopid
+			2 = bobo
+			2 = senegalid
+			1 = berberid
+			1 = guinesid
+			1 = libyid
+			1 = targid
+		}
+	}
+	bozo= {
+		
+		color = hsv{ 0.12 1.0 0.5}
+
+		cadet_dynasty_names = {
+			"dynn_Jenama"
+			"dynn_Bangime"
+			"dynn_Niakhate"
+			"dynn_Sorogaama"
+			"dynn_Kelenga"
+			"dynn_Tieyaxo"
+			"dynn_Tiema_Ce"
+			"dynn_Pondori"
+			"dynn_Kotya"
+			"dynn_Korondugu"
+			"dynn_Debo"
+			"dynn_Konna"
+			"dynn_Bangande"
+			"dynn_Namague"
+			"dynn_Kargue"
+			"dynn_Bounou"
+			"dynn_Bara"
+		}
+		dynasty_names = {
+			"dynn_Jenama"
+			"dynn_Bangime"
+			"dynn_Niakhate"
+			"dynn_Sorogaama"
+			"dynn_Kelenga"
+			"dynn_Tieyaxo"
+			"dynn_Tiema_Ce"
+			"dynn_Pondori"
+			"dynn_Kotya"
+			"dynn_Korondugu"
+			"dynn_Debo"
+			"dynn_Konna"
+			"dynn_Bangande"
+			"dynn_Namague"
+			"dynn_Kargue"
+			"dynn_Bounou"
+			"dynn_Bara"
+		}
+
+		male_names = {
+			Abubakar Akoi Alayaman BE_rE_tE_ Bathily BadA_ Barri Bamari Bannu Birama Bisi Biyu Bilali Bomou Bunama
+			Cissi DiobE_ Dabo Diakhaba Diawara Daffi Dagnokho Doucouri Dalante Dankaran Demba Daoud Diara Dinka Dire
+			Fissourou Fadiga FA_dazu Fuluku Gane Gassama Gole Jawuru
+			Kaba Kabayo Kalabi Kanafa Kambine Kassa Kaya Kayna Kinkin Kukuray Kusoy
+			Marega M_Bali Maghan Majan Mamadi Mamoudou Mari-Djata Musa 
+			NiakhatE_ Nintasanay Wague Wali Wati
+			Reidja Sy Sylla Sakho Soukhouna Sima SoumarE_ Sakoura Salman Sandaki Soumaba Soumaoro Soundiata Sulayman 
+			Tandian Tunka Tunka-Menin Tabouri Tounkara Touri Tandi Takoi Tib  
+			YansanE_ YatabE_ri Yama Yasiboy Zakoi Zenku
+			Kiffa Niakhata Biranin Fakoli Niaware Sirman Yerelenko Mana
+		}
+		female_names = {
+			Adja Alima Amita Aoua Aminata Aichata Aissata
+			Barakissa Bintou Deye Djeneba Djenly Djire
+			Fadima Fatim Fatoumata Halima Hawa
+			Ina Kondolon Kadi Kilia Kolonkan 
+			Lorane Mariam NamandjE_ 
+			Nafissa Namiss Nana
+			SanE_ Sogolon Safiatou Salimata SidibE_ Siya Tekhaye
+			Youma Zeinab
 		}
 		
 		#founder_named_dynasties = yes
