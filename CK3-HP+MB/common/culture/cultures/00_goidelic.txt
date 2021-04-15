@@ -6,200 +6,6 @@
 		western_unit_gfx
 	}
 
-	angloirish= {
-		graphical_cultures = {
-			irish_coa_gfx
-			western_clothing_gfx
-		}
-		
-		color = { 0.6 0.5 0.38 }
-
-		cadet_dynasty_names = {
-			{ "dynnp_of" "dynn_Dublin" }
-			{ "dynnp_of" "dynn_Wicklow" }
-			{ "dynnp_of" "dynn_Kildare" }
-			{ "dynnp_of" "dynn_Trim" }
-			{ "dynnp_of" "dynn_Drogheda" }
-			{ "dynnp_of" "dynn_Athlone" }
-			{ "dynnp_of" "dynn_Birr" }
-			{ "dynnp_of" "dynn_Uisneach" }
-			{ "dynnp_of" "dynn_Downpatrick" }
-			{ "dynnp_of" "dynn_Slemish" }
-			{ "dynnp_of" "dynn_Carrickfergus" }
-			{ "dynnp_of" "dynn_Dundalk" }
-			{ "dynnp_of" "dynn_Armagh" }
-			{ "dynnp_of" "dynn_Ardee" }
-			{ "dynnp_of" "dynn_Donegal" }
-			{ "dynnp_of" "dynn_Raphoe" }
-			{ "dynnp_of" "dynn_Fahan" }
-			{ "dynnp_of" "dynn_Derry" }
-			{ "dynnp_of" "dynn_Galway" }
-			{ "dynnp_of" "dynn_Castlebar" }
-			{ "dynnp_of" "dynn_Sligo" }
-			{ "dynnp_of" "dynn_Athenry" }
-			{ "dynnp_of" "dynn_Dromahair" }
-			{ "dynnp_of" "dynn_Belcoo" }
-			{ "dynnp_of" "dynn_Longford" }
-			{ "dynnp_of" "dynn_Cavan" }
-			{ "dynnp_of" "dynn_Wexford" }
-			{ "dynnp_of" "dynn_Enniscorthy" }
-			{ "dynnp_of" "dynn_Ferns" }
-			{ "dynnp_of" "dynn_Carlow" }
-			{ "dynnp_of" "dynn_Gowran" }
-			{ "dynnp_of" "dynn_Kilkenny" }
-			{ "dynnp_of" "dynn_Athy" }
-			{ "dynnp_of" "dynn_Carrick" }
-			{ "dynnp_of" "dynn_Limerick" }
-			{ "dynnp_of" "dynn_Ennis" }
-			{ "dynnp_of" "dynn_Nenagh" }
-			{ "dynnp_of" "dynn_Roscrea" }
-			{ "dynnp_of" "dynn_Waterford" }
-			{ "dynnp_of" "dynn_Emly" }
-			{ "dynnp_of" "dynn_Clonmel" }
-			{ "dynnp_of" "dynn_Tralee" }
-			{ "dynnp_of" "dynn_Cork" }
-			{ "dynnp_of" "dynn_Kinsale" }
-			{ "dynnp_of" "dynn_Baltimore" }
-		}
-
-		dynasty_names = {
-			"dynn_Carew"
-			"dynn_Burke"
-			"dynn_Bermingham"
-			"dynn_Bellew"
-			"dynn_Barry"
-			"dynn_Clare"
-			"dynn_Butler"
-			"dynn_Cogan"
-			"dynn_Dalton"
-			"dynn_Breakspear"
-			"dynn_Darcy"
-			"dynn_Dillon"
-			{ "dynnp_fitz" "dynn_Eustace" }
-			{ "dynnp_fitz" "dynn_Gerald" }
-			{ "dynnp_fitz" "dynn_Henry" }
-			{ "dynnp_fitz" "dynn_Maurice" }
-			{ "dynnp_fitz" "dynn_Simons" }
-			{ "dynnp_fitz" "dynn_Stephen" }
-			"dynn_Gernon"
-			"dynn_Grace"
-			"dynn_Hussey"
-			"dynn_Keating"
-			"dynn_Lacy"
-			"dynn_Le_Poer"
-			"dynn_Marshall"
-			"dynn_Montmorency"
-			"dynn_Mortimer"
-			"dynn_Nangle"
-			"dynn_Petit"
-			"dynn_Prendergast"
-			"dynn_Purcell"
-			"dynn_Roche"
-			"dynn_Staunton"
-			"dynn_Taaffe"
-			"dynn_Talbot"
-			"dynn_Tuite"
-			"dynn_Tyrrell"
-			"dynn_Verdon"
-			"dynn_Vesey"
-			{ "dynnpat_pre_mac" "dynn_Costello" }
-			{ "dynnpat_pre_mac" "dynn_Stephen" }
-			{ "dynnpat_pre_mac" "dynn_William" }
-			{ "dynnpat_pre_mac" "dynn_Jordan" }
-			{ "dynnpat_pre_mac" "dynn_Wattin" }
-			{ "dynnpat_pre_mac" "dynn_Feorais" }
-			{ "dynnpat_pre_mac" "dynn_Peorais" }
-			{ "dynnpat_pre_mac" "dynn_Ruddery" }
-			{ "dynnpat_pre_mac" "dynn_Shere" }
-			{ "dynnpat_pre_mac" "dynn_Pierce" }
-			{ "dynnpat_pre_mac" "dynn_Thomas" }
-			{ "dynnpat_pre_mac" "dynn_Maurice" }
-			{ "dynnpat_pre_mac" "dynn_Patrick" }
-			{ "dynnpat_pre_mac" "dynn_Adam" }
-			{ "dynnpat_pre_mac" "dynn_Hugh" }
-			{ "dynnpat_pre_mac" "dynn_Roger" }
-			{ "dynnpat_pre_mac" "dynn_Arthur" }
-			{ "dynnpat_pre_mac" "dynn_David" }
-			{ "dynnpat_pre_mac" "dynn_Eric" }
-			{ "dynnpat_pre_mac" "dynn_Philip" }
-			{ "dynnp_fitz" "dynn_Philip" }
-			{ "dynnpat_pre_mac" "dynn_Laurence" }
-		}
-		
-		# Does not exist in 1066 - is the result of cultural amalgamation between Irish and Norman/English through events
-		male_names = {
-			10 = { # most common
-				Liam Uilliam
-			}
-			8 = { # second most common
-				SeA_n SE_amus
-			}
-			48 = { # other common names
-				Adhamh MicheA_l DA_ivi Daithi DainE_al Dainial LU_cA_s Iain Marcas PA_draig TomA_s StiofA_n SteafA_n Matha MaitiU_ RoibeA_rd Seosamh Risteard Peadar
-			}
-			30 = { # everything else
-				Alastar Beircheart Alfred Andrew Anselm Arnold Arthur Aubrey Baldrick Christopher Edmund Eamonn Eadbhard Eric Eustace Fulk George Gerald Gilbert GearA_rd
-				Godfrey Gregory Guy Humphrey Jocelyn Jordan Laurence Lionel Mark MA_irtI_n Matthew Maurice Michael Paul Pilip
-				Randolph Reginald Teague Theobald Waleran
-			}
-			
-		}
-		female_names = {
-			Chloe Aoife Sorcha Sive Saraid RA_ichE_al Ciara Niamh Emma Rebecca Lauren Megan Amy Laura Catraoine Eimile ShA_una Nicole RO_isI_n Sophie Hannah Caoimhe Jessica Ellen Aisling SinE_ad Leah Anna
-			Teamhair Jennifer MA_ire ClA_r Michelle CaitlI_n Oilbhe Ailbhe Lucy Courtney Labhaoise Holly Lisa Danielle GrA_inne Ceallach Catherine
-		}
-		dynasty_of_location_prefix = "dynnp_of"
-		bastard_dynasty_prefix = "dynnp_fitz"
-
-		patronym_prefix_male = "dynnpat_pre_mac"
-		patronym_prefix_male_vowel = "dynnpat_pre_vow_mag"
-		patronym_prefix_female = "dynnpat_pre_nic"
-		patronym_prefix_female_vowel = "dynnpat_pre_vow_nig"
-		
-		always_use_patronym = yes	
-		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 15
-		father_name_chance = 15
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 25
-		mat_grm_name_chance = 20
-		mother_name_chance = 10
-		
-		parent=norman
-		parent=english
-		parent=irish
-
-
-		mercenary_names = {
-			{ name = "mercenary_company_white_company" coat_of_arms = "mc_white_company" }
-			{ name = "mercenary_company_hawkwoods_band" }
-		}
-
-		ethnicities = {
-			31 = keltic_nordid
-			16 = anglo_saxon
-			14 = paleo_atlantid
-			11 = litorid
-			8 = borreby
-			7 = halstatt
-			3 = dinarid
-			3 = gracilemediterranid
-			2 = troender
-			2 = eurafricanid
-			2 = subnordid
-			2 = north_atlantid
-			1 = west_alpinid
-			1 = tavastid
-			1 = strandid
-			1 = norid
-			1 = faelid
-			1 = berberid
-			1 = atlanto_mediterranean
-		}
-	}
 	norseirish= {
 		graphical_cultures = {
 			irish_coa_gfx
@@ -876,6 +682,200 @@
 			1 = norid
 			1 = strandid
 			1 = west_alpinid
+		}
+	}
+	angloirish= {
+		graphical_cultures = {
+			irish_coa_gfx
+			western_clothing_gfx
+		}
+		
+		color = { 0.6 0.5 0.38 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_of" "dynn_Dublin" }
+			{ "dynnp_of" "dynn_Wicklow" }
+			{ "dynnp_of" "dynn_Kildare" }
+			{ "dynnp_of" "dynn_Trim" }
+			{ "dynnp_of" "dynn_Drogheda" }
+			{ "dynnp_of" "dynn_Athlone" }
+			{ "dynnp_of" "dynn_Birr" }
+			{ "dynnp_of" "dynn_Uisneach" }
+			{ "dynnp_of" "dynn_Downpatrick" }
+			{ "dynnp_of" "dynn_Slemish" }
+			{ "dynnp_of" "dynn_Carrickfergus" }
+			{ "dynnp_of" "dynn_Dundalk" }
+			{ "dynnp_of" "dynn_Armagh" }
+			{ "dynnp_of" "dynn_Ardee" }
+			{ "dynnp_of" "dynn_Donegal" }
+			{ "dynnp_of" "dynn_Raphoe" }
+			{ "dynnp_of" "dynn_Fahan" }
+			{ "dynnp_of" "dynn_Derry" }
+			{ "dynnp_of" "dynn_Galway" }
+			{ "dynnp_of" "dynn_Castlebar" }
+			{ "dynnp_of" "dynn_Sligo" }
+			{ "dynnp_of" "dynn_Athenry" }
+			{ "dynnp_of" "dynn_Dromahair" }
+			{ "dynnp_of" "dynn_Belcoo" }
+			{ "dynnp_of" "dynn_Longford" }
+			{ "dynnp_of" "dynn_Cavan" }
+			{ "dynnp_of" "dynn_Wexford" }
+			{ "dynnp_of" "dynn_Enniscorthy" }
+			{ "dynnp_of" "dynn_Ferns" }
+			{ "dynnp_of" "dynn_Carlow" }
+			{ "dynnp_of" "dynn_Gowran" }
+			{ "dynnp_of" "dynn_Kilkenny" }
+			{ "dynnp_of" "dynn_Athy" }
+			{ "dynnp_of" "dynn_Carrick" }
+			{ "dynnp_of" "dynn_Limerick" }
+			{ "dynnp_of" "dynn_Ennis" }
+			{ "dynnp_of" "dynn_Nenagh" }
+			{ "dynnp_of" "dynn_Roscrea" }
+			{ "dynnp_of" "dynn_Waterford" }
+			{ "dynnp_of" "dynn_Emly" }
+			{ "dynnp_of" "dynn_Clonmel" }
+			{ "dynnp_of" "dynn_Tralee" }
+			{ "dynnp_of" "dynn_Cork" }
+			{ "dynnp_of" "dynn_Kinsale" }
+			{ "dynnp_of" "dynn_Baltimore" }
+		}
+
+		dynasty_names = {
+			"dynn_Carew"
+			"dynn_Burke"
+			"dynn_Bermingham"
+			"dynn_Bellew"
+			"dynn_Barry"
+			"dynn_Clare"
+			"dynn_Butler"
+			"dynn_Cogan"
+			"dynn_Dalton"
+			"dynn_Breakspear"
+			"dynn_Darcy"
+			"dynn_Dillon"
+			{ "dynnp_fitz" "dynn_Eustace" }
+			{ "dynnp_fitz" "dynn_Gerald" }
+			{ "dynnp_fitz" "dynn_Henry" }
+			{ "dynnp_fitz" "dynn_Maurice" }
+			{ "dynnp_fitz" "dynn_Simons" }
+			{ "dynnp_fitz" "dynn_Stephen" }
+			"dynn_Gernon"
+			"dynn_Grace"
+			"dynn_Hussey"
+			"dynn_Keating"
+			"dynn_Lacy"
+			"dynn_Le_Poer"
+			"dynn_Marshall"
+			"dynn_Montmorency"
+			"dynn_Mortimer"
+			"dynn_Nangle"
+			"dynn_Petit"
+			"dynn_Prendergast"
+			"dynn_Purcell"
+			"dynn_Roche"
+			"dynn_Staunton"
+			"dynn_Taaffe"
+			"dynn_Talbot"
+			"dynn_Tuite"
+			"dynn_Tyrrell"
+			"dynn_Verdon"
+			"dynn_Vesey"
+			{ "dynnpat_pre_mac" "dynn_Costello" }
+			{ "dynnpat_pre_mac" "dynn_Stephen" }
+			{ "dynnpat_pre_mac" "dynn_William" }
+			{ "dynnpat_pre_mac" "dynn_Jordan" }
+			{ "dynnpat_pre_mac" "dynn_Wattin" }
+			{ "dynnpat_pre_mac" "dynn_Feorais" }
+			{ "dynnpat_pre_mac" "dynn_Peorais" }
+			{ "dynnpat_pre_mac" "dynn_Ruddery" }
+			{ "dynnpat_pre_mac" "dynn_Shere" }
+			{ "dynnpat_pre_mac" "dynn_Pierce" }
+			{ "dynnpat_pre_mac" "dynn_Thomas" }
+			{ "dynnpat_pre_mac" "dynn_Maurice" }
+			{ "dynnpat_pre_mac" "dynn_Patrick" }
+			{ "dynnpat_pre_mac" "dynn_Adam" }
+			{ "dynnpat_pre_mac" "dynn_Hugh" }
+			{ "dynnpat_pre_mac" "dynn_Roger" }
+			{ "dynnpat_pre_mac" "dynn_Arthur" }
+			{ "dynnpat_pre_mac" "dynn_David" }
+			{ "dynnpat_pre_mac" "dynn_Eric" }
+			{ "dynnpat_pre_mac" "dynn_Philip" }
+			{ "dynnp_fitz" "dynn_Philip" }
+			{ "dynnpat_pre_mac" "dynn_Laurence" }
+		}
+		
+		# Does not exist in 1066 - is the result of cultural amalgamation between Irish and Norman/English through events
+		male_names = {
+			10 = { # most common
+				Liam Uilliam
+			}
+			8 = { # second most common
+				SeA_n SE_amus
+			}
+			48 = { # other common names
+				Adhamh MicheA_l DA_ivi Daithi DainE_al Dainial LU_cA_s Iain Marcas PA_draig TomA_s StiofA_n SteafA_n Matha MaitiU_ RoibeA_rd Seosamh Risteard Peadar
+			}
+			30 = { # everything else
+				Alastar Beircheart Alfred Andrew Anselm Arnold Arthur Aubrey Baldrick Christopher Edmund Eamonn Eadbhard Eric Eustace Fulk George Gerald Gilbert GearA_rd
+				Godfrey Gregory Guy Humphrey Jocelyn Jordan Laurence Lionel Mark MA_irtI_n Matthew Maurice Michael Paul Pilip
+				Randolph Reginald Teague Theobald Waleran
+			}
+			
+		}
+		female_names = {
+			Chloe Aoife Sorcha Sive Saraid RA_ichE_al Ciara Niamh Emma Rebecca Lauren Megan Amy Laura Catraoine Eimile ShA_una Nicole RO_isI_n Sophie Hannah Caoimhe Jessica Ellen Aisling SinE_ad Leah Anna
+			Teamhair Jennifer MA_ire ClA_r Michelle CaitlI_n Oilbhe Ailbhe Lucy Courtney Labhaoise Holly Lisa Danielle GrA_inne Ceallach Catherine
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+		bastard_dynasty_prefix = "dynnp_fitz"
+
+		patronym_prefix_male = "dynnpat_pre_mac"
+		patronym_prefix_male_vowel = "dynnpat_pre_vow_mag"
+		patronym_prefix_female = "dynnpat_pre_nic"
+		patronym_prefix_female_vowel = "dynnpat_pre_vow_nig"
+		
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 15
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 20
+		mother_name_chance = 10
+		
+		parent=norman
+		parent=english
+		parent=irish
+
+
+		mercenary_names = {
+			{ name = "mercenary_company_white_company" coat_of_arms = "mc_white_company" }
+			{ name = "mercenary_company_hawkwoods_band" }
+		}
+
+		ethnicities = {
+			31 = keltic_nordid
+			16 = anglo_saxon
+			14 = paleo_atlantid
+			11 = litorid
+			8 = borreby
+			7 = halstatt
+			3 = dinarid
+			3 = gracilemediterranid
+			2 = troender
+			2 = eurafricanid
+			2 = subnordid
+			2 = north_atlantid
+			1 = west_alpinid
+			1 = tavastid
+			1 = strandid
+			1 = norid
+			1 = faelid
+			1 = berberid
+			1 = atlanto_mediterranean
 		}
 	}
 }

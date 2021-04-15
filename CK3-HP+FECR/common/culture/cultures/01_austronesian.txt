@@ -6,60 +6,6 @@
 		indian_unit_gfx
 	}
 
-	javanese= {
-		
-		color = { 0.718 0.698 0.690 }
-		cadet_dynasty_names = {
-			Banten Demak Surabaya Cirebon Samprangan Sosrodihardjo
-			Zulkipli Arbi Baderan Djoyosuroto Guret Kiaidemak Modjo Ngurawan Pulukadang Suratinoyo Wonopati
-		}
-
-		dynasty_names = {
-			Banten Demak Surabaya Cirebon Samprangan Kusnoz Sosrodihardjo
-			Zulkipli Arbi Baderan Djoyosuroto Guret Kiaidemak Modjo Ngurawan Pulukadang Suratinoyo Wonopati
-		}
-
-		male_names = {
-		Girindrawardhana Girishawardhana Kertabumi Kertawijaya Rajasawardhana Suraprabhawa Wikramawardhana Hayam_Wuruk Kalagamet Raden_Wijaya Kertawardhana Raden_Sotor Raden_Sumirat Singhawardhana Kusno
-		Sukarno Suharto Boediono
-		Adityo Airlangga Andi Anggara Ardi Arga Argo Ari Aryo Asmoro Atmojo Baskoro Basuki
-		Batman Bimo Budianto Budiarto Budiharto Budiono Buwono Cahyono Condro Danang Darmo
-		Didik Djoko Dumadi Edhi Edhie Erlangga Galih Hamengkubuwono Harjo Harto Hartono Haryo
-		Haryono Hendro Jaka Joko Kirono Kresno Krisno Krisnobroto Kristiono Kuat Kusumo Laksono
-		Lesmana Mego Muji Mujiono Mulyono Nanang Ngabdurohman Nirwanto Nugroho Pamungkas Prabowo
-		Prasetyo Prayitno Prijono Priono Priyanto Priyo Priyono Purnomo Putro Respati Riyanto Santoso
-		Satrio Soeharto Soekarno Subekti Subroto Sudarman Sudarmo Sudarto Sugeng Sukanto Sumitro
-		Supardi Suparman Supriadi Supriyadi Supriyanto Supriyono Suratno Suryo Suryono Sutrisno
-		Suwarno Suwondo Suyatno Suyitno Teguh Trisno Utomo Wibisono Widianto Widiyanto Widodo
-		Winoto Wiranto Wiro Wisnubroto Yatno Yudho Yudhoyono Yudo Yuwono 
-		}
-		female_names = {
-			Suhita Sri_Gitarja Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nuutea Orama
-			Poe Pear Poehina Poenui Poerava Puaiti Puatea Puaura Raihau Raimere Rainui Ranitea Rarahu
-			Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani Tehea Teora Tera Tevai
-			Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea Vaite Vaitiare
-			Andini Anggraini Astuti Ayu Endah Endang Galuh Handayani Hastuti Hayu Larasati Lintang Mursiyem
-			Ningsih Prinia Rahayu Sulastri Sunarti Susilowati Suwarni Widyastuti Wiji Wulandari
-		}
-		dynasty_of_location_prefix = "dynnp_no"
-		dynasty_name_first = yes
-		dynasty_title_names = yes
-
-
-		ethnicities = {
-			61 = deutero_malayid
-			11 = proto_malayid
-			10 = chukiangid
-			6 = dayakid
-			4 = changkiangid
-			4 = east_shanid
-			4 = kachinid
-			4 = toalid
-			2 = arabid
-			1 = indo_brachid
-			1 = karnatid
-		}
-	}
 	malay= {
 		
 		color = { 0.796 0.627 0.635 }
@@ -108,21 +54,74 @@
 
 
 		ethnicities = {
-			40 = deutero_malayid
+			42 = deutero_malayid
 			24 = dayakid
 			9 = senoid
 			7 = east_shanid
 			6 = chukiangid
-			6 = kachinid
-			4 = toalid
+			5 = kachinid
 			3 = proto_malayid
 			3 = south_palaungid
+			3 = toalid
 			2 = changkiangid
-			2 = karnatid
 			1 = arabid
-			1 = indo_brachid
+			1 = karnatid
 			1 = khmerid
 			1 = nesiotid
+		}
+	}
+	javanese= {
+		
+		color = { 0.718 0.698 0.690 }
+		cadet_dynasty_names = {
+			Banten Demak Surabaya Cirebon Samprangan Sosrodihardjo
+			Zulkipli Arbi Baderan Djoyosuroto Guret Kiaidemak Modjo Ngurawan Pulukadang Suratinoyo Wonopati
+		}
+
+		dynasty_names = {
+			Banten Demak Surabaya Cirebon Samprangan Kusnoz Sosrodihardjo
+			Zulkipli Arbi Baderan Djoyosuroto Guret Kiaidemak Modjo Ngurawan Pulukadang Suratinoyo Wonopati
+		}
+
+		male_names = {
+		Girindrawardhana Girishawardhana Kertabumi Kertawijaya Rajasawardhana Suraprabhawa Wikramawardhana Hayam_Wuruk Kalagamet Raden_Wijaya Kertawardhana Raden_Sotor Raden_Sumirat Singhawardhana Kusno
+		Sukarno Suharto Boediono
+		Adityo Airlangga Andi Anggara Ardi Arga Argo Ari Aryo Asmoro Atmojo Baskoro Basuki
+		Batman Bimo Budianto Budiarto Budiharto Budiono Buwono Cahyono Condro Danang Darmo
+		Didik Djoko Dumadi Edhi Edhie Erlangga Galih Hamengkubuwono Harjo Harto Hartono Haryo
+		Haryono Hendro Jaka Joko Kirono Kresno Krisno Krisnobroto Kristiono Kuat Kusumo Laksono
+		Lesmana Mego Muji Mujiono Mulyono Nanang Ngabdurohman Nirwanto Nugroho Pamungkas Prabowo
+		Prasetyo Prayitno Prijono Priono Priyanto Priyo Priyono Purnomo Putro Respati Riyanto Santoso
+		Satrio Soeharto Soekarno Subekti Subroto Sudarman Sudarmo Sudarto Sugeng Sukanto Sumitro
+		Supardi Suparman Supriadi Supriyadi Supriyanto Supriyono Suratno Suryo Suryono Sutrisno
+		Suwarno Suwondo Suyatno Suyitno Teguh Trisno Utomo Wibisono Widianto Widiyanto Widodo
+		Winoto Wiranto Wiro Wisnubroto Yatno Yudho Yudhoyono Yudo Yuwono 
+		}
+		female_names = {
+			Suhita Sri_Gitarja Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nuutea Orama
+			Poe Pear Poehina Poenui Poerava Puaiti Puatea Puaura Raihau Raimere Rainui Ranitea Rarahu
+			Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani Tehea Teora Tera Tevai
+			Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea Vaite Vaitiare
+			Andini Anggraini Astuti Ayu Endah Endang Galuh Handayani Hastuti Hayu Larasati Lintang Mursiyem
+			Ningsih Prinia Rahayu Sulastri Sunarti Susilowati Suwarni Widyastuti Wiji Wulandari
+		}
+		dynasty_of_location_prefix = "dynnp_no"
+		dynasty_name_first = yes
+		dynasty_title_names = yes
+
+
+		ethnicities = {
+			61 = deutero_malayid
+			11 = proto_malayid
+			10 = chukiangid
+			6 = dayakid
+			4 = changkiangid
+			4 = east_shanid
+			4 = toalid
+			3 = kachinid
+			2 = arabid
+			1 = indo_brachid
+			1 = karnatid
 		}
 	}
 }

@@ -6,722 +6,6 @@
 		indian_unit_gfx
 	}
 
-	gypsy_slav= {
-		
-		graphical_cultures = {
-			dravidian_group_coa_gfx
-			mediterranean_building_gfx
-			byzantine_clothing_gfx
-			eastern_unit_gfx
-		}
-		
-		color = { 91 135 162 }
-		cadet_dynasty_names = {
-			"dynn_Dragutin"
-			"dynn_Srbija"
-			"dynn_Znaim"
-			"dynn_NemanjiC_"
-			"dynn_SokoloviC_"
-			"dynn_Thopia"
-			"dynn_Muzaka"
-			"dynn_Assen"
-			"dynn_Tich"
-			"dynn_Soimirovich"
-			"dynn_Balin"
-			"dynn_VukanoviC_"
-			"dynn_MrnjavceviC_"
-			"dynn_BrankoviC_"
-			"dynn_Uglesa"
-			"dynn_Hlapen"
-			"dynn_Blagai"
-			"dynn_Czobor"
-			"dynn_ProgonoviC_"
-			"dynn_Grot"
-			"dynn_Radoslav"
-			"dynn_Caradja"
-			"dynn_Prosigoj"
-			"dynn_GojnikoviC_"
-			"dynn_BranoviC_"
-			"dynn_PribisavljeviC_"
-			"dynn_KlonimiroviC_"
-			"dynn_Radomiros"
-			"dynn_TvrtkoviC_"
-			"dynn_Vrana"
-		}
-
-		dynasty_names = {
-			"dynn_Dragutin"
-			"dynn_Srbija"
-			"dynn_Znaim"
-			"dynn_NemanjiC_"
-			"dynn_SokoloviC_"
-			"dynn_Thopia"
-			"dynn_Muzaka"
-			"dynn_Assen"
-			"dynn_Tich"
-			"dynn_Soimirovich"
-			"dynn_Balin"
-			"dynn_VukanoviC_"
-			"dynn_MrnjavceviC_"
-			"dynn_BrankoviC_"
-			"dynn_Uglesa"
-			"dynn_Hlapen"
-			"dynn_Blagai"
-			"dynn_Czobor"
-			"dynn_ProgonoviC_"
-			"dynn_Grot"
-			"dynn_Radoslav"
-			"dynn_Caradja"
-			"dynn_Prosigoj"
-			"dynn_GojnikoviC_"
-			"dynn_BranoviC_"
-			"dynn_PribisavljeviC_"
-			"dynn_KlonimiroviC_"
-			"dynn_Radomiros"
-			"dynn_TvrtkoviC_"
-			"dynn_Vrana"
-		}
-
-		male_names = {
-			Aldimir Asen Berbat Blaz Boleslav Borna Branimir Budimir Kosmin Danilo Djordje Dmitar Dobroslav Dragija Dragos Dragutin Gavrilo Godimir Goran
-			Grgur Ilija Ivan Josif Josip Jovan Kasjan Konstantin Krsto Lazar Ljudevit Luka Marko Martin Matija Mihailo Mihovil Milorad Milutin Mircea Miroslav Mislav Nenad Nikodim Nikola
-			Ninoslav Petar Porin Prvoslav Radoslav Rastko Ratomir Roman Serapion Simeon Sinisa Slavko Slobodan Stefan Teodosije Tihomir Trajan Uros Visarion Vladimir Vladislav Vlastimir
-			Vuk Vukan Vukasin Vukoman Zoran Zvonimir
-		}
-		female_names = {
-			Agata Barbara Branimira Desislava Dubravka Elena Hicela Jelena Karolina Keratza Lovorka Marija Milka Neda Radica Zdenka Andjela Antonija
-			Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
-			Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
-		}
-		
-		dynasty_of_location_prefix = "dynnp_od"
-		
-		patronym_suffix_male = "dynnpat_suf_iC_"
-		always_use_patronym = yes
-
-
-		ethnicities = {
-			31 = south_gondid
-			26 = kolid
-			13 = gracile_indid
-			13 = north_gondid
-			10 = east_brachid
-			5 = central_brachid
-			2 = indo_brachid
-			2 = karnatid
-			2 = north_indid
-			2 = palaungid
-			1 = indo_iranid
-			1 = malabarese
-			1 = mountain_indid
-		}
-	}
-	gypsy_hun= {
-		
-		graphical_cultures = {
-			dravidian_group_coa_gfx
-			western_building_gfx
-			western_clothing_gfx
-			mongol_unit_gfx
-		}
-		
-		color = { 111 105 162 }
-		cadet_dynasty_names = {
-			"dynn_A_rpA_dy"
-			"dynn_CsA_szA_r"
-			"dynn_Vajlok"
-			"dynn_KA_n"
-			"dynn_Omodej"
-			"dynn_Zapolsky"
-			"dynn_Drugeth"
-			"dynn_Csak"
-			"dynn_Pallfy"
-			"dynn_Apafi"
-			"dynn_BA_nffy"
-			"dynn_BerzE_nyi"
-			"dynn_Bocskai"
-			"dynn_Borsa"
-			"dynn_CzirA_ky"
-			"dynn_Debreceni"
-			"dynn_DerencsE_nyi"
-			"dynn_DiO_szegi"
-			"dynn_DO_ry"
-			"dynn_EgervA_ri"
-			"dynn_ForgA_ch"
-			"dynn_Garai"
-			"dynn_PA_lO_czi"
-			"dynn_HE_dervA_ri"
-			"dynn_Hunyadi"
-			"dynn_KA_n"
-			"dynn_KA_rolyi"
-			"dynn_KO_szegi"
-			"dynn_Kun"
-			"dynn_Losonczi"
-			"dynn_MarO_ti"
-			"dynn_PerE_nyi"
-			"dynn_RA_tO_t"
-			"dynn_Rozgonyi"
-			"dynn_Szakoly"
-			"dynn_SzE_csE_nyi"
-			"dynn_SzE_chy"
-			"dynn_Telegdi"
-			"dynn_ThurzO_"
-			"dynn_U_jlaki"
-			"dynn_Kanizsai"
-			"dynn_Meggyesi"
-			"dynn_Osli"
-			"dynn_Viczay"
-			"dynn_Balassa"
-			"dynn_BA_thory"
-			"dynn_KA_lnoky"
-			"dynn_Niedzica"
-			"dynn_ZA_polya"
-			"dynn_SzE_kely"
-			"dynn_DO_zsa"
-			"dynn_Apafi"
-			"dynn_Balassi"
-			"dynn_Bethlen_von_IktA_r"
-			{ "dynnp_of" "dynn_Szekezfehervar" }
-			"dynn_Budai_Nagy"
-			{ "dynnp_de" "dynn_KincstartO_" }
-			"dynn_Celko"
-			"dynn_Corvinus"
-			{ "dynnp_de" "dynn_Cseszneky" }
-			{ "dynnp_de" "dynn_MilvA_ny" }
-			{ "dynnp_von" "dynn_MoravA_n" }
-			"dynn_DA_vid"
-			"dynn_DE_csey"
-			"dynn_ME_zesi"
-			{ "dynnp_de" "dynn_Ruszka" }
-			"dynn_Draskovich"
-			"dynn_ErdO_dy"
-			"dynn_RE_vay"
-			"dynn_DuruZ_mic"
-			"dynn_Szemere"
-			"dynn_Hadik"
-			"dynn_BatthyA_ny"
-			"dynn_Csesznegi"
-			"dynn_EsterhA_zy"
-			"dynn_HajdU_"
-			"dynn_JesenskY_"
-			"dynn_Medveczky"
-			"dynn_RA_kO_czi"
-			"dynn_Wass_de_Czege"
-			"dynn_Szapolyai"
-			"dynn_Zichy"
-			"dynn_Zrinski"
-		}
-
-		dynasty_names = {
-			"dynn_A_rpA_dy"
-			"dynn_CsA_szA_r"
-			"dynn_Vajlok"
-			"dynn_KA_n"
-			"dynn_Omodej"
-			"dynn_Zapolsky"
-			"dynn_Drugeth"
-			"dynn_Csak"
-			"dynn_Pallfy"
-			"dynn_Apafi"
-			"dynn_BA_nffy"
-			"dynn_BerzE_nyi"
-			"dynn_Bocskai"
-			"dynn_Borsa"
-			"dynn_CzirA_ky"
-			"dynn_Debreceni"
-			"dynn_DerencsE_nyi"
-			"dynn_DiO_szegi"
-			"dynn_DO_ry"
-			"dynn_EgervA_ri"
-			"dynn_ForgA_ch"
-			"dynn_Garai"
-			"dynn_PA_lO_czi"
-			"dynn_HE_dervA_ri"
-			"dynn_Hunyadi"
-			"dynn_KA_n"
-			"dynn_KA_rolyi"
-			"dynn_KO_szegi"
-			"dynn_Kun"
-			"dynn_Losonczi"
-			"dynn_MarO_ti"
-			"dynn_PerE_nyi"
-			"dynn_RA_tO_t"
-			"dynn_Rozgonyi"
-			"dynn_Szakoly"
-			"dynn_SzE_csE_nyi"
-			"dynn_SzE_chy"
-			"dynn_Telegdi"
-			"dynn_ThurzO_"
-			"dynn_U_jlaki"
-			"dynn_Kanizsai"
-			"dynn_Meggyesi"
-			"dynn_Osli"
-			"dynn_Viczay"
-			"dynn_Balassa"
-			"dynn_BA_thory"
-			"dynn_KA_lnoky"
-			"dynn_Niedzica"
-			"dynn_ZA_polya"
-			"dynn_SzE_kely"
-			"dynn_DO_zsa"
-			"dynn_Apafi"
-			"dynn_Balassi"
-			"dynn_Bethlen_von_IktA_r"
-			{ "dynnp_of" "dynn_Szekezfehervar" }
-			"dynn_Budai_Nagy"
-			{ "dynnp_de" "dynn_KincstartO_" }
-			"dynn_Celko"
-			"dynn_Corvinus"
-			{ "dynnp_de" "dynn_Cseszneky" }
-			{ "dynnp_de" "dynn_MilvA_ny" }
-			{ "dynnp_von" "dynn_MoravA_n" }
-			"dynn_DA_vid"
-			"dynn_DE_csey"
-			"dynn_ME_zesi"
-			{ "dynnp_de" "dynn_Ruszka" }
-			"dynn_Draskovich"
-			"dynn_ErdO_dy"
-			"dynn_RE_vay"
-			"dynn_DuruZ_mic"
-			"dynn_Szemere"
-			"dynn_Hadik"
-			"dynn_BatthyA_ny"
-			"dynn_Csesznegi"
-			"dynn_EsterhA_zy"
-			"dynn_HajdU_"
-			"dynn_JesenskY_"
-			"dynn_Medveczky"
-			"dynn_RA_kO_czi"
-			"dynn_Wass_de_Czege"
-			"dynn_Szapolyai"
-			"dynn_Zichy"
-			"dynn_Zrinski"
-		}
-
-		male_names = {
-			A_bel A_dA_rn A_goston A_lmos A_rpA_d O_dO_n Alajos Ambrus AndrA_s Antal Attila BA_lint BE_la BalA_zs Benedek BernA_t BertO_k Bertalan BoldizsA_r Bonuslo
-			Borisz CsA_k Csaba Csongor DE_nes DO_mO_tO_r DezsO_ DomoszlO_ DonA_t Elek ElemE_r Endre ErnO_ FulO_p Ferenc Frigyes GA_bor GA_briel GA_spA_r GE_za Gazsi
-			GellE_rt Gergely GyO_rgy Gyula Imre IstvA_n IzsA_k JA_kob JA_nos JO_zsef JenO_ KA_lmA_n KA_roly KonrA_d KornE_l KristO_f LA_szlO_ LA_zA_r LO_rinc Lajos
-			Lampert Levente LukA_cs MA_rk MA_rton MA_tE_ MA_tyA_s MO_ric MO_zes MihA_ly MiklO_s NA_ndor OrbA_n OszkA_r PA_l PE_ter SA_muel SA_ndor Salamon Saul Soma
-			Szilveszter TA_dor Tacsony TamA_s Tibor Tivadar Vazul Vencel Vilmos ZoltA_n Zsigmond Zsolt
-		}
-		female_names = {
-			A_gnes E_va Adelaida AgA_ta AmA_lia Angyalka AnikO_ Aranka Berta BorbA_la Csilla Csillag Czenzi Dorottya Edit EmO_ke Emese Erika ErzsE_bet Eszter
-			Etel Euphemia Gizella GyO_rgyi Hajnal Hedwig Ibolya IldikO_ Illona IrE_n JA_cinta JO_zsa JU_lia JolA_n Judith Kamilla Katalin Kinga KlA_ra
-			Konstancia Krisztina Kunigunda Luca MA_ria MA_rta Magdolna MargarE_ta Margit Matild NatA_lia Odola Orsolya Panni Piroska RO_zsa SA_ra Sarolt
-			Skolasztika Sophia TundE_r Terezia Viola VirA_g ZoltA_na ZsO_fia Zsanett Zsuzsa
-		}
-		
-		dynasty_of_location_prefix = "dynnp_a"
-		
-		patronym_suffix_male = "dynnpat_suf_fi"
-
-		dynasty_name_first = yes
-
-
-		ethnicities = {
-			31 = south_gondid
-			26 = kolid
-			13 = gracile_indid
-			13 = north_gondid
-			10 = east_brachid
-			5 = central_brachid
-			2 = indo_brachid
-			2 = karnatid
-			2 = north_indid
-			2 = palaungid
-			1 = indo_iranid
-			1 = malabarese
-			1 = mountain_indid
-		}
-	}
-	gypsy_caucasus= {
-		
-		graphical_cultures = {
-			dravidian_group_coa_gfx
-			mediterranean_building_gfx
-			byzantine_clothing_gfx
-			eastern_unit_gfx
-		}
-		
-		color = { 101 115 172 }
-		cadet_dynasty_names = {
-			"dynn_Bagratuni"
-			"dynn_Kuchka"
-			"dynn_Beskond"
-			"dynn_Mangaphas"
-			"dynn_Arzrouni"
-			"dynn_Hetoumi"
-			"dynn_Makisdros"
-			"dynn_Pakradouni"
-			"dynn_Sarkis"
-			"dynn_Shnorhali"
-			"dynn_Vanantezi"
-			"dynn_Bakunc"
-			"dynn_Arakelian"
-			"dynn_Baboian"
-			"dynn_Bagdazarian"
-			"dynn_Barsamian"
-			"dynn_Haladjian"
-			"dynn_Kaprielian"
-			"dynn_Kezerian"
-			"dynn_Aharonian"
-			"dynn_Sahakyan"
-			"dynn_Keshishian"
-			"dynn_Baljian"
-			"dynn_Petrosian"
-			"dynn_Ghougasian"
-			"dynn_Mickaelian"
-			"dynn_Maoukian"
-			"dynn_Zohrabian"
-			"dynn_Altoonian"
-			"dynn_Gardman-Aghbania"
-			"dynn_Andzewatsi"
-			"dynn_Hasan-Jalalyan"
-			"dynn_Melik-Avanyan"
-			"dynn_Mush"
-		}
-
-		dynasty_names = {
-			"dynn_Bagratuni"
-			"dynn_Kuchka"
-			"dynn_Beskond"
-			"dynn_Mangaphas"
-			"dynn_Arzrouni"
-			"dynn_Hetoumi"
-			"dynn_Makisdros"
-			"dynn_Pakradouni"
-			"dynn_Sarkis"
-			"dynn_Shnorhali"
-			"dynn_Vanantezi"
-			"dynn_Bakunc"
-			"dynn_Arakelian"
-			"dynn_Baboian"
-			"dynn_Bagdazarian"
-			"dynn_Barsamian"
-			"dynn_Haladjian"
-			"dynn_Kaprielian"
-			"dynn_Kezerian"
-			"dynn_Aharonian"
-			"dynn_Sahakyan"
-			"dynn_Keshishian"
-			"dynn_Baljian"
-			"dynn_Petrosian"
-			"dynn_Ghougasian"
-			"dynn_Mickaelian"
-			"dynn_Maoukian"
-			"dynn_Zohrabian"
-			"dynn_Altoonian"
-			"dynn_Gardman-Aghbania"
-			"dynn_Andzewatsi"
-			"dynn_Hasan-Jalalyan"
-			"dynn_Melik-Avanyan"
-			"dynn_Mush"
-		}
-
-		male_names = {
-			Abas Abirad Aboughamr Aboulgharib Aleksandr Artashes Artashir Artavazd Arsen Arshak Ashot Athom Atrnerseh Avag Avedis Bagour Bagrat Bedros Boghos Davit Eshkhan Gagik Gevorg
-			Gosdantin Grigor Gurgen Hagop Hamazasp Hethum Hovhannes Hovsep Ishkhan Ivane Kapriel Khachik Khosrov Levon Malkhas Mamigon Manuel Margos Melek Mihrdat Mikayel Mleh Mushegh Mushel Mzhezh
-			Nerseh Oshin Roupen Sahag Sarkis Sevag Shahanshah Smbat Stepanos Tachat Taniel Tatoul Tigran Tornik Tovmas Thoros Trdat Vache Vachagan Vagharshak Vahag Vahan Vahram Vakhtank Varazdat Vartan Vassak Vesd Vrtanes Zakare Zarmihr
-			#Later Catholicoi names:
-			Aristaces Aristakes Husik Pharen Zaven Aspuraces Brkisho Melitus Kyud Babken Ghevond Dertad Joab Mashdotz Yeghishe Yeghise Ananias Khachig
-		}
-		
-		female_names = {
-			Aghavni Alitz Almasd Anahid Anna Anoush Arda Arevig Arin Baydzar Berjanoush Berjouhi Datevig Dalita Eliz Gadar Gorandoukht Hasmig Houri Hranoush Katranide
-			Hripsimeh Keghanoush Keran Khorishah Kohar Latavri Leyli Lousin Mara Margarid Maria Mariyam Meghranoush Nane Nazani Ovsanna Pounig Razmouhi Rita Satenik Seta Siran Sirvart
-			Srpouhi Shoushanig Takouhi Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Zmroukhd
-		}
-		
-		dynasty_of_location_prefix = "dynnp_ve"
-
-
-		ethnicities = {
-			31 = south_gondid
-			26 = kolid
-			13 = gracile_indid
-			13 = north_gondid
-			10 = east_brachid
-			5 = central_brachid
-			2 = indo_brachid
-			2 = karnatid
-			2 = north_indid
-			2 = palaungid
-			1 = indo_iranid
-			1 = malabarese
-			1 = mountain_indid
-		}
-	}
-	gypsy_romanian= {
-		
-		graphical_cultures = {
-			dravidian_group_coa_gfx
-			western_building_gfx
-			western_clothing_gfx
-			mongol_unit_gfx
-		}
-		
-		color = { 81 125 182 }
-			cadet_dynasty_names = {
-			"dynn_Basarab"
-			"dynn_Dragusin"
-			"dynn_Basarab"
-			"dynn_Litovoi"
-			"dynn_SelimoviC_"
-			"dynn_CsA_ky"
-			"dynn_DezsO_fi"
-			"dynn_Guthi-OrszA_gh"
-			"dynn_MarczaltO_vi"
-			"dynn_Petenye"
-			"dynn_Tibai"
-			"dynn_ZA_ch"
-			"dynn_Szapolyai"
-			"dynn_VA_rdai"
-			"dynn_ProdaniC_"
-			"dynn_Odescalchi"
-			"dynn_Costin"
-		}
-
-		dynasty_names = {
-			"dynn_Basarab"
-			"dynn_Dragusin"
-			"dynn_Basarab"
-			"dynn_Litovoi"
-			"dynn_SelimoviC_"
-			"dynn_CsA_ky"
-			"dynn_DezsO_fi"
-			"dynn_Guthi-OrszA_gh"
-			"dynn_MarczaltO_vi"
-			"dynn_Petenye"
-			"dynn_Tibai"
-			"dynn_ZA_ch"
-			"dynn_Szapolyai"
-			"dynn_VA_rdai"
-			"dynn_ProdaniC_"
-			"dynn_Odescalchi"
-			"dynn_Costin"
-			"dynn_BA_dA_rA_u"
-			"dynn_BA_lA_ceanu"
-			"dynn_Bosie"
-			"dynn_BrA_iloi"
-			"dynn_BuS_ilA_"
-			"dynn_Calerghi"
-			"dynn_Callimachi"
-			"dynn_Cantemir"
-			"dynn_Carianopol"
-			"dynn_Crihan"
-			"dynn_Carionfil"
-			"dynn_Cristescu"
-			"dynn_Casassovici"
-			"dynn_Cesianu"
-			"dynn_ChinteS_ti"
-			"dynn_Chirescu"
-			"dynn_CoteS_ti"
-			"dynn_CraioveS_tilor"
-			"dynn_CrA_snaru"
-			"dynn_Dinastia"
-			"dynn_DA_neS_tilor"
-			"dynn_Diamandy"
-			"dynn_DrA_culeS_tilor"
-			"dynn_DrugA_"
-			"dynn_Eliescu"
-			"dynn_Emandi"
-			"dynn_Filipescu"
-			"dynn_Florescu"
-			"dynn_FundA_T_eni"
-			"dynn_Giosani"
-			"dynn_Golescu"
-			"dynn_GrA_diS_teanu"
-			"dynn_Greceanu"
-			"dynn_Hagi"
-			"dynn_HA_jdA_u"
-			"dynn_Jianu"
-			"dynn_Korne"
-			"dynn_Lecca"
-			"dynn_LereS_ti"
-			"dynn_Magheru"
-			"dynn_Marineanu"
-			"dynn_Miclescu"
-			"dynn_MovilA_"
-			"dynn_MA_nA_stireanu"
-			"dynn_Niculescu_DorobanT_u"
-			"dynn_PA_cleanu"
-			"dynn_Pisoschi"
-			"dynn_PleS_ia"
-			"dynn_PleS_nilA_"
-			"dynn_PleS_oianu"
-			"dynn_RacovitzA_"
-			"dynn_RA_S_canu"
-			"dynn_Rallet"
-			"dynn_Rosetti"
-			"dynn_RusA_neS_ti"
-			"dynn_Savoia"
-			"dynn_Stoicescu"
-			"dynn_S_oarec"
-			"dynn_S_oldan"
-			"dynn_TurbureS_ti"
-			"dynn_UrlA_T_eni"
-			"dynn_VidraS_cu"
-			"dynn_Yarka"
-		}
-
-		male_names = {
-			Adrian Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carol Ciprian Ciubar Claudiu
-			Corneliu Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Gavril Gheorghe Grigore Iacob
-			Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Litovoi Lucian Marin
-			Mihai Milos Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav Sergiu Simion
-			Stefan Stelian Teodor Tepes Tibor Tihomir Timotei Tudor Valentin Valeriu Vasile Veaceslav
-			Victor Vilhelm Vintila Vlad
-		}
-		female_names = {
-			Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Christina Clara Dana Ecatarina
-			Elena Elisabeta Emilia Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Maria Monica
-			Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
-			Tereza Vasilica Violeta Voica Zina
-			
-		}
-		
-		dynasty_of_location_prefix = "dynnp_de"
-		
-		patronym_suffix_male = "dynnpat_suf_escu"
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 40
-		mat_grf_name_chance = 10
-		father_name_chance = 10
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 40
-		mother_name_chance = 5
-
-
-		ethnicities = {
-			31 = south_gondid
-			26 = kolid
-			13 = gracile_indid
-			13 = north_gondid
-			10 = east_brachid
-			5 = central_brachid
-			2 = indo_brachid
-			2 = karnatid
-			2 = north_indid
-			2 = palaungid
-			1 = indo_iranid
-			1 = malabarese
-			1 = mountain_indid
-		}
-	}
-	gypsy_egypt= {
-		
-		graphical_cultures = {
-			dravidian_group_coa_gfx
-			mena_building_gfx
-			mena_clothing_gfx
-			mena_unit_gfx
-			dde_abbasid_clothing_gfx
-		}
-		color = { 91 120 177 }
-		cadet_dynasty_names = {
-			"dynn_Hammadid"
-			"dynn_Bahri"
-			{ "dynnp_as-" "dynn_Sa_di" }
-			"dynn_Jukondarid"
-			"dynn_Dewadarid"
-			"dynn_Kanzid"
-			"dynn_Azizid"
-			"dynn_Ghanemid"
-			"dynn_Abazid"
-			"dynn_Hararid"
-			"dynn_Bayoumid"
-			"dynn_Bashandid"
-			"dynn_Bakhoumid"
-			"dynn_Bekhitid"
-			"dynn_Bahurid"
-			"dynn_Banoubid"
-			"dynn_Shenoudid"
-			"dynn_Abusirid"
-			"dynn_Abuhairyid"
-			"dynn_Masrid"
-			"dynn_Shamyid"
-			"dynn_Abuneb"
-			"dynn_Ramzan"
-			"dynn_Ibrahimid"
-			"dynn_Sharifid"
-			"dynn_Abouresid"
-			"dynn_Elesbaam"
-		}
-
-		dynasty_names = {
-			"dynn_Hammadid"
-			"dynn_Bahri"
-			{ "dynnp_as-" "dynn_Sa_di" }
-			"dynn_Jukondarid"
-			"dynn_Dewadarid"
-			"dynn_Kanzid"
-			"dynn_Azizid"
-			"dynn_Ghanemid"
-			"dynn_Abazid"
-			"dynn_Hararid"
-			"dynn_Bayoumid"
-			"dynn_Bashandid"
-			"dynn_Bakhoumid"
-			"dynn_Bekhitid"
-			"dynn_Bahurid"
-			"dynn_Banoubid"
-			"dynn_Shenoudid"
-			"dynn_Abusirid"
-			"dynn_Abuhairyid"
-			"dynn_Masrid"
-			"dynn_Shamyid"
-			"dynn_Abuneb"
-			"dynn_Ramzan"
-			"dynn_Ibrahimid"
-			"dynn_Sharifid"
-			"dynn_Abouresid"
-			"dynn_Elesbaam"
-		}
-
-		male_names = {
-			Aaron Abanoub Abderahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah
-			Abianos Abisalom Ablarion Abraam Abu-Bakr Adnan Agathon Agathonikos Agathos
-			Ahmad Akbar Alam Ali Amr Androus Anthinos Arsenios Ashraf Asim
-			Athanasios Badr Bashir Biktor Binyamin Bishoi Boutros Danyal Dawlat Da_oud
-			Ezra Farhan Firuz Gabri_el Georgios Ghiyasaddin Habil Hakam Hammud Hanri Haroun Hisham
-			Hussayn Ibrahim Ilyas Is_mail Izzaddin Jalaaladdin Jawdat Jerjer Kemaladdin Khalil Krystafer
-			Latif Lot Malik Matta Mehtar Mikail Mikhael Milad Mina Muammar Muhammad
-			Mukhtar Murad Murshid Musa Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir Ra_uf Rafiq Ridwan Sabah Salim Sha_ban
-			Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Youkhanna Youssef Zaia Zakariyah
-		}
-		female_names = {
-			Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
-			Jamila Khadija Majida Mariam Nabila Nura Radiya Rana Sacmis Safiya
-			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra
-		}
-		dynasty_of_location_prefix = "dynnp_mn"
-		
-		patronym_prefix_male = "dynnpat_pre_ibn"
-		patronym_prefix_female = "dynnpat_pre_bint"
-		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
-
-		ethnicities = {
-			31 = south_gondid
-			26 = kolid
-			13 = gracile_indid
-			13 = north_gondid
-			10 = east_brachid
-			5 = central_brachid
-			2 = indo_brachid
-			2 = karnatid
-			2 = north_indid
-			2 = palaungid
-			1 = indo_iranid
-			1 = malabarese
-			1 = mountain_indid
-		}
-	}
 	gypsy_greek= {
 		
 		graphical_cultures = {
@@ -1854,6 +1138,452 @@
 			1 = mountain_indid
 		}
 	}
+	gypsy_caucasus= {
+		
+		graphical_cultures = {
+			dravidian_group_coa_gfx
+			mediterranean_building_gfx
+			byzantine_clothing_gfx
+			eastern_unit_gfx
+		}
+		
+		color = { 101 115 172 }
+		cadet_dynasty_names = {
+			"dynn_Bagratuni"
+			"dynn_Kuchka"
+			"dynn_Beskond"
+			"dynn_Mangaphas"
+			"dynn_Arzrouni"
+			"dynn_Hetoumi"
+			"dynn_Makisdros"
+			"dynn_Pakradouni"
+			"dynn_Sarkis"
+			"dynn_Shnorhali"
+			"dynn_Vanantezi"
+			"dynn_Bakunc"
+			"dynn_Arakelian"
+			"dynn_Baboian"
+			"dynn_Bagdazarian"
+			"dynn_Barsamian"
+			"dynn_Haladjian"
+			"dynn_Kaprielian"
+			"dynn_Kezerian"
+			"dynn_Aharonian"
+			"dynn_Sahakyan"
+			"dynn_Keshishian"
+			"dynn_Baljian"
+			"dynn_Petrosian"
+			"dynn_Ghougasian"
+			"dynn_Mickaelian"
+			"dynn_Maoukian"
+			"dynn_Zohrabian"
+			"dynn_Altoonian"
+			"dynn_Gardman-Aghbania"
+			"dynn_Andzewatsi"
+			"dynn_Hasan-Jalalyan"
+			"dynn_Melik-Avanyan"
+			"dynn_Mush"
+		}
+
+		dynasty_names = {
+			"dynn_Bagratuni"
+			"dynn_Kuchka"
+			"dynn_Beskond"
+			"dynn_Mangaphas"
+			"dynn_Arzrouni"
+			"dynn_Hetoumi"
+			"dynn_Makisdros"
+			"dynn_Pakradouni"
+			"dynn_Sarkis"
+			"dynn_Shnorhali"
+			"dynn_Vanantezi"
+			"dynn_Bakunc"
+			"dynn_Arakelian"
+			"dynn_Baboian"
+			"dynn_Bagdazarian"
+			"dynn_Barsamian"
+			"dynn_Haladjian"
+			"dynn_Kaprielian"
+			"dynn_Kezerian"
+			"dynn_Aharonian"
+			"dynn_Sahakyan"
+			"dynn_Keshishian"
+			"dynn_Baljian"
+			"dynn_Petrosian"
+			"dynn_Ghougasian"
+			"dynn_Mickaelian"
+			"dynn_Maoukian"
+			"dynn_Zohrabian"
+			"dynn_Altoonian"
+			"dynn_Gardman-Aghbania"
+			"dynn_Andzewatsi"
+			"dynn_Hasan-Jalalyan"
+			"dynn_Melik-Avanyan"
+			"dynn_Mush"
+		}
+
+		male_names = {
+			Abas Abirad Aboughamr Aboulgharib Aleksandr Artashes Artashir Artavazd Arsen Arshak Ashot Athom Atrnerseh Avag Avedis Bagour Bagrat Bedros Boghos Davit Eshkhan Gagik Gevorg
+			Gosdantin Grigor Gurgen Hagop Hamazasp Hethum Hovhannes Hovsep Ishkhan Ivane Kapriel Khachik Khosrov Levon Malkhas Mamigon Manuel Margos Melek Mihrdat Mikayel Mleh Mushegh Mushel Mzhezh
+			Nerseh Oshin Roupen Sahag Sarkis Sevag Shahanshah Smbat Stepanos Tachat Taniel Tatoul Tigran Tornik Tovmas Thoros Trdat Vache Vachagan Vagharshak Vahag Vahan Vahram Vakhtank Varazdat Vartan Vassak Vesd Vrtanes Zakare Zarmihr
+			#Later Catholicoi names:
+			Aristaces Aristakes Husik Pharen Zaven Aspuraces Brkisho Melitus Kyud Babken Ghevond Dertad Joab Mashdotz Yeghishe Yeghise Ananias Khachig
+		}
+		
+		female_names = {
+			Aghavni Alitz Almasd Anahid Anna Anoush Arda Arevig Arin Baydzar Berjanoush Berjouhi Datevig Dalita Eliz Gadar Gorandoukht Hasmig Houri Hranoush Katranide
+			Hripsimeh Keghanoush Keran Khorishah Kohar Latavri Leyli Lousin Mara Margarid Maria Mariyam Meghranoush Nane Nazani Ovsanna Pounig Razmouhi Rita Satenik Seta Siran Sirvart
+			Srpouhi Shoushanig Takouhi Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Zmroukhd
+		}
+		
+		dynasty_of_location_prefix = "dynnp_ve"
+
+
+		ethnicities = {
+			31 = south_gondid
+			26 = kolid
+			13 = gracile_indid
+			13 = north_gondid
+			10 = east_brachid
+			5 = central_brachid
+			2 = indo_brachid
+			2 = karnatid
+			2 = north_indid
+			2 = palaungid
+			1 = indo_iranid
+			1 = malabarese
+			1 = mountain_indid
+		}
+	}
+	gypsy_hun= {
+		
+		graphical_cultures = {
+			dravidian_group_coa_gfx
+			western_building_gfx
+			western_clothing_gfx
+			mongol_unit_gfx
+		}
+		
+		color = { 111 105 162 }
+		cadet_dynasty_names = {
+			"dynn_A_rpA_dy"
+			"dynn_CsA_szA_r"
+			"dynn_Vajlok"
+			"dynn_KA_n"
+			"dynn_Omodej"
+			"dynn_Zapolsky"
+			"dynn_Drugeth"
+			"dynn_Csak"
+			"dynn_Pallfy"
+			"dynn_Apafi"
+			"dynn_BA_nffy"
+			"dynn_BerzE_nyi"
+			"dynn_Bocskai"
+			"dynn_Borsa"
+			"dynn_CzirA_ky"
+			"dynn_Debreceni"
+			"dynn_DerencsE_nyi"
+			"dynn_DiO_szegi"
+			"dynn_DO_ry"
+			"dynn_EgervA_ri"
+			"dynn_ForgA_ch"
+			"dynn_Garai"
+			"dynn_PA_lO_czi"
+			"dynn_HE_dervA_ri"
+			"dynn_Hunyadi"
+			"dynn_KA_n"
+			"dynn_KA_rolyi"
+			"dynn_KO_szegi"
+			"dynn_Kun"
+			"dynn_Losonczi"
+			"dynn_MarO_ti"
+			"dynn_PerE_nyi"
+			"dynn_RA_tO_t"
+			"dynn_Rozgonyi"
+			"dynn_Szakoly"
+			"dynn_SzE_csE_nyi"
+			"dynn_SzE_chy"
+			"dynn_Telegdi"
+			"dynn_ThurzO_"
+			"dynn_U_jlaki"
+			"dynn_Kanizsai"
+			"dynn_Meggyesi"
+			"dynn_Osli"
+			"dynn_Viczay"
+			"dynn_Balassa"
+			"dynn_BA_thory"
+			"dynn_KA_lnoky"
+			"dynn_Niedzica"
+			"dynn_ZA_polya"
+			"dynn_SzE_kely"
+			"dynn_DO_zsa"
+			"dynn_Apafi"
+			"dynn_Balassi"
+			"dynn_Bethlen_von_IktA_r"
+			{ "dynnp_of" "dynn_Szekezfehervar" }
+			"dynn_Budai_Nagy"
+			{ "dynnp_de" "dynn_KincstartO_" }
+			"dynn_Celko"
+			"dynn_Corvinus"
+			{ "dynnp_de" "dynn_Cseszneky" }
+			{ "dynnp_de" "dynn_MilvA_ny" }
+			{ "dynnp_von" "dynn_MoravA_n" }
+			"dynn_DA_vid"
+			"dynn_DE_csey"
+			"dynn_ME_zesi"
+			{ "dynnp_de" "dynn_Ruszka" }
+			"dynn_Draskovich"
+			"dynn_ErdO_dy"
+			"dynn_RE_vay"
+			"dynn_DuruZ_mic"
+			"dynn_Szemere"
+			"dynn_Hadik"
+			"dynn_BatthyA_ny"
+			"dynn_Csesznegi"
+			"dynn_EsterhA_zy"
+			"dynn_HajdU_"
+			"dynn_JesenskY_"
+			"dynn_Medveczky"
+			"dynn_RA_kO_czi"
+			"dynn_Wass_de_Czege"
+			"dynn_Szapolyai"
+			"dynn_Zichy"
+			"dynn_Zrinski"
+		}
+
+		dynasty_names = {
+			"dynn_A_rpA_dy"
+			"dynn_CsA_szA_r"
+			"dynn_Vajlok"
+			"dynn_KA_n"
+			"dynn_Omodej"
+			"dynn_Zapolsky"
+			"dynn_Drugeth"
+			"dynn_Csak"
+			"dynn_Pallfy"
+			"dynn_Apafi"
+			"dynn_BA_nffy"
+			"dynn_BerzE_nyi"
+			"dynn_Bocskai"
+			"dynn_Borsa"
+			"dynn_CzirA_ky"
+			"dynn_Debreceni"
+			"dynn_DerencsE_nyi"
+			"dynn_DiO_szegi"
+			"dynn_DO_ry"
+			"dynn_EgervA_ri"
+			"dynn_ForgA_ch"
+			"dynn_Garai"
+			"dynn_PA_lO_czi"
+			"dynn_HE_dervA_ri"
+			"dynn_Hunyadi"
+			"dynn_KA_n"
+			"dynn_KA_rolyi"
+			"dynn_KO_szegi"
+			"dynn_Kun"
+			"dynn_Losonczi"
+			"dynn_MarO_ti"
+			"dynn_PerE_nyi"
+			"dynn_RA_tO_t"
+			"dynn_Rozgonyi"
+			"dynn_Szakoly"
+			"dynn_SzE_csE_nyi"
+			"dynn_SzE_chy"
+			"dynn_Telegdi"
+			"dynn_ThurzO_"
+			"dynn_U_jlaki"
+			"dynn_Kanizsai"
+			"dynn_Meggyesi"
+			"dynn_Osli"
+			"dynn_Viczay"
+			"dynn_Balassa"
+			"dynn_BA_thory"
+			"dynn_KA_lnoky"
+			"dynn_Niedzica"
+			"dynn_ZA_polya"
+			"dynn_SzE_kely"
+			"dynn_DO_zsa"
+			"dynn_Apafi"
+			"dynn_Balassi"
+			"dynn_Bethlen_von_IktA_r"
+			{ "dynnp_of" "dynn_Szekezfehervar" }
+			"dynn_Budai_Nagy"
+			{ "dynnp_de" "dynn_KincstartO_" }
+			"dynn_Celko"
+			"dynn_Corvinus"
+			{ "dynnp_de" "dynn_Cseszneky" }
+			{ "dynnp_de" "dynn_MilvA_ny" }
+			{ "dynnp_von" "dynn_MoravA_n" }
+			"dynn_DA_vid"
+			"dynn_DE_csey"
+			"dynn_ME_zesi"
+			{ "dynnp_de" "dynn_Ruszka" }
+			"dynn_Draskovich"
+			"dynn_ErdO_dy"
+			"dynn_RE_vay"
+			"dynn_DuruZ_mic"
+			"dynn_Szemere"
+			"dynn_Hadik"
+			"dynn_BatthyA_ny"
+			"dynn_Csesznegi"
+			"dynn_EsterhA_zy"
+			"dynn_HajdU_"
+			"dynn_JesenskY_"
+			"dynn_Medveczky"
+			"dynn_RA_kO_czi"
+			"dynn_Wass_de_Czege"
+			"dynn_Szapolyai"
+			"dynn_Zichy"
+			"dynn_Zrinski"
+		}
+
+		male_names = {
+			A_bel A_dA_rn A_goston A_lmos A_rpA_d O_dO_n Alajos Ambrus AndrA_s Antal Attila BA_lint BE_la BalA_zs Benedek BernA_t BertO_k Bertalan BoldizsA_r Bonuslo
+			Borisz CsA_k Csaba Csongor DE_nes DO_mO_tO_r DezsO_ DomoszlO_ DonA_t Elek ElemE_r Endre ErnO_ FulO_p Ferenc Frigyes GA_bor GA_briel GA_spA_r GE_za Gazsi
+			GellE_rt Gergely GyO_rgy Gyula Imre IstvA_n IzsA_k JA_kob JA_nos JO_zsef JenO_ KA_lmA_n KA_roly KonrA_d KornE_l KristO_f LA_szlO_ LA_zA_r LO_rinc Lajos
+			Lampert Levente LukA_cs MA_rk MA_rton MA_tE_ MA_tyA_s MO_ric MO_zes MihA_ly MiklO_s NA_ndor OrbA_n OszkA_r PA_l PE_ter SA_muel SA_ndor Salamon Saul Soma
+			Szilveszter TA_dor Tacsony TamA_s Tibor Tivadar Vazul Vencel Vilmos ZoltA_n Zsigmond Zsolt
+		}
+		female_names = {
+			A_gnes E_va Adelaida AgA_ta AmA_lia Angyalka AnikO_ Aranka Berta BorbA_la Csilla Csillag Czenzi Dorottya Edit EmO_ke Emese Erika ErzsE_bet Eszter
+			Etel Euphemia Gizella GyO_rgyi Hajnal Hedwig Ibolya IldikO_ Illona IrE_n JA_cinta JO_zsa JU_lia JolA_n Judith Kamilla Katalin Kinga KlA_ra
+			Konstancia Krisztina Kunigunda Luca MA_ria MA_rta Magdolna MargarE_ta Margit Matild NatA_lia Odola Orsolya Panni Piroska RO_zsa SA_ra Sarolt
+			Skolasztika Sophia TundE_r Terezia Viola VirA_g ZoltA_na ZsO_fia Zsanett Zsuzsa
+		}
+		
+		dynasty_of_location_prefix = "dynnp_a"
+		
+		patronym_suffix_male = "dynnpat_suf_fi"
+
+		dynasty_name_first = yes
+
+
+		ethnicities = {
+			31 = south_gondid
+			26 = kolid
+			13 = gracile_indid
+			13 = north_gondid
+			10 = east_brachid
+			5 = central_brachid
+			2 = indo_brachid
+			2 = karnatid
+			2 = north_indid
+			2 = palaungid
+			1 = indo_iranid
+			1 = malabarese
+			1 = mountain_indid
+		}
+	}
+	gypsy_egypt= {
+		
+		graphical_cultures = {
+			dravidian_group_coa_gfx
+			mena_building_gfx
+			mena_clothing_gfx
+			mena_unit_gfx
+			dde_abbasid_clothing_gfx
+		}
+		color = { 91 120 177 }
+		cadet_dynasty_names = {
+			"dynn_Hammadid"
+			"dynn_Bahri"
+			{ "dynnp_as-" "dynn_Sa_di" }
+			"dynn_Jukondarid"
+			"dynn_Dewadarid"
+			"dynn_Kanzid"
+			"dynn_Azizid"
+			"dynn_Ghanemid"
+			"dynn_Abazid"
+			"dynn_Hararid"
+			"dynn_Bayoumid"
+			"dynn_Bashandid"
+			"dynn_Bakhoumid"
+			"dynn_Bekhitid"
+			"dynn_Bahurid"
+			"dynn_Banoubid"
+			"dynn_Shenoudid"
+			"dynn_Abusirid"
+			"dynn_Abuhairyid"
+			"dynn_Masrid"
+			"dynn_Shamyid"
+			"dynn_Abuneb"
+			"dynn_Ramzan"
+			"dynn_Ibrahimid"
+			"dynn_Sharifid"
+			"dynn_Abouresid"
+			"dynn_Elesbaam"
+		}
+
+		dynasty_names = {
+			"dynn_Hammadid"
+			"dynn_Bahri"
+			{ "dynnp_as-" "dynn_Sa_di" }
+			"dynn_Jukondarid"
+			"dynn_Dewadarid"
+			"dynn_Kanzid"
+			"dynn_Azizid"
+			"dynn_Ghanemid"
+			"dynn_Abazid"
+			"dynn_Hararid"
+			"dynn_Bayoumid"
+			"dynn_Bashandid"
+			"dynn_Bakhoumid"
+			"dynn_Bekhitid"
+			"dynn_Bahurid"
+			"dynn_Banoubid"
+			"dynn_Shenoudid"
+			"dynn_Abusirid"
+			"dynn_Abuhairyid"
+			"dynn_Masrid"
+			"dynn_Shamyid"
+			"dynn_Abuneb"
+			"dynn_Ramzan"
+			"dynn_Ibrahimid"
+			"dynn_Sharifid"
+			"dynn_Abouresid"
+			"dynn_Elesbaam"
+		}
+
+		male_names = {
+			Aaron Abanoub Abderahman Abdul-Aziz Abdul-Haq Abdul-Madjid Abdul-Salaam Abdullah
+			Abianos Abisalom Ablarion Abraam Abu-Bakr Adnan Agathon Agathonikos Agathos
+			Ahmad Akbar Alam Ali Amr Androus Anthinos Arsenios Ashraf Asim
+			Athanasios Badr Bashir Biktor Binyamin Bishoi Boutros Danyal Dawlat Da_oud
+			Ezra Farhan Firuz Gabri_el Georgios Ghiyasaddin Habil Hakam Hammud Hanri Haroun Hisham
+			Hussayn Ibrahim Ilyas Is_mail Izzaddin Jalaaladdin Jawdat Jerjer Kemaladdin Khalil Krystafer
+			Latif Lot Malik Matta Mehtar Mikail Mikhael Milad Mina Muammar Muhammad
+			Mukhtar Murad Murshid Musa Muzaffaraddin Nabil Nasir Nassib Nuraddin Pamin Qadir Ra_uf Rafiq Ridwan Sabah Salim Sha_ban
+			Sharif Suhail Tadros Tajaddin Tayyib Touma Usama Walid Yahya Yared Yassir Youkhanna Youssef Zaia Zakariyah
+		}
+		female_names = {
+			Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
+			Jamila Khadija Majida Mariam Nabila Nura Radiya Rana Sacmis Safiya
+			Samira Suhaila Tawaret Taweret Titi Thuriya Zara Zahra
+		}
+		dynasty_of_location_prefix = "dynnp_mn"
+		
+		patronym_prefix_male = "dynnpat_pre_ibn"
+		patronym_prefix_female = "dynnpat_pre_bint"
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+
+		ethnicities = {
+			31 = south_gondid
+			26 = kolid
+			13 = gracile_indid
+			13 = north_gondid
+			10 = east_brachid
+			5 = central_brachid
+			2 = indo_brachid
+			2 = karnatid
+			2 = north_indid
+			2 = palaungid
+			1 = indo_iranid
+			1 = malabarese
+			1 = mountain_indid
+		}
+	}
 	gypsy_french= {
 		
 		graphical_cultures = {
@@ -2599,267 +2329,98 @@
 			1 = mountain_indid
 		}
 	}
-	gypsy_india= {
+	gypsy_slav= {
 		
 		graphical_cultures = {
 			dravidian_group_coa_gfx
-			indian_building_gfx
-			indian_clothing_gfx
-			indian_unit_gfx
+			mediterranean_building_gfx
+			byzantine_clothing_gfx
+			eastern_unit_gfx
 		}
-		color = { 101 115 172 }
+		
+		color = { 91 135 162 }
 		cadet_dynasty_names = {
-			"dynn_Katyuri"
-			"dynn_Kangra"
-			"dynn_Kumanchal"
-			"dynn_Mana"
-			"dynn_Baghela"
-			"dynn_Rajgond"
-			"dynn_Mir"
-			"dynn_Yayvapala"
-			"dynn_Parmar"
-			"dynn_Katyuri"
-			"dynn_Chand"
-			"dynn_Khasiya"
-			{ "dynn_Agarwal" }
-			{ "dynn_Ahuja" }
-			{ "dynn_Arora" }
-			{ "dynn_Bai" }
-			{ "dynn_Bansal" }
-			{ "dynn_Batra" }
-			{ "dynn_Bhagat" }
-			{ "dynn_Bhasin" }
-			{ "dynn_Bhatnagar" }
-			{ "dynn_Bhatt" }
-			{ "dynn_Bhuiyan" }
-			{ "dynn_Chakravarti" }
-			{ "dynn_Chand" }
-			{ "dynn_Chander" }
-			{ "dynn_Chandra" }
-			{ "dynn_Chaudhary" }
-			{ "dynn_Chauhan" }
-			{ "dynn_Chetri" }
-			{ "dynn_Chohan" }
-			{ "dynn_Chourey" }
-			{ "dynn_Daima" }
-			{ "dynn_Dass" }
-			{ "dynn_Dayal" }
-			{ "dynn_Deva" }
-			{ "dynn_Devi" }
-			{ "dynn_Dewi" }
-			{ "dynn_Dikshit" }
-			{ "dynn_Dogra" }
-			{ "dynn_Gautam" }
-			{ "dynn_Gopal" }
-			{ "dynn_Goswami" }
-			{ "dynn_Jahan" }
-			{ "dynn_Jha" }
-			{ "dynn_Kamat" }
-			{ "dynn_Kapoor" }
-			{ "dynn_Kapur" }
-			{ "dynn_Khare" }
-			{ "dynn_Kumari" }
-			{ "dynn_Lahot" }
-			{ "dynn_Lal" }
-			{ "dynn_Mahajan" }
-			{ "dynn_Mahato" }
-			{ "dynn_Mahto" }
-			{ "dynn_Majhi" }
-			{ "dynn_Mandal" }
-			{ "dynn_Mehta" }
-			{ "dynn_Nanda" }
-			{ "dynn_Narayan" }
-			{ "dynn_Nath" }
-			{ "dynn_Natikar" }
-			{ "dynn_Nayak" }
-			{ "dynn_Nimavat" }
-			{ "dynn_Pandey" }
-			{ "dynn_Pandit" }
-			{ "dynn_Pathak" }
-			{ "dynn_Pradhan" }
-			{ "dynn_Pramanik" }
-			{ "dynn_Rahaman" }
-			{ "dynn_Rai" }
-			{ "dynn_Raj" }
-			{ "dynn_Rajabian" }
-			{ "dynn_Ram" }
-			{ "dynn_Rastogi" }
-			{ "dynn_Rathor" }
-			{ "dynn_Sachan" }
-			{ "dynn_Sachdeva" }
-			{ "dynn_Sahoo" }
-			{ "dynn_Sanjay" }
-			{ "dynn_Sethi" }
-			{ "dynn_Shakya" }
-			{ "dynn_Shan" }
-			{ "dynn_Shankar" }
-			{ "dynn_Shrivastava" }
-			{ "dynn_Shukla" }
-			{ "dynn_Sinha" }
-			{ "dynn_Solanki" }
-			{ "dynn_Sologar" }
-			{ "dynn_Soni" }
-			{ "dynn_Suresh" }
-			{ "dynn_Tandon" }
-			{ "dynn_Thapa" }
-			{ "dynn_Trikha" }
-			{ "dynn_Tripathi" }
-			{ "dynn_Trivedi" }
-			{ "dynn_Uniyal" }
-			{ "dynn_Upadhyaya" }
-			{ "dynn_Vaid" }
-			{ "dynn_Varadarajan" }
-			{ "dynn_Varma" }
-			{ "dynn_Vinda" }
+			"dynn_Dragutin"
+			"dynn_Srbija"
+			"dynn_Znaim"
+			"dynn_NemanjiC_"
+			"dynn_SokoloviC_"
+			"dynn_Thopia"
+			"dynn_Muzaka"
+			"dynn_Assen"
+			"dynn_Tich"
+			"dynn_Soimirovich"
+			"dynn_Balin"
+			"dynn_VukanoviC_"
+			"dynn_MrnjavceviC_"
+			"dynn_BrankoviC_"
+			"dynn_Uglesa"
+			"dynn_Hlapen"
+			"dynn_Blagai"
+			"dynn_Czobor"
+			"dynn_ProgonoviC_"
+			"dynn_Grot"
+			"dynn_Radoslav"
+			"dynn_Caradja"
+			"dynn_Prosigoj"
+			"dynn_GojnikoviC_"
+			"dynn_BranoviC_"
+			"dynn_PribisavljeviC_"
+			"dynn_KlonimiroviC_"
+			"dynn_Radomiros"
+			"dynn_TvrtkoviC_"
+			"dynn_Vrana"
 		}
 
 		dynasty_names = {
-			"dynn_Katyuri"
-			"dynn_Kangra"
-			"dynn_Kumanchal"
-			"dynn_Mana"
-			"dynn_Baghela"
-			"dynn_Rajgond"
-			"dynn_Mir"
-			"dynn_Yayvapala"
-			"dynn_Parmar"
-			"dynn_Katyuri"
-			"dynn_Chand"
-			"dynn_Khasiya"
-			{ "dynn_Agarwal" }
-			{ "dynn_Ahuja" }
-			{ "dynn_Arora" }
-			{ "dynn_Bai" }
-			{ "dynn_Bansal" }
-			{ "dynn_Batra" }
-			{ "dynn_Bhagat" }
-			{ "dynn_Bhasin" }
-			{ "dynn_Bhatnagar" }
-			{ "dynn_Bhatt" }
-			{ "dynn_Bhuiyan" }
-			{ "dynn_Chakravarti" }
-			{ "dynn_Chand" }
-			{ "dynn_Chander" }
-			{ "dynn_Chandra" }
-			{ "dynn_Chaudhary" }
-			{ "dynn_Chauhan" }
-			{ "dynn_Chetri" }
-			{ "dynn_Chohan" }
-			{ "dynn_Chourey" }
-			{ "dynn_Daima" }
-			{ "dynn_Dass" }
-			{ "dynn_Dayal" }
-			{ "dynn_Deva" }
-			{ "dynn_Devi" }
-			{ "dynn_Dewi" }
-			{ "dynn_Dikshit" }
-			{ "dynn_Dogra" }
-			{ "dynn_Gautam" }
-			{ "dynn_Gopal" }
-			{ "dynn_Goswami" }
-			{ "dynn_Jahan" }
-			{ "dynn_Jha" }
-			{ "dynn_Kamat" }
-			{ "dynn_Kapoor" }
-			{ "dynn_Kapur" }
-			{ "dynn_Khare" }
-			{ "dynn_Kumari" }
-			{ "dynn_Lahot" }
-			{ "dynn_Lal" }
-			{ "dynn_Mahajan" }
-			{ "dynn_Mahato" }
-			{ "dynn_Mahto" }
-			{ "dynn_Majhi" }
-			{ "dynn_Mandal" }
-			{ "dynn_Mehta" }
-			{ "dynn_Nanda" }
-			{ "dynn_Narayan" }
-			{ "dynn_Nath" }
-			{ "dynn_Natikar" }
-			{ "dynn_Nayak" }
-			{ "dynn_Nimavat" }
-			{ "dynn_Pandey" }
-			{ "dynn_Pandit" }
-			{ "dynn_Pathak" }
-			{ "dynn_Pradhan" }
-			{ "dynn_Pramanik" }
-			{ "dynn_Rahaman" }
-			{ "dynn_Rai" }
-			{ "dynn_Raj" }
-			{ "dynn_Rajabian" }
-			{ "dynn_Ram" }
-			{ "dynn_Rastogi" }
-			{ "dynn_Rathor" }
-			{ "dynn_Sachan" }
-			{ "dynn_Sachdeva" }
-			{ "dynn_Sahoo" }
-			{ "dynn_Sanjay" }
-			{ "dynn_Sethi" }
-			{ "dynn_Shakya" }
-			{ "dynn_Shan" }
-			{ "dynn_Shankar" }
-			{ "dynn_Shrivastava" }
-			{ "dynn_Shukla" }
-			{ "dynn_Sinha" }
-			{ "dynn_Solanki" }
-			{ "dynn_Sologar" }
-			{ "dynn_Soni" }
-			{ "dynn_Suresh" }
-			{ "dynn_Tandon" }
-			{ "dynn_Thapa" }
-			{ "dynn_Trikha" }
-			{ "dynn_Tripathi" }
-			{ "dynn_Trivedi" }
-			{ "dynn_Uniyal" }
-			{ "dynn_Upadhyaya" }
-			{ "dynn_Vaid" }
-			{ "dynn_Varadarajan" }
-			{ "dynn_Varma" }
-			{ "dynn_Vinda" }
+			"dynn_Dragutin"
+			"dynn_Srbija"
+			"dynn_Znaim"
+			"dynn_NemanjiC_"
+			"dynn_SokoloviC_"
+			"dynn_Thopia"
+			"dynn_Muzaka"
+			"dynn_Assen"
+			"dynn_Tich"
+			"dynn_Soimirovich"
+			"dynn_Balin"
+			"dynn_VukanoviC_"
+			"dynn_MrnjavceviC_"
+			"dynn_BrankoviC_"
+			"dynn_Uglesa"
+			"dynn_Hlapen"
+			"dynn_Blagai"
+			"dynn_Czobor"
+			"dynn_ProgonoviC_"
+			"dynn_Grot"
+			"dynn_Radoslav"
+			"dynn_Caradja"
+			"dynn_Prosigoj"
+			"dynn_GojnikoviC_"
+			"dynn_BranoviC_"
+			"dynn_PribisavljeviC_"
+			"dynn_KlonimiroviC_"
+			"dynn_Radomiros"
+			"dynn_TvrtkoviC_"
+			"dynn_Vrana"
 		}
-	
+
 		male_names = {
-			Achalraj Achalraja Adhandev Adityadeva Ajmal Alsi Amir Anangpal Anangpala Anupapala
-			Anuppal "Apara_Gangeya" Arjunpal Arjunpala Arjunavarman Bacchdev Bachraj Baghpal Baghpala
-			Bahadur-Singh Beejpal Beejpala Bhaadar Bhilpala Bhoj Bhoja Bhojavarman Bhopal Bhumpal
-			Bhumpala Birpal Birpala Bisaldeva Brahmadeva Brahmapala Brahmdevpal Chand Devapala Devavarman Dhanga
-			Dhangadeva Dharmapala Dhaulshaya Dilipapala Dilippal Doth Draupad Draupada Dugarendra
-			Gambhir Ganapatideva Gandadeva Gangeya Ghatamdeva Gopal Gopala Govindachandra Govindapala Govindaraja Govindraj
-			Hamir Hammiravarman Harpal Harsa Harshapala Hirapal Hirapala Indrapal Indrapala Ishtpala
-			Jaganpal Jaganpala Jagatpal Jagatpala Jagdev Jagdeva Jaidas Jaipal Jaitugideva Jasapala
-			Jaspal Jatanpal Jatanpala Jayapala Jayasakti Jayasimha Jayavarman Jhetpal Jhetpala Junpala
-			Kailaspal Kailaspala Kalkurna Kalyanachandra Kakhopal Kakhopala Kamal Kanhad Kanvarpal
-			Kanvarpala Karnpal Keeratdeva Khadag Khetrapal Khetrapala Kiratpal Kiratpala Krishnray
-			Krsnapa Kumarapala Kunwar Kunwarpal Ladahachandra Lakshmandeva Lokpala Madanapala Madanavarman Maharana Mahendrapal
-			Mahendrapala Mahipal Mahipala Mahipata Mahlakadeva Mandandeva Mangaldeva Margdeva Mihira Nagapala Nagdeo Nannuka
-			Naravarman Narayanapala Narpal Nayapala Nihaal Nihalray Paramardideva Pavak Peepalraj Popatraj Pritampal Pritampala Prithipala
-			Prithvi Prithvipal Prithviraj Prithviraja Prithvivarman Rahila Rajapala Rajyapala Ramabhadra Ramachandra
-			Rampal Rampala Rana Rangraj Rangraja Ratnapala Rijhpala Roshandeva Salivaahan Sallaksanavarman Saugandeva Shurapala
-			Sisupal Sisupala Sohanpal Somasi Someshvara Sonpal Sonpala Srichandra Subhatavarman Sukhinpal
-			Sukhinpala Sulakshanpal Sultanpal Sultanpala Surajpal Surajpala Traillokyachandra Tejapala
-			Tejpal Tolpal Trailokyavarman Trilochanpala Udayaditya Udaysangh Uddharandeva Vachhal Vakpati Vapyata Varshapala Varshpal
-			Vasudev Vidurathpal Vidurathpala Vidyadhara Vigrahapala Vigraharaja Vihangpal Vijayapala Vijayasakti Vinayakapala Vindhyavarman
-			Viramdeva Viravarman Virsinghadeva Yasovarman
+			Aldimir Asen Berbat Blaz Boleslav Borna Branimir Budimir Kosmin Danilo Djordje Dmitar Dobroslav Dragija Dragos Dragutin Gavrilo Godimir Goran
+			Grgur Ilija Ivan Josif Josip Jovan Kasjan Konstantin Krsto Lazar Ljudevit Luka Marko Martin Matija Mihailo Mihovil Milorad Milutin Mircea Miroslav Mislav Nenad Nikodim Nikola
+			Ninoslav Petar Porin Prvoslav Radoslav Rastko Ratomir Roman Serapion Simeon Sinisa Slavko Slobodan Stefan Teodosije Tihomir Trajan Uros Visarion Vladimir Vladislav Vlastimir
+			Vuk Vukan Vukasin Vukoman Zoran Zvonimir
 		}
 		female_names = {
-			Akal Anantadevi Damayanti Dattadevi Dehanagadevi Dhruvadevi Dhruvasvamini Hemavati
-			Kakanvati Kalayandevi Kanchuka Kanwar Karmavati Kumaradevi Lakshman Maharani Mahidevi Nattadevi
-			Prabhavati Prabhavatigupta Prasadhanadevi Puppadevi Rajamati Sanyukta Shrimitradevi
+			Agata Barbara Branimira Desislava Dubravka Elena Hicela Jelena Karolina Keratza Lovorka Marija Milka Neda Radica Zdenka Andjela Antonija
+			Bastina Biljana Bistrina Bojana Casna Chasna Dejana Dragana Dragoslava Duga Dusica Gordana Grana Grubana Jagoda Jovana Jovanka Karika
+			Ljubica Luka Majka Malina Medeni Meki Milinka Miljana Miriti Mirjana Mudary Mudra Nada Nadanje Namena
 		}
 		
-		dynasty_title_names = yes
-		founder_named_dynasties = yes
+		dynasty_of_location_prefix = "dynnp_od"
 		
-		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 25
-		father_name_chance = 25
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 25
-		mat_grm_name_chance = 25
-		mother_name_chance = 0
+		patronym_suffix_male = "dynnpat_suf_iC_"
+		always_use_patronym = yes
 
 
 		ethnicities = {
@@ -3484,6 +3045,445 @@
 	
 		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
 		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+
+		ethnicities = {
+			31 = south_gondid
+			26 = kolid
+			13 = gracile_indid
+			13 = north_gondid
+			10 = east_brachid
+			5 = central_brachid
+			2 = indo_brachid
+			2 = karnatid
+			2 = north_indid
+			2 = palaungid
+			1 = indo_iranid
+			1 = malabarese
+			1 = mountain_indid
+		}
+	}
+	gypsy_india= {
+		
+		graphical_cultures = {
+			dravidian_group_coa_gfx
+			indian_building_gfx
+			indian_clothing_gfx
+			indian_unit_gfx
+		}
+		color = { 101 115 172 }
+		cadet_dynasty_names = {
+			"dynn_Katyuri"
+			"dynn_Kangra"
+			"dynn_Kumanchal"
+			"dynn_Mana"
+			"dynn_Baghela"
+			"dynn_Rajgond"
+			"dynn_Mir"
+			"dynn_Yayvapala"
+			"dynn_Parmar"
+			"dynn_Katyuri"
+			"dynn_Chand"
+			"dynn_Khasiya"
+			{ "dynn_Agarwal" }
+			{ "dynn_Ahuja" }
+			{ "dynn_Arora" }
+			{ "dynn_Bai" }
+			{ "dynn_Bansal" }
+			{ "dynn_Batra" }
+			{ "dynn_Bhagat" }
+			{ "dynn_Bhasin" }
+			{ "dynn_Bhatnagar" }
+			{ "dynn_Bhatt" }
+			{ "dynn_Bhuiyan" }
+			{ "dynn_Chakravarti" }
+			{ "dynn_Chand" }
+			{ "dynn_Chander" }
+			{ "dynn_Chandra" }
+			{ "dynn_Chaudhary" }
+			{ "dynn_Chauhan" }
+			{ "dynn_Chetri" }
+			{ "dynn_Chohan" }
+			{ "dynn_Chourey" }
+			{ "dynn_Daima" }
+			{ "dynn_Dass" }
+			{ "dynn_Dayal" }
+			{ "dynn_Deva" }
+			{ "dynn_Devi" }
+			{ "dynn_Dewi" }
+			{ "dynn_Dikshit" }
+			{ "dynn_Dogra" }
+			{ "dynn_Gautam" }
+			{ "dynn_Gopal" }
+			{ "dynn_Goswami" }
+			{ "dynn_Jahan" }
+			{ "dynn_Jha" }
+			{ "dynn_Kamat" }
+			{ "dynn_Kapoor" }
+			{ "dynn_Kapur" }
+			{ "dynn_Khare" }
+			{ "dynn_Kumari" }
+			{ "dynn_Lahot" }
+			{ "dynn_Lal" }
+			{ "dynn_Mahajan" }
+			{ "dynn_Mahato" }
+			{ "dynn_Mahto" }
+			{ "dynn_Majhi" }
+			{ "dynn_Mandal" }
+			{ "dynn_Mehta" }
+			{ "dynn_Nanda" }
+			{ "dynn_Narayan" }
+			{ "dynn_Nath" }
+			{ "dynn_Natikar" }
+			{ "dynn_Nayak" }
+			{ "dynn_Nimavat" }
+			{ "dynn_Pandey" }
+			{ "dynn_Pandit" }
+			{ "dynn_Pathak" }
+			{ "dynn_Pradhan" }
+			{ "dynn_Pramanik" }
+			{ "dynn_Rahaman" }
+			{ "dynn_Rai" }
+			{ "dynn_Raj" }
+			{ "dynn_Rajabian" }
+			{ "dynn_Ram" }
+			{ "dynn_Rastogi" }
+			{ "dynn_Rathor" }
+			{ "dynn_Sachan" }
+			{ "dynn_Sachdeva" }
+			{ "dynn_Sahoo" }
+			{ "dynn_Sanjay" }
+			{ "dynn_Sethi" }
+			{ "dynn_Shakya" }
+			{ "dynn_Shan" }
+			{ "dynn_Shankar" }
+			{ "dynn_Shrivastava" }
+			{ "dynn_Shukla" }
+			{ "dynn_Sinha" }
+			{ "dynn_Solanki" }
+			{ "dynn_Sologar" }
+			{ "dynn_Soni" }
+			{ "dynn_Suresh" }
+			{ "dynn_Tandon" }
+			{ "dynn_Thapa" }
+			{ "dynn_Trikha" }
+			{ "dynn_Tripathi" }
+			{ "dynn_Trivedi" }
+			{ "dynn_Uniyal" }
+			{ "dynn_Upadhyaya" }
+			{ "dynn_Vaid" }
+			{ "dynn_Varadarajan" }
+			{ "dynn_Varma" }
+			{ "dynn_Vinda" }
+		}
+
+		dynasty_names = {
+			"dynn_Katyuri"
+			"dynn_Kangra"
+			"dynn_Kumanchal"
+			"dynn_Mana"
+			"dynn_Baghela"
+			"dynn_Rajgond"
+			"dynn_Mir"
+			"dynn_Yayvapala"
+			"dynn_Parmar"
+			"dynn_Katyuri"
+			"dynn_Chand"
+			"dynn_Khasiya"
+			{ "dynn_Agarwal" }
+			{ "dynn_Ahuja" }
+			{ "dynn_Arora" }
+			{ "dynn_Bai" }
+			{ "dynn_Bansal" }
+			{ "dynn_Batra" }
+			{ "dynn_Bhagat" }
+			{ "dynn_Bhasin" }
+			{ "dynn_Bhatnagar" }
+			{ "dynn_Bhatt" }
+			{ "dynn_Bhuiyan" }
+			{ "dynn_Chakravarti" }
+			{ "dynn_Chand" }
+			{ "dynn_Chander" }
+			{ "dynn_Chandra" }
+			{ "dynn_Chaudhary" }
+			{ "dynn_Chauhan" }
+			{ "dynn_Chetri" }
+			{ "dynn_Chohan" }
+			{ "dynn_Chourey" }
+			{ "dynn_Daima" }
+			{ "dynn_Dass" }
+			{ "dynn_Dayal" }
+			{ "dynn_Deva" }
+			{ "dynn_Devi" }
+			{ "dynn_Dewi" }
+			{ "dynn_Dikshit" }
+			{ "dynn_Dogra" }
+			{ "dynn_Gautam" }
+			{ "dynn_Gopal" }
+			{ "dynn_Goswami" }
+			{ "dynn_Jahan" }
+			{ "dynn_Jha" }
+			{ "dynn_Kamat" }
+			{ "dynn_Kapoor" }
+			{ "dynn_Kapur" }
+			{ "dynn_Khare" }
+			{ "dynn_Kumari" }
+			{ "dynn_Lahot" }
+			{ "dynn_Lal" }
+			{ "dynn_Mahajan" }
+			{ "dynn_Mahato" }
+			{ "dynn_Mahto" }
+			{ "dynn_Majhi" }
+			{ "dynn_Mandal" }
+			{ "dynn_Mehta" }
+			{ "dynn_Nanda" }
+			{ "dynn_Narayan" }
+			{ "dynn_Nath" }
+			{ "dynn_Natikar" }
+			{ "dynn_Nayak" }
+			{ "dynn_Nimavat" }
+			{ "dynn_Pandey" }
+			{ "dynn_Pandit" }
+			{ "dynn_Pathak" }
+			{ "dynn_Pradhan" }
+			{ "dynn_Pramanik" }
+			{ "dynn_Rahaman" }
+			{ "dynn_Rai" }
+			{ "dynn_Raj" }
+			{ "dynn_Rajabian" }
+			{ "dynn_Ram" }
+			{ "dynn_Rastogi" }
+			{ "dynn_Rathor" }
+			{ "dynn_Sachan" }
+			{ "dynn_Sachdeva" }
+			{ "dynn_Sahoo" }
+			{ "dynn_Sanjay" }
+			{ "dynn_Sethi" }
+			{ "dynn_Shakya" }
+			{ "dynn_Shan" }
+			{ "dynn_Shankar" }
+			{ "dynn_Shrivastava" }
+			{ "dynn_Shukla" }
+			{ "dynn_Sinha" }
+			{ "dynn_Solanki" }
+			{ "dynn_Sologar" }
+			{ "dynn_Soni" }
+			{ "dynn_Suresh" }
+			{ "dynn_Tandon" }
+			{ "dynn_Thapa" }
+			{ "dynn_Trikha" }
+			{ "dynn_Tripathi" }
+			{ "dynn_Trivedi" }
+			{ "dynn_Uniyal" }
+			{ "dynn_Upadhyaya" }
+			{ "dynn_Vaid" }
+			{ "dynn_Varadarajan" }
+			{ "dynn_Varma" }
+			{ "dynn_Vinda" }
+		}
+	
+		male_names = {
+			Achalraj Achalraja Adhandev Adityadeva Ajmal Alsi Amir Anangpal Anangpala Anupapala
+			Anuppal "Apara_Gangeya" Arjunpal Arjunpala Arjunavarman Bacchdev Bachraj Baghpal Baghpala
+			Bahadur-Singh Beejpal Beejpala Bhaadar Bhilpala Bhoj Bhoja Bhojavarman Bhopal Bhumpal
+			Bhumpala Birpal Birpala Bisaldeva Brahmadeva Brahmapala Brahmdevpal Chand Devapala Devavarman Dhanga
+			Dhangadeva Dharmapala Dhaulshaya Dilipapala Dilippal Doth Draupad Draupada Dugarendra
+			Gambhir Ganapatideva Gandadeva Gangeya Ghatamdeva Gopal Gopala Govindachandra Govindapala Govindaraja Govindraj
+			Hamir Hammiravarman Harpal Harsa Harshapala Hirapal Hirapala Indrapal Indrapala Ishtpala
+			Jaganpal Jaganpala Jagatpal Jagatpala Jagdev Jagdeva Jaidas Jaipal Jaitugideva Jasapala
+			Jaspal Jatanpal Jatanpala Jayapala Jayasakti Jayasimha Jayavarman Jhetpal Jhetpala Junpala
+			Kailaspal Kailaspala Kalkurna Kalyanachandra Kakhopal Kakhopala Kamal Kanhad Kanvarpal
+			Kanvarpala Karnpal Keeratdeva Khadag Khetrapal Khetrapala Kiratpal Kiratpala Krishnray
+			Krsnapa Kumarapala Kunwar Kunwarpal Ladahachandra Lakshmandeva Lokpala Madanapala Madanavarman Maharana Mahendrapal
+			Mahendrapala Mahipal Mahipala Mahipata Mahlakadeva Mandandeva Mangaldeva Margdeva Mihira Nagapala Nagdeo Nannuka
+			Naravarman Narayanapala Narpal Nayapala Nihaal Nihalray Paramardideva Pavak Peepalraj Popatraj Pritampal Pritampala Prithipala
+			Prithvi Prithvipal Prithviraj Prithviraja Prithvivarman Rahila Rajapala Rajyapala Ramabhadra Ramachandra
+			Rampal Rampala Rana Rangraj Rangraja Ratnapala Rijhpala Roshandeva Salivaahan Sallaksanavarman Saugandeva Shurapala
+			Sisupal Sisupala Sohanpal Somasi Someshvara Sonpal Sonpala Srichandra Subhatavarman Sukhinpal
+			Sukhinpala Sulakshanpal Sultanpal Sultanpala Surajpal Surajpala Traillokyachandra Tejapala
+			Tejpal Tolpal Trailokyavarman Trilochanpala Udayaditya Udaysangh Uddharandeva Vachhal Vakpati Vapyata Varshapala Varshpal
+			Vasudev Vidurathpal Vidurathpala Vidyadhara Vigrahapala Vigraharaja Vihangpal Vijayapala Vijayasakti Vinayakapala Vindhyavarman
+			Viramdeva Viravarman Virsinghadeva Yasovarman
+		}
+		female_names = {
+			Akal Anantadevi Damayanti Dattadevi Dehanagadevi Dhruvadevi Dhruvasvamini Hemavati
+			Kakanvati Kalayandevi Kanchuka Kanwar Karmavati Kumaradevi Lakshman Maharani Mahidevi Nattadevi
+			Prabhavati Prabhavatigupta Prasadhanadevi Puppadevi Rajamati Sanyukta Shrimitradevi
+		}
+		
+		dynasty_title_names = yes
+		founder_named_dynasties = yes
+		
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 25
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 25
+		mat_grm_name_chance = 25
+		mother_name_chance = 0
+
+
+		ethnicities = {
+			31 = south_gondid
+			26 = kolid
+			13 = gracile_indid
+			13 = north_gondid
+			10 = east_brachid
+			5 = central_brachid
+			2 = indo_brachid
+			2 = karnatid
+			2 = north_indid
+			2 = palaungid
+			1 = indo_iranid
+			1 = malabarese
+			1 = mountain_indid
+		}
+	}
+	gypsy_romanian= {
+		
+		graphical_cultures = {
+			dravidian_group_coa_gfx
+			western_building_gfx
+			western_clothing_gfx
+			mongol_unit_gfx
+		}
+		
+		color = { 81 125 182 }
+			cadet_dynasty_names = {
+			"dynn_Basarab"
+			"dynn_Dragusin"
+			"dynn_Basarab"
+			"dynn_Litovoi"
+			"dynn_SelimoviC_"
+			"dynn_CsA_ky"
+			"dynn_DezsO_fi"
+			"dynn_Guthi-OrszA_gh"
+			"dynn_MarczaltO_vi"
+			"dynn_Petenye"
+			"dynn_Tibai"
+			"dynn_ZA_ch"
+			"dynn_Szapolyai"
+			"dynn_VA_rdai"
+			"dynn_ProdaniC_"
+			"dynn_Odescalchi"
+			"dynn_Costin"
+		}
+
+		dynasty_names = {
+			"dynn_Basarab"
+			"dynn_Dragusin"
+			"dynn_Basarab"
+			"dynn_Litovoi"
+			"dynn_SelimoviC_"
+			"dynn_CsA_ky"
+			"dynn_DezsO_fi"
+			"dynn_Guthi-OrszA_gh"
+			"dynn_MarczaltO_vi"
+			"dynn_Petenye"
+			"dynn_Tibai"
+			"dynn_ZA_ch"
+			"dynn_Szapolyai"
+			"dynn_VA_rdai"
+			"dynn_ProdaniC_"
+			"dynn_Odescalchi"
+			"dynn_Costin"
+			"dynn_BA_dA_rA_u"
+			"dynn_BA_lA_ceanu"
+			"dynn_Bosie"
+			"dynn_BrA_iloi"
+			"dynn_BuS_ilA_"
+			"dynn_Calerghi"
+			"dynn_Callimachi"
+			"dynn_Cantemir"
+			"dynn_Carianopol"
+			"dynn_Crihan"
+			"dynn_Carionfil"
+			"dynn_Cristescu"
+			"dynn_Casassovici"
+			"dynn_Cesianu"
+			"dynn_ChinteS_ti"
+			"dynn_Chirescu"
+			"dynn_CoteS_ti"
+			"dynn_CraioveS_tilor"
+			"dynn_CrA_snaru"
+			"dynn_Dinastia"
+			"dynn_DA_neS_tilor"
+			"dynn_Diamandy"
+			"dynn_DrA_culeS_tilor"
+			"dynn_DrugA_"
+			"dynn_Eliescu"
+			"dynn_Emandi"
+			"dynn_Filipescu"
+			"dynn_Florescu"
+			"dynn_FundA_T_eni"
+			"dynn_Giosani"
+			"dynn_Golescu"
+			"dynn_GrA_diS_teanu"
+			"dynn_Greceanu"
+			"dynn_Hagi"
+			"dynn_HA_jdA_u"
+			"dynn_Jianu"
+			"dynn_Korne"
+			"dynn_Lecca"
+			"dynn_LereS_ti"
+			"dynn_Magheru"
+			"dynn_Marineanu"
+			"dynn_Miclescu"
+			"dynn_MovilA_"
+			"dynn_MA_nA_stireanu"
+			"dynn_Niculescu_DorobanT_u"
+			"dynn_PA_cleanu"
+			"dynn_Pisoschi"
+			"dynn_PleS_ia"
+			"dynn_PleS_nilA_"
+			"dynn_PleS_oianu"
+			"dynn_RacovitzA_"
+			"dynn_RA_S_canu"
+			"dynn_Rallet"
+			"dynn_Rosetti"
+			"dynn_RusA_neS_ti"
+			"dynn_Savoia"
+			"dynn_Stoicescu"
+			"dynn_S_oarec"
+			"dynn_S_oldan"
+			"dynn_TurbureS_ti"
+			"dynn_UrlA_T_eni"
+			"dynn_VidraS_cu"
+			"dynn_Yarka"
+		}
+
+		male_names = {
+			Adrian Alexandru Anghel Aron Bajan Balc Barbat Basarab Bogdan Carol Ciprian Ciubar Claudiu
+			Corneliu Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Gavril Gheorghe Grigore Iacob
+			Iancu Ieremia Ilie Ioan Iorghu Iosif Iuga Janos Ladislau Latcu Laurentiu Litovoi Lucian Marin
+			Mihai Milos Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav Sergiu Simion
+			Stefan Stelian Teodor Tepes Tibor Tihomir Timotei Tudor Valentin Valeriu Vasile Veaceslav
+			Victor Vilhelm Vintila Vlad
+		}
+		female_names = {
+			Adelina Adriana Afina Alexandra Alexia Ana Anastasia Angela Arina Christina Clara Dana Ecatarina
+			Elena Elisabeta Emilia Eufroysina Felicia Floarea Iacoba Ioana Ionela Irina Iulia Maria Monica
+			Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Stana Stefana Stefania Teodora
+			Tereza Vasilica Violeta Voica Zina
+			
+		}
+		
+		dynasty_of_location_prefix = "dynnp_de"
+		
+		patronym_suffix_male = "dynnpat_suf_escu"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
 		mat_grm_name_chance = 40
 		mother_name_chance = 5
 
