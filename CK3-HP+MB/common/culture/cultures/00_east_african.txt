@@ -87,201 +87,6 @@
 			1 = yemenid
 		}
 	}
-	coptic= {
-		
-		color = hsv{ 0.08 0.10 0.5 }
-		
-		cadet_dynasty_names = {
-		
-		dynn_Fayyumi
-		dynn_Dumyati
-		dynn_Turayk
-		dynn_Iskandari
-		dynn_Fustati
-		dynn_Aswani
-		dynn_Asyuti
-		dynn_Nasturusi
-		dynn_Fahdi
-		dynn_Kazzazi
-		dynn_Haroun
-		dynn_Zaia
-		dynn_Abderahman
-		dynn_Merkourios
-		dynn_Bayomi
-		dynn_Quolta
-		dynn_Babnouda
-		dynn_Barsanouphios
-		dynn_Apion
-		dynn_Paphnoutios
-		dynn_Shenouti
-		dynn_Papnoute
-		dynn_Shanouda
-		dynn_Ruweis
-		dynn_Amoun
-		dynn_Bashmur
-
-		}
-		
-		dynasty_names = {
-		
-		dynn_Fayyumi
-		dynn_Dumyati
-		dynn_Turayk
-		dynn_Iskandari
-		dynn_Fustati
-		dynn_Aswani
-		dynn_Asyuti
-		dynn_Nasturusi
-		dynn_Fahdi
-		dynn_Kazzazi
-		dynn_Haroun
-		dynn_Zaia
-		dynn_Abderahman
-		dynn_Merkourios
-		dynn_Bayomi
-		dynn_Quolta
-		dynn_Babnouda
-		dynn_Barsanouphios
-		dynn_Apion
-		dynn_Paphnoutios
-		dynn_Shenouti
-		dynn_Papnoute
-		dynn_Shanouda
-		dynn_Ruweis
-		dynn_Amoun
-		dynn_Bashmur
-
-		}
-
-		male_names = {
-			Aaron_Aaron Abanoub Abderahman_Abderrahman Abianos_Abijah Abisalom Ablarion Abraam_Abraham Agathon_Agathos Agathonikos_Agathonikos Agathos_Agathos
-			Ahmod Aiai Aha Akhom Amon Amakhte An Andronicus Androus_Andrew Anthinos_Anthimos Apanoub Apahour Apamon Apas Aretee Arsenios_Arsenios Ashraf_Ashraf
-			Athanasios_Athanasius Beet Bertouet Biktor_Victor Binyamin_Benjamin Bishoi_Bishara Bolis_Paul Boutros_Peter Cosmas_Cosmos Damianos_Damian Danyal_Daniel
-			Daoud_David Ennikeran Erhu Ezra_Ezra Farag Gerges Ghabri_Gabriel Guirguis_George Habil_Abel Hanouf Hanri_Henry Hany Haroun_Aaron Hesdy Ilyas_Elijah Ishaaq_Isaac
-			Jerjer_Gregory Jinti Jori Keloj Krystafer_Christopher Kyrillos_Cyril Lot_Lothar Macari_Macarius Marcos_Marcus Mareten Matta_Matthew Mei Mikail_Michael
-			Mikhael_Michael Milad_Milad Mina_Menas Musa_Moses Nakat Nahdi Nishde Nai Naui Nishti Nofr Noub Ounouf Ourot Ouini Ounisht Pajro Pakat Pakhom Pamin
-			Panous Papnouti Pashnona Pasnadi Patape Payom Philotheos Pijimi Pijoul Pikhit Pimen Pimoue Pimoui Pishai Pisha-eneh Pishoui Psote Rami Rashad Rashi
-			Roufail_Rafael Ruweis Shenouda Shenouti Shosi Siman_Simon Sok Tadros_Theodore Taio Tawadros_Theodore Touma_Thomas Yakovos_Jacob Yared_Jared
-			Yoannis_John Yousab_Joseph Zacharias_Zachary Zaia_Isaiah
-		}
-		female_names = {
-			Afaf Amunet Asmin Demiana Elpis_Hope Eratee Ese Ester_Esther Fana Hana_Anna Hawwa_Eve Heit Hoeite Ilizabith_Elizabeth Kasrin_Catherine Khnau Khreere Kristina_Christine
-			Lelou Mariam_Maria Marta_Martha Maysoon Meriam_Mary Nefret Paisi Pernoufe Piama Piamun Potamina Raune Rooune Saiou Samia_Samira Sawsan Shouree Shoushou
-			Sofia_Sofia Stoi Takla Talida_Taliba Taloushem Tanouti Taou Tawaret Uradaa Virina_Veronica
-		}
-		
-		#founder_named_dynasties = yes
-
-		
-		mercenary_names = {
-			{ name = "mercenary_company_noba_company" }
-			{ name = "mercenary_company_kushite_band" }
-			{ name = "mercenary_company_company_of_meroe" }
-		}
-
-		ethnicities = {
-			27 = arabid
-			22 = egyptid
-			13 = transmediterranid
-			10 = armenoid
-			9 = berberid
-			6 = libyid
-			4 = asian_alpine
-			4 = north_ethiopid
-			2 = yemenid
-			2 = middle_nile
-			2 = eurafricanid
-			2 = assyroid
-			1 = gracilemediterranid
-			1 = east_ethiopid
-			1 = canarid
-			1 = pontid
-			1 = siwa
-			1 = arabian_veddoid
-			1 = african_alpine
-		}
-	}
-	ethiopian= {
-		
-		color = hsv{ 0.15 0.9 0.7 }
-		
-		cadet_dynasty_names = {
-			"dynn_Solomonid"
-			"dynn_Muqurrid"
-			"dynn_Pakhoras"
-			"dynn_Ramlid"
-			"dynn_Sebsibeid"
-			"dynn_Kebedeid"
-			"dynn_Bekeleid"
-			"dynn_Abateid"
-			"dynn_Sabraid"
-			"dynn_Astatkeid"
-			"dynn_Habeshid"
-			"dynn_DubE_"
-			"dynn_Gobena"
-			"dynn_Selassie"
-			"dynn_Dengel"
-			"dynn_Mesafint"
-			"dynn_Sehul"
-			"dynn_Nadjahid"
-			"dynn_Zagwe"
-		}
-		
-		dynasty_names = {
-			"dynn_Solomonid"
-			"dynn_Muqurrid"
-			"dynn_Pakhoras"
-			"dynn_Ramlid"
-			"dynn_Sebsibeid"
-			"dynn_Kebedeid"
-			"dynn_Bekeleid"
-			"dynn_Abateid"
-			"dynn_Sabraid"
-			"dynn_Astatkeid"
-			"dynn_Habeshid"
-			"dynn_DubE_"
-			"dynn_Gobena"
-			"dynn_Selassie"
-			"dynn_Dengel"
-			"dynn_Mesafint"
-			"dynn_Sehul"
-			"dynn_Nadjahid"
-			"dynn_Zagwe"
-		}
-		
-		male_names = {
-			Amare Dahnay Desta Getachew Geteye Girma Iskinder Abai Abebe Afework Aman Assefa Atoberhan Azmera Bekele Benaim Berhanu Berhanua Berihun Berta Bworo Daniachew Dawit Demissie Eremias Ezana Fasilidas Fethee Gabra Gebereal Gebre Gondar Hackeem Haeran Hagos Hakeem Hakiem Hakim Hakym Iskander Iskinder Iyasu Jima Kafa Kaleb Kelile Kelyle Kifle Lebna Lema Loua Mamo Mekonnen Melaku Mengesha Merille Miruts Negash Negasi Negus Ogbae Ogbai Oromo Rahad Selassie Semer Semere Sisay Tamirat Tariku Taye Tefere Teferi Teka Tekle Tengene Teruworq Tesfaye Tessema Tewodros Yacob Yohannas Yonas Zula
-		}
-		
-		female_names = {
-			Habesha Abeba Abrihet Adanech Adina Alaworld Alitash Amhara Ayana Bathsheba Bekele Belkis Berhane Berta Cheren China Debre Debtera Desse
-			Desta Dilla Falasha Falashina Fana Fannah Genat Hagos Jahzara Jazarah Kayla Kelile Kelyle Keren Kess Kifle Lishan Louama Magdala Maharene
-			Makda Makeda Mandera Melesse Mellesse Misrak Negasi Nishan Nyala Qwara Retta Seble Sela Selamawit Selassie Semhar Senalat Sheba Shinasha
-			Sisay Tavavich Teru Totit Tsage Wagaye Yehudit Zala Zauditu Zeina Zena Zenia
-		}
-		
-		#founder_named_dynasties = yes
-
-
-		mercenary_names = {
-			{ name = "mercenary_company_geezan_company" }
-			{ name = "mercenary_company_tigrayit_band" }
-		}
-
-		ethnicities = {
-			33 = north_ethiopid
-			26 = proto_ethiopid
-			14 = central_ethiopid
-			12 = east_ethiopid
-			10 = yemenid
-			6 = omotic
-			2 = arabid
-			1 = dinkaid
-			1 = eurafricanid
-			1 = middle_nile
-			1 = transmediterranid
-		}
-	}
 	nubian= {
 		
 		color = hsv{ 0.12 0.9 0.7 }
@@ -475,6 +280,201 @@
 			1 = egyptid
 			1 = paleo_saharid
 			1 = proto_ethiopid
+		}
+	}
+	coptic= {
+		
+		color = hsv{ 0.08 0.10 0.5 }
+		
+		cadet_dynasty_names = {
+		
+		dynn_Fayyumi
+		dynn_Dumyati
+		dynn_Turayk
+		dynn_Iskandari
+		dynn_Fustati
+		dynn_Aswani
+		dynn_Asyuti
+		dynn_Nasturusi
+		dynn_Fahdi
+		dynn_Kazzazi
+		dynn_Haroun
+		dynn_Zaia
+		dynn_Abderahman
+		dynn_Merkourios
+		dynn_Bayomi
+		dynn_Quolta
+		dynn_Babnouda
+		dynn_Barsanouphios
+		dynn_Apion
+		dynn_Paphnoutios
+		dynn_Shenouti
+		dynn_Papnoute
+		dynn_Shanouda
+		dynn_Ruweis
+		dynn_Amoun
+		dynn_Bashmur
+
+		}
+		
+		dynasty_names = {
+		
+		dynn_Fayyumi
+		dynn_Dumyati
+		dynn_Turayk
+		dynn_Iskandari
+		dynn_Fustati
+		dynn_Aswani
+		dynn_Asyuti
+		dynn_Nasturusi
+		dynn_Fahdi
+		dynn_Kazzazi
+		dynn_Haroun
+		dynn_Zaia
+		dynn_Abderahman
+		dynn_Merkourios
+		dynn_Bayomi
+		dynn_Quolta
+		dynn_Babnouda
+		dynn_Barsanouphios
+		dynn_Apion
+		dynn_Paphnoutios
+		dynn_Shenouti
+		dynn_Papnoute
+		dynn_Shanouda
+		dynn_Ruweis
+		dynn_Amoun
+		dynn_Bashmur
+
+		}
+
+		male_names = {
+			Aaron_Aaron Abanoub Abderahman_Abderrahman Abianos_Abijah Abisalom Ablarion Abraam_Abraham Agathon_Agathos Agathonikos_Agathonikos Agathos_Agathos
+			Ahmod Aiai Aha Akhom Amon Amakhte An Andronicus Androus_Andrew Anthinos_Anthimos Apanoub Apahour Apamon Apas Aretee Arsenios_Arsenios Ashraf_Ashraf
+			Athanasios_Athanasius Beet Bertouet Biktor_Victor Binyamin_Benjamin Bishoi_Bishara Bolis_Paul Boutros_Peter Cosmas_Cosmos Damianos_Damian Danyal_Daniel
+			Daoud_David Ennikeran Erhu Ezra_Ezra Farag Gerges Ghabri_Gabriel Guirguis_George Habil_Abel Hanouf Hanri_Henry Hany Haroun_Aaron Hesdy Ilyas_Elijah Ishaaq_Isaac
+			Jerjer_Gregory Jinti Jori Keloj Krystafer_Christopher Kyrillos_Cyril Lot_Lothar Macari_Macarius Marcos_Marcus Mareten Matta_Matthew Mei Mikail_Michael
+			Mikhael_Michael Milad_Milad Mina_Menas Musa_Moses Nakat Nahdi Nishde Nai Naui Nishti Nofr Noub Ounouf Ourot Ouini Ounisht Pajro Pakat Pakhom Pamin
+			Panous Papnouti Pashnona Pasnadi Patape Payom Philotheos Pijimi Pijoul Pikhit Pimen Pimoue Pimoui Pishai Pisha-eneh Pishoui Psote Rami Rashad Rashi
+			Roufail_Rafael Ruweis Shenouda Shenouti Shosi Siman_Simon Sok Tadros_Theodore Taio Tawadros_Theodore Touma_Thomas Yakovos_Jacob Yared_Jared
+			Yoannis_John Yousab_Joseph Zacharias_Zachary Zaia_Isaiah
+		}
+		female_names = {
+			Afaf Amunet Asmin Demiana Elpis_Hope Eratee Ese Ester_Esther Fana Hana_Anna Hawwa_Eve Heit Hoeite Ilizabith_Elizabeth Kasrin_Catherine Khnau Khreere Kristina_Christine
+			Lelou Mariam_Maria Marta_Martha Maysoon Meriam_Mary Nefret Paisi Pernoufe Piama Piamun Potamina Raune Rooune Saiou Samia_Samira Sawsan Shouree Shoushou
+			Sofia_Sofia Stoi Takla Talida_Taliba Taloushem Tanouti Taou Tawaret Uradaa Virina_Veronica
+		}
+		
+		#founder_named_dynasties = yes
+
+		
+		mercenary_names = {
+			{ name = "mercenary_company_noba_company" }
+			{ name = "mercenary_company_kushite_band" }
+			{ name = "mercenary_company_company_of_meroe" }
+		}
+
+		ethnicities = {
+			27 = arabid
+			22 = egyptid
+			13 = transmediterranid
+			10 = armenoid
+			9 = berberid
+			6 = libyid
+			4 = asian_alpine
+			4 = north_ethiopid
+			2 = yemenid
+			2 = middle_nile
+			2 = eurafricanid
+			2 = assyroid
+			1 = gracilemediterranid
+			1 = east_ethiopid
+			1 = canarid
+			1 = pontid
+			1 = siwa
+			1 = arabian_veddoid
+			1 = african_alpine
+		}
+	}
+	ethiopian= {
+		
+		color = hsv{ 0.15 0.9 0.7 }
+		
+		cadet_dynasty_names = {
+			"dynn_Solomonid"
+			"dynn_Muqurrid"
+			"dynn_Pakhoras"
+			"dynn_Ramlid"
+			"dynn_Sebsibeid"
+			"dynn_Kebedeid"
+			"dynn_Bekeleid"
+			"dynn_Abateid"
+			"dynn_Sabraid"
+			"dynn_Astatkeid"
+			"dynn_Habeshid"
+			"dynn_DubE_"
+			"dynn_Gobena"
+			"dynn_Selassie"
+			"dynn_Dengel"
+			"dynn_Mesafint"
+			"dynn_Sehul"
+			"dynn_Nadjahid"
+			"dynn_Zagwe"
+		}
+		
+		dynasty_names = {
+			"dynn_Solomonid"
+			"dynn_Muqurrid"
+			"dynn_Pakhoras"
+			"dynn_Ramlid"
+			"dynn_Sebsibeid"
+			"dynn_Kebedeid"
+			"dynn_Bekeleid"
+			"dynn_Abateid"
+			"dynn_Sabraid"
+			"dynn_Astatkeid"
+			"dynn_Habeshid"
+			"dynn_DubE_"
+			"dynn_Gobena"
+			"dynn_Selassie"
+			"dynn_Dengel"
+			"dynn_Mesafint"
+			"dynn_Sehul"
+			"dynn_Nadjahid"
+			"dynn_Zagwe"
+		}
+		
+		male_names = {
+			Amare Dahnay Desta Getachew Geteye Girma Iskinder Abai Abebe Afework Aman Assefa Atoberhan Azmera Bekele Benaim Berhanu Berhanua Berihun Berta Bworo Daniachew Dawit Demissie Eremias Ezana Fasilidas Fethee Gabra Gebereal Gebre Gondar Hackeem Haeran Hagos Hakeem Hakiem Hakim Hakym Iskander Iskinder Iyasu Jima Kafa Kaleb Kelile Kelyle Kifle Lebna Lema Loua Mamo Mekonnen Melaku Mengesha Merille Miruts Negash Negasi Negus Ogbae Ogbai Oromo Rahad Selassie Semer Semere Sisay Tamirat Tariku Taye Tefere Teferi Teka Tekle Tengene Teruworq Tesfaye Tessema Tewodros Yacob Yohannas Yonas Zula
+		}
+		
+		female_names = {
+			Habesha Abeba Abrihet Adanech Adina Alaworld Alitash Amhara Ayana Bathsheba Bekele Belkis Berhane Berta Cheren China Debre Debtera Desse
+			Desta Dilla Falasha Falashina Fana Fannah Genat Hagos Jahzara Jazarah Kayla Kelile Kelyle Keren Kess Kifle Lishan Louama Magdala Maharene
+			Makda Makeda Mandera Melesse Mellesse Misrak Negasi Nishan Nyala Qwara Retta Seble Sela Selamawit Selassie Semhar Senalat Sheba Shinasha
+			Sisay Tavavich Teru Totit Tsage Wagaye Yehudit Zala Zauditu Zeina Zena Zenia
+		}
+		
+		#founder_named_dynasties = yes
+
+
+		mercenary_names = {
+			{ name = "mercenary_company_geezan_company" }
+			{ name = "mercenary_company_tigrayit_band" }
+		}
+
+		ethnicities = {
+			33 = north_ethiopid
+			26 = proto_ethiopid
+			14 = central_ethiopid
+			12 = east_ethiopid
+			10 = yemenid
+			6 = omotic
+			2 = arabid
+			1 = dinkaid
+			1 = eurafricanid
+			1 = middle_nile
+			1 = transmediterranid
 		}
 	}
 }
