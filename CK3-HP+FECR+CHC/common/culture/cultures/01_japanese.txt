@@ -130,14 +130,14 @@ dynasty_names = {
 
 
 		ethnicities = {
-			27 = choshiu
-			26 = satsuma
-			14 = ishikawa
+			27 = satsuma
+			26 = choshiu
+			12 = ishikawa
 			10 = yakonin
+			8 = manchukorean
 			7 = chikuzen
-			7 = manchukorean
-			4 = huanghoid
-			3 = deutero_malayid
+			5 = huanghoid
+			4 = deutero_malayid
 			2 = changkiangid
 			2 = gobid
 			2 = honshu
@@ -149,6 +149,13 @@ dynasty_names = {
 	ainu= {
 		
 		color = { 0.2 0.5 0.5 }
+		graphical_cultures = {
+			turkic_group_coa_gfx
+			steppe_coa_gfx
+			indian_building_gfx
+			mongol_clothing_gfx
+			mongol_unit_gfx
+		}
 		cadet_dynasty_names = {
 		"Shibushari"
 		"Hae"

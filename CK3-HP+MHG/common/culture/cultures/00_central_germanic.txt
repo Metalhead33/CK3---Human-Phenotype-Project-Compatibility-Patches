@@ -386,219 +386,6 @@
 			1 = anglo_saxon
 		}
 	}
-	swabian= {
-		
-		color = { 0.7 0.7 0.7 }
-
-		cadet_dynasty_names = {
-			{ "dynnp_von" "dynn_Swabia" }
-			{ "dynnp_von" "dynn_Berg-Schelklingen" }
-			{ "dynnp_von" "dynn_Hohenstauf" }
-			{ "dynnp_von" "dynn_Kirchberg" }
-			{ "dynnp_von" "dynn_WU_rttemberg" }
-			{ "dynnp_von" "dynn_TU_bingen" }
-			{ "dynnp_von" "dynn_ZA_hringen" }
-			{ "dynnp_von" "dynn_Komburg" }
-			{ "dynnp_von" "dynn_Scharfenberg" }
-			{ "dynnp_von" "dynn_Grenchen" }
-			{ "dynnp_von" "dynn_Lichtenberg" }
-			{ "dynnp_von" "dynn_Hachberg" }
-			{ "dynnp_von" "dynn_Wartenberg" }
-			{ "dynnp_von" "dynn_Wolfach" }
-			{ "dynnp_von" "dynn_Signau" }
-			{ "dynnp_zu" "dynn_Schwaben" }
-			{ "dynnp_von" "dynn_Schwaben" }
-			{ "dynnp_von" "dynn_Tschudi" }
-			{ "dynnp_von" "dynn_Urslingen" }
-			{ "dynnp_von" "dynn_Neuchatel" }
-			{ "dynnp_von" "dynn_Schwyz" }
-			{ "dynnp_von" "dynn_Ulm" }
-			{ "dynnp_von" "dynn_Arbon" }
-			{ "dynnp_von" "dynn_Bucheck" }
-			{ "dynnp_von" "dynn_Genf" }
-			{ "dynn_Schauenburger" }
-			{ "dynn_Oeningen" }
-			{ "dynnp_von" "dynn_Eikenschild" }
-			{ "dynnp_von" "dynn_Schmidtburg" }
-			{ "dynnp_von" "dynn_Baumberg" }
-			{ "dynnp_von" "dynn_Altenbaumberg" }
-			{ "dynnp_von" "dynn_Veringen" }
-			{ "dynnp_von" "dynn_Eselsberg" }
-			{ "dynnp_von" "dynn_Landau" }
-			{ "dynnp_von" "dynn_Glarus" }
-			{ "dynnp_von" "dynn_Schwelz" }
-			{ "dynnp_von" "dynn_Rosenberg" }
-			{ "dynn_Bloch" }
-			{ "dynnp_von" "dynn_Baden" }
-			{ "dynnp_von" "dynn_Nordgau" }
-			{ "dynnp_von" "dynn_Sundgau" }
-			{ "dynnp_von" "dynn_Aargau" }
-			{ "dynnp_von" "dynn_Bern" }
-			{ "dynnp_von" "dynn_Breisgau" }
-			{ "dynnp_von" "dynn_Berlichingen" }
-			{ "dynnp_von" "dynn_Ohningen" }
-			{ "dynnp_von" "dynn_Venis" }
-			{ "dynnp_von" "dynn_Kyburg" }
-			{ "dynn_Schmollinger" }	
-			{ "dynn_Beck" }
-			{ "dynn_Walter" }
-			{ "dynnp_von" "dynn_Eschenloch" }
-			{ "dynnp_von" "dynn_Brunshorn" }
-		}
-
-		dynasty_names = {
-			{ "dynn_Wittelsbach" }
-			{ "dynnp_von" "dynn_Wittelsbach" }
-			{ "dynnp_von" "dynn_KA_rnten" }
-			{ "dynnp_von" "dynn_O_sterreich" }
-			{ "dynnp_von" "dynn_Otakar" }
-			{ "dynnp_von" "dynn_Tirol" }
-			{ "dynnp_von" "dynn_Berg-Schelklingen" }
-			{ "dynnp_von" "dynn_Genf" }
-			{ "dynnp_von" "dynn_Hohenstauf" }
-			{ "dynnp_von" "dynn_Kirchberg" }
-			{ "dynnp_von" "dynn_WU_rttemberg" }
-			{ "dynnp_von" "dynn_TU_bingen" }
-			{ "dynnp_von" "dynn_ZA_hringen" }
-			{ "dynn_Schauenburger" }
-			{ "dynn_Oeningen" }
-			{ "dynnp_von" "dynn_Eikenschild" }
-			{ "dynn_Schmollinger" }
-			{ "dynnp_von" "dynn_Komburg" }
-			{ "dynnp_von" "dynn_Scharfenberg" }
-			{ "dynnp_von" "dynn_Grenchen" }
-			{ "dynnp_von" "dynn_Lichtenberg" }
-			{ "dynnp_von" "dynn_Hachberg" }
-			{ "dynnp_von" "dynn_Wartenberg" }
-			{ "dynnp_von" "dynn_Wolfach" }
-			{ "dynnp_von" "dynn_Signau" }
-			{ "dynn_Beck" }
-			{ "dynnp_zu" "dynn_Schwaben" }
-			{ "dynnp_von" "dynn_Eschenloch" }
-			{ "dynnp_von" "dynn_Schmidtburg" }
-			{ "dynnp_von" "dynn_Baumberg" }
-			{ "dynnp_von" "dynn_Altenbaumberg" }
-			{ "dynnp_von" "dynn_Brunshorn" }
-			{ "dynnp_von" "dynn_Veringen" }
-			{ "dynnp_von" "dynn_Eselsberg" }
-			{ "dynnp_von" "dynn_Landau" }
-			{ "dynnp_von" "dynn_Glarus" }
-			{ "dynnp_von" "dynn_Schwelz" }
-			{ "dynnp_von" "dynn_Tschudi" }
-			{ "dynnp_von" "dynn_Rosenberg" }
-			{ "dynn_Bloch" }
-			{ "dynnp_von" "dynn_Baden" }
-			{ "dynnp_von" "dynn_Nordgau" }
-			{ "dynnp_von" "dynn_Sundgau" }
-			{ "dynnp_von" "dynn_Aargau" }
-			{ "dynnp_von" "dynn_Bern" }
-			{ "dynnp_von" "dynn_Schwyz" }
-			{ "dynnp_von" "dynn_Neuchatel" }
-			{ "dynnp_von" "dynn_Urslingen" }
-			{ "dynnp_von" "dynn_Breisgau" }
-			{ "dynnp_von" "dynn_Ulm" }
-			{ "dynnp_von" "dynn_Berlichingen" }
-			{ "dynnp_von" "dynn_Ohningen" }
-			{ "dynnp_von" "dynn_Venis" }
-			{ "dynnp_von" "dynn_Kyburg" }
-			{ "dynnp_von" "dynn_Arbon" }
-			{ "dynnp_von" "dynn_Bucheck" }
-			{ "dynn_Walter" }
-		}
-
-		male_names = {
-			Adalbero Adalbert Adalhard Adam Ademar Adolf Alarich Alberich Albrecht Alois Amadeus Amalrich Andreas Anselm Ansgar Archembald Arnold Arnulf Augustin
-			Baldarich Baldewin Baldomar Baldur Berard Berengar Bernhard Berthold Burchard
-			Christopher
-			Dieter Dietmar Dietpold Dietrich Dietwin
-			Eberhard Eginolf Ehrenfried Ekbert Ekkehard Emelrich Emich Emmerich Emund Engelbert Erich Ernst
-			Ferdinand Filibert Folkhard Folkmar Franz Friedrich
-			Gautselin Gebhard Georg Gerhard Gerlach Giselbert Gottfried Gotthard Gottschalk Gotzelo Guntram Gunzelin GU_nther
-			Hans Hartmann Hartwig Hardwin Heinrich Helferich Heribert Hermann Hesso Hugo Humbert Hupold
-			Iwo
-			Jakob Johann JU_rgen
-			Karl Karlmann Kaspar Konrad Kuno
-			Lambert Landolf Leopold Liudolf Liutbert Liutbrand Liutpold Lothar Ludolf Ludwig Lutbert
-			Magnus Manegold Manfred Markward Martin Matthias Meinhard Michael Milo
-			Nikolaus Norbert
-			Otto
-			Peter Philipp Poppo
-			Radbot Reinhard Reinhold Rudolf Ruprecht Rutger
-			Siegfried Sieghard Siegmund Sigismund Simon Stefan
-			Theodorich Thietmar Thomas
-			Udalrich Ulrich
-			Viktor Waldemar
-			Walram Walther Welf Wenzel Werner Wido Wigerich Wilhelm Wolfgang Wolfram
-		}
-		female_names = {
-			Adela Adelheid Adelinde Agathe Agnes Alberade Amalberga Amalie
-			Barbara Beatrix Benedicta Berchte Berta Binhilde Brunhilde
-			Cecilie Christine Cothilda
-			Dorothea
-			Elisabeth Emma Engeltraud Ermengard Eufemia
-			Frida Friedrica
-			Gerberga Gerhild Gertrude Gisela Gudrun Gunhilda
-			Hedwig Heike Heilwiva Helene Helga Hemma Henrike Hildeburg Hildegard
-			Ida Ilsa Inga Ingeltrude Irmele Irmeltrud Irmgard Isentrude
-			Jutta
-			Karlotte Katharina Klara Klementia Konstanze Kriemhild Kunigunde
-			Luitgard
-			Margarete Maria Mechthild
-			Oda Osterhild
-			Richara Richenza Richwara Romilda
-			Serhilda Sofie Sybille
-			Trude
-			Ulrike Ursula Ute
-			Walpurga Wilhelmina Winfrida Wulfhilde
-		}
-		dynasty_of_location_prefix = "dynnp_von"
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 5
-		father_name_chance = 10
-		patronym_suffix_male = "dynnpat_suf_son"
-		patronym_suffix_female = "dynnpat_suf_son"
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 50
-		mother_name_chance = 5
-		
-
-		mercenary_names = {
-			{ name = "mercenary_company_swabian_band" }
-			{ name = "mercenary_company_alsace_fighters" }
-			{ name = "mercenary_company_alemannic_sellswords" }
-			{ name = "mercenary_company_helvetic_guard" }
-			{ name = "mercenary_company_swiss_guard" }
-		}
-
-		ethnicities = {
-			20 = subnordid
-			16 = norid
-			14 = north_atlantid
-			14 = dinarid
-			10 = halstatt
-			8 = west_alpinid
-			5 = eurafricanid
-			5 = faelid
-			3 = borreby
-			3 = gracilemediterranid
-			2 = atlanto_mediterranean
-			1 = keltic_nordid
-			1 = litorid
-			1 = neo_danubian
-			1 = gorid
-			1 = carpathid
-			1 = paleo_atlantid
-			1 = paleo_sardinian
-			1 = pre_slavic
-			1 = proto_nordid
-			1 = berberid
-			1 = anglo_saxon
-		}
-	}
 	saxon= {
 		
 		color = { 50 50 50 }
@@ -1193,94 +980,6 @@
 			1 = berberid
 		}
 	}
-	german= {
-		color = { 0.5 0.5 0.5 }
-		
-		used_for_random = no
-
-		cadet_dynasty_names = {
-			{ "dynn_Amaling" }
-			{ "dynn_Hasding" }
-		}
-		
-		dynasty_names = {
-			{ "dynn_Amaling" }
-			{ "dynn_Hasding" }
-		}
-
-		male_names = {
-			Adalbero Adalbert Adalhard Adam Ademar Adolf Alarich Alberich Albrecht Aldrich
-			Alois Amadeus Amalrich Andreas Anselm Arnold Arnulf Augustin Baldarich
-			Baldewin Baldomar Baldur Berengar Bernhard Berthold Burchard Christopher
-			Dieter Dietmar Dietpold Dietrich Dietwin Eberhard Eginolf Ehrenfried Ekbert Ekkehard Emelrich
-			Emich Emmerich Emund Engelbert Erich Ernst Ferdinand Filibert Folkhard Folkmar Franz Friedrich
-			Gautselin Gebhard Georg Gerhard Gerlach Giselbert Gottfried Gotthard Gottschalk
-			Gotzelo Guntram Gunzelin GU_nther Hans Hartmann Hartwig Heinrich Helferich Heribert Hermann Hesso
-			Hugo Humbert Hupold Jakob Johann JU_rgen Karl Karlmann Kaspar Konrad Kuno
-			Lambert Landolf Leopold Liudolf Liutbert Liutbrand Liutpold Lothar Ludolf Ludwig Lutbert
-			Magnus Manegold Manfred Markward Martin Matthias Meinhard Michael Nikolaus Norbert
-			Otto Peter Philipp Poppo Radbot Reinhard Reinhold Rudolf Ruprecht Rutger Siegfried
-			Sieghard Siegmund Sigismund Simon Stefan Theodorich Thietmar Thomas
-			Udalrich Ulrich Viktor Waldemar Walram Walther Welf Wenzel Werner Wido
-			Wigerich Wilhelm Wolfgang Wolfram
-		}
-		female_names = {
-			Adela Adelheid Adelinde Agathe Agnes Alberade Amalberga Amalie Barbara
-			Beatrix Benedicta Berchte Berta Binhilde Brunhilde Cecilie Christine
-			Cothilda Dorothea Elisabeth Emma Engeltraud Ermengard Eufemia
-			Frida Friedrica Gerberga Gerhild Gertrude Gisela Gudrun Gunhilda
-			Hedwig Heike Heilwiva Helene Helga Hemma Henrike Hildeburg Hildegard Ida Ilsa Inga
-			Ingeltrude Irmele Irmeltrud Irmgard Isentrude Jutta Karlotte Katharina Klara
-			Klementia Konstanze Kriemhild Kunigunde Luitgard Margarete Maria
-			Mechthild Oda Osterhild Richara Richenza Richwara Romilda Serhilda Sofie Sybille Trude
-			Ulrike Ursula Ute Walpurga Wilhelmina Winfrida Wulfhilde
-		}
-		dynasty_of_location_prefix = "dynnp_von"
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 50
-		mat_grf_name_chance = 5
-		father_name_chance = 10
-		patronym_suffix_male = "dynnpat_suf_son"
-		patronym_suffix_female = "dynnpat_suf_son"
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 10
-		mat_grm_name_chance = 50
-		mother_name_chance = 5
-		
-
-		mercenary_names = {
-		}
-
-		ethnicities = {
-			21 = subnordid
-			18 = faelid
-			17 = borreby
-			10 = west_alpinid
-			9 = halstatt
-			7 = anglo_saxon
-			6 = north_atlantid
-			4 = dinarid
-			3 = norid
-			2 = atlanto_mediterranean
-			2 = litorid
-			2 = gracilemediterranid
-			1 = keltic_nordid
-			1 = neo_danubian
-			1 = gorid
-			1 = north_pontid
-			1 = paleo_atlantid
-			1 = paleo_sardinian
-			1 = pontid
-			1 = pre_slavic
-			1 = proto_nordid
-			1 = eurafricanid
-			1 = tavastid
-			1 = troender
-			1 = berberid
-		}
-	}
 	frisian= {
 		# Effectively, this culture isn't playable in game
 	
@@ -1425,6 +1124,307 @@
 			2 = troender
 			2 = west_alpinid
 			1 = keltic_nordid
+		}
+	}
+	swabian= {
+		
+		color = { 0.7 0.7 0.7 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_von" "dynn_Swabia" }
+			{ "dynnp_von" "dynn_Berg-Schelklingen" }
+			{ "dynnp_von" "dynn_Hohenstauf" }
+			{ "dynnp_von" "dynn_Kirchberg" }
+			{ "dynnp_von" "dynn_WU_rttemberg" }
+			{ "dynnp_von" "dynn_TU_bingen" }
+			{ "dynnp_von" "dynn_ZA_hringen" }
+			{ "dynnp_von" "dynn_Komburg" }
+			{ "dynnp_von" "dynn_Scharfenberg" }
+			{ "dynnp_von" "dynn_Grenchen" }
+			{ "dynnp_von" "dynn_Lichtenberg" }
+			{ "dynnp_von" "dynn_Hachberg" }
+			{ "dynnp_von" "dynn_Wartenberg" }
+			{ "dynnp_von" "dynn_Wolfach" }
+			{ "dynnp_von" "dynn_Signau" }
+			{ "dynnp_zu" "dynn_Schwaben" }
+			{ "dynnp_von" "dynn_Schwaben" }
+			{ "dynnp_von" "dynn_Tschudi" }
+			{ "dynnp_von" "dynn_Urslingen" }
+			{ "dynnp_von" "dynn_Neuchatel" }
+			{ "dynnp_von" "dynn_Schwyz" }
+			{ "dynnp_von" "dynn_Ulm" }
+			{ "dynnp_von" "dynn_Arbon" }
+			{ "dynnp_von" "dynn_Bucheck" }
+			{ "dynnp_von" "dynn_Genf" }
+			{ "dynn_Schauenburger" }
+			{ "dynn_Oeningen" }
+			{ "dynnp_von" "dynn_Eikenschild" }
+			{ "dynnp_von" "dynn_Schmidtburg" }
+			{ "dynnp_von" "dynn_Baumberg" }
+			{ "dynnp_von" "dynn_Altenbaumberg" }
+			{ "dynnp_von" "dynn_Veringen" }
+			{ "dynnp_von" "dynn_Eselsberg" }
+			{ "dynnp_von" "dynn_Landau" }
+			{ "dynnp_von" "dynn_Glarus" }
+			{ "dynnp_von" "dynn_Schwelz" }
+			{ "dynnp_von" "dynn_Rosenberg" }
+			{ "dynn_Bloch" }
+			{ "dynnp_von" "dynn_Baden" }
+			{ "dynnp_von" "dynn_Nordgau" }
+			{ "dynnp_von" "dynn_Sundgau" }
+			{ "dynnp_von" "dynn_Aargau" }
+			{ "dynnp_von" "dynn_Bern" }
+			{ "dynnp_von" "dynn_Breisgau" }
+			{ "dynnp_von" "dynn_Berlichingen" }
+			{ "dynnp_von" "dynn_Ohningen" }
+			{ "dynnp_von" "dynn_Venis" }
+			{ "dynnp_von" "dynn_Kyburg" }
+			{ "dynn_Schmollinger" }	
+			{ "dynn_Beck" }
+			{ "dynn_Walter" }
+			{ "dynnp_von" "dynn_Eschenloch" }
+			{ "dynnp_von" "dynn_Brunshorn" }
+		}
+
+		dynasty_names = {
+			{ "dynn_Wittelsbach" }
+			{ "dynnp_von" "dynn_Wittelsbach" }
+			{ "dynnp_von" "dynn_KA_rnten" }
+			{ "dynnp_von" "dynn_O_sterreich" }
+			{ "dynnp_von" "dynn_Otakar" }
+			{ "dynnp_von" "dynn_Tirol" }
+			{ "dynnp_von" "dynn_Berg-Schelklingen" }
+			{ "dynnp_von" "dynn_Genf" }
+			{ "dynnp_von" "dynn_Hohenstauf" }
+			{ "dynnp_von" "dynn_Kirchberg" }
+			{ "dynnp_von" "dynn_WU_rttemberg" }
+			{ "dynnp_von" "dynn_TU_bingen" }
+			{ "dynnp_von" "dynn_ZA_hringen" }
+			{ "dynn_Schauenburger" }
+			{ "dynn_Oeningen" }
+			{ "dynnp_von" "dynn_Eikenschild" }
+			{ "dynn_Schmollinger" }
+			{ "dynnp_von" "dynn_Komburg" }
+			{ "dynnp_von" "dynn_Scharfenberg" }
+			{ "dynnp_von" "dynn_Grenchen" }
+			{ "dynnp_von" "dynn_Lichtenberg" }
+			{ "dynnp_von" "dynn_Hachberg" }
+			{ "dynnp_von" "dynn_Wartenberg" }
+			{ "dynnp_von" "dynn_Wolfach" }
+			{ "dynnp_von" "dynn_Signau" }
+			{ "dynn_Beck" }
+			{ "dynnp_zu" "dynn_Schwaben" }
+			{ "dynnp_von" "dynn_Eschenloch" }
+			{ "dynnp_von" "dynn_Schmidtburg" }
+			{ "dynnp_von" "dynn_Baumberg" }
+			{ "dynnp_von" "dynn_Altenbaumberg" }
+			{ "dynnp_von" "dynn_Brunshorn" }
+			{ "dynnp_von" "dynn_Veringen" }
+			{ "dynnp_von" "dynn_Eselsberg" }
+			{ "dynnp_von" "dynn_Landau" }
+			{ "dynnp_von" "dynn_Glarus" }
+			{ "dynnp_von" "dynn_Schwelz" }
+			{ "dynnp_von" "dynn_Tschudi" }
+			{ "dynnp_von" "dynn_Rosenberg" }
+			{ "dynn_Bloch" }
+			{ "dynnp_von" "dynn_Baden" }
+			{ "dynnp_von" "dynn_Nordgau" }
+			{ "dynnp_von" "dynn_Sundgau" }
+			{ "dynnp_von" "dynn_Aargau" }
+			{ "dynnp_von" "dynn_Bern" }
+			{ "dynnp_von" "dynn_Schwyz" }
+			{ "dynnp_von" "dynn_Neuchatel" }
+			{ "dynnp_von" "dynn_Urslingen" }
+			{ "dynnp_von" "dynn_Breisgau" }
+			{ "dynnp_von" "dynn_Ulm" }
+			{ "dynnp_von" "dynn_Berlichingen" }
+			{ "dynnp_von" "dynn_Ohningen" }
+			{ "dynnp_von" "dynn_Venis" }
+			{ "dynnp_von" "dynn_Kyburg" }
+			{ "dynnp_von" "dynn_Arbon" }
+			{ "dynnp_von" "dynn_Bucheck" }
+			{ "dynn_Walter" }
+		}
+
+		male_names = {
+			Adalbero Adalbert Adalhard Adam Ademar Adolf Alarich Alberich Albrecht Alois Amadeus Amalrich Andreas Anselm Ansgar Archembald Arnold Arnulf Augustin
+			Baldarich Baldewin Baldomar Baldur Berard Berengar Bernhard Berthold Burchard
+			Christopher
+			Dieter Dietmar Dietpold Dietrich Dietwin
+			Eberhard Eginolf Ehrenfried Ekbert Ekkehard Emelrich Emich Emmerich Emund Engelbert Erich Ernst
+			Ferdinand Filibert Folkhard Folkmar Franz Friedrich
+			Gautselin Gebhard Georg Gerhard Gerlach Giselbert Gottfried Gotthard Gottschalk Gotzelo Guntram Gunzelin GU_nther
+			Hans Hartmann Hartwig Hardwin Heinrich Helferich Heribert Hermann Hesso Hugo Humbert Hupold
+			Iwo
+			Jakob Johann JU_rgen
+			Karl Karlmann Kaspar Konrad Kuno
+			Lambert Landolf Leopold Liudolf Liutbert Liutbrand Liutpold Lothar Ludolf Ludwig Lutbert
+			Magnus Manegold Manfred Markward Martin Matthias Meinhard Michael Milo
+			Nikolaus Norbert
+			Otto
+			Peter Philipp Poppo
+			Radbot Reinhard Reinhold Rudolf Ruprecht Rutger
+			Siegfried Sieghard Siegmund Sigismund Simon Stefan
+			Theodorich Thietmar Thomas
+			Udalrich Ulrich
+			Viktor Waldemar
+			Walram Walther Welf Wenzel Werner Wido Wigerich Wilhelm Wolfgang Wolfram
+		}
+		female_names = {
+			Adela Adelheid Adelinde Agathe Agnes Alberade Amalberga Amalie
+			Barbara Beatrix Benedicta Berchte Berta Binhilde Brunhilde
+			Cecilie Christine Cothilda
+			Dorothea
+			Elisabeth Emma Engeltraud Ermengard Eufemia
+			Frida Friedrica
+			Gerberga Gerhild Gertrude Gisela Gudrun Gunhilda
+			Hedwig Heike Heilwiva Helene Helga Hemma Henrike Hildeburg Hildegard
+			Ida Ilsa Inga Ingeltrude Irmele Irmeltrud Irmgard Isentrude
+			Jutta
+			Karlotte Katharina Klara Klementia Konstanze Kriemhild Kunigunde
+			Luitgard
+			Margarete Maria Mechthild
+			Oda Osterhild
+			Richara Richenza Richwara Romilda
+			Serhilda Sofie Sybille
+			Trude
+			Ulrike Ursula Ute
+			Walpurga Wilhelmina Winfrida Wulfhilde
+		}
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		patronym_suffix_male = "dynnpat_suf_son"
+		patronym_suffix_female = "dynnpat_suf_son"
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+		
+
+		mercenary_names = {
+			{ name = "mercenary_company_swabian_band" }
+			{ name = "mercenary_company_alsace_fighters" }
+			{ name = "mercenary_company_alemannic_sellswords" }
+			{ name = "mercenary_company_helvetic_guard" }
+			{ name = "mercenary_company_swiss_guard" }
+		}
+
+		ethnicities = {
+			20 = subnordid
+			16 = norid
+			14 = north_atlantid
+			14 = dinarid
+			10 = halstatt
+			8 = west_alpinid
+			5 = eurafricanid
+			5 = faelid
+			3 = borreby
+			3 = gracilemediterranid
+			2 = atlanto_mediterranean
+			1 = keltic_nordid
+			1 = litorid
+			1 = neo_danubian
+			1 = gorid
+			1 = carpathid
+			1 = paleo_atlantid
+			1 = paleo_sardinian
+			1 = pre_slavic
+			1 = proto_nordid
+			1 = berberid
+			1 = anglo_saxon
+		}
+	}
+	german= {
+		color = { 0.5 0.5 0.5 }
+		
+		used_for_random = no
+
+		cadet_dynasty_names = {
+			{ "dynn_Amaling" }
+			{ "dynn_Hasding" }
+		}
+		
+		dynasty_names = {
+			{ "dynn_Amaling" }
+			{ "dynn_Hasding" }
+		}
+
+		male_names = {
+			Adalbero Adalbert Adalhard Adam Ademar Adolf Alarich Alberich Albrecht Aldrich
+			Alois Amadeus Amalrich Andreas Anselm Arnold Arnulf Augustin Baldarich
+			Baldewin Baldomar Baldur Berengar Bernhard Berthold Burchard Christopher
+			Dieter Dietmar Dietpold Dietrich Dietwin Eberhard Eginolf Ehrenfried Ekbert Ekkehard Emelrich
+			Emich Emmerich Emund Engelbert Erich Ernst Ferdinand Filibert Folkhard Folkmar Franz Friedrich
+			Gautselin Gebhard Georg Gerhard Gerlach Giselbert Gottfried Gotthard Gottschalk
+			Gotzelo Guntram Gunzelin GU_nther Hans Hartmann Hartwig Heinrich Helferich Heribert Hermann Hesso
+			Hugo Humbert Hupold Jakob Johann JU_rgen Karl Karlmann Kaspar Konrad Kuno
+			Lambert Landolf Leopold Liudolf Liutbert Liutbrand Liutpold Lothar Ludolf Ludwig Lutbert
+			Magnus Manegold Manfred Markward Martin Matthias Meinhard Michael Nikolaus Norbert
+			Otto Peter Philipp Poppo Radbot Reinhard Reinhold Rudolf Ruprecht Rutger Siegfried
+			Sieghard Siegmund Sigismund Simon Stefan Theodorich Thietmar Thomas
+			Udalrich Ulrich Viktor Waldemar Walram Walther Welf Wenzel Werner Wido
+			Wigerich Wilhelm Wolfgang Wolfram
+		}
+		female_names = {
+			Adela Adelheid Adelinde Agathe Agnes Alberade Amalberga Amalie Barbara
+			Beatrix Benedicta Berchte Berta Binhilde Brunhilde Cecilie Christine
+			Cothilda Dorothea Elisabeth Emma Engeltraud Ermengard Eufemia
+			Frida Friedrica Gerberga Gerhild Gertrude Gisela Gudrun Gunhilda
+			Hedwig Heike Heilwiva Helene Helga Hemma Henrike Hildeburg Hildegard Ida Ilsa Inga
+			Ingeltrude Irmele Irmeltrud Irmgard Isentrude Jutta Karlotte Katharina Klara
+			Klementia Konstanze Kriemhild Kunigunde Luitgard Margarete Maria
+			Mechthild Oda Osterhild Richara Richenza Richwara Romilda Serhilda Sofie Sybille Trude
+			Ulrike Ursula Ute Walpurga Wilhelmina Winfrida Wulfhilde
+		}
+		dynasty_of_location_prefix = "dynnp_von"
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 5
+		father_name_chance = 10
+		patronym_suffix_male = "dynnpat_suf_son"
+		patronym_suffix_female = "dynnpat_suf_son"
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 5
+		
+
+		mercenary_names = {
+		}
+
+		ethnicities = {
+			21 = subnordid
+			18 = faelid
+			17 = borreby
+			10 = west_alpinid
+			9 = halstatt
+			7 = anglo_saxon
+			6 = north_atlantid
+			4 = dinarid
+			3 = norid
+			2 = atlanto_mediterranean
+			2 = litorid
+			2 = gracilemediterranid
+			1 = keltic_nordid
+			1 = neo_danubian
+			1 = gorid
+			1 = north_pontid
+			1 = paleo_atlantid
+			1 = paleo_sardinian
+			1 = pontid
+			1 = pre_slavic
+			1 = proto_nordid
+			1 = eurafricanid
+			1 = tavastid
+			1 = troender
+			1 = berberid
 		}
 	}
 }

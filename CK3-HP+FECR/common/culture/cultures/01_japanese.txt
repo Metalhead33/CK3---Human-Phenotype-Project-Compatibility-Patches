@@ -6,127 +6,6 @@
 		mongol_unit_gfx
 	}
 
-	ainu= {
-		
-		color = { 0.2 0.5 0.5 }
-		cadet_dynasty_names = {
-		"Shibushari"
-		"Hae"
-		"Betsu"
-		"Shiraoi"
-		"Kurasi"
-		"Kakizaki"
-		"Ponyanpe"
-		"Shirokani"
-		"Otona"
-		"Ekashi"
-		"Saru"
-		"Usu"
-		}
-
-		dynasty_names = {
-		"Shibushari"
-		"Hae"
-		"Betsu"
-		"Shiraoi"
-		"Kurasi"
-		"Kakizaki"
-		"Ponyanpe"
-		"Shirokani"
-		"Otona"
-		"Ekashi"
-		"Saru"
-		"Usu"
-		}
-
-		male_names = {
-		"Akihi"
-"Aterui"
-"Atuy"
-"Auta"
-"Benkei"
-"Bikki"
-"Chikap"
-"Ekashiba"
-"Hakumakle"
-"Harukor"
-"Hennauke"
-"Isonash"
-"Itakshir"
-"Kamokutain"
-"Kamuima"
-"Kinalabukk"
-"Koshamain"
-"Koshamain"
-"Kuuchinklo"
-"Kuuklekle"
-"Mennaukei"
-"Oki"
-"Onibishi"
-"Pasekur"
-"Penri"
-"Pettennouk"
-"Piripos"
-"Poiyaunpe"
-"Ponni"
-"Resak"
-"Sahpo"
-"Sannyoaino"
-"Shakushain"
-"Shinda"
-"Sisiratoka"
-"Tahkonanna"
-"Takatsuki"
-"Tanashagashi"
-"Tarikonna"
-"Toacano"
-"Turushino"
-"Turushno"
-"Yayomanekuh"
-		}
-		female_names = {
-		"Abenanka"
-"Asir_Rera"
-"Ayai"
-"Beramonkoro"
-"Chinita"
-"Esohrankemah"
-"Esohranma"
-"Etunrachich"
-"Fusa"
-"Hakumakle"
-"Horpecha"
-"Hotene"
-"Huisak"
-"Husko"
-"Imekanu"
-"Kakula"
-"Kinalabukk"
-"Monashir"
-"Muisashimats"
-"Niutanimats"
-"Opere"
-"Pukusa"
-"Resunotek"
-"Tanelankemats"
-"Tekakunkemah"
-"Toitoi"
-		}
-		dynasty_of_location_prefix = "dynnp_no"
-		dynasty_name_first = yes
-		dynasty_title_names = yes
-
-
-		ethnicities = {
-			64 = aoshima
-			20 = ishikawa
-			9 = baykal
-			3 = chikuzen
-			3 = choshiu
-			3 = satsuma
-			2 = manchukorean
-		}
-	}
 	japanese= {
 		
 		color = { 0.1 0.6 0.6 }
@@ -265,6 +144,127 @@ dynasty_names = {
 			1 = chukiangid
 			1 = nesiotid
 			1 = okinawa
+		}
+	}
+	ainu= {
+		
+		color = { 0.2 0.5 0.5 }
+		cadet_dynasty_names = {
+		"Shibushari"
+		"Hae"
+		"Betsu"
+		"Shiraoi"
+		"Kurasi"
+		"Kakizaki"
+		"Ponyanpe"
+		"Shirokani"
+		"Otona"
+		"Ekashi"
+		"Saru"
+		"Usu"
+		}
+
+		dynasty_names = {
+		"Shibushari"
+		"Hae"
+		"Betsu"
+		"Shiraoi"
+		"Kurasi"
+		"Kakizaki"
+		"Ponyanpe"
+		"Shirokani"
+		"Otona"
+		"Ekashi"
+		"Saru"
+		"Usu"
+		}
+
+		male_names = {
+		"Akihi"
+"Aterui"
+"Atuy"
+"Auta"
+"Benkei"
+"Bikki"
+"Chikap"
+"Ekashiba"
+"Hakumakle"
+"Harukor"
+"Hennauke"
+"Isonash"
+"Itakshir"
+"Kamokutain"
+"Kamuima"
+"Kinalabukk"
+"Koshamain"
+"Koshamain"
+"Kuuchinklo"
+"Kuuklekle"
+"Mennaukei"
+"Oki"
+"Onibishi"
+"Pasekur"
+"Penri"
+"Pettennouk"
+"Piripos"
+"Poiyaunpe"
+"Ponni"
+"Resak"
+"Sahpo"
+"Sannyoaino"
+"Shakushain"
+"Shinda"
+"Sisiratoka"
+"Tahkonanna"
+"Takatsuki"
+"Tanashagashi"
+"Tarikonna"
+"Toacano"
+"Turushino"
+"Turushno"
+"Yayomanekuh"
+		}
+		female_names = {
+		"Abenanka"
+"Asir_Rera"
+"Ayai"
+"Beramonkoro"
+"Chinita"
+"Esohrankemah"
+"Esohranma"
+"Etunrachich"
+"Fusa"
+"Hakumakle"
+"Horpecha"
+"Hotene"
+"Huisak"
+"Husko"
+"Imekanu"
+"Kakula"
+"Kinalabukk"
+"Monashir"
+"Muisashimats"
+"Niutanimats"
+"Opere"
+"Pukusa"
+"Resunotek"
+"Tanelankemats"
+"Tekakunkemah"
+"Toitoi"
+		}
+		dynasty_of_location_prefix = "dynnp_no"
+		dynasty_name_first = yes
+		dynasty_title_names = yes
+
+
+		ethnicities = {
+			64 = aoshima
+			20 = ishikawa
+			9 = baykal
+			3 = chikuzen
+			3 = choshiu
+			3 = satsuma
+			2 = manchukorean
 		}
 	}
 }

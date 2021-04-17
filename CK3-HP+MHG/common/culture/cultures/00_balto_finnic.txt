@@ -121,6 +121,106 @@
 			1 = troender
 		}
 	}
+	sami= {
+		graphical_cultures = {
+			sami_coa_gfx
+		}
+		cadet_dynasty_names = {
+			"dynn_Ahkebeaivi"
+			"dynn_Ahkemiella"
+			"dynn_GA_ivvaS_"
+			"dynn_Varakid"
+			"dynn_Sarakid"
+			"dynn_Hasabid"
+			"dynn_Tatvid"
+			"dynn_Yurakid"
+			"dynn_Jio"
+			"dynn_Simo"
+			"dynn_Kuni"
+			"dynn_Rahna"
+			"dynn_Sochioch"
+			"dynn_Jochmoch"
+			"dynn_Avioware"
+			"dynn_Enare"
+			"dynn_Enaraby"
+			"dynn_Kimi"
+			"dynn_Suenekelle"
+			"dynn_Warager"
+			"dynn_Teno"
+			"dynn_Maggeroe"
+			"dynn_Kittilaby"
+			"dynn_Sambeaoby"
+			"dynn_Pajersvi"
+			"dynn_Kielit"
+			"dynn_Kemeloe"
+		}
+
+		dynasty_names = {
+			"dynn_Ahkebeaivi"
+			"dynn_Ahkemiella"
+			"dynn_GA_ivvaS_"
+			"dynn_Varakid"
+			"dynn_Sarakid"
+			"dynn_Hasabid"
+			"dynn_Tatvid"
+			"dynn_Yurakid"
+			"dynn_Jio"
+			"dynn_Simo"
+			"dynn_Kuni"
+			"dynn_Rahna"
+			"dynn_Sochioch"
+			"dynn_Jochmoch"
+			"dynn_Avioware"
+			"dynn_Enare"
+			"dynn_Enaraby"
+			"dynn_Kimi"
+			"dynn_Suenekelle"
+			"dynn_Warager"
+			"dynn_Teno"
+			"dynn_Maggeroe"
+			"dynn_Kittilaby"
+			"dynn_Sambeaoby"
+			"dynn_Pajersvi"
+			"dynn_Kielit"
+			"dynn_Kemeloe"
+		}
+		
+		color = { 0.4 0.75 0.85 }
+
+		male_names = {
+			A_ggi A_igesA_rri A_ilu A_mmot A_ra A_rrajuoksa A_sllat E_oavvA_ Ahkemiella Algebaeivi Baeivi Baeivvet Biejan BijA_s Bilzi DA_vgon DuttA_ GA_ivvas
+			GA_ktu Henes JA_rre Jeansa Juvven LA_gon LA_vrrohas LeammA_ Mellet Mihka Mohkku Mokci NA_hkol NA_innas Njulgu OavA_n Orddot RA_stos Riibma Ruigi
+			SA_rra Speaidna Viggu
+		}
+		female_names = {
+			A_idnA_ A_lgen A_llet E_uvje BiellA_ BiergA_ BuohttA_ DuojA_ GealA_ GierA_ Giste JuoksA_hkkA_ Leandu MA_idna NA_sti NanA_ NjA_ves OajA_ SA_rA_hkkA_ SealggA_
+			SearA_ SoabA_ SojA_ SuoinnA_ Suonjar UksA_hkkA_
+		}
+		dynasty_of_location_prefix = "dynnp_of"
+
+
+		ethnicities = {
+			34 = north_lappid
+			18 = scando_lappid
+			16 = savolaxid
+			14 = tavastid
+			8 = troender
+			4 = borreby
+			2 = volgid
+			2 = neo_danubian
+			1 = north_atlantid
+			1 = north_pontid
+			1 = paleo_atlantid
+			1 = proto_nordid
+			1 = samoyedic
+			1 = ladogan
+			1 = halstatt
+			1 = strandid
+			1 = fenno_nordid
+			1 = faelid
+			1 = aisto_nordid
+		}
+	}
 	vepsian= {
 
 		cadet_dynasty_names = {
@@ -305,106 +405,6 @@
 			1 = pre_slavic
 			1 = samoyedic
 			1 = scando_lappid
-		}
-	}
-	sami= {
-		graphical_cultures = {
-			sami_coa_gfx
-		}
-		cadet_dynasty_names = {
-			"dynn_Ahkebeaivi"
-			"dynn_Ahkemiella"
-			"dynn_GA_ivvaS_"
-			"dynn_Varakid"
-			"dynn_Sarakid"
-			"dynn_Hasabid"
-			"dynn_Tatvid"
-			"dynn_Yurakid"
-			"dynn_Jio"
-			"dynn_Simo"
-			"dynn_Kuni"
-			"dynn_Rahna"
-			"dynn_Sochioch"
-			"dynn_Jochmoch"
-			"dynn_Avioware"
-			"dynn_Enare"
-			"dynn_Enaraby"
-			"dynn_Kimi"
-			"dynn_Suenekelle"
-			"dynn_Warager"
-			"dynn_Teno"
-			"dynn_Maggeroe"
-			"dynn_Kittilaby"
-			"dynn_Sambeaoby"
-			"dynn_Pajersvi"
-			"dynn_Kielit"
-			"dynn_Kemeloe"
-		}
-
-		dynasty_names = {
-			"dynn_Ahkebeaivi"
-			"dynn_Ahkemiella"
-			"dynn_GA_ivvaS_"
-			"dynn_Varakid"
-			"dynn_Sarakid"
-			"dynn_Hasabid"
-			"dynn_Tatvid"
-			"dynn_Yurakid"
-			"dynn_Jio"
-			"dynn_Simo"
-			"dynn_Kuni"
-			"dynn_Rahna"
-			"dynn_Sochioch"
-			"dynn_Jochmoch"
-			"dynn_Avioware"
-			"dynn_Enare"
-			"dynn_Enaraby"
-			"dynn_Kimi"
-			"dynn_Suenekelle"
-			"dynn_Warager"
-			"dynn_Teno"
-			"dynn_Maggeroe"
-			"dynn_Kittilaby"
-			"dynn_Sambeaoby"
-			"dynn_Pajersvi"
-			"dynn_Kielit"
-			"dynn_Kemeloe"
-		}
-		
-		color = { 0.4 0.75 0.85 }
-
-		male_names = {
-			A_ggi A_igesA_rri A_ilu A_mmot A_ra A_rrajuoksa A_sllat E_oavvA_ Ahkemiella Algebaeivi Baeivi Baeivvet Biejan BijA_s Bilzi DA_vgon DuttA_ GA_ivvas
-			GA_ktu Henes JA_rre Jeansa Juvven LA_gon LA_vrrohas LeammA_ Mellet Mihka Mohkku Mokci NA_hkol NA_innas Njulgu OavA_n Orddot RA_stos Riibma Ruigi
-			SA_rra Speaidna Viggu
-		}
-		female_names = {
-			A_idnA_ A_lgen A_llet E_uvje BiellA_ BiergA_ BuohttA_ DuojA_ GealA_ GierA_ Giste JuoksA_hkkA_ Leandu MA_idna NA_sti NanA_ NjA_ves OajA_ SA_rA_hkkA_ SealggA_
-			SearA_ SoabA_ SojA_ SuoinnA_ Suonjar UksA_hkkA_
-		}
-		dynasty_of_location_prefix = "dynnp_of"
-
-
-		ethnicities = {
-			34 = north_lappid
-			18 = scando_lappid
-			16 = savolaxid
-			14 = tavastid
-			8 = troender
-			4 = borreby
-			2 = volgid
-			2 = neo_danubian
-			1 = north_atlantid
-			1 = north_pontid
-			1 = paleo_atlantid
-			1 = proto_nordid
-			1 = samoyedic
-			1 = ladogan
-			1 = halstatt
-			1 = strandid
-			1 = fenno_nordid
-			1 = faelid
-			1 = aisto_nordid
 		}
 	}
 	estonian= {

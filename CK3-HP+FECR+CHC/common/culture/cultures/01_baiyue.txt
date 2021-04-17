@@ -2,13 +2,90 @@
 	graphical_cultures = {
 		chinese_group_coa_gfx
 		indian_building_gfx
-		chinese_clothing_gfx
+		indian_clothing_gfx
 		indian_unit_gfx
 	}
 
+	khmer= {
+		
+		color = { 0.3 0.65 0.45 }
+		cadet_dynasty_names = {
+		Aang Aek Ang Angkor Aok Battambang Ben Bun Chan Chap Chea Cheam Chen Cheng Chey Chhan Chhem Chhet
+		Chhim Chhit Chhorn Chim Chin Choem Din Dith Dul Duong Dy Eam Eav Eaw Ek Hak Ho Hong Hu Hun Iam Iem Im
+		Iv Jan Jay Jen Jey Jin Kaing Kem Keo Kep Khat Khay Kheang Khiev Khim Khin Khlot Kim Kouch Kratie Kuy Lay
+		Lim Liv Long Ly Ma Mao Mean Meas Meng Mul Muoy Muy Nhek Ny Ok Om Ong Ouch Oudong Pang Pech Pen Phan Phnom_Penh
+		Phy Pich Pok Prak Ros Rous Rouy Sam San Sang Sao Sar Sat Say Seang Sen Seng Seoung Siem_Reap Sieng Sin So Sok Som Son
+		Song Sor Soun Stung_Treng Su Suy Taing Tang Tat Teav Tep Than Thy Toch Tok Touch Try Tum Ty Uch Um Uy Vang
+		Vong Yim Yos Yous Yu Yun
+		}
+
+		dynasty_names = {
+		Aang Aek Ang Angkor Aok Battambang Ben Bun Chan Chap Chea Cheam Chen Cheng Chey Chhan Chhem Chhet
+		Chhim Chhit Chhorn Chim Chin Choem Din Dith Dul Duong Dy Eam Eav Eaw Ek Hak Ho Hong Hu Hun Iam Iem Im
+		Iv Jan Jay Jen Jey Jin Kaing Kem Keo Kep Khat Khay Kheang Khiev Khim Khin Khlot Kim Kouch Kratie Kuy Lay
+		Lim Liv Long Ly Ma Mao Mean Meas Meng Mul Muoy Muy Nhek Ny Ok Om Ong Ouch Oudong Pang Pech Pen Phan Phnom_Penh
+		Phy Pich Pok Prak Ros Rous Rouy Sam San Sang Sao Sar Sat Say Seang Sen Seng Seoung Siem_Reap Sieng Sin So Sok Som Son
+		Song Sor Soun Stung_Treng Su Suy Taing Tang Tat Teav Tep Than Thy Toch Tok Touch Try Tum Ty Uch Um Uy Vang
+		Vong Yim Yos Yous Yu Yun
+		}
+
+		male_names = {
+		Anchaly Ang_Chan Ang_Chea Ang_Duong Ang_Em Ang_Eng Ang_Nan Ang_Non Ang_Sngoun Ang_Sor Ang_Sur Ang_Tham Ang_Ton
+		Ang_Tong Ang_Yong Atith Barom_Reachea Boran Borey Bourey Bunroeun Chamroeun Chan Chankrisna Chanthou Chanvatey
+		Charya Chea Chey_Chettha Chhay Damkhat_Sukonthor Dara Darany Davuth Dharmaraja Dharmarajadhiraja Kakada Keo_Ban_On
+		Keo_Hua Khean Khemera Kiry Kong_Kea Kosal Kravann Leap Meaker Mittapheap Montha Munny Narayanaraja Narith Nemo
+		Ney_Khan Nhean Nimith Nimo Nimol Nisay Noreaksey Noreay_Ramathipatei Oudom Outey_Reachea Padumaraja Phala
+		Pheakdei Phirum Phirun Pich Piseth Pisey Poeu Ponhea_An Ponhea_Chan Ponhea_Nhom Ponhea_To Ponhea_Yat Ponhea_Yor
+		Ponleak Ponleu Ponlok Prak Preah_Ram Pros Puthyrith Rainsey Rajadhiraja Raksmei Ramathipadi Rangsey Rathana Rathanak
+		Reachea_Ramathipatei Reamea_Chungprey Ream_Reachea Reasmey Rith Rithipol Rithisak Rithy Rothanak Sakngea Saloth Samang
+		Sambath Samlain Samnang Samphy Sangha Sann Satha Sathea Sokha Sokhem Sokhom Sokun Somnang Sonith Sopath Sophaep Sopheak
+		Sopheaktra Sopheap Sopheara Soriyotei Sorya Sothea Sothy Sourkeat Sov Sovann Sovannar Sovannarith Sovay Srei_Soriyopear
+		Srey_Sukonthor Sri_Raja Sros Thommo_Reachea Udayaraja Vanna Vannak Veasna Veha Vibol Vichear Vireak Vireakboth Visal
+		Viseth Visna Visoth Visothirith Vithara Vithu
+		}
+		female_names = {
+		Achariya Akara Anak Anchali Ang_Mey Arunny Ary Bopha Botum Boupha Champei Champey Chamroeun Chan Chang Chankrisna
+		Chanlina Chanmony Channary Chanthavy Chanthou Chantou Chantrea Chanvatey Charaya Chariya Chavy Chaya Chea Chenda
+		Chhaiya Chhean Chhorvin Chhorvon Chivy Choum Chouma Da Daevy Dara Darareaksmey Davi Jorani Kalianne Kaliyanei Kalliyan
+		Kanleakhana Kannareth Kannitha Kanya Kesor Kolab Kolthida Kongkea Krachap Kravann Kun Kunthea Leakena Leakhena Leap Mach
+		Makara Malis Maly Mau Mealea Mean Mliss Moneang Mony Nakry Nary Neang Nearidei Neary Nuon Panha Peou Phally Phary Pheakdei
+		Pheakkley Phhoung Pich Pisey Ponlok Ponnleu Pou Punthea Putrea Rachana Rachany Rangsei Reach Reaksmey Reasmey Rom Rotha
+		Roumduol Roumjong Sakngea Saley Samnang Samphy Savady Sawatdee Seda Sela Seyha Shannary Sikha Sinuon Sita Soboen Socheat
+		Socheata Sok Sokha Sokhanya Sokhom Sombo Sonisay Sonith Sophea Sopheap Sopheary Sovann Sovannah Sreyleak Tevy Thea Theavy
+		Thom Thyda Tina Toch Tola Vanna Veasna Veata Vimean
+		}
+		dynasty_name_first = yes
+		dynasty_title_names = yes
+
+
+		ethnicities = {
+			38 = khmerid
+			23 = south_palaungid
+			16 = east_shanid
+			7 = annamid
+			7 = senoid
+			3 = changkiangid
+			3 = chukiangid
+			3 = kachinid
+			2 = deutero_malayid
+			1 = east_palaungid
+			1 = karnatid
+			1 = kham
+			1 = kolid
+			1 = palaungid
+			1 = shanid
+			1 = tonkinesid
+		}
+	}
 	vietnamese= {
 		
 		color = { 0.3 0.45 0.45 }
+		graphical_cultures = {
+			chinese_group_coa_gfx
+			indian_building_gfx
+			chinese_clothing_gfx
+			mongol_unit_gfx
+		}
 cadet_dynasty_names = {
 "sinosphere_d_001_vietnamese" "sinosphere_d_002_vietnamese" "sinosphere_d_003_vietnamese" "sinosphere_d_004_vietnamese" "sinosphere_d_005_vietnamese" "sinosphere_d_006_vietnamese" "sinosphere_d_007_vietnamese" "sinosphere_d_008_vietnamese" "sinosphere_d_009_vietnamese" "sinosphere_d_010_vietnamese" "sinosphere_d_011_vietnamese" "sinosphere_d_012_vietnamese" "sinosphere_d_013_vietnamese" "sinosphere_d_014_vietnamese" "sinosphere_d_015_vietnamese" "sinosphere_d_016_vietnamese" "sinosphere_d_017_vietnamese" "sinosphere_d_018_vietnamese" "sinosphere_d_019_vietnamese" "sinosphere_d_020_vietnamese" "sinosphere_d_021_vietnamese" "sinosphere_d_022_vietnamese" "sinosphere_d_023_vietnamese" "sinosphere_d_024_vietnamese" "sinosphere_d_025_vietnamese" "sinosphere_d_026_vietnamese" "sinosphere_d_027_vietnamese" "sinosphere_d_028_vietnamese" "sinosphere_d_029_vietnamese" "sinosphere_d_030_vietnamese" "sinosphere_d_031_vietnamese" "sinosphere_d_032_vietnamese" "sinosphere_d_033_vietnamese" "sinosphere_d_034_vietnamese" "sinosphere_d_035_vietnamese" "sinosphere_d_036_vietnamese" "sinosphere_d_037_vietnamese" "sinosphere_d_038_vietnamese" "sinosphere_d_039_vietnamese" "sinosphere_d_040_vietnamese" "sinosphere_d_041_vietnamese" "sinosphere_d_042_vietnamese" "sinosphere_d_043_vietnamese" "sinosphere_d_044_vietnamese" "sinosphere_d_045_vietnamese" "sinosphere_d_046_vietnamese" "sinosphere_d_047_vietnamese" "sinosphere_d_048_vietnamese" "sinosphere_d_049_vietnamese" "sinosphere_d_050_vietnamese" "sinosphere_d_051_vietnamese" "sinosphere_d_052_vietnamese" "sinosphere_d_053_vietnamese" "sinosphere_d_054_vietnamese" 
 "sinosphere_d_055_vietnamese" "sinosphere_d_056_vietnamese" "sinosphere_d_057_vietnamese" "sinosphere_d_058_vietnamese" "sinosphere_d_059_vietnamese" "sinosphere_d_060_vietnamese" "sinosphere_d_061_vietnamese" "sinosphere_d_062_vietnamese" "sinosphere_d_063_vietnamese" "sinosphere_d_064_vietnamese" "sinosphere_d_065_vietnamese" "sinosphere_d_066_vietnamese" "sinosphere_d_067_vietnamese" "sinosphere_d_068_vietnamese" "sinosphere_d_069_vietnamese" "sinosphere_d_070_vietnamese" "sinosphere_d_071_vietnamese" "sinosphere_d_072_vietnamese" "sinosphere_d_073_vietnamese" "sinosphere_d_074_vietnamese" "sinosphere_d_075_vietnamese" "sinosphere_d_076_vietnamese" "sinosphere_d_077_vietnamese" "sinosphere_d_078_vietnamese" "sinosphere_d_079_vietnamese" "sinosphere_d_080_vietnamese" "sinosphere_d_081_vietnamese" "sinosphere_d_082_vietnamese" "sinosphere_d_083_vietnamese" "sinosphere_d_084_vietnamese" "sinosphere_d_085_vietnamese" "sinosphere_d_086_vietnamese" "sinosphere_d_087_vietnamese" "sinosphere_d_088_vietnamese" "sinosphere_d_089_vietnamese" "sinosphere_d_090_vietnamese" "sinosphere_d_091_vietnamese" "sinosphere_d_092_vietnamese" "sinosphere_d_093_vietnamese" "sinosphere_d_094_vietnamese" "sinosphere_d_095_vietnamese" "sinosphere_d_096_vietnamese" "sinosphere_d_097_vietnamese" "sinosphere_d_098_vietnamese" "sinosphere_d_099_vietnamese" "sinosphere_d_100_vietnamese" "sinosphere_d_101_vietnamese" "sinosphere_d_102_vietnamese" "sinosphere_d_103_vietnamese" "sinosphere_d_104_vietnamese" "sinosphere_d_105_vietnamese" "sinosphere_d_106_vietnamese" "sinosphere_d_107_vietnamese" "sinosphere_d_108_vietnamese" 
@@ -107,24 +184,86 @@ female_names = {
 
 
 		ethnicities = {
-			16 = annamid
-			14 = tonkinesid
-			14 = south_palaungid
-			13 = east_shanid
-			10 = khmerid
-			8 = deutero_malayid
-			6 = kachinid
-			5 = east_palaungid
-			5 = shanid
-			4 = chukiangid
-			4 = senoid
+			25 = tonkinesid
+			20 = east_shanid
+			11 = annamid
+			10 = south_palaungid
+			8 = east_palaungid
+			7 = kachinid
+			6 = shanid
+			5 = chukiangid
+			4 = tibetid
+			3 = khmerid
 			2 = changkiangid
+			2 = deutero_malayid
+			2 = kham
+			2 = palaungid
+			1 = senoid
+		}
+	}
+	thai= {
+		
+		color = { 0.5 0.45 0.45 }
+		cadet_dynasty_names = {
+		Adulyadej Amarin Ambhom Ananada Anchali Anong Anuman Anurak Aromdee Arthit Awut Ayutthaya Bae Bannarasee
+		Bhirombhakdi Boonjumnong Boonyasak Bui Bunnag Chadaporn Chakrii Charoensuk Chearavanont Chen Chet_Ton Chiang_Mai
+		Chidchob Chirathivat Chitragani Choonhavan Dangda Du Jitkhunthod Jutanugarn Kaikaew Kanjanapas Karbdecho Kasem
+		Krairiksh Kumkhum Lampang Lamphun Lamsam Lavapura Makok Malee Maleenont Na_Chiangmai Nakhon_Pathom Nakhon_Sawan
+		Ngam Niran Noi Paśú Phetchaburi Phimai Phitsanulok Phra_Bang Pravat Ratanapol Ratanaporn Ratanarak Ratanarat Ratchaburi
+		Rattanakosin Ritthirong Rochana Rueng Saelau Saengkaew Sakdan Sanouk Sawangsri Shinawatra Siriporn Sirivadhanabhakdi
+		Soikham Somsri Sri_Thep Sukhothai Suwan Suwannarat Tancharoen Tham_Boon Thonburi Thongchai Thong_Di Trubbaya U_Thong Vejjajiva
+		Vongvanij Wattanasin Wong Yoovidhya
+		}
+		dynasty_names = {
+		Adulyadej Amarin Ambhom Ananada Anchali Anong Anuman Anurak Aromdee Arthit Awut Ayutthaya Bae Bannarasee
+		Bhirombhakdi Boonjumnong Boonyasak Bui Bunnag Chadaporn Chakrii Charoensuk Chearavanont Chen Chet_Ton Chiang_Mai
+		Chidchob Chirathivat Chitragani Choonhavan Dangda Du Jitkhunthod Jutanugarn Kaikaew Kanjanapas Karbdecho Kasem
+		Krairiksh Kumkhum Lampang Lamphun Lamsam Lavapura Makok Malee Maleenont Na_Chiangmai Nakhon_Pathom Nakhon_Sawan
+		Ngam Niran Noi Paśú Phetchaburi Phimai Phitsanulok Phra_Bang Pravat Ratanapol Ratanaporn Ratanarak Ratanarat Ratchaburi
+		Rattanakosin Ritthirong Rochana Rueng Saelau Saengkaew Sakdan Sanouk Sawangsri Shinawatra Siriporn Sirivadhanabhakdi
+		Soikham Somsri Sri_Thep Sukhothai Suwan Suwannarat Tancharoen Tham_Boon Thonburi Thongchai Thong_Di Trubbaya U_Thong Vejjajiva
+		Vongvanij Wattanasin Wong Yoovidhya
+		}
+
+		male_names = {
+		Anurutha Athittayawong A_Wut Boromakot Borommaracha Bun_Si Chairacha Chakkraphat Channarong Cheputarai
+		Chettha Dusit Ekathotsarot Ingsemang Intha_Racha Jatuphon Jirayu Kaeo Kawila Ket Keu_Na Khai_Bua_Ban Kham_Tam_Sa
+		Khamteam Khamtum Khemkhaeng Khihut Khong_Kham Kiet Kin_Kitsarat Klahan Konekham Kongkeo Laasaenthai Lan_Kham_Deng
+		Leu_Xay Luangthipphanet Lue_Sai Mahin Mangraenara Ma_Noi Manthaturat Mekuti Meunsai Mongkut Mon_Keo Nakhon_Noi Nan_Rat
+		Nan_Tharat Narai Naresuen Nawrahta_Minsaw Niran No_Muong Nophakum Pethom Phanumas Phassakorn Phetracha Phommathat
+		Photisarat Phra_Chaiyathip Phra_Choi Phrae Phra_Saenmueang Phraya_Chaban Piyabutr Po_Aphaikhamini Po_Mayunguan Prasat_Thong
+		Prawati Puenthai Rajabud_Yo Rama Ramaracha Ramathibodi Ratsada Saenmuenagma Saensurin Sai Saikham Sai_Tia_Kaphut Samsenethai
+		Saya_Kumane Setthathirat Sisongmueang Si_Suthammaracha Somchair Songtham Sunan Taksin Thai_Sa Thammalangka Thammaracha
+		Thammikarat Thawoon Theng_Kham Thinnakorn Thuanthong Tian_Thala Tilokaracha Tone_Kham Trailokanat Upanyuvarat Uthumphon
+		Vichai Virote Visunarat Xiang_Keo Yotchiangrai Yu_Khong
+		}
+		female_names = {
+		Achara Amporn Anong Aom Aranya Arisara Arpa Beam Busaba Busarakham Chaem_Choi Chailai Chalermwan Chalita
+		Chanarong Chantana Chariya Chiraprapha Dara Duangkamol Gamon Hansa Hathai Hom Ireshi Jatuphon Jintana Junta Kaeo
+		Kalyani Kamlai Kanda Karnchana Khanani Kharee Komen Komol Kulphantha Lamai Lawana Lookgade Maeri Mya Nan Nari Panjapapee
+		Pathama Phaibun Phawta Piti Pornthip Preeda Samorn Sarai Sri_Suriyothai Sukhorn Sumitra Thanomwang Thong Ubon Waan Wisutthithewi Ya_Chai Yasuntarathewi Ying
+		}
+		dynasty_name_first = yes
+		dynasty_title_names = yes
+
+
+		ethnicities = {
+			19 = east_palaungid
+			18 = east_shanid
+			17 = shanid
+			12 = kachinid
+			11 = palaungid
+			9 = south_palaungid
+			8 = changkiangid
+			3 = chukiangid
+			3 = tonkinesid
+			2 = kham
 			2 = tibetid
-			1 = palaungid
-			1 = nesiotid
-			1 = kham
-			1 = karnatid
-			1 = dayakid
+			1 = annamid
+			1 = deutero_malayid
+			1 = huanghoid
+			1 = khmerid
+			1 = senoid
 		}
 	}
 }
