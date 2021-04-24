@@ -6,222 +6,6 @@
 		western_unit_gfx
 	}
 
-	anglo_norse= {
-		graphical_cultures = {
-			anglo_saxon_coa_gfx
-			northern_clothing_gfx
-			northern_unit_gfx
-		}
-		
-		color = { 0.75 0.5 0.4 }
-		
-		# T_ 222 þ 254 Ð 208 T_ 240 E_
-
-		cadet_dynasty_names = {
-			"dynn_Hayles"
-			{ "dynnp_af" "dynn_Norfolk" }
-			"dynn_Rose"
-			"dynn_Dodington"
-			"dynn_Stawell"
-			"dynn_Huntingdon"
-			"dynn_Lockhart"
-			"dynn_Wuffing"
-			"dynn_Henry"
-			"dynn_Hastings"
-			"dynn_Puttoc"
-			{ "dynnp_af" "dynn_Anglo-Saxony" }
-			{ "dynnp_af" "dynn_Northampton" }
-			"dynn_A_theling"
-			"dynn_Moore"
-			"dynn_Fysche"
-			"dynn_Dall"
-			"dynn_Slee"
-			"dynn_Kiil"
-			"dynn_Mel"
-			"dynn_Holter"
-			"dynn_Randolph"
-			"dynn_Percy"
-			"dynn_Despencer"
-			"dynn_Bacon"
-			"dynn_Reresby"
-			"dynn_Cornwallis"
-			"dynn_Clifford"
-			"dynn_Carew"
-			"dynn_Maddock"
-			"dynn_Fortescue"
-			{ "dynnp_af" "dynn_Ros" }
-			"dynn_Howard"
-			"dynn_Maudit"
-			"dynn_Berkeley"
-			"dynn_Barton"
-			"dynn_Colvile"
-			"dynn_Grey"
-			"dynn_Darcy"
-			{ "dynnp_of" "dynn_Garlande" }
-			"dynn_Perry"
-			"dynn_Bethell"
-			"dynn_Perry"
-			"dynn_Borthwick"
-			{ "dynnp_af" "dynn_London" }
-			{ "dynnp_af" "dynn_Hereford" }
-			{ "dynnp_af" "dynn_Gloucester" }
-			{ "dynnp_af" "dynn_Oxford" }
-			{ "dynnp_af" "dynn_Salisbury" }
-			{ "dynnp_af" "dynn_Surrey" }
-			{ "dynnp_af" "dynn_Sussex" }
-			{ "dynnp_af" "dynn_Hampshire" }
-			{ "dynnp_af" "dynn_Dorset" }
-			{ "dynnp_af" "dynn_Somerset" }
-			{ "dynnp_af" "dynn_Devon" }
-			{ "dynnp_af" "dynn_Exeter" }
-			{ "dynnp_af" "dynn_Cumberland" }
-			{ "dynnp_af" "dynn_York" }
-			{ "dynnp_af" "dynn_Lancaster" }
-			{ "dynnp_af" "dynn_Chester" }
-			{ "dynnp_af" "dynn_Lincoln" }
-			{ "dynnp_af" "dynn_Leicester" }
-			{ "dynnp_af" "dynn_Derby" }
-			{ "dynnp_af" "dynn_Shrewsbury" }
-			{ "dynnp_af" "dynn_Northampton" }
-			{ "dynnp_af" "dynn_Bedford" }
-			{ "dynnp_af" "dynn_Norfolk" }
-			{ "dynnp_af" "dynn_Suffolk" }
-			"dynn_Crawford"
-			"dynn_Tynedale"
-			"dynn_Pudsey"
-			"dynn_Marshal"
-			"dynn_Rowe"
-			{ "dynnp_af" "dynn_Criel" }
-			"dynn_Ciesla"
-			"dynn_Ross"
-			"dynn_Wuffing"
-			"dynn_Beorming"
-			"dynn_Eorling"
-			"dynn_A_bbing"
-			"dynn_A_lling"
-			"dynn_Wintaling"
-		}
-
-		dynasty_names = {
-			"dynn_Algar"
-			"dynn_Allgood"
-			"dynn_Collings"
-			"dynn_Copsey"
-			"dynn_Dowsing"
-			"dynn_Drabble"
-			"dynn_Eetelbum"
-			"dynn_Gamble"
-			"dynn_Goodman"
-			"dynn_Grave"
-			"dynn_Grime"
-			"dynn_Gunn"
-			"dynn_Hacon"
-			"dynn_Harold"
-			"dynn_Hemming"
-			"dynn_Ketelbum"
-			"dynn_Knott"
-			"dynn_Mainwaring"
-			"dynn_Mannerink"
-			"dynn_Orme"
-			"dynn_Osborne"
-			"dynn_Osborn"
-			"dynn_Osmund"
-			"dynn_Quinnell"
-			"dynn_Ransom"
-			"dynn_Ranson"
-			"dynn_Raven"
-			"dynn_Rolf"
-			"dynn_Seagrim"
-			"dynn_Starbuck"
-			"dynn_Storey"
-			"dynn_Thurgood"
-			"dynn_Tookey"
-			"dynn_Toope"
-			"dynn_Toovey"
-			"dynn_Tovey"
-			"dynn_Truelove"
-			"dynn_Tubb"
-			"dynn_Turk"
-		}
-		
-		male_names = {
-			Ale Alfr Alfgeir Anders Anlaufr Anundr ArnbjO_rn Arngrimr Arni Arnfast AsbjO_rn Bagge Baldr Barid Bengt Bersi Bertil Birger BjO_rn Bo Borkvard Botulfr Bragi BuT_li
-			Dag Dan Dyre Eilif Egill Emund Einarr Eirikr Eskild Falki Faste Filip Fredrik Frirek FroT_i Freyr Folki Gandalfr Geirr Georg Gnupa Gorm Greger Grimr GuT_friT_ GuT_mundr GuT_rO_T_r Gunnarr Hakon Halsten Haraldr Haukr Helgi
-			Hemming Holmger Hrafn Hrolfr Hrane HE_steinn Hjalmar HroT_gar HroT_ulfr HrO_rekr Hysing IngO_lfr Ingemar Ingjald Ivar Jedvard Jon Karl Kettil Kettilmund Kjartan Klas Knut Kol KolbjO_rn Magnus Markus
-			Mats Nils Niklas Oddr Ofeig Olafr Ormr Ottarr Refr Refil Ragnarr Rikulfr RO_gnvaldr Skuli Snorri SigbjO_rn Sigtrygg SigurT_r StarkaT_r Steinn Sturla StyrbjO_rn Styrkar SumarliT_i Suni Sveinn
-			Sverker SE_mundr SO_lvi SO_rkver Tjudmund Toke Tolir T_orbjO_rn T_orfinn T_orbrandr T_ordr T_orgil T_orsteinn T_orolfr Toste Totil Tryggve Tyke Ulfr Vagn Valdemar A_ke Yngvar O_rvar O_ysteinn
-			Arncytel Balthere Beorhtfrith Beorhthelm BeorhtmE_r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn BeornrE_d Beornwulf
-			Burgheard Byrhtnoth Cearl Cenfus CenrE_d Cenwulf Ceolwulf Cerdic Copsige
-			Cuthberht CuthrE_d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund EadmE_r Eadric
-			EadrE_d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund EaldrE_d Ealdwine
-			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
-			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht InwE_r Leofheah Leofhelm
-			Leofric Leofweald Leofwine Maccus Morcar ME_rleswegn Offa Onlaf Ordgar
-			Oscytel Oshere Osmund Osric OsrE_d Osulf Osweald Oswine Oswulf Petre RE_dwulf RE_genweald Scule
-			Sigeberht Sigehelm Sigeric SigerE_d Sighere Siweard Stigand Swegn Swithelm SwithrE_d SwE_frE_d SE_bert SE_lrE_d SE_weald
-			SE_xbald SE_xrE_d ThorE_d Thurcytel Thurfrith Tostig UhtrE_d Ulf Ulfcytel Waltheof Werestan Wiglaf WihtrE_d
-			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere WulfmE_r Wulfnoth Wulfstan E_lfgar E_lfmE_r E_lfnoth E_lfric E_lfrE_d E_lfsige
-			E_lfstan E_lfwald E_lfweard E_lfwig E_lfwine E_lle E_thelbald E_thelberht E_thelfrith E_thelhere E_thelmE_r
-			E_thelric E_thelrE_d E_thelsige E_thelstan E_thelweald E_thelweard E_thelwine E_thelwold E_thelwulf
-			Eormenred Eorcenberht Eormenric Eadbald RE_dwald
-		}
-		female_names = {
-			Aleta Alfhildr AlfriT_ AlvO_r Anna Asa Aslaug Asta Astrid Beata Birgitta BjO_rg Bodil Bothildr Cecilia
-			Edla Elin Elisabet Freyja GerT_r GloT_ Grima Gunnhildr Gurli GuT_run Gyla GyriT_ GyT_a Hafrid Halla Helena Holmfrid
-			Iliana Inga Ingfrid IngibjO_rg IngjerT_r Ingrid Karin Katarina Kraka Kristina Linda Maer
-			MalmfriT_ Margareta Maria Rikissa RO_gnfriT_ RO_gnhildr Saga Sara Sif Sigrid Skuld Sofia
-			Svanhildr Ulfhildr Vigdis Ylva Yrsa T_ora T_ordis T_yra Freydi_s
-			Agatha Balthild BeorhtflE_d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn BeornflE_d Beorngyth BlE_ja BurgflE_d CeolflE_d Cristina
-			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg EadflE_d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
-			EalhflE_d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
-			LeofflE_d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Mildrith Octreda SifflE_d Sigrid SE_thryth WulfflE_d Wulfgifu
-			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn WynnflE_d WE_rburg E_bba E_lfflE_d E_lfgifu E_lfgyth E_lflE_da E_lfrida
-			E_lfswith E_lfthryth E_lfwynn E_thelburg E_thelflE_d E_thelgifu E_thelhild E_thelrE_da E_thelswith E_thelthryth
-			E_thelburh Seaxburh Wihtburh
-		}
-		
-		dynasty_of_location_prefix = "dynnp_af"
-		
-		patronym_suffix_male = "dynnpat_suf_sson"
-		patronym_suffix_female = "dynnpat_suf_sdottir"
-		always_use_patronym = yes	
-		
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 40
-		mat_grf_name_chance = 10
-		father_name_chance = 5
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 30
-		mother_name_chance = 5	
-
-
-		ethnicities = {
-			23 = halstatt
-			16 = borreby
-			12 = faelid
-			10 = strandid
-			8 = anglo_saxon
-			8 = troender
-			8 = paleo_atlantid
-			5 = keltic_nordid
-			5 = north_atlantid
-			3 = litorid
-			2 = aisto_nordid
-			2 = tavastid
-			2 = west_alpinid
-			1 = gracilemediterranid
-			1 = gorid
-			1 = norid
-			1 = eurafricanid
-			1 = dinarid
-			1 = scando_lappid
-			1 = brunn
-			1 = subnordid
-			1 = atlanto_mediterranean
-		}
-	}
 	english= {
 		graphical_cultures = {
 			english_coa_gfx
@@ -351,88 +135,6 @@
 			1 = paleo_sardinian
 			1 = tavastid
 			1 = berberid
-		}
-	}
-	old_saxon= {
-		graphical_cultures = {
-			anglo_saxon_coa_gfx
-			northern_clothing_gfx
-		}
-		color = { 0.5 0.1 0.1 }
-		
-		dynasty_names = {
-			dynn_Pattensen
-			dynn_Schneider
-			dynn_Theodericing
-			dynn_Richfriding
-			dynn_Abonid
-			dynn_Smeldiging
-			dynn_Unwanid
-			dynn_Hessing
-		}
-		
-		male_names = {
-			Abo Adalbero Adalbert Adalbrand Adaldag Adalgar Adalgod Adolf Aelle Albrecht Alebrand
-			Altfrid Ansgar Arnd Arnold Asig Balduin Balthasar Banzleib Beneke Benno Bernd
-			Bernhard Bertold Bertram Boddic Brun Bruno Burchard Cissa Claus Cobbo Cord
-			Cyprian Dago Dedo Dethard Detleff Detmar Diederik Donar Eggerd Egilmar Ekbert Engelbert
-			Engelhard Erik Erp Esiko Everd Ewald Floribert Freawine Frederik Gehrke Gelder Gero Gerold Gevert
-			Ghert Giselher Giselmar Gosschalk Goswin Gunzelin GO_dke GU_nther Hans Harthgate Hartwig Heideke
-			Hengest Henneke Herberd Hermann Hinrik Hoger Hulderic Humfried Immed Isidor Jacob Jaspar Jochim
-			Johann Juries Kersten KO_pke Laurentz Lembert Leuderic Liawizo Liemar Liudger Luder-Udo
-			Luder Ludolf Ludwig Magnus Marbold Marquard Mathias Meinwerk Merten Michael
-			Norbert Odo Ordulf Peter Philipp Radke Reginbern Reinbern Reineke Reinmar Rudigar
-			Rudolf Sigbert Sigfrid Sigward Simon Steffen Thankmar Theoderic Theodoric
-			Theodwin Thimo Thomas Tobe Tymmeke Udo Unwan Viric Volkwin Volrad Walbert Waldemar Waldered Waltard
-			Warin Warinechin Wecta Wenzel Werneke Weybrecht Wichbert Wichmann Wicho Widukind Wigebert Wilbrand
-			Willichin Withgils Witikind Witta Wlencing Wolter Wulff
-		}
-		female_names = {
-			Addila Adelheid Alof Agnes Anna Athela Beatrix Bertha Bertrada Bia Bisina Bithild
-			Brigida Christina Diedke Eilika Elisabeth Enda Frederuna Geilana Gerberga Gertrud Gisela
-			Glismod Hadwig Hasala Heilwig Helene Hildegard Hrothwina Ida Imma Irmgard Irminburg
-			Jutta Katharina Kunigunde Luitgard Margarete Mathilde Mechthild Oda
-			Othelindis Radegund Reginlint Richardis Rodelinda Sophia Suanhilde Theodrada Thiedburga Wienke Wiltrud Wulfhild
-		}
-
-		dynasty_of_location_prefix = "dynnp_of"
-
-		patronym_suffix_male = "dynnpat_suf_sunu"
-		patronym_suffix_female = "dynnpat_suf_sdohtar"
-		always_use_patronym = yes	
-
-		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-		pat_grf_name_chance = 30
-		mat_grf_name_chance = 10
-		father_name_chance = 5
-		
-		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-		pat_grm_name_chance = 20
-		mat_grm_name_chance = 40
-		mother_name_chance = 5
-
-
-		ethnicities = {
-			20 = faelid
-			19 = halstatt
-			16 = borreby
-			14 = anglo_saxon
-			14 = subnordid
-			5 = litorid
-			4 = tavastid
-			3 = north_atlantid
-			2 = west_alpinid
-			2 = troender
-			2 = norid
-			2 = dinarid
-			2 = atlanto_mediterranean
-			1 = neo_danubian
-			1 = north_pontid
-			1 = paleo_atlantid
-			1 = pre_slavic
-			1 = proto_nordid
-			1 = gorid
-			1 = aisto_nordid
 		}
 	}
 	anglo_saxon= {
@@ -681,6 +383,304 @@
 			1 = paleo_sardinian
 			1 = tavastid
 			1 = berberid
+		}
+	}
+	old_saxon= {
+		graphical_cultures = {
+			anglo_saxon_coa_gfx
+			northern_clothing_gfx
+		}
+		color = { 0.5 0.1 0.1 }
+		
+		dynasty_names = {
+			dynn_Pattensen
+			dynn_Schneider
+			dynn_Theodericing
+			dynn_Richfriding
+			dynn_Abonid
+			dynn_Smeldiging
+			dynn_Unwanid
+			dynn_Hessing
+		}
+		
+		male_names = {
+			Abo Adalbero Adalbert Adalbrand Adaldag Adalgar Adalgod Adolf Aelle Albrecht Alebrand
+			Altfrid Ansgar Arnd Arnold Asig Balduin Balthasar Banzleib Beneke Benno Bernd
+			Bernhard Bertold Bertram Boddic Brun Bruno Burchard Cissa Claus Cobbo Cord
+			Cyprian Dago Dedo Dethard Detleff Detmar Diederik Donar Eggerd Egilmar Ekbert Engelbert
+			Engelhard Erik Erp Esiko Everd Ewald Floribert Freawine Frederik Gehrke Gelder Gero Gerold Gevert
+			Ghert Giselher Giselmar Gosschalk Goswin Gunzelin GO_dke GU_nther Hans Harthgate Hartwig Heideke
+			Hengest Henneke Herberd Hermann Hinrik Hoger Hulderic Humfried Immed Isidor Jacob Jaspar Jochim
+			Johann Juries Kersten KO_pke Laurentz Lembert Leuderic Liawizo Liemar Liudger Luder-Udo
+			Luder Ludolf Ludwig Magnus Marbold Marquard Mathias Meinwerk Merten Michael
+			Norbert Odo Ordulf Peter Philipp Radke Reginbern Reinbern Reineke Reinmar Rudigar
+			Rudolf Sigbert Sigfrid Sigward Simon Steffen Thankmar Theoderic Theodoric
+			Theodwin Thimo Thomas Tobe Tymmeke Udo Unwan Viric Volkwin Volrad Walbert Waldemar Waldered Waltard
+			Warin Warinechin Wecta Wenzel Werneke Weybrecht Wichbert Wichmann Wicho Widukind Wigebert Wilbrand
+			Willichin Withgils Witikind Witta Wlencing Wolter Wulff
+		}
+		female_names = {
+			Addila Adelheid Alof Agnes Anna Athela Beatrix Bertha Bertrada Bia Bisina Bithild
+			Brigida Christina Diedke Eilika Elisabeth Enda Frederuna Geilana Gerberga Gertrud Gisela
+			Glismod Hadwig Hasala Heilwig Helene Hildegard Hrothwina Ida Imma Irmgard Irminburg
+			Jutta Katharina Kunigunde Luitgard Margarete Mathilde Mechthild Oda
+			Othelindis Radegund Reginlint Richardis Rodelinda Sophia Suanhilde Theodrada Thiedburga Wienke Wiltrud Wulfhild
+		}
+
+		dynasty_of_location_prefix = "dynnp_of"
+
+		patronym_suffix_male = "dynnpat_suf_sunu"
+		patronym_suffix_female = "dynnpat_suf_sdohtar"
+		always_use_patronym = yes	
+
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+
+		ethnicities = {
+			20 = faelid
+			19 = halstatt
+			16 = borreby
+			14 = anglo_saxon
+			14 = subnordid
+			5 = litorid
+			4 = tavastid
+			3 = north_atlantid
+			2 = west_alpinid
+			2 = troender
+			2 = norid
+			2 = dinarid
+			2 = atlanto_mediterranean
+			1 = neo_danubian
+			1 = north_pontid
+			1 = paleo_atlantid
+			1 = pre_slavic
+			1 = proto_nordid
+			1 = gorid
+			1 = aisto_nordid
+		}
+	}
+	anglo_norse= {
+		graphical_cultures = {
+			anglo_saxon_coa_gfx
+			northern_clothing_gfx
+			northern_unit_gfx
+		}
+		
+		color = { 0.75 0.5 0.4 }
+		
+		# T_ 222 þ 254 Ð 208 T_ 240 E_
+
+		cadet_dynasty_names = {
+			"dynn_Hayles"
+			{ "dynnp_af" "dynn_Norfolk" }
+			"dynn_Rose"
+			"dynn_Dodington"
+			"dynn_Stawell"
+			"dynn_Huntingdon"
+			"dynn_Lockhart"
+			"dynn_Wuffing"
+			"dynn_Henry"
+			"dynn_Hastings"
+			"dynn_Puttoc"
+			{ "dynnp_af" "dynn_Anglo-Saxony" }
+			{ "dynnp_af" "dynn_Northampton" }
+			"dynn_A_theling"
+			"dynn_Moore"
+			"dynn_Fysche"
+			"dynn_Dall"
+			"dynn_Slee"
+			"dynn_Kiil"
+			"dynn_Mel"
+			"dynn_Holter"
+			"dynn_Randolph"
+			"dynn_Percy"
+			"dynn_Despencer"
+			"dynn_Bacon"
+			"dynn_Reresby"
+			"dynn_Cornwallis"
+			"dynn_Clifford"
+			"dynn_Carew"
+			"dynn_Maddock"
+			"dynn_Fortescue"
+			{ "dynnp_af" "dynn_Ros" }
+			"dynn_Howard"
+			"dynn_Maudit"
+			"dynn_Berkeley"
+			"dynn_Barton"
+			"dynn_Colvile"
+			"dynn_Grey"
+			"dynn_Darcy"
+			{ "dynnp_of" "dynn_Garlande" }
+			"dynn_Perry"
+			"dynn_Bethell"
+			"dynn_Perry"
+			"dynn_Borthwick"
+			{ "dynnp_af" "dynn_London" }
+			{ "dynnp_af" "dynn_Hereford" }
+			{ "dynnp_af" "dynn_Gloucester" }
+			{ "dynnp_af" "dynn_Oxford" }
+			{ "dynnp_af" "dynn_Salisbury" }
+			{ "dynnp_af" "dynn_Surrey" }
+			{ "dynnp_af" "dynn_Sussex" }
+			{ "dynnp_af" "dynn_Hampshire" }
+			{ "dynnp_af" "dynn_Dorset" }
+			{ "dynnp_af" "dynn_Somerset" }
+			{ "dynnp_af" "dynn_Devon" }
+			{ "dynnp_af" "dynn_Exeter" }
+			{ "dynnp_af" "dynn_Cumberland" }
+			{ "dynnp_af" "dynn_York" }
+			{ "dynnp_af" "dynn_Lancaster" }
+			{ "dynnp_af" "dynn_Chester" }
+			{ "dynnp_af" "dynn_Lincoln" }
+			{ "dynnp_af" "dynn_Leicester" }
+			{ "dynnp_af" "dynn_Derby" }
+			{ "dynnp_af" "dynn_Shrewsbury" }
+			{ "dynnp_af" "dynn_Northampton" }
+			{ "dynnp_af" "dynn_Bedford" }
+			{ "dynnp_af" "dynn_Norfolk" }
+			{ "dynnp_af" "dynn_Suffolk" }
+			"dynn_Crawford"
+			"dynn_Tynedale"
+			"dynn_Pudsey"
+			"dynn_Marshal"
+			"dynn_Rowe"
+			{ "dynnp_af" "dynn_Criel" }
+			"dynn_Ciesla"
+			"dynn_Ross"
+			"dynn_Wuffing"
+			"dynn_Beorming"
+			"dynn_Eorling"
+			"dynn_A_bbing"
+			"dynn_A_lling"
+			"dynn_Wintaling"
+		}
+
+		dynasty_names = {
+			"dynn_Algar"
+			"dynn_Allgood"
+			"dynn_Collings"
+			"dynn_Copsey"
+			"dynn_Dowsing"
+			"dynn_Drabble"
+			"dynn_Eetelbum"
+			"dynn_Gamble"
+			"dynn_Goodman"
+			"dynn_Grave"
+			"dynn_Grime"
+			"dynn_Gunn"
+			"dynn_Hacon"
+			"dynn_Harold"
+			"dynn_Hemming"
+			"dynn_Ketelbum"
+			"dynn_Knott"
+			"dynn_Mainwaring"
+			"dynn_Mannerink"
+			"dynn_Orme"
+			"dynn_Osborne"
+			"dynn_Osborn"
+			"dynn_Osmund"
+			"dynn_Quinnell"
+			"dynn_Ransom"
+			"dynn_Ranson"
+			"dynn_Raven"
+			"dynn_Rolf"
+			"dynn_Seagrim"
+			"dynn_Starbuck"
+			"dynn_Storey"
+			"dynn_Thurgood"
+			"dynn_Tookey"
+			"dynn_Toope"
+			"dynn_Toovey"
+			"dynn_Tovey"
+			"dynn_Truelove"
+			"dynn_Tubb"
+			"dynn_Turk"
+		}
+		
+		male_names = {
+			Ale Alfr Alfgeir Anders Anlaufr Anundr ArnbjO_rn Arngrimr Arni Arnfast AsbjO_rn Bagge Baldr Barid Bengt Bersi Bertil Birger BjO_rn Bo Borkvard Botulfr Bragi BuT_li
+			Dag Dan Dyre Eilif Egill Emund Einarr Eirikr Eskild Falki Faste Filip Fredrik Frirek FroT_i Freyr Folki Gandalfr Geirr Georg Gnupa Gorm Greger Grimr GuT_friT_ GuT_mundr GuT_rO_T_r Gunnarr Hakon Halsten Haraldr Haukr Helgi
+			Hemming Holmger Hrafn Hrolfr Hrane HE_steinn Hjalmar HroT_gar HroT_ulfr HrO_rekr Hysing IngO_lfr Ingemar Ingjald Ivar Jedvard Jon Karl Kettil Kettilmund Kjartan Klas Knut Kol KolbjO_rn Magnus Markus
+			Mats Nils Niklas Oddr Ofeig Olafr Ormr Ottarr Refr Refil Ragnarr Rikulfr RO_gnvaldr Skuli Snorri SigbjO_rn Sigtrygg SigurT_r StarkaT_r Steinn Sturla StyrbjO_rn Styrkar SumarliT_i Suni Sveinn
+			Sverker SE_mundr SO_lvi SO_rkver Tjudmund Toke Tolir T_orbjO_rn T_orfinn T_orbrandr T_ordr T_orgil T_orsteinn T_orolfr Toste Totil Tryggve Tyke Ulfr Vagn Valdemar A_ke Yngvar O_rvar O_ysteinn
+			Arncytel Balthere Beorhtfrith Beorhthelm BeorhtmE_r Beorhtnoth Beorhtric Beorhtsige Beorhtwine Beorn BeornrE_d Beornwulf
+			Burgheard Byrhtnoth Cearl Cenfus CenrE_d Cenwulf Ceolwulf Cerdic Copsige
+			Cuthberht CuthrE_d Cynehelm Cynewulf Cytelbearn Eadberht Eadfrith Eadgar Eadmund EadmE_r Eadric
+			EadrE_d Eadsige Eadulf Eadweald Eadweard Eadwig Eadwine Eadwulf Ealdhun Ealdmund EaldrE_d Ealdwine
+			Ealdwulf Eanberht Eanfrith Eanhere Eardwulf Eastmund Ecgberht Ecgfrith Gamall Godwine Gospatric Guthfrith Guthmund
+			Gyrth Hacon Harold Heahberht Hereberht Hereweald Hereweard Hlothere Hrodberht InwE_r Leofheah Leofhelm
+			Leofric Leofweald Leofwine Maccus Morcar ME_rleswegn Offa Onlaf Ordgar
+			Oscytel Oshere Osmund Osric OsrE_d Osulf Osweald Oswine Oswulf Petre RE_dwulf RE_genweald Scule
+			Sigeberht Sigehelm Sigeric SigerE_d Sighere Siweard Stigand Swegn Swithelm SwithrE_d SwE_frE_d SE_bert SE_lrE_d SE_weald
+			SE_xbald SE_xrE_d ThorE_d Thurcytel Thurfrith Tostig UhtrE_d Ulf Ulfcytel Waltheof Werestan Wiglaf WihtrE_d
+			Wistan Wulf Wulfgar Wulfgeat Wulfhelm Wulfhere WulfmE_r Wulfnoth Wulfstan E_lfgar E_lfmE_r E_lfnoth E_lfric E_lfrE_d E_lfsige
+			E_lfstan E_lfwald E_lfweard E_lfwig E_lfwine E_lle E_thelbald E_thelberht E_thelfrith E_thelhere E_thelmE_r
+			E_thelric E_thelrE_d E_thelsige E_thelstan E_thelweald E_thelweard E_thelwine E_thelwold E_thelwulf
+			Eormenred Eorcenberht Eormenric Eadbald RE_dwald
+		}
+		female_names = {
+			Aleta Alfhildr AlfriT_ AlvO_r Anna Asa Aslaug Asta Astrid Beata Birgitta BjO_rg Bodil Bothildr Cecilia
+			Edla Elin Elisabet Freyja GerT_r GloT_ Grima Gunnhildr Gurli GuT_run Gyla GyriT_ GyT_a Hafrid Halla Helena Holmfrid
+			Iliana Inga Ingfrid IngibjO_rg IngjerT_r Ingrid Karin Katarina Kraka Kristina Linda Maer
+			MalmfriT_ Margareta Maria Rikissa RO_gnfriT_ RO_gnhildr Saga Sara Sif Sigrid Skuld Sofia
+			Svanhildr Ulfhildr Vigdis Ylva Yrsa T_ora T_ordis T_yra Freydi_s
+			Agatha Balthild BeorhtflE_d Beorhtgifu Beorhtgyth Beorhtwaru Beorhtwynn BeornflE_d Beorngyth BlE_ja BurgflE_d CeolflE_d Cristina
+			Cuthburg Cwenburg Cyneburg Cynegyth Cynehild Cyneswith Cynethryth Eadburg EadflE_d Eadgifu Eadgyth Eadhburh Eadhild Ealdgyth
+			EalhflE_d Ealhswith Eanswith Ecgfrida Ecgwyn Godgifu Gunhilda Gytha Helga Heregyth Hereswith Hextilda Hungifu Judith
+			LeofflE_d Leofgifu Leofrun Leofwaru Leofwynn Margaret Maud Mildrith Octreda SifflE_d Sigrid SE_thryth WulfflE_d Wulfgifu
+			Wulfgyth Wulfhild Wulfrun Wulfthryth Wulfwaru Wulfwynn WynnflE_d WE_rburg E_bba E_lfflE_d E_lfgifu E_lfgyth E_lflE_da E_lfrida
+			E_lfswith E_lfthryth E_lfwynn E_thelburg E_thelflE_d E_thelgifu E_thelhild E_thelrE_da E_thelswith E_thelthryth
+			E_thelburh Seaxburh Wihtburh
+		}
+		
+		dynasty_of_location_prefix = "dynnp_af"
+		
+		patronym_suffix_male = "dynnpat_suf_sson"
+		patronym_suffix_female = "dynnpat_suf_sdottir"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 5
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 30
+		mother_name_chance = 5	
+
+
+		ethnicities = {
+			23 = halstatt
+			16 = borreby
+			12 = faelid
+			10 = strandid
+			8 = anglo_saxon
+			8 = troender
+			8 = paleo_atlantid
+			5 = keltic_nordid
+			5 = north_atlantid
+			3 = litorid
+			2 = aisto_nordid
+			2 = tavastid
+			2 = west_alpinid
+			1 = gracilemediterranid
+			1 = gorid
+			1 = norid
+			1 = eurafricanid
+			1 = dinarid
+			1 = scando_lappid
+			1 = brunn
+			1 = subnordid
+			1 = atlanto_mediterranean
 		}
 	}
 	scottish= {

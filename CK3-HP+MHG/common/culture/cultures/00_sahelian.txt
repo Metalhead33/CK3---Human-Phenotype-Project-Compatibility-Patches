@@ -214,6 +214,92 @@
 			1 = targid
 		}
 	}
+	sorko= {
+		
+		color = hsv{ 0.16 0.7 1 }
+
+		cadet_dynasty_names = {
+			"dynn_Sorogaama"
+			"dynn_Sambere"
+			"dynn_Jenama"
+			"dynn_Bangime"
+			"dynn_Niakhate"
+			"dynn_Kelenga"
+			"dynn_Tieyaxo"
+			"dynn_Tiema_Ce"
+			"dynn_Pondori"
+			"dynn_Kotya"
+			"dynn_Korondugu"
+			"dynn_Debo"
+			"dynn_Konna"
+			"dynn_Bangande"
+			"dynn_Namague"
+			"dynn_Kargue"
+			"dynn_Bounou"
+			"dynn_Bara"
+		}
+		dynasty_names = {
+			"dynn_Sorogaama"
+			"dynn_Sambere"
+			"dynn_Jenama"
+			"dynn_Bangime"
+			"dynn_Niakhate"
+			"dynn_Kelenga"
+			"dynn_Tieyaxo"
+			"dynn_Tiema_Ce"
+			"dynn_Pondori"
+			"dynn_Kotya"
+			"dynn_Korondugu"
+			"dynn_Debo"
+			"dynn_Konna"
+			"dynn_Bangande"
+			"dynn_Namague"
+			"dynn_Kargue"
+			"dynn_Bounou"
+			"dynn_Bara"
+		}
+
+		male_names = {
+			Alkamiisa Ammar Ankabi Ar Arabi Aranda
+			Baba Babba Bada Baki Bani Bano Baru Bay Ber Binta Birma Bisi Biya Biyay Biyo Bonkana Borgo Boumi Buyunbu
+			Daara Dala Dankataya Dao Dari Dum Dunku Duru
+			Fadazaw Falaku Far Fari-Mondzo Fay Fi Fodi Hanga Hargani Hin
+			Igoumou Ikoi Ize Jim
+			Kaasei Kanafa Kanbu Karaway Karay Karbachi Kayna Keina Kibu_U Kima Kimi Kinba Kinkin Kiray Kisha Kodama Koi Koize Kolon Komi Koy Ku Kukiya Kukura Kuli Kulun Kumay Kun Kur Kusoy Kusur
+			Laraba Malla Mar Mar_Chindin Mayroumfa Missi Morobani
+			Nari Nuh Nunta Ouankoy Samsou-Beri Sanay Shinyunbu Silman Sorko_Ije
+			Takoi Tib Tomo Wunka Yama Yuma Zakoi Zalil Zunku
+		}
+		
+		female_names = {
+			Adama Aisha Alkamiisa Amina Aminah Azzah 
+			Bilqis Chindi Daara Dangey
+			Fanta Fatima Fatimah Fitila
+			Gando Geyka Hassana Hawa Huseina Kouton
+			Lambu Layla Mecca Medina Nuru Tarifa Teko Zaynab
+		}
+		
+		#founder_named_dynasties = yes
+		
+
+		ethnicities = {
+			48 = sudanid
+			23 = fezzanid
+			11 = west_ethiopid
+			6 = moorish
+			4 = guinesid
+			4 = saharan_ethiopid
+			3 = bobo
+			2 = guineo_camerunian
+			2 = senegalid
+			1 = berberid
+			1 = casamance
+			1 = equatorialsudanid
+			1 = shari
+			1 = targid
+			1 = westcongolesid
+		}
+	}
 	soninke= {
 		
 		color = hsv{ 0.15 1.0 0.7 }
@@ -464,92 +550,6 @@
 			2 = saharan_ethiopid
 			2 = senegalid
 			1 = libyid
-		}
-	}
-	sorko= {
-		
-		color = hsv{ 0.16 0.7 1 }
-
-		cadet_dynasty_names = {
-			"dynn_Sorogaama"
-			"dynn_Sambere"
-			"dynn_Jenama"
-			"dynn_Bangime"
-			"dynn_Niakhate"
-			"dynn_Kelenga"
-			"dynn_Tieyaxo"
-			"dynn_Tiema_Ce"
-			"dynn_Pondori"
-			"dynn_Kotya"
-			"dynn_Korondugu"
-			"dynn_Debo"
-			"dynn_Konna"
-			"dynn_Bangande"
-			"dynn_Namague"
-			"dynn_Kargue"
-			"dynn_Bounou"
-			"dynn_Bara"
-		}
-		dynasty_names = {
-			"dynn_Sorogaama"
-			"dynn_Sambere"
-			"dynn_Jenama"
-			"dynn_Bangime"
-			"dynn_Niakhate"
-			"dynn_Kelenga"
-			"dynn_Tieyaxo"
-			"dynn_Tiema_Ce"
-			"dynn_Pondori"
-			"dynn_Kotya"
-			"dynn_Korondugu"
-			"dynn_Debo"
-			"dynn_Konna"
-			"dynn_Bangande"
-			"dynn_Namague"
-			"dynn_Kargue"
-			"dynn_Bounou"
-			"dynn_Bara"
-		}
-
-		male_names = {
-			Alkamiisa Ammar Ankabi Ar Arabi Aranda
-			Baba Babba Bada Baki Bani Bano Baru Bay Ber Binta Birma Bisi Biya Biyay Biyo Bonkana Borgo Boumi Buyunbu
-			Daara Dala Dankataya Dao Dari Dum Dunku Duru
-			Fadazaw Falaku Far Fari-Mondzo Fay Fi Fodi Hanga Hargani Hin
-			Igoumou Ikoi Ize Jim
-			Kaasei Kanafa Kanbu Karaway Karay Karbachi Kayna Keina Kibu_U Kima Kimi Kinba Kinkin Kiray Kisha Kodama Koi Koize Kolon Komi Koy Ku Kukiya Kukura Kuli Kulun Kumay Kun Kur Kusoy Kusur
-			Laraba Malla Mar Mar_Chindin Mayroumfa Missi Morobani
-			Nari Nuh Nunta Ouankoy Samsou-Beri Sanay Shinyunbu Silman Sorko_Ije
-			Takoi Tib Tomo Wunka Yama Yuma Zakoi Zalil Zunku
-		}
-		
-		female_names = {
-			Adama Aisha Alkamiisa Amina Aminah Azzah 
-			Bilqis Chindi Daara Dangey
-			Fanta Fatima Fatimah Fitila
-			Gando Geyka Hassana Hawa Huseina Kouton
-			Lambu Layla Mecca Medina Nuru Tarifa Teko Zaynab
-		}
-		
-		#founder_named_dynasties = yes
-		
-
-		ethnicities = {
-			48 = sudanid
-			23 = fezzanid
-			11 = west_ethiopid
-			6 = moorish
-			4 = guinesid
-			4 = saharan_ethiopid
-			3 = bobo
-			2 = guineo_camerunian
-			2 = senegalid
-			1 = berberid
-			1 = casamance
-			1 = equatorialsudanid
-			1 = shari
-			1 = targid
-			1 = westcongolesid
 		}
 	}
 }
