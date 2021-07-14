@@ -4,7 +4,7 @@ tags={
 	"Historical"
 }
 name="CK3 Human Phenotype Project - Far Eastern Cultures + Chinese Headgear Compatibility Patch"
-supported_version="1.3.*"
+supported_version="1.4.*"
 path = "mod/CK3-HP+FECR+CHC"
 dependencies={
 	"Far Eastern Cultures for CK3"

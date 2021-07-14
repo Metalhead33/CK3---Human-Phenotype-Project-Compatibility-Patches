@@ -4,7 +4,7 @@ tags={
 	"Historical"
 }
 name="CK3 Human Phenotype Project - More Bookmarks+ Compatibility Patch"
-supported_version="1.3.*"
+supported_version="1.4.*"
 path = "mod/CK3-HP+MB"
 dependencies={
 	"More Bookmarks+"
