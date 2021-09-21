@@ -5,7 +5,7 @@ tags={
 }
 name="CK3 Human Phenotype Project - Chinese Headgear and Clothing Patch"
 supported_version="1.4.*"
-path = "mod/CK3-CHC"
+path = "mod/CK3-HP+CHC"
 dependencies={
 	"华夏衣冠"
 	"CK3 Human Phenotype Project"
