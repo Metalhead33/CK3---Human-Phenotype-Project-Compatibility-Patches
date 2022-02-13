@@ -4,14 +4,15 @@ hungarian = {
 	created = 1000.1.1
 	parents = { mogyer }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_egalitarian
 	heritage = heritage_magyar
 	language = language_magyar
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_agrarian
+		tradition_xenophilic
 		tradition_hussar
-		tradition_zealous_people
+		tradition_chivalry
+		tradition_eye_for_an_eye
 	}
 	
 	name_list = name_list_hungarian
@@ -19,7 +20,7 @@ hungarian = {
 	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
 	coa_gfx = { western_coa_gfx } 
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { hungarian_clothing_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { mongol_unit_gfx } 	
 
 
@@ -66,7 +67,8 @@ mogyer = {
 	traditions = {
 		tradition_tribe_unity
 		tradition_horse_lords
-		tradition_zealous_people
+		tradition_steppe_tolerance
+		tradition_eye_for_an_eye
 	}
 
 	name_list = name_list_mogyer

@@ -11,7 +11,7 @@ burmese = {
 	
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { burmese_clothing_gfx }
+	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
 	traditions = {
@@ -49,8 +49,8 @@ mon = {
 	color = { 0.35 0.6 0.1 }
 	
 	ethos = ethos_spiritual
-	heritage = heritage_burman
-	language = language_burmese
+	heritage = heritage_mon
+	language = language_mon
 	martial_custom = martial_custom_male_only
 	
 	name_list = name_list_mon
@@ -67,7 +67,7 @@ mon = {
 
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { burmese_clothing_gfx }
+	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
 
