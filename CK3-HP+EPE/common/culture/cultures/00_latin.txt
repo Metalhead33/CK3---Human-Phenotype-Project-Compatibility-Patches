@@ -53,24 +53,25 @@ langobard = {
 		1 = alfoeld
 	}
 }
-italian = {
-	color = italian
+lombard = {
+	color = { 0.8 0.8 0.5 }
 
-	parents = { roman }
+	created = 650.1.1
 
-	created = 476.11.4
+	parents = { langobard italian }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_stoic
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_formation_fighting
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stand_and_fight
 		tradition_republican_legacy
-		tradition_poetry
 	}
 	
-	name_list = name_list_italian
+	name_list = name_list_lombard
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -79,24 +80,31 @@ italian = {
 	
 
 	ethnicities = {
-		100 = litorid
-		88 = atlanto_mediterranean
-		62 = west_alpinid
-		36 = dinarid
-		31 = norid
-		27 = gracilemediterranid
-		23 = carpathid
-		18 = eurafricanid
-		14 = berid
-		6 = halstatt
-		6 = north_atlantid
-		6 = pontid
-		4 = arabid
-		4 = borreby
-		3 = armenoid
-		2 = paleo_sardinian
-		1 = gorid
-		1 = north_pontid
+		100 = norid
+		89 = dinarid
+		66 = west_alpinid
+		51 = subnordid
+		45 = carpathid
+		39 = atlanto_mediterranean
+		36 = pre_slavic
+		25 = halstatt
+		19 = litorid
+		19 = north_atlantid
+		17 = eurafricanid
+		17 = faelid
+		15 = gorid
+		14 = neo_danubian
+		7 = gracilemediterranid
+		5 = proto_nordid
+		5 = borreby
+		4 = north_pontid
+		4 = pontid
+		3 = anglo_saxon
+		3 = berid
+		2 = tavastid
+		1 = keltic_nordid
+		1 = troender
+		1 = alfoeld
 	}
 }
 cisalpine = {
@@ -152,6 +160,52 @@ cisalpine = {
 		1 = paleo_atlantid
 	}
 }
+italian = {
+	color = italian
+
+	parents = { roman }
+
+	created = 476.11.4
+	
+	ethos = ethos_spiritual
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_poetry
+	}
+	
+	name_list = name_list_italian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { italian_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = litorid
+		88 = atlanto_mediterranean
+		62 = west_alpinid
+		36 = dinarid
+		31 = norid
+		27 = gracilemediterranid
+		23 = carpathid
+		18 = eurafricanid
+		14 = berid
+		6 = halstatt
+		6 = north_atlantid
+		6 = pontid
+		4 = arabid
+		4 = borreby
+		3 = armenoid
+		2 = paleo_sardinian
+		1 = gorid
+		1 = north_pontid
+	}
+}
 sardinian = {
 	color = sardinian
 
@@ -191,57 +245,6 @@ sardinian = {
 		2 = dinarid
 		2 = halstatt
 		2 = norid
-	}
-}
-sicilian = {
-	color = { 0.65 0.65 0.2 }
-
-	parents = { lombard greek }
-
-	created = 700.1.1
-	
-	ethos = ethos_courtly
-	heritage = heritage_latin
-	language = language_italian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_xenophilic
-		tradition_swords_for_hire
-		tradition_ruling_caste
-		tradition_poetry
-		tradition_republican_legacy
-	}
-	
-	name_list = name_list_sicilian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { italian_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = gracilemediterranid
-		97 = berid
-		60 = litorid
-		49 = armenoid
-		27 = paleo_sardinian
-		24 = west_alpinid
-		16 = pontid
-		6 = eurafricanid
-		6 = arabid
-		5 = atlanto_mediterranean
-		4 = dinarid
-		4 = anatolid
-		3 = berberid
-		3 = transmediterranid
-		2 = borreby
-		2 = faelid
-		2 = halstatt
-		2 = libyid
-		2 = norid
-		1 = north_atlantid
-		1 = troender
 	}
 }
 roman = {
@@ -321,25 +324,26 @@ roman = {
 		1 = yemenid
 	}
 }
-lombard = {
-	color = { 0.8 0.8 0.5 }
+sicilian = {
+	color = { 0.65 0.65 0.2 }
 
-	created = 650.1.1
+	parents = { lombard greek }
 
-	parents = { langobard italian }
+	created = 700.1.1
 	
-	ethos = ethos_stoic
+	ethos = ethos_courtly
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_isolationist
-		tradition_martial_admiration
-		tradition_stand_and_fight
+		tradition_xenophilic
+		tradition_swords_for_hire
+		tradition_ruling_caste
+		tradition_poetry
 		tradition_republican_legacy
 	}
 	
-	name_list = name_list_lombard
+	name_list = name_list_sicilian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -348,30 +352,26 @@ lombard = {
 	
 
 	ethnicities = {
-		100 = norid
-		89 = dinarid
-		66 = west_alpinid
-		51 = subnordid
-		45 = carpathid
-		39 = atlanto_mediterranean
-		36 = pre_slavic
-		25 = halstatt
-		19 = litorid
-		19 = north_atlantid
-		17 = eurafricanid
-		17 = faelid
-		15 = gorid
-		14 = neo_danubian
-		7 = gracilemediterranid
-		5 = proto_nordid
-		5 = borreby
-		4 = north_pontid
-		4 = pontid
-		3 = anglo_saxon
-		3 = berid
-		2 = tavastid
-		1 = keltic_nordid
+		100 = gracilemediterranid
+		97 = berid
+		60 = litorid
+		49 = armenoid
+		27 = paleo_sardinian
+		24 = west_alpinid
+		16 = pontid
+		6 = eurafricanid
+		6 = arabid
+		5 = atlanto_mediterranean
+		4 = dinarid
+		4 = anatolid
+		3 = berberid
+		3 = transmediterranid
+		2 = borreby
+		2 = faelid
+		2 = halstatt
+		2 = libyid
+		2 = norid
+		1 = north_atlantid
 		1 = troender
-		1 = alfoeld
 	}
 }
