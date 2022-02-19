@@ -1,10 +1,11 @@
 ﻿
-khmer = {
+vietnamese = {
 		
-	color = khmer
-	ethos = ethos_spiritual
-	heritage = heritage_khmer
-	language = language_khmer
+	color = vietnamese
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_vietnamese
+	language = language_vietnamese
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_jungle_warriors
@@ -13,32 +14,30 @@ khmer = {
 		tradition_religion_blending
 	}
 	
-	name_list = name_list_khmer
+	name_list = name_list_vietnamese
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
 
 	ethnicities = {
-		100 = khmerid
-		60 = south_palaungid
-		42 = east_shanid
-		19 = senoid
-		17 = annamid
+		100 = tonkinesid
+		78 = east_shanid
+		44 = annamid
+		41 = south_palaungid
+		30 = east_palaungid
+		28 = kachinid
+		23 = shanid
+		17 = chukiangid
+		13 = tibetid
+		10 = khmerid
 		7 = changkiangid
-		7 = chukiangid
-		6 = kachinid
+		6 = kham
+		6 = palaungid
 		5 = deutero_malayid
-		2 = karnatid
-		2 = tonkinesid
-		2 = shanid
-		2 = palaungid
-		2 = kham
-		1 = kolid
-		1 = east_palaungid
-		1 = basic_negritid
+		4 = senoid
 	}
 }
 thai = {
@@ -82,13 +81,12 @@ thai = {
 		1 = deutero_malayid
 	}
 }
-vietnamese = {
+khmer = {
 		
-	color = vietnamese
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_vietnamese
-	language = language_vietnamese
+	color = khmer
+	ethos = ethos_spiritual
+	heritage = heritage_khmer
+	language = language_khmer
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_jungle_warriors
@@ -97,29 +95,31 @@ vietnamese = {
 		tradition_religion_blending
 	}
 	
-	name_list = name_list_vietnamese
+	name_list = name_list_khmer
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx }
+	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
 
 	ethnicities = {
-		100 = tonkinesid
-		78 = east_shanid
-		44 = annamid
-		41 = south_palaungid
-		30 = east_palaungid
-		28 = kachinid
-		23 = shanid
-		17 = chukiangid
-		13 = tibetid
-		10 = khmerid
+		100 = khmerid
+		60 = south_palaungid
+		42 = east_shanid
+		19 = senoid
+		17 = annamid
 		7 = changkiangid
-		6 = kham
-		6 = palaungid
+		7 = chukiangid
+		6 = kachinid
 		5 = deutero_malayid
-		4 = senoid
+		2 = karnatid
+		2 = tonkinesid
+		2 = shanid
+		2 = palaungid
+		2 = kham
+		1 = kolid
+		1 = east_palaungid
+		1 = basic_negritid
 	}
 }
