@@ -1,43 +1,4 @@
 ﻿
-malay = {
-	
-	color = malay
-	ethos = ethos_courtly
-	heritage = heritage_malay
-	language = language_malay
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_seafaring
-		tradition_religion_blending
-		tradition_jungle_warriors
-	}
-	
-	name_list = name_list_malay
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		41 = deutero_malayid
-		23 = dayakid
-		9 = senoid
-		7 = east_shanid
-		5 = chukiangid
-		5 = kachinid
-		3 = basic_negritid
-		3 = proto_malayid
-		3 = south_palaungid
-		3 = toalid
-		2 = changkiangid
-		1 = arabid
-		1 = karnatid
-		1 = khmerid
-		1 = nesiotid
-	}
-}
 batak = {
 		
 	color = batak
@@ -60,36 +21,36 @@ batak = {
 	
 
 	ethnicities = {
-		28 = kachinid
-		17 = deutero_malayid
-		15 = senoid
-		13 = toalid
-		11 = dayakid
-		5 = south_palaungid
-		3 = chukiangid
-		3 = east_shanid
-		3 = karnatid
-		3 = proto_malayid
-		2 = indo_brachid
-		2 = nesiotid
-		1 = changkiangid
-		1 = khmerid
+		100 = kachinid
+		62 = deutero_malayid
+		55 = senoid
+		47 = toalid
+		40 = dayakid
+		17 = south_palaungid
+		9 = east_shanid
+		9 = proto_malayid
+		8 = chukiangid
+		8 = karnatid
+		4 = indo_brachid
+		4 = nesiotid
+		2 = changkiangid
+		2 = khmerid
 	}
 }
-javanese = {
+cham = {
 		
-	color = javanese
-	ethos = ethos_courtly
+	color = cham
+	ethos = ethos_spiritual
 	heritage = heritage_malay
-	language = language_javanese
+	language = language_cham
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_seafaring
-		tradition_religion_blending
+		tradition_legalistic
+		tradition_religious_patronage
 		tradition_jungle_warriors
 	}
 	
-	name_list = name_list_javanese
+	name_list = name_list_cham
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -98,16 +59,19 @@ javanese = {
 	
 
 	ethnicities = {
-		61 = deutero_malayid
-		11 = proto_malayid
-		10 = chukiangid
+		100 = annamid
+		100 = deutero_malayid
+		24 = south_palaungid
+		10 = khmerid
+		7 = changkiangid
+		7 = chukiangid
+		7 = east_shanid
 		6 = dayakid
-		4 = changkiangid
-		4 = east_shanid
-		4 = toalid
-		3 = kachinid
-		2 = arabid
-		1 = indo_brachid
+		6 = senoid
+		5 = kachinid
+		5 = tonkinesid
+		4 = nesiotid
+		2 = basic_melanesid
 		1 = karnatid
 	}
 }
@@ -133,39 +97,39 @@ achenese = {
 	
 
 	ethnicities = {
-		44 = deutero_malayid
-		14 = kachinid
-		9 = khmerid
-		9 = karnatid
-		3 = toalid
-		3 = arabid
-		3 = south_palaungid
-		3 = senoid
-		3 = kolid
-		3 = indo_brachid
-		3 = east_shanid
-		3 = dayakid
-		3 = chukiangid
-		3 = changkiangid
-		2 = east_brachid
-		2 = north_indid
-		1 = proto_malayid
+		100 = deutero_malayid
+		33 = kachinid
+		19 = khmerid
+		19 = karnatid
+		5 = toalid
+		5 = arabid
+		5 = south_palaungid
+		5 = senoid
+		5 = north_indid
+		5 = kolid
+		5 = indo_brachid
+		5 = east_shanid
+		5 = east_brachid
+		5 = dayakid
+		5 = chukiangid
+		5 = changkiangid
+		3 = proto_malayid
 	}
 }
-cham = {
-		
-	color = cham
-	ethos = ethos_spiritual
+malay = {
+	
+	color = malay
+	ethos = ethos_courtly
 	heritage = heritage_malay
-	language = language_cham
+	language = language_malay
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_legalistic
-		tradition_religious_patronage
+		tradition_seafaring
+		tradition_religion_blending
 		tradition_jungle_warriors
 	}
 	
-	name_list = name_list_cham
+	name_list = name_list_malay
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -174,19 +138,55 @@ cham = {
 	
 
 	ethnicities = {
-		36 = annamid
-		36 = deutero_malayid
-		9 = south_palaungid
-		4 = khmerid
-		3 = changkiangid
-		3 = chukiangid
-		3 = dayakid
-		3 = east_shanid
-		3 = senoid
-		2 = kachinid
-		2 = nesiotid
-		2 = tonkinesid
-		1 = basic_melanesid
+		100 = deutero_malayid
+		57 = dayakid
+		21 = senoid
+		16 = east_shanid
+		13 = chukiangid
+		12 = kachinid
+		7 = basic_negritid
+		7 = toalid
+		6 = proto_malayid
+		5 = changkiangid
+		5 = south_palaungid
+		3 = karnatid
+		2 = arabid
+		2 = khmerid
+		1 = nesiotid
+	}
+}
+javanese = {
+		
+	color = javanese
+	ethos = ethos_courtly
+	heritage = heritage_malay
+	language = language_javanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_religion_blending
+		tradition_jungle_warriors
+	}
+	
+	name_list = name_list_javanese
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = deutero_malayid
+		18 = proto_malayid
+		16 = chukiangid
+		10 = dayakid
+		5 = changkiangid
+		5 = east_shanid
+		5 = kachinid
+		5 = toalid
+		3 = arabid
+		1 = indo_brachid
 		1 = karnatid
 	}
 }

@@ -22,23 +22,64 @@ khmer = {
 	
 
 	ethnicities = {
-		38 = khmerid
-		23 = south_palaungid
-		16 = east_shanid
-		7 = annamid
-		7 = senoid
-		3 = changkiangid
-		3 = chukiangid
-		3 = kachinid
-		2 = deutero_malayid
-		1 = karnatid
-		1 = tonkinesid
-		1 = shanid
-		1 = palaungid
+		100 = khmerid
+		60 = south_palaungid
+		42 = east_shanid
+		19 = senoid
+		17 = annamid
+		7 = changkiangid
+		7 = chukiangid
+		6 = kachinid
+		5 = deutero_malayid
+		2 = karnatid
+		2 = tonkinesid
+		2 = shanid
+		2 = palaungid
+		2 = kham
 		1 = kolid
-		1 = kham
 		1 = east_palaungid
 		1 = basic_negritid
+	}
+}
+thai = {
+
+	color = thai
+	ethos = ethos_courtly
+	heritage = heritage_tai
+	language = language_tai
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_jungle_warriors
+		tradition_fervent_temple_builders
+		tradition_festivities
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_thai
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_palaungid
+		96 = east_shanid
+		90 = shanid
+		60 = kachinid
+		55 = palaungid
+		48 = south_palaungid
+		40 = changkiangid
+		15 = chukiangid
+		11 = tonkinesid
+		9 = kham
+		7 = tibetid
+		5 = khmerid
+		4 = senoid
+		3 = huanghoid
+		2 = annamid
+		1 = deutero_malayid
 	}
 }
 vietnamese = {
@@ -65,61 +106,20 @@ vietnamese = {
 	
 
 	ethnicities = {
-		25 = tonkinesid
-		20 = east_shanid
-		11 = annamid
-		10 = south_palaungid
-		8 = east_palaungid
-		7 = kachinid
-		6 = shanid
-		5 = chukiangid
-		4 = tibetid
-		3 = khmerid
-		2 = changkiangid
-		2 = deutero_malayid
-		2 = kham
-		2 = palaungid
-		1 = senoid
-	}
-}
-thai = {
-
-	color = thai
-	ethos = ethos_courtly
-	heritage = heritage_tai
-	language = language_tai
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_jungle_warriors
-		tradition_fervent_temple_builders
-		tradition_festivities
-		tradition_religion_blending
-	}
-	
-	name_list = name_list_thai
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		19 = east_palaungid
-		18 = east_shanid
-		17 = shanid
-		12 = kachinid
-		11 = palaungid
-		9 = south_palaungid
-		8 = changkiangid
-		3 = chukiangid
-		3 = tonkinesid
-		2 = kham
-		2 = tibetid
-		1 = annamid
-		1 = deutero_malayid
-		1 = huanghoid
-		1 = khmerid
-		1 = senoid
+		100 = tonkinesid
+		78 = east_shanid
+		44 = annamid
+		41 = south_palaungid
+		30 = east_palaungid
+		28 = kachinid
+		23 = shanid
+		17 = chukiangid
+		13 = tibetid
+		10 = khmerid
+		7 = changkiangid
+		6 = kham
+		6 = palaungid
+		5 = deutero_malayid
+		4 = senoid
 	}
 }
