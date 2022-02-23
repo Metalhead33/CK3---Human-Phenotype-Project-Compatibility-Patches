@@ -35,54 +35,6 @@ yemeni = {
 		1 = transmediterranid
 	}
 }
-bedouin = {
-	color = bedouin
-	
-	ethos = ethos_stoic
-	heritage = heritage_arabic
-	language = language_arabic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
-	}
-	
-	name_list = name_list_bedouin
-
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { bedouin_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 
-
-
-	ethnicities = {
-		100 = arabid
-		34 = yemenid
-		12 = transmediterranid
-		10 = arabian_veddoid
-		9 = assyroid
-		6 = north_ethiopid
-		6 = asian_alpine
-		4 = armenoid
-		3 = iranid
-		3 = pontid
-		2 = indo_iranid
-		2 = libyid
-		2 = egyptid
-		1 = gracilemediterranid
-		1 = indo_brachid
-		1 = eurafricanid
-		1 = litorid
-		1 = middle_nile
-		1 = east_ethiopid
-		1 = proto_iranid
-		1 = siwa
-		1 = berberid
-		1 = anatolid
-	}
-}
 levantine = {
 	color = { 0.3 0.95 0.3 }
 	created = 650.1.1
@@ -178,6 +130,54 @@ egyptian = {
 		2 = pontid
 		1 = litorid
 		1 = east_ethiopid
+	}
+}
+bedouin = {
+	color = bedouin
+	
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { bedouin_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+
+	ethnicities = {
+		100 = arabid
+		34 = yemenid
+		12 = transmediterranid
+		10 = arabian_veddoid
+		9 = assyroid
+		6 = north_ethiopid
+		6 = asian_alpine
+		4 = armenoid
+		3 = iranid
+		3 = pontid
+		2 = indo_iranid
+		2 = libyid
+		2 = egyptid
+		1 = gracilemediterranid
+		1 = indo_brachid
+		1 = eurafricanid
+		1 = litorid
+		1 = middle_nile
+		1 = east_ethiopid
+		1 = proto_iranid
+		1 = siwa
+		1 = berberid
+		1 = anatolid
 	}
 }
 maghrebi = {
