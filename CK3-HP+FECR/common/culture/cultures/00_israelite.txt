@@ -1,4 +1,129 @@
 ﻿
+ashkenazi = {
+	color = ashkenazi
+	
+	created = 700.1.1
+	parents = { sephardi }
+	
+	ethos = ethos_communal
+	heritage = heritage_israelite
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_diasporic
+		tradition_family_entrepreneurship
+		tradition_faith_bound
+		tradition_forbearing
+		tradition_mobile_guards
+	}
+	
+	name_list = name_list_ashkenazi
+	
+	coa_gfx = { israelite_group_coa_gfx }
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 
+	
+
+	ethnicities = {
+		100 = asian_alpine
+		93 = armenoid
+		72 = arabid
+		64 = assyroid
+		47 = anatolid
+		32 = dinarid
+		30 = west_alpinid
+		29 = proto_iranid
+		26 = iranid
+		24 = norid
+		24 = subnordid
+		22 = litorid
+		22 = atlanto_mediterranean
+		20 = eurafricanid
+		15 = transmediterranid
+		13 = carpathid
+		12 = north_atlantid
+		11 = berberid
+		10 = pontid
+		10 = gracilemediterranid
+		7 = halstatt
+		7 = libyid
+		6 = gorid
+		6 = egyptid
+		5 = pre_slavic
+		5 = neo_danubian
+		4 = faelid
+		4 = berid
+		2 = proto_nordid
+		2 = borreby
+		2 = yemenid
+		2 = african_alpine
+		2 = indo_iranid
+		2 = east_pamirid
+		1 = north_ethiopid
+		1 = north_pontid
+		1 = paleo_atlantid
+		1 = paleo_sardinian
+		1 = mtebid
+		1 = middle_nile
+		1 = keltic_nordid
+		1 = siwa
+		1 = tavastid
+		1 = anglo_saxon
+		1 = canarid
+	}
+}
+mizrahi = {
+
+	ethos = ethos_communal
+	heritage = heritage_israelite
+	language = language_aramaic
+	martial_custom = martial_custom_male_only	
+	traditions = {
+		tradition_diasporic
+		tradition_philosopher_culture
+		tradition_maritime_mercantilism
+		tradition_xenophilic
+		tradition_mobile_guards
+	}
+	
+	color = { 0.6 0.2 0.7 }
+
+	name_list = name_list_radhanite
+
+	coa_gfx = { israelite_group_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = arabid
+		77 = assyroid
+		73 = asian_alpine
+		50 = armenoid
+		47 = iranid
+		27 = proto_iranid
+		23 = anatolid
+		17 = pontid
+		13 = litorid
+		10 = transmediterranid
+		6 = eurafricanid
+		6 = gracilemediterranid
+		4 = berberid
+		3 = yemenid
+		3 = indo_iranid
+		2 = egyptid
+		2 = berid
+		1 = libyid
+		1 = indo_brachid
+		1 = mtebid
+		1 = north_ethiopid
+		1 = east_pamirid
+		1 = proto_nordid
+		1 = canarid
+	}
+}
 sephardi = {
 	color = { 0.7 0.2 0.7 }
 	
@@ -46,10 +171,10 @@ sephardi = {
 		12 = pontid
 		7 = canarid
 		3 = yemenid
-		3 = fezzanid
 		2 = middle_nile
 		2 = indo_iranid
 		2 = siwa
+		2 = fezzanid
 		2 = paleo_sardinian
 		2 = north_ethiopid
 		1 = north_atlantid
@@ -63,6 +188,47 @@ sephardi = {
 		1 = troender
 		1 = west_alpinid
 		1 = east_pamirid
+	}
+}
+beta_israeli = {
+
+	parents = { mizrahi ethiopian }
+	created = 52.1.1
+
+	ethos = ethos_spiritual
+	heritage = heritage_israelite
+	language = language_ethiopic
+	martial_custom = martial_custom_male_only	
+	traditions = {
+		tradition_fervent_temple_builders
+		tradition_zealous_people
+		tradition_isolationist
+		tradition_horn_mountain_skirmishing
+	}
+	
+	color = { 0.5 0.2 0.4 }
+
+	name_list = name_list_radhanite
+
+	coa_gfx = { israelite_group_coa_gfx } 
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+
+	ethnicities = {
+		100 = north_ethiopid
+		78 = proto_ethiopid
+		43 = central_ethiopid
+		36 = east_ethiopid
+		29 = yemenid
+		17 = omotic
+		4 = arabid
+		2 = eurafricanid
+		1 = arabian_veddoid
+		1 = dinkaid
+		1 = middle_nile
+		1 = transmediterranid
 	}
 }
 radhanite = {
@@ -161,121 +327,6 @@ kochinim = {
 		2 = proto_malayid
 	}
 }
-beta_israeli = {
-
-	parents = { mizrahi ethiopian }
-	created = 52.1.1
-
-	ethos = ethos_spiritual
-	heritage = heritage_israelite
-	language = language_ethiopic
-	martial_custom = martial_custom_male_only	
-	traditions = {
-		tradition_fervent_temple_builders
-		tradition_zealous_people
-		tradition_isolationist
-		tradition_horn_mountain_skirmishing
-	}
-	
-	color = { 0.5 0.2 0.4 }
-
-	name_list = name_list_radhanite
-
-	coa_gfx = { israelite_group_coa_gfx } 
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-
-
-	ethnicities = {
-		100 = north_ethiopid
-		78 = proto_ethiopid
-		43 = central_ethiopid
-		36 = east_ethiopid
-		29 = yemenid
-		17 = omotic
-		4 = arabid
-		2 = eurafricanid
-		1 = arabian_veddoid
-		1 = dinkaid
-		1 = middle_nile
-		1 = transmediterranid
-	}
-}
-ashkenazi = {
-	color = ashkenazi
-	
-	created = 700.1.1
-	parents = { sephardi }
-	
-	ethos = ethos_communal
-	heritage = heritage_israelite
-	language = language_high_german
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_diasporic
-		tradition_family_entrepreneurship
-		tradition_faith_bound
-		tradition_forbearing
-		tradition_mobile_guards
-	}
-	
-	name_list = name_list_ashkenazi
-	
-	coa_gfx = { israelite_group_coa_gfx }
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 
-	
-
-	ethnicities = {
-		100 = asian_alpine
-		93 = armenoid
-		72 = arabid
-		64 = assyroid
-		47 = anatolid
-		32 = dinarid
-		30 = west_alpinid
-		29 = proto_iranid
-		26 = iranid
-		24 = norid
-		24 = subnordid
-		22 = litorid
-		22 = atlanto_mediterranean
-		20 = eurafricanid
-		15 = transmediterranid
-		13 = carpathid
-		12 = north_atlantid
-		11 = berberid
-		10 = pontid
-		10 = gracilemediterranid
-		7 = halstatt
-		7 = libyid
-		6 = gorid
-		6 = egyptid
-		5 = pre_slavic
-		5 = neo_danubian
-		4 = faelid
-		4 = berid
-		2 = proto_nordid
-		2 = borreby
-		2 = yemenid
-		2 = african_alpine
-		2 = indo_iranid
-		2 = east_pamirid
-		1 = north_ethiopid
-		1 = north_pontid
-		1 = paleo_atlantid
-		1 = paleo_sardinian
-		1 = mtebid
-		1 = middle_nile
-		1 = keltic_nordid
-		1 = siwa
-		1 = tavastid
-		1 = anglo_saxon
-		1 = canarid
-	}
-}
 kaifeng_jew = {
 
 	parents = { radhanite han }
@@ -319,56 +370,5 @@ kaifeng_jew = {
 		2 = shanid
 		1 = south_palaungid
 		1 = tonkinesid
-	}
-}
-mizrahi = {
-
-	ethos = ethos_communal
-	heritage = heritage_israelite
-	language = language_aramaic
-	martial_custom = martial_custom_male_only	
-	traditions = {
-		tradition_diasporic
-		tradition_philosopher_culture
-		tradition_maritime_mercantilism
-		tradition_xenophilic
-		tradition_mobile_guards
-	}
-	
-	color = { 0.6 0.2 0.7 }
-
-	name_list = name_list_radhanite
-
-	coa_gfx = { israelite_group_coa_gfx } 
-	building_gfx = { mena_building_gfx } 
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = arabid
-		77 = assyroid
-		73 = asian_alpine
-		50 = armenoid
-		47 = iranid
-		27 = proto_iranid
-		23 = anatolid
-		17 = pontid
-		13 = litorid
-		10 = transmediterranid
-		6 = eurafricanid
-		6 = gracilemediterranid
-		4 = berberid
-		3 = yemenid
-		3 = indo_iranid
-		2 = egyptid
-		2 = berid
-		1 = libyid
-		1 = indo_brachid
-		1 = mtebid
-		1 = north_ethiopid
-		1 = east_pamirid
-		1 = proto_nordid
-		1 = canarid
 	}
 }

@@ -1,4 +1,80 @@
 ﻿
+cham = {
+		
+	color = cham
+	ethos = ethos_spiritual
+	heritage = heritage_malay
+	language = language_cham
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_religious_patronage
+		tradition_jungle_warriors
+	}
+	
+	name_list = name_list_cham
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = annamid
+		100 = deutero_malayid
+		24 = south_palaungid
+		10 = khmerid
+		7 = changkiangid
+		7 = chukiangid
+		7 = east_shanid
+		6 = dayakid
+		6 = senoid
+		5 = kachinid
+		5 = tonkinesid
+		4 = nesiotid
+		2 = basic_melanesid
+		1 = karnatid
+	}
+}
+batak = {
+		
+	color = batak
+	ethos = ethos_bellicose
+	heritage = heritage_malay
+	language = language_malay
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_religion_blending
+		tradition_jungle_warriors
+	}
+	
+	name_list = name_list_malay
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = kachinid
+		62 = deutero_malayid
+		47 = toalid
+		40 = dayakid
+		17 = south_palaungid
+		9 = east_shanid
+		9 = proto_malayid
+		9 = senoid
+		8 = chukiangid
+		8 = karnatid
+		4 = indo_brachid
+		4 = nesiotid
+		2 = changkiangid
+		2 = khmerid
+	}
+}
 achenese = {
 		
 	color = { 0.796 0.227 0.535 }
@@ -40,20 +116,20 @@ achenese = {
 		3 = proto_malayid
 	}
 }
-batak = {
+javanese = {
 		
-	color = batak
-	ethos = ethos_bellicose
+	color = javanese
+	ethos = ethos_courtly
 	heritage = heritage_malay
-	language = language_malay
+	language = language_javanese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warrior_culture
+		tradition_seafaring
 		tradition_religion_blending
 		tradition_jungle_warriors
 	}
 	
-	name_list = name_list_malay
+	name_list = name_list_javanese
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -62,57 +138,16 @@ batak = {
 	
 
 	ethnicities = {
-		100 = kachinid
-		62 = deutero_malayid
-		47 = toalid
-		40 = dayakid
-		17 = south_palaungid
-		9 = east_shanid
-		9 = proto_malayid
-		9 = senoid
-		8 = chukiangid
-		8 = karnatid
-		4 = indo_brachid
-		4 = nesiotid
-		2 = changkiangid
-		2 = khmerid
-	}
-}
-cham = {
-		
-	color = cham
-	ethos = ethos_spiritual
-	heritage = heritage_malay
-	language = language_cham
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_legalistic
-		tradition_religious_patronage
-		tradition_jungle_warriors
-	}
-	
-	name_list = name_list_cham
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = annamid
 		100 = deutero_malayid
-		24 = south_palaungid
-		10 = khmerid
-		7 = changkiangid
-		7 = chukiangid
-		7 = east_shanid
-		6 = dayakid
-		6 = senoid
+		18 = proto_malayid
+		16 = chukiangid
+		10 = dayakid
+		5 = changkiangid
+		5 = east_shanid
 		5 = kachinid
-		5 = tonkinesid
-		4 = nesiotid
-		2 = basic_melanesid
+		5 = toalid
+		3 = arabid
+		1 = indo_brachid
 		1 = karnatid
 	}
 }
@@ -153,40 +188,5 @@ malay = {
 		2 = arabid
 		2 = khmerid
 		1 = nesiotid
-	}
-}
-javanese = {
-		
-	color = javanese
-	ethos = ethos_courtly
-	heritage = heritage_malay
-	language = language_javanese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_seafaring
-		tradition_religion_blending
-		tradition_jungle_warriors
-	}
-	
-	name_list = name_list_javanese
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = deutero_malayid
-		18 = proto_malayid
-		16 = chukiangid
-		10 = dayakid
-		5 = changkiangid
-		5 = east_shanid
-		5 = kachinid
-		5 = toalid
-		3 = arabid
-		1 = indo_brachid
-		1 = karnatid
 	}
 }

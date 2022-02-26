@@ -3,6 +3,47 @@
 	# * Meshchera
 	# * Muroma
 
+mordvin = {
+	color = mordvin
+	
+	ethos = ethos_stoic
+	heritage = heritage_volga_finnic
+	language = language_volga_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_music_theory
+		tradition_festivities
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_mordvin
+	
+	coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { balto_finnic_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = ladogan
+		92 = neo_danubian
+		86 = north_pontid
+		41 = fenno_nordid
+		19 = gorid
+		13 = proto_nordid
+		8 = norid
+		8 = volgid
+		7 = aisto_nordid
+		6 = pontid
+		6 = savolaxid
+		5 = andronovo_turanid
+		3 = scando_lappid
+		2 = north_lappid
+		2 = dinarid
+		2 = carpathid
+		2 = troender
+	}
+}
 meshchera = {
 	color = { 0.35 0.4 0.8 }
 	
@@ -46,6 +87,40 @@ meshchera = {
 		1 = troender
 	}
 }
+mari = {
+	color = { 0.45 0.55 0.85 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_volga_finnic
+	language = language_volga_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_music_theory
+		tradition_festivities
+	}
+	
+	name_list = name_list_mari
+	
+	coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { balto_finnic_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = fenno_nordid
+		97 = ladogan
+		47 = neo_danubian
+		6 = north_lappid
+		6 = north_pontid
+		6 = proto_nordid
+		6 = savolaxid
+		6 = volgid
+		5 = scando_lappid
+		3 = aisto_nordid
+		1 = gorid
+	}
+}
 merya = {
 	color = { 0.25 0.5 0.8 }
 	
@@ -82,81 +157,6 @@ merya = {
 		5 = scando_lappid
 		5 = volgid
 		3 = tavastid
-	}
-}
-mari = {
-	color = { 0.45 0.55 0.85 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_volga_finnic
-	language = language_volga_finnic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_music_theory
-		tradition_festivities
-	}
-	
-	name_list = name_list_mari
-	
-	coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { balto_finnic_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = fenno_nordid
-		97 = ladogan
-		47 = neo_danubian
-		6 = north_lappid
-		6 = north_pontid
-		6 = proto_nordid
-		6 = savolaxid
-		6 = volgid
-		5 = scando_lappid
-		3 = aisto_nordid
-		1 = gorid
-	}
-}
-mordvin = {
-	color = mordvin
-	
-	ethos = ethos_stoic
-	heritage = heritage_volga_finnic
-	language = language_volga_finnic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_music_theory
-		tradition_festivities
-		tradition_religion_blending
-	}
-	
-	name_list = name_list_mordvin
-	
-	coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { balto_finnic_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = ladogan
-		92 = neo_danubian
-		86 = north_pontid
-		41 = fenno_nordid
-		19 = gorid
-		13 = proto_nordid
-		8 = norid
-		8 = volgid
-		7 = aisto_nordid
-		6 = pontid
-		6 = savolaxid
-		5 = andronovo_turanid
-		3 = scando_lappid
-		2 = north_lappid
-		2 = dinarid
-		2 = carpathid
-		2 = troender
 	}
 }
 muroma = {
