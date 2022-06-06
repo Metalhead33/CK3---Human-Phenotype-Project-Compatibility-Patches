@@ -1,0 +1,99 @@
+﻿
+lutici = {
+		
+	color = { 0.6 0.7 0.7 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_hussar
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_sorbian
+	
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = norid
+		96 = gorid
+		94 = neo_danubian
+		85 = north_pontid
+		80 = pre_slavic
+		76 = subnordid
+		45 = tavastid
+		33 = carpathid
+		31 = borreby
+		20 = halstatt
+		16 = aisto_nordid
+		11 = west_alpinid
+		11 = pontid
+		7 = proto_nordid
+		6 = faelid
+		6 = dinarid
+		6 = savolaxid
+		4 = brunn
+		3 = anglo_saxon
+		3 = alfoeld
+		2 = ladogan
+		2 = scythian
+		2 = troender
+		1 = north_atlantid
+		1 = scando_lappid
+	}
+}
+sorbian = {
+		
+	color = { 0.5 0.6 0.8 }
+
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_hussar
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_sorbian
+	
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = subnordid
+		90 = borreby
+		79 = tavastid
+		75 = faelid
+		50 = west_alpinid
+		46 = halstatt
+		32 = norid
+		10 = neo_danubian
+		6 = north_atlantid
+		6 = troender
+		6 = proto_nordid
+		6 = pre_slavic
+		6 = aisto_nordid
+		6 = gorid
+		6 = brunn
+		6 = anglo_saxon
+		5 = north_pontid
+		4 = pontid
+		4 = dinarid
+		2 = paleo_atlantid
+		2 = strandid
+		2 = carpathid
+	}
+}

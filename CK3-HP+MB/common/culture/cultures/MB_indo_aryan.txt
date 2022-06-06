@@ -1,0 +1,43 @@
+﻿
+munda = {
+
+	color = { 0.7 0.5 0.1 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_indo_aryan
+	language = language_magadhan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_religious_patronage
+		tradition_agrarian
+	}
+	
+	name_list = name_list_bengali
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_brachid
+		92 = gracile_indid
+		27 = kolid
+		8 = mountain_indid
+		7 = north_indid
+		6 = palaungid
+		5 = central_brachid
+		5 = indo_brachid
+		4 = south_gondid
+		3 = karnatid
+		3 = kham
+		2 = kachinid
+		2 = north_gondid
+		2 = shanid
+		1 = tibetid
+		1 = deutero_malayid
+		1 = dayakid
+	}
+}

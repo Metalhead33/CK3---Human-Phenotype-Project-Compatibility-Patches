@@ -1,0 +1,51 @@
+﻿
+livonian = {
+	color = { 0.35 0.85 0.9 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_balto_finnic
+	language = language_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_music_theory
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+	
+	name_list = name_list_estonian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+
+	ethnicities = {
+		100 = aisto_nordid
+		100 = tavastid
+		50 = savolaxid
+		24 = neo_danubian
+		18 = fenno_nordid
+		12 = halstatt
+		6 = borreby
+		6 = proto_nordid
+		6 = pre_slavic
+		6 = north_pontid
+		6 = north_lappid
+		5 = scando_lappid
+		5 = subnordid
+		4 = ladogan
+		4 = faelid
+		3 = troender
+		3 = volgid
+	}
+}

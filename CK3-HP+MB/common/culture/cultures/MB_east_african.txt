@@ -1,0 +1,46 @@
+﻿
+egyptian_coptic = {
+	color = hsv{ 0.08 0.10 0.5 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_african #Could probably use something more unique but this makes them not get Arabic naming
+	language = language_egpytian_coptic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_agrarian
+		tradition_zealous_people
+		tradition_mubarizuns
+	}
+	
+	name_list = name_list_egyptian_coptic
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = egyptid
+		86 = arabid
+		45 = transmediterranid
+		35 = armenoid
+		29 = berberid
+		18 = libyid
+		13 = asian_alpine
+		5 = yemenid
+		5 = middle_nile
+		5 = assyroid
+		4 = eurafricanid
+		4 = siwa
+		3 = north_ethiopid
+		3 = african_alpine
+		2 = gracilemediterranid
+		2 = canarid
+		2 = pontid
+		1 = east_ethiopid
+		1 = litorid
+		1 = moorish
+	}
+}

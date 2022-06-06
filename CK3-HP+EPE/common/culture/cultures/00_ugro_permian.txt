@@ -1,6 +1,41 @@
-﻿# Several groups in this file have extremely little available evidence to go off of, and so are more educated guesses than we'd like. They should be updated comprehensively when we can. Specifically:
-	# * Komi
+﻿	# * Komi
 
+samoyed = {
+	color = { 0.3 0.87 0.21 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_ugro_permian
+	language = language_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_welcoming
+		tradition_forest_wardens
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_samoyed
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { balto_finnic_clothing_gfx }
+	unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = samoyedic
+		45 = north_lappid
+		45 = savolaxid
+		8 = fenno_nordid
+		8 = ladogan
+		8 = neo_danubian
+		8 = volgid
+		6 = tavastid
+		3 = north_pontid
+		2 = proto_nordid
+		2 = scando_lappid
+	}
+}
 komi = {
 	color = komi
 	
@@ -18,7 +53,7 @@ komi = {
 	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { balto_finnic_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
 	
 
 	ethnicities = {
@@ -54,7 +89,7 @@ khanty = {
 	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { balto_finnic_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
 	
 
 	ethnicities = {
@@ -69,41 +104,5 @@ khanty = {
 		1 = north_lappid
 		1 = scythian
 		1 = volgid
-	}
-}
-samoyed = {
-	color = { 0.3 0.87 0.21 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_ugro_permian
-	language = language_finnic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_xenophilic
-		tradition_welcoming
-		tradition_forest_wardens
-		tradition_caravaneers
-	}
-	
-	name_list = name_list_samoyed
-	
-	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { balto_finnic_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = samoyedic
-		45 = north_lappid
-		45 = savolaxid
-		8 = fenno_nordid
-		8 = ladogan
-		8 = neo_danubian
-		8 = volgid
-		6 = tavastid
-		3 = north_pontid
-		2 = proto_nordid
-		2 = scando_lappid
 	}
 }
