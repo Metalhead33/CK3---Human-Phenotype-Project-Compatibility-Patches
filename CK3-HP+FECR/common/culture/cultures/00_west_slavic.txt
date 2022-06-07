@@ -92,6 +92,104 @@ carantanian = {
 		1 = anglo_saxon
 	}
 }
+pommeranian = {
+	color = { 0.3 0.6 0.4 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_hussar
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_pommeranian
+	
+	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = borreby
+		100 = tavastid
+		83 = halstatt
+		65 = faelid
+		41 = subnordid
+		6 = aisto_nordid
+		6 = brunn
+		6 = west_alpinid
+		6 = gorid
+		6 = neo_danubian
+		6 = norid
+		6 = proto_nordid
+		5 = anglo_saxon
+		5 = troender
+		5 = pre_slavic
+		5 = north_pontid
+		3 = savolaxid
+		3 = pontid
+		1 = north_atlantid
+		1 = dinarid
+	}
+}
+slovien = {
+	color = { 0.3 0.6 0.5 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_west_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountaineer_ruralism
+		tradition_equitable
+	}
+	
+	name_list = name_list_slovien
+	
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = carpathid
+		100 = pre_slavic
+		100 = gorid
+		100 = norid
+		92 = neo_danubian
+		40 = north_pontid
+		31 = halstatt
+		23 = north_atlantid
+		5 = west_alpinid
+		5 = alfoeld
+		5 = tavastid
+		5 = subnordid
+		5 = proto_nordid
+		5 = pontid
+		5 = litorid
+		5 = ladogan
+		5 = faelid
+		5 = eurafricanid
+		5 = dinarid
+		5 = brunn
+		5 = borreby
+		4 = savolaxid
+		4 = scythian
+		3 = plains_pamirid
+		3 = anglo_saxon
+		2 = troender
+		1 = keltic_nordid
+	}
+}
 czech = {
 	color = czech
 	
@@ -139,54 +237,6 @@ czech = {
 		2 = paleo_atlantid
 		2 = savolaxid
 		2 = aisto_nordid
-	}
-}
-pommeranian = {
-	color = { 0.3 0.6 0.4 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_west_slavic
-	language = language_slavonic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_maritime_mercantilism
-		tradition_hussar
-	}
-	
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_pommeranian
-	
-	coa_gfx = { west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = borreby
-		100 = tavastid
-		83 = halstatt
-		65 = faelid
-		41 = subnordid
-		6 = aisto_nordid
-		6 = brunn
-		6 = west_alpinid
-		6 = gorid
-		6 = neo_danubian
-		6 = norid
-		6 = proto_nordid
-		5 = anglo_saxon
-		5 = troender
-		5 = pre_slavic
-		5 = north_pontid
-		3 = savolaxid
-		3 = pontid
-		1 = north_atlantid
-		1 = dinarid
 	}
 }
 polish = {
@@ -240,55 +290,5 @@ polish = {
 		2 = troender
 		1 = north_atlantid
 		1 = scando_lappid
-	}
-}
-slovien = {
-	color = { 0.3 0.6 0.5 }
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_west_slavic
-	language = language_slavonic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_mountaineer_ruralism
-		tradition_equitable
-	}
-	
-	name_list = name_list_slovien
-	
-	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-
-
-	ethnicities = {
-		100 = carpathid
-		100 = pre_slavic
-		100 = gorid
-		100 = norid
-		92 = neo_danubian
-		40 = north_pontid
-		31 = halstatt
-		23 = north_atlantid
-		5 = west_alpinid
-		5 = alfoeld
-		5 = tavastid
-		5 = subnordid
-		5 = proto_nordid
-		5 = pontid
-		5 = litorid
-		5 = ladogan
-		5 = faelid
-		5 = eurafricanid
-		5 = dinarid
-		5 = brunn
-		5 = borreby
-		4 = savolaxid
-		4 = scythian
-		3 = plains_pamirid
-		3 = anglo_saxon
-		2 = troender
-		1 = keltic_nordid
 	}
 }
