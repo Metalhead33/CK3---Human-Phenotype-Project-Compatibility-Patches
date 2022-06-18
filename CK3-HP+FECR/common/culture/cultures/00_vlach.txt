@@ -1,0 +1,110 @@
+﻿
+vlach = {
+	color = vlach
+
+	# Croatian = stand-in for South Slavic settlement of Balkans ~550
+	parents = { roman albanian }
+
+	created = 600.1.1
+
+	history_loc_override = vlach_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_vlach
+	language = language_wallachian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_zealous_people
+		tradition_hussar
+		tradition_xenophilic
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_vlach
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = gorid
+		98 = neo_danubian
+		96 = carpathid
+		80 = dinarid
+		60 = north_pontid
+		58 = pontid
+		37 = norid
+		15 = alfoeld
+		8 = gracilemediterranid
+		8 = andronovo_turanid
+		7 = litorid
+		6 = proto_nordid
+		6 = pre_slavic
+		6 = scythian
+		6 = armenoid
+		5 = ladogan
+		4 = subnordid
+		4 = anatolid
+		3 = borreby
+		3 = asian_alpine
+		3 = west_alpinid
+		2 = faelid
+		2 = eurafricanid
+		2 = tavastid
+		1 = plains_pamirid
+		1 = halstatt
+		1 = troender
+	}
+}
+albanian = {
+	color = albanian
+	
+	ethos = ethos_communal
+	heritage = heritage_vlach
+	language = language_albanian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountaineers
+		tradition_pastoralists
+		tradition_isolationist
+		tradition_swords_for_hire
+	}
+	
+	name_list = name_list_albanian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = dinarid
+		61 = eurafricanid
+		53 = litorid
+		29 = pontid
+		20 = borreby
+		13 = norid
+		12 = west_alpinid
+		5 = gracilemediterranid
+		5 = proto_nordid
+		5 = paleo_sardinian
+		5 = north_pontid
+		5 = neo_danubian
+		5 = anatolid
+		5 = gorid
+		5 = carpathid
+		5 = berid
+		5 = atlanto_mediterranean
+		5 = asian_alpine
+		4 = armenoid
+		2 = pre_slavic
+	}
+}

@@ -1,37 +1,4 @@
 ﻿
-shona = {
-	color = { 0.63 0.95 0.94 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_east_bantu
-	language = language_shona
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_RICE_swahili_contacts
-		tradition_caravaneers
-		tradition_ancient_miners
-	}
-	
-	name_list = name_list_shona
-	
-	coa_gfx = { east_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = guinesid
-		28 = guineo_camerunian
-		6 = basic_bambutid
-		6 = congolesid
-		6 = equatorialsudanid
-		6 = westcongolesid
-		4 = sudanid
-		3 = bobo
-		3 = casamance
-	}
-}
 malagasy = {
 	color = { 0.80 0.97 0.97 }
 	
@@ -90,6 +57,39 @@ swahili = {
 	}
 	
 	name_list = name_list_swahili
+	
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = guinesid
+		28 = guineo_camerunian
+		6 = basic_bambutid
+		6 = congolesid
+		6 = equatorialsudanid
+		6 = westcongolesid
+		4 = sudanid
+		3 = bobo
+		3 = casamance
+	}
+}
+shona = {
+	color = { 0.63 0.95 0.94 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_east_bantu
+	language = language_shona
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_RICE_swahili_contacts
+		tradition_caravaneers
+		tradition_ancient_miners
+	}
+	
+	name_list = name_list_shona
 	
 	coa_gfx = { east_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }

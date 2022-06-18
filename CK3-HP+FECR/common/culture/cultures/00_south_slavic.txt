@@ -47,6 +47,61 @@ bosnian = {
 		2 = alfoeld
 	}
 }
+bulgarian = {
+	color = { 0.7 0.5 0.5 }
+	created = 850.1.1
+	parents = { bolghar }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_south_slavic
+	language = language_slavonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_ruling_caste
+		tradition_warrior_culture
+		tradition_hussar
+		tradition_merciful_blindings
+	}
+	
+	name_list = name_list_bulgarian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = pontid
+		93 = gorid
+		78 = dinarid
+		47 = neo_danubian
+		43 = carpathid
+		36 = litorid
+		35 = gracilemediterranid
+		27 = anatolid
+		16 = pre_slavic
+		12 = eurafricanid
+		9 = asian_alpine
+		9 = armenoid
+		9 = north_pontid
+		8 = borreby
+		7 = proto_nordid
+		5 = scythian
+		5 = alfoeld
+		5 = norid
+		4 = proto_iranid
+		3 = andronovo_turanid
+		2 = subnordid
+		2 = troender
+		2 = halstatt
+		2 = berid
+		2 = atlanto_mediterranean
+		1 = west_alpinid
+		1 = paleo_sardinian
+		1 = ladogan
+	}
+}
 serbian = {
 	color = {  0.36 0.1 0.04 }
 	
@@ -148,60 +203,5 @@ croatian = {
 		2 = tavastid
 		1 = north_atlantid
 		1 = anglo_saxon
-	}
-}
-bulgarian = {
-	color = { 0.7 0.5 0.5 }
-	created = 850.1.1
-	parents = { bolghar }
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_south_slavic
-	language = language_slavonic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_ruling_caste
-		tradition_warrior_culture
-		tradition_hussar
-		tradition_merciful_blindings
-	}
-	
-	name_list = name_list_bulgarian
-	
-	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = pontid
-		93 = gorid
-		78 = dinarid
-		47 = neo_danubian
-		43 = carpathid
-		36 = litorid
-		35 = gracilemediterranid
-		27 = anatolid
-		16 = pre_slavic
-		12 = eurafricanid
-		9 = asian_alpine
-		9 = armenoid
-		9 = north_pontid
-		8 = borreby
-		7 = proto_nordid
-		5 = scythian
-		5 = alfoeld
-		5 = norid
-		4 = proto_iranid
-		3 = andronovo_turanid
-		2 = subnordid
-		2 = troender
-		2 = halstatt
-		2 = berid
-		2 = atlanto_mediterranean
-		1 = west_alpinid
-		1 = paleo_sardinian
-		1 = ladogan
 	}
 }
