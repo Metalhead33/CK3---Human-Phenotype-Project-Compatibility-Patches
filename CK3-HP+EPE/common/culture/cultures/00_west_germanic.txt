@@ -1,52 +1,4 @@
 ﻿
-old_saxon = {
-	color = { 0.5 0.1 0.1 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_west_germanic
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_things
-		tradition_seafaring
-		tradition_hird
-	}
-	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_old_saxon
-
-	coa_gfx = { western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
-
-
-	ethnicities = {
-		100 = faelid
-		86 = halstatt
-		72 = borreby
-		63 = anglo_saxon
-		63 = subnordid
-		15 = tavastid
-		10 = north_atlantid
-		6 = west_alpinid
-		6 = troender
-		6 = norid
-		6 = brunn
-		5 = paleo_atlantid
-		5 = gorid
-		4 = neo_danubian
-		4 = pre_slavic
-		2 = proto_nordid
-		2 = dinarid
-		2 = aisto_nordid
-		1 = north_pontid
-	}
-}
 anglo_saxon = {
 	color = { 0.8 0.3 0.3 }
 	created = 500.1.1
@@ -180,5 +132,53 @@ english = {
 		2 = berberid
 		2 = atlanto_mediterranean
 		1 = paleo_sardinian
+	}
+}
+old_saxon = {
+	color = { 0.5 0.1 0.1 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_things
+		tradition_seafaring
+		tradition_hird
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = faelid
+		86 = halstatt
+		72 = borreby
+		63 = anglo_saxon
+		63 = subnordid
+		15 = tavastid
+		10 = north_atlantid
+		6 = west_alpinid
+		6 = troender
+		6 = norid
+		6 = brunn
+		5 = paleo_atlantid
+		5 = gorid
+		4 = neo_danubian
+		4 = pre_slavic
+		2 = proto_nordid
+		2 = dinarid
+		2 = aisto_nordid
+		1 = north_pontid
 	}
 }
