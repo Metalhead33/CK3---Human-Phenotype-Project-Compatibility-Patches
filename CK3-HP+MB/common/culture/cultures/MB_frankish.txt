@@ -7,10 +7,11 @@ arpitan = {
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_equal_inheritance
-		tradition_chivalry
 		tradition_chanson_de_geste
-		tradition_parochialism
+		#tradition_hereditary_hierarchy
+		tradition_chivalry
+		#tradition_parochialism
+		tradition_mountain_homes
 	}
 	
 	name_list = name_list_francoprovencal
@@ -23,37 +24,39 @@ arpitan = {
 
 	ethnicities = {
 		100 = subnordid
-		100 = atlanto_mediterranean
-		83 = west_alpinid
-		66 = dinarid
-		31 = eurafricanid
-		13 = halstatt
-		5 = gracilemediterranid
-		5 = paleo_sardinian
-		5 = north_atlantid
-		5 = norid
-		5 = litorid
+		88 = west_alpinid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		6 = litorid
+		6 = north_atlantid
 		5 = faelid
-		5 = berid
+		5 = brunn
 		4 = carpathid
-		4 = brunn
-		2 = borreby
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
 		2 = baskid
 		1 = paleo_atlantid
+		1 = pre_slavic
 	}
 }
 gascon = {
 	color = { 0.32 0.12 0.90 }
 	
-	ethos = ethos_egalitarian
+	ethos = ethos_courtly
 	heritage = heritage_frankish
 	language = language_occitano_romance
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_equal_inheritance
-		tradition_chivalry
+		tradition_poetry
+		tradition_city_keepers
 		tradition_chanson_de_geste
-		tradition_parochialism
+		tradition_chivalry
+		tradition_talent_acquisition
 	}
 	
 	name_list = name_list_occitan
