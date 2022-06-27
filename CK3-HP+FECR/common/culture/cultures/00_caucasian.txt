@@ -1,18 +1,20 @@
 ﻿
-circassian = {
-	color = circassian
+chechen = {
+	color = chechen
 	
 	ethos = ethos_communal
 	heritage = heritage_kavkaz
-	language = language_circassian
+	language = language_nakh
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_esteemed_hospitality
-		tradition_circassian_beauty
+		tradition_hereditary_hierarchy
+		#tradition_esteemed_hospitality
+		tradition_metal_craftsmanship
+		tradition_castle_keepers
 		tradition_caucasian_wolves
 	}
 	
-	name_list = name_list_circassian
+	name_list = name_list_chechen
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -21,28 +23,61 @@ circassian = {
 	
 
 	ethnicities = {
-		100 = mtebid
-		92 = pontid
-		70 = anatolid
-		53 = armenoid
-		18 = andronovo_turanid
-		17 = scythian
-		16 = east_pamirid
-		11 = proto_iranid
-		6 = asian_alpine
-		6 = berid
-		6 = dinarid
-		6 = north_pontid
-		6 = iranid
-		5 = gracilemediterranid
-		4 = gorid
-		4 = plains_pamirid
-		4 = central_pamirid
-		4 = proto_nordid
-		3 = transcaspian
-		2 = carpathid
-		2 = aralid
-		1 = neo_danubian
+		100 = andronovo_turanid
+		58 = anatolid
+		39 = mtebid
+		9 = aralid
+		9 = scythian
+		9 = pontid
+		9 = plains_pamirid
+		8 = iranid
+		8 = transcaspian
+		8 = central_pamirid
+		7 = north_pontid
+		7 = asian_alpine
+		6 = proto_nordid
+		4 = dinarid
+		4 = armenoid
+		3 = east_pamirid
+		2 = neo_danubian
+		1 = arabid
+		1 = volgid
+	}
+}
+udi = {
+	color = udi
+	
+	ethos = ethos_communal
+	heritage = heritage_kavkaz
+	language = language_lezgic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		#tradition_esteemed_hospitality
+		tradition_metal_craftsmanship
+		tradition_castle_keepers
+		tradition_caucasian_wolves
+	}
+	
+	name_list = name_list_udi
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = armenoid
+		100 = asian_alpine
+		69 = iranid
+		37 = anatolid
+		37 = mtebid
+		37 = pontid
+		5 = arabid
+		5 = east_pamirid
+		5 = proto_iranid
+		4 = gracilemediterranid
 	}
 }
 caucasian_avar = {
@@ -88,22 +123,20 @@ caucasian_avar = {
 		1 = assyroid
 	}
 }
-udi = {
-	color = udi
+circassian = {
+	color = circassian
 	
 	ethos = ethos_communal
 	heritage = heritage_kavkaz
-	language = language_lezgic
+	language = language_circassian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		#tradition_esteemed_hospitality
-		tradition_metal_craftsmanship
-		tradition_castle_keepers
+		tradition_esteemed_hospitality
+		tradition_circassian_beauty
 		tradition_caucasian_wolves
 	}
 	
-	name_list = name_list_udi
+	name_list = name_list_circassian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -112,60 +145,27 @@ udi = {
 	
 
 	ethnicities = {
-		100 = armenoid
-		100 = asian_alpine
-		69 = iranid
-		37 = anatolid
-		37 = mtebid
-		37 = pontid
-		5 = arabid
-		5 = east_pamirid
-		5 = proto_iranid
-		4 = gracilemediterranid
-	}
-}
-chechen = {
-	color = chechen
-	
-	ethos = ethos_communal
-	heritage = heritage_kavkaz
-	language = language_nakh
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hereditary_hierarchy
-		#tradition_esteemed_hospitality
-		tradition_metal_craftsmanship
-		tradition_castle_keepers
-		tradition_caucasian_wolves
-	}
-	
-	name_list = name_list_chechen
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = andronovo_turanid
-		58 = anatolid
-		39 = mtebid
-		9 = aralid
-		9 = scythian
-		9 = pontid
-		9 = plains_pamirid
-		8 = iranid
-		8 = transcaspian
-		8 = central_pamirid
-		7 = north_pontid
-		7 = asian_alpine
-		6 = proto_nordid
-		4 = dinarid
-		4 = armenoid
-		3 = east_pamirid
-		2 = neo_danubian
-		1 = arabid
-		1 = volgid
+		100 = mtebid
+		92 = pontid
+		70 = anatolid
+		53 = armenoid
+		18 = andronovo_turanid
+		17 = scythian
+		16 = east_pamirid
+		11 = proto_iranid
+		6 = asian_alpine
+		6 = berid
+		6 = dinarid
+		6 = north_pontid
+		6 = iranid
+		5 = gracilemediterranid
+		4 = gorid
+		4 = plains_pamirid
+		4 = central_pamirid
+		4 = proto_nordid
+		3 = transcaspian
+		2 = carpathid
+		2 = aralid
+		1 = neo_danubian
 	}
 }

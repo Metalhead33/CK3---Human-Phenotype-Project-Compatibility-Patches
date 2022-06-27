@@ -1,37 +1,4 @@
 ﻿
-ewe = {
-	color = hsv{ 0.32 0.9 0.7 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_yoruba
-	language = language_kwa
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_gbeto
-		tradition_festivities
-		tradition_bush_hunting
-	}
-	
-	name_list = name_list_ewe
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = guinesid
-		73 = sudanid
-		60 = guineo_camerunian
-		10 = casamance
-		6 = bobo
-		6 = westcongolesid
-		4 = congolesid
-		3 = equatorialsudanid
-		2 = fezzanid
-	}
-}
 akpoto = {
 	color = { 0.4 0.65 0.20 }
 	
@@ -46,6 +13,39 @@ akpoto = {
 	}
 	
 	name_list = name_list_akpoto
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = guinesid
+		28 = guineo_camerunian
+		6 = basic_bambutid
+		6 = congolesid
+		6 = equatorialsudanid
+		6 = westcongolesid
+		4 = sudanid
+		3 = bobo
+		3 = casamance
+	}
+}
+ijaw = {
+	color = { 0.2 0.4 0.1 }
+	
+	ethos = ethos_communal
+	heritage = heritage_yoruba
+	language = language_yoruba
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_bush_hunting
+		tradition_culture_conversion
+		tradition_wetlanders
+	}
+	
+	name_list = name_list_ijaw
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -81,113 +81,6 @@ yoruba = {
 	}
 	
 	name_list = name_list_yoruba
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = guinesid
-		28 = guineo_camerunian
-		6 = basic_bambutid
-		6 = congolesid
-		6 = equatorialsudanid
-		6 = westcongolesid
-		4 = sudanid
-		3 = bobo
-		3 = casamance
-	}
-}
-baatonu = {
-	color = hsv{ 45 135 220 }
-	
-	ethos = ethos_communal
-	heritage = heritage_yoruba
-	language = language_yoruba
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_horse_breeder
-		tradition_ruling_caste
-		tradition_dryland_dwellers
-	}
-	
-	name_list = name_list_baatonu
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = guinesid
-		28 = guineo_camerunian
-		6 = basic_bambutid
-		6 = congolesid
-		6 = equatorialsudanid
-		6 = westcongolesid
-		4 = sudanid
-		3 = bobo
-		3 = casamance
-	}
-}
-igbo = {
-	color = hsv{ 0.37 0.8 0.7 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_yoruba
-	language = language_yoruba
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_bush_hunting
-		tradition_hidden_cities
-		tradition_philosopher_culture
-		tradition_eldership
-	}
-	dlc_tradition = {
-		trait = tradition_artisans
-		requires_dlc_flag = hybridize_culture
-	}
-	name_list = name_list_igbo
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = guineo_camerunian
-		87 = guinesid
-		28 = westcongolesid
-		17 = equatorialsudanid
-		6 = basic_bambutid
-		6 = congolesid
-		5 = sudanid
-		4 = bobo
-		4 = casamance
-		4 = shari
-		2 = saharan_ethiopid
-		2 = west_ethiopid
-		1 = basic_bantuid
-	}
-}
-ijaw = {
-	color = { 0.2 0.4 0.1 }
-	
-	ethos = ethos_communal
-	heritage = heritage_yoruba
-	language = language_yoruba
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_bush_hunting
-		tradition_culture_conversion
-		tradition_wetlanders
-	}
-	
-	name_list = name_list_ijaw
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -243,5 +136,112 @@ edo = {
 		2 = saharan_ethiopid
 		2 = west_ethiopid
 		1 = basic_bantuid
+	}
+}
+igbo = {
+	color = hsv{ 0.37 0.8 0.7 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_yoruba
+	language = language_yoruba
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_bush_hunting
+		tradition_hidden_cities
+		tradition_philosopher_culture
+		tradition_eldership
+	}
+	dlc_tradition = {
+		trait = tradition_artisans
+		requires_dlc_flag = hybridize_culture
+	}
+	name_list = name_list_igbo
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = guineo_camerunian
+		87 = guinesid
+		28 = westcongolesid
+		17 = equatorialsudanid
+		6 = basic_bambutid
+		6 = congolesid
+		5 = sudanid
+		4 = bobo
+		4 = casamance
+		4 = shari
+		2 = saharan_ethiopid
+		2 = west_ethiopid
+		1 = basic_bantuid
+	}
+}
+baatonu = {
+	color = hsv{ 45 135 220 }
+	
+	ethos = ethos_communal
+	heritage = heritage_yoruba
+	language = language_yoruba
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_breeder
+		tradition_ruling_caste
+		tradition_dryland_dwellers
+	}
+	
+	name_list = name_list_baatonu
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = guinesid
+		28 = guineo_camerunian
+		6 = basic_bambutid
+		6 = congolesid
+		6 = equatorialsudanid
+		6 = westcongolesid
+		4 = sudanid
+		3 = bobo
+		3 = casamance
+	}
+}
+ewe = {
+	color = hsv{ 0.32 0.9 0.7 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_yoruba
+	language = language_kwa
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_gbeto
+		tradition_festivities
+		tradition_bush_hunting
+	}
+	
+	name_list = name_list_ewe
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = guinesid
+		73 = sudanid
+		60 = guineo_camerunian
+		10 = casamance
+		6 = bobo
+		6 = westcongolesid
+		4 = congolesid
+		3 = equatorialsudanid
+		2 = fezzanid
 	}
 }

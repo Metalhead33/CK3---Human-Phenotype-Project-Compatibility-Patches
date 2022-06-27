@@ -1,19 +1,18 @@
 ﻿
-hausa = {
-	color = hausa
+jukun = {
+	color = hsv{ 0.95 0.8 0.3 }
 	
-	ethos = ethos_egalitarian
+	ethos = ethos_stoic
 	heritage = heritage_central_african
 	language = language_chadic
-	martial_custom = martial_custom_equal
+	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caravaneers
-		tradition_parochialism
+		tradition_tribe_unity
+		tradition_hunters
 		tradition_family_entrepreneurship
-		tradition_hill_dwellers
 	}
 	
-	name_list = name_list_hausa
+	name_list = name_list_jukun
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -39,53 +38,21 @@ hausa = {
 		1 = targid
 	}
 }
-kanuri = {
-	color = hsv{ 0.95 0.8 0.7 }
+hausa = {
+	color = hausa
 	
-	ethos = ethos_bellicose
-	heritage = heritage_central_african
-	language = language_tubu
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hit_and_run
-		tradition_quarrelsome
-		tradition_mystical_ancestors
-	}
-	
-	name_list = name_list_kanuri
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = saharan_ethiopid
-		20 = shari
-		13 = fezzanid
-		6 = sudanid
-		4 = equatorialsudanid
-		3 = north_ethiopid
-		2 = moorish
-		1 = targid
-		1 = west_ethiopid
-	}
-}
-jukun = {
-	color = hsv{ 0.95 0.8 0.3 }
-	
-	ethos = ethos_stoic
+	ethos = ethos_egalitarian
 	heritage = heritage_central_african
 	language = language_chadic
-	martial_custom = martial_custom_male_only
+	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_tribe_unity
-		tradition_hunters
+		tradition_caravaneers
+		tradition_parochialism
 		tradition_family_entrepreneurship
+		tradition_hill_dwellers
 	}
 	
-	name_list = name_list_jukun
+	name_list = name_list_hausa
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -143,6 +110,39 @@ nupe = {
 		3 = congolesid
 		3 = shari
 		2 = casamance
+	}
+}
+kanuri = {
+	color = hsv{ 0.95 0.8 0.7 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_central_african
+	language = language_tubu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hit_and_run
+		tradition_quarrelsome
+		tradition_mystical_ancestors
+	}
+	
+	name_list = name_list_kanuri
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = saharan_ethiopid
+		20 = shari
+		13 = fezzanid
+		6 = sudanid
+		4 = equatorialsudanid
+		3 = north_ethiopid
+		2 = moorish
+		1 = targid
+		1 = west_ethiopid
 	}
 }
 sao = {

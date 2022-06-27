@@ -1,61 +1,17 @@
 ﻿
-gypsy_romanian = {
-	color = gypsy_romanian
-	parents = { gypsy_greek vlach }
-	created = 1300.1.1
+gypsy_india = {
+	color = gypsy_india
 	
 	ethos = ethos_communal
 	heritage = heritage_gypsy
-	language = language_wallachian
+	language = language_sauraseni
 	martial_custom = martial_custom_male_only
 	
-	name_list = name_list_vlach
+	name_list = name_list_hindustani
 	
 	coa_gfx = { dravidian_group_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
-	traditions = {
-		tradition_diasporic
-		tradition_metal_craftsmanship # Nemesfiiiiiim
-		tradition_life_is_just_a_joke
-		tradition_esteemed_hospitality
-	}
-	
-
-	ethnicities = {
-		100 = south_gondid
-		87 = kolid
-		59 = gracile_indid
-		43 = east_brachid
-		24 = north_indid
-		22 = central_brachid
-		10 = north_gondid
-		7 = indo_brachid
-		7 = palaungid
-		5 = karnatid
-		2 = mountain_indid
-		1 = indo_iranid
-		1 = malabarese
-	}
-}
-gypsy_caucasus = {
-		
-	color = gypsy_caucasus
-	parents = { gypsy_egypt armenian }
-	created = 900.1.1
-	
-	ethos = ethos_communal
-	heritage = heritage_gypsy
-	language = language_armenian
-	martial_custom = martial_custom_male_only
-	
-	name_list = name_list_armenian
-	
-	coa_gfx = { dravidian_group_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
@@ -123,21 +79,21 @@ gypsy_greek = {
 		1 = malabarese
 	}
 }
-gypsy_egypt = {
-	color = gypsy_egypt
-	parents = { gypsy_india egyptian }
-	created = 700.1.1
+gypsy_french = {
+	color = gypsy_french
+	parents = { gypsy_slav french }
+	created = 1400.1.1
 	
 	ethos = ethos_communal
 	heritage = heritage_gypsy
-	language = language_arabic
+	language = language_french
 	martial_custom = martial_custom_male_only
 	
-	name_list = name_list_egyptian
+	name_list = name_list_french
 	
 	coa_gfx = { dravidian_group_coa_gfx }
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
@@ -164,17 +120,17 @@ gypsy_egypt = {
 		1 = malabarese
 	}
 }
-gypsy_french = {
-	color = gypsy_french
-	parents = { gypsy_slav french }
+gypsy_italian = {
+	color = gypsy_italian
+	parents = { gypsy_slav italian }
 	created = 1400.1.1
 	
 	ethos = ethos_communal
 	heritage = heritage_gypsy
-	language = language_french
+	language = language_italian
 	martial_custom = martial_custom_male_only
 	
-	name_list = name_list_french
+	name_list = name_list_italian
 	
 	coa_gfx = { dravidian_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -220,6 +176,130 @@ gypsy_iberian = {
 	coa_gfx = { dravidian_group_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_diasporic
+		tradition_metal_craftsmanship # Nemesfiiiiiim
+		tradition_life_is_just_a_joke
+		tradition_esteemed_hospitality
+	}
+	
+
+	ethnicities = {
+		100 = south_gondid
+		87 = kolid
+		59 = gracile_indid
+		43 = east_brachid
+		24 = north_indid
+		22 = central_brachid
+		10 = north_gondid
+		7 = indo_brachid
+		7 = palaungid
+		5 = karnatid
+		2 = mountain_indid
+		1 = indo_iranid
+		1 = malabarese
+	}
+}
+gypsy_egypt = {
+	color = gypsy_egypt
+	parents = { gypsy_india egyptian }
+	created = 700.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_gypsy
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	
+	name_list = name_list_egyptian
+	
+	coa_gfx = { dravidian_group_coa_gfx }
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_diasporic
+		tradition_metal_craftsmanship # Nemesfiiiiiim
+		tradition_life_is_just_a_joke
+		tradition_esteemed_hospitality
+	}
+	
+
+	ethnicities = {
+		100 = south_gondid
+		87 = kolid
+		59 = gracile_indid
+		43 = east_brachid
+		24 = north_indid
+		22 = central_brachid
+		10 = north_gondid
+		7 = indo_brachid
+		7 = palaungid
+		5 = karnatid
+		2 = mountain_indid
+		1 = indo_iranid
+		1 = malabarese
+	}
+}
+gypsy_romanian = {
+	color = gypsy_romanian
+	parents = { gypsy_greek vlach }
+	created = 1300.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_gypsy
+	language = language_wallachian
+	martial_custom = martial_custom_male_only
+	
+	name_list = name_list_vlach
+	
+	coa_gfx = { dravidian_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_diasporic
+		tradition_metal_craftsmanship # Nemesfiiiiiim
+		tradition_life_is_just_a_joke
+		tradition_esteemed_hospitality
+	}
+	
+
+	ethnicities = {
+		100 = south_gondid
+		87 = kolid
+		59 = gracile_indid
+		43 = east_brachid
+		24 = north_indid
+		22 = central_brachid
+		10 = north_gondid
+		7 = indo_brachid
+		7 = palaungid
+		5 = karnatid
+		2 = mountain_indid
+		1 = indo_iranid
+		1 = malabarese
+	}
+}
+gypsy_caucasus = {
+		
+	color = gypsy_caucasus
+	parents = { gypsy_egypt armenian }
+	created = 900.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_gypsy
+	language = language_armenian
+	martial_custom = martial_custom_male_only
+	
+	name_list = name_list_armenian
+	
+	coa_gfx = { dravidian_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
@@ -304,86 +384,6 @@ gypsy_slav = {
 	coa_gfx = { dravidian_group_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
 	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
-	traditions = {
-		tradition_diasporic
-		tradition_metal_craftsmanship # Nemesfiiiiiim
-		tradition_life_is_just_a_joke
-		tradition_esteemed_hospitality
-	}
-	
-
-	ethnicities = {
-		100 = south_gondid
-		87 = kolid
-		59 = gracile_indid
-		43 = east_brachid
-		24 = north_indid
-		22 = central_brachid
-		10 = north_gondid
-		7 = indo_brachid
-		7 = palaungid
-		5 = karnatid
-		2 = mountain_indid
-		1 = indo_iranid
-		1 = malabarese
-	}
-}
-gypsy_india = {
-	color = gypsy_india
-	
-	ethos = ethos_communal
-	heritage = heritage_gypsy
-	language = language_sauraseni
-	martial_custom = martial_custom_male_only
-	
-	name_list = name_list_hindustani
-	
-	coa_gfx = { dravidian_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-
-	traditions = {
-		tradition_diasporic
-		tradition_metal_craftsmanship # Nemesfiiiiiim
-		tradition_life_is_just_a_joke
-		tradition_esteemed_hospitality
-	}
-	
-
-	ethnicities = {
-		100 = south_gondid
-		87 = kolid
-		59 = gracile_indid
-		43 = east_brachid
-		24 = north_indid
-		22 = central_brachid
-		10 = north_gondid
-		7 = indo_brachid
-		7 = palaungid
-		5 = karnatid
-		2 = mountain_indid
-		1 = indo_iranid
-		1 = malabarese
-	}
-}
-gypsy_italian = {
-	color = gypsy_italian
-	parents = { gypsy_slav italian }
-	created = 1400.1.1
-	
-	ethos = ethos_communal
-	heritage = heritage_gypsy
-	language = language_italian
-	martial_custom = martial_custom_male_only
-	
-	name_list = name_list_italian
-	
-	coa_gfx = { dravidian_group_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {

@@ -42,6 +42,45 @@ iraqi = {
 		1 = indo_brachid
 	}
 }
+hejazi = {
+	color = { 0.1 0.7 0.8 }
+	created = 650.1.1
+	parents = { bedouin }
+	
+	ethos = ethos_stoic
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_desert_nomads
+		tradition_mubarizuns
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_bedouin
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+
+	ethnicities = {
+		100 = arabid
+		37 = transmediterranid
+		35 = yemenid
+		6 = armenoid
+		6 = assyroid
+		6 = libyid
+		6 = pontid
+		4 = asian_alpine
+		3 = berberid
+		1 = arabian_veddoid
+		1 = egyptid
+		1 = eurafricanid
+	}
+}
 sicilian_arabic = {
 	color = { 0.3 0.6 0.3 }
 	created = 850.1.1
@@ -91,8 +130,8 @@ sicilian_arabic = {
 		1 = troender
 	}
 }
-hejazi = {
-	color = { 0.1 0.7 0.8 }
+omani = {
+	color = { 90 175 130 }
 	created = 650.1.1
 	parents = { bedouin }
 	
@@ -117,17 +156,11 @@ hejazi = {
 
 	ethnicities = {
 		100 = arabid
-		37 = transmediterranid
-		35 = yemenid
-		6 = armenoid
-		6 = assyroid
-		6 = libyid
-		6 = pontid
-		4 = asian_alpine
-		3 = berberid
-		1 = arabian_veddoid
-		1 = egyptid
-		1 = eurafricanid
+		6 = yemenid
+		5 = indo_brachid
+		4 = indo_iranid
+		2 = iranid
+		1 = asian_alpine
 	}
 }
 bahraini = {
@@ -161,38 +194,5 @@ bahraini = {
 		6 = iranid
 		6 = yemenid
 		4 = asian_alpine
-	}
-}
-omani = {
-	color = { 90 175 130 }
-	created = 650.1.1
-	parents = { bedouin }
-	
-	ethos = ethos_stoic
-	heritage = heritage_arabic
-	language = language_arabic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_tribe_unity
-		tradition_desert_nomads
-		tradition_mubarizuns
-		tradition_caravaneers
-	}
-	
-	name_list = name_list_bedouin
-
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 
-
-
-	ethnicities = {
-		100 = arabid
-		6 = yemenid
-		5 = indo_brachid
-		4 = indo_iranid
-		2 = iranid
-		1 = asian_alpine
 	}
 }

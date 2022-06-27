@@ -1,19 +1,54 @@
 ﻿
-beja = {
-	color = hsv{ 0.55 0.7 0.7 }
+harla = {
+	color = { 220 45 120 }
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
+	heritage = heritage_somalian #proto-somalis
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_city_keepers
+		tradition_horn_mountain_skirmishing
+		tradition_ancient_miners
+		tradition_dryland_dwellers
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_harla
+	
+	coa_gfx = { arabic_group_coa_gfx }
+	#coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_ethiopid
+		90 = central_ethiopid
+		8 = omotic
+		6 = north_ethiopid
+		6 = proto_ethiopid
+		1 = arabid
+		1 = eurafricanid
+	}
+}
+oromo = {
+	color = hsv { 0 0 0.392 }
+	
+	ethos = ethos_bellicose
 	heritage = heritage_somalian
 	language = language_cushitic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_desert_nomads
-		tradition_warriors_of_the_dry
-		tradition_isolationist
+		tradition_pastoralists
 		tradition_horn_mountain_skirmishing
+		tradition_legalistic #the Gadaa system
+		tradition_quarrelsome #free neighbor conquest cbs as proxy for migrations
+		tradition_culture_conversion
 	}
-
-	name_list = name_list_beja
+	
+	name_list = name_list_oromo
 	
 	coa_gfx = { east_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -22,20 +57,16 @@ beja = {
 	
 
 	ethnicities = {
-		100 = north_ethiopid
-		6 = arabid
-		5 = east_ethiopid
-		5 = middle_nile
-		5 = yemenid
-		4 = proto_ethiopid
-		2 = egyptid
-		2 = transmediterranid
-		1 = arabian_veddoid
-		1 = central_ethiopid
-		1 = dinkaid
-		1 = libyid
-		1 = moorish
-		1 = siwa
+		100 = central_ethiopid
+		83 = east_ethiopid
+		42 = omotic
+		16 = basic_bantuid
+		7 = north_ethiopid
+		6 = proto_ethiopid
+		2 = dinkaid
+		2 = equatorialsudanid
+		1 = basic_bambutid
+		1 = congolesid
 	}
 }
 afar = {
@@ -108,56 +139,21 @@ somali = {
 		1 = eurafricanid
 	}
 }
-harla = {
-	color = { 220 45 120 }
+beja = {
+	color = hsv{ 0.55 0.7 0.7 }
 	
-	ethos = ethos_spiritual
-	heritage = heritage_somalian #proto-somalis
-	language = language_cushitic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_city_keepers
-		tradition_horn_mountain_skirmishing
-		tradition_ancient_miners
-		tradition_dryland_dwellers
-		tradition_religion_blending
-	}
-	
-	name_list = name_list_harla
-	
-	coa_gfx = { arabic_group_coa_gfx }
-	#coa_gfx = { east_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = east_ethiopid
-		90 = central_ethiopid
-		8 = omotic
-		6 = north_ethiopid
-		6 = proto_ethiopid
-		1 = arabid
-		1 = eurafricanid
-	}
-}
-oromo = {
-	color = hsv { 0 0 0.392 }
-	
-	ethos = ethos_bellicose
+	ethos = ethos_communal
 	heritage = heritage_somalian
 	language = language_cushitic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_pastoralists
+		tradition_desert_nomads
+		tradition_warriors_of_the_dry
+		tradition_isolationist
 		tradition_horn_mountain_skirmishing
-		tradition_legalistic #the Gadaa system
-		tradition_quarrelsome #free neighbor conquest cbs as proxy for migrations
-		tradition_culture_conversion
 	}
-	
-	name_list = name_list_oromo
+
+	name_list = name_list_beja
 	
 	coa_gfx = { east_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -166,15 +162,19 @@ oromo = {
 	
 
 	ethnicities = {
-		100 = central_ethiopid
-		83 = east_ethiopid
-		42 = omotic
-		16 = basic_bantuid
-		7 = north_ethiopid
-		6 = proto_ethiopid
-		2 = dinkaid
-		2 = equatorialsudanid
-		1 = basic_bambutid
-		1 = congolesid
+		100 = north_ethiopid
+		6 = arabid
+		5 = east_ethiopid
+		5 = middle_nile
+		5 = yemenid
+		4 = proto_ethiopid
+		2 = egyptid
+		2 = transmediterranid
+		1 = arabian_veddoid
+		1 = central_ethiopid
+		1 = dinkaid
+		1 = libyid
+		1 = moorish
+		1 = siwa
 	}
 }

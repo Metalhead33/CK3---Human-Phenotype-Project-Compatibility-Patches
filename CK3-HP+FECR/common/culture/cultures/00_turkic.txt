@@ -1,4 +1,42 @@
 ﻿
+kimek = {
+	color = { 0.90 0.75 0.10 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_hunters
+		tradition_pastoralists
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_kimek
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = andronovo_turanid
+		58 = aralid
+		24 = plains_pamirid
+		12 = uralid
+		8 = volgid
+		5 = ladogan
+		5 = scythian
+		3 = central_pamirid
+		2 = neo_danubian
+		1 = baykal
+		1 = fenno_nordid
+		1 = proto_nordid
+		1 = transcaspian
+	}
+}
 uriankhai = {
 	color = { 0.75 0.8 0.50 }
 	
@@ -33,77 +71,81 @@ uriankhai = {
 		1 = samoyedic
 	}
 }
-azeri_turkish = {
-	color = azeri_turkish
+uyghur = {
+	color = { 0.85 0.75 0.50 }
 	
-	parents = { turkish adhari }
-	created = 1100.1.1
-	ethos = ethos_bellicose
+	ethos = ethos_spiritual
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_poetry
-		tradition_philosopher_culture
-		tradition_gardening
-		tradition_dryland_dwellers
-		tradition_futuwaa
+		tradition_religious_patronage
+		tradition_steppe_tolerance
+		tradition_caravaneers
+		tradition_charitable
+		tradition_xenophilic
 	}
+	
+	name_list = name_list_uyghur
 
-	name_list = name_list_turkish
-
-	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
 
 
 	ethnicities = {
-		100 = iranid
-		88 = proto_iranid
-		71 = aralid
-		70 = asian_alpine
-		68 = assyroid
-		42 = andronovo_turanid
-		38 = pontid
-		28 = arabid
-		20 = eurafricanid
-		20 = plains_pamirid
-		15 = armenoid
-		11 = litorid
-		7 = central_pamirid
-		5 = indo_iranid
-		5 = transcaspian
-		5 = mtebid
-		5 = anatolid
-		4 = berid
-		3 = gobid
-		3 = east_pamirid
-		3 = proto_nordid
-		2 = gracilemediterranid
-		2 = volgid
-		1 = scythian
+		100 = plains_pamirid
+		50 = gobid
+		36 = central_pamirid
+		24 = andronovo_turanid
+		19 = aralid
+		8 = east_pamirid
+		7 = tibetid
+		6 = kham
+		4 = huanghoid
+		4 = indo_nordid
+		4 = transcaspian
+		4 = changkiangid
+		2 = indo_brachid
+		2 = baykal
+		2 = asian_alpine
+		1 = volgid
 		1 = uralid
-		1 = yemenid
+		1 = shanid
+		1 = scythian
+		1 = scando_lappid
+		1 = samoyedic
+		1 = proto_nordid
+		1 = north_indid
+		1 = mountain_indid
+		1 = ladogan
+		1 = iranid
+		1 = indo_iranid
+		1 = fenno_nordid
+		1 = east_brachid
+		1 = armenoid
 	}
 }
-chuvash = {
-	color = { 0.7 0.5 0.6 }
-	created = 800.1.1 # Date set to allow them in 867 - Exact date/period is probably slightly later
-	parents = { bolghar } # Likely a divergent from Bolghar, but exact origin seem uncertain
+bashkir = {
+	color = { 118 89 51 }
 	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_turkic
-	language = language_oghur
+	language = language_turkic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_sacred_groves
-		tradition_sacred_hunts
-		tradition_zealous_people
+		tradition_sacred_mountains
 		tradition_horse_lords
+		tradition_forest_folk
 	}
 	
-	name_list = name_list_chuvash
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_bashkir
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -113,19 +155,19 @@ chuvash = {
 
 	ethnicities = {
 		100 = volgid
-		72 = ladogan
-		37 = neo_danubian
-		37 = north_pontid
-		23 = fenno_nordid
-		15 = proto_nordid
-		8 = andronovo_turanid
-		8 = scythian
-		7 = pontid
-		5 = aisto_nordid
-		5 = plains_pamirid
-		4 = gorid
-		2 = norid
-		2 = savolaxid
+		77 = fenno_nordid
+		59 = ladogan
+		41 = andronovo_turanid
+		11 = neo_danubian
+		6 = proto_nordid
+		6 = scythian
+		4 = uralid
+		2 = aralid
+		2 = north_pontid
+		2 = plains_pamirid
+		2 = scando_lappid
+		1 = aisto_nordid
+		1 = north_lappid
 	}
 }
 ongud = {
@@ -194,296 +236,6 @@ kipchak = {
 		5 = gobid
 		5 = uralid
 		3 = volgid
-	}
-}
-yughur = {
-	color = { 0.65 0.95 0.55 }
-	
-	ethos = ethos_communal
-	heritage = heritage_turkic
-	language = language_turkic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_pastoralists
-		tradition_steppe_tolerance
-		tradition_horse_lords
-	}
-	
-	name_list = name_list_yughur
-
-	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = gobid
-		100 = plains_pamirid
-		5 = aralid
-		5 = central_pamirid
-		5 = changkiangid
-		5 = huanghoid
-		5 = kham
-		5 = manchukorean
-		5 = tibetid
-	}
-}
-shatuo = {
-	color = { 0.7 0.3 0.2 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_chinese
-	language = language_chinese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_ruling_caste
-		tradition_court_eunuchs
-	}
-	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_shatuo
-
-	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = gobid
-		85 = baykal
-		32 = uralid
-		20 = aralid
-		8 = andronovo_turanid
-		7 = plains_pamirid
-		1 = scythian
-	}
-}
-bashkir = {
-	color = { 118 89 51 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_turkic
-	language = language_turkic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_sacred_mountains
-		tradition_horse_lords
-		tradition_forest_folk
-	}
-	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_bashkir
-
-	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = volgid
-		77 = fenno_nordid
-		59 = ladogan
-		41 = andronovo_turanid
-		11 = neo_danubian
-		6 = proto_nordid
-		6 = scythian
-		4 = uralid
-		2 = aralid
-		2 = north_pontid
-		2 = plains_pamirid
-		2 = scando_lappid
-		1 = aisto_nordid
-		1 = north_lappid
-	}
-}
-bolghar = {
-	color = { 147 124 93 }
-	
-	ethos = ethos_communal
-	heritage = heritage_turkic
-	language = language_oghur
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_ruling_caste
-		tradition_astute_diplomats
-		tradition_horse_lords
-	}
-	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_bolghar
-
-	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = volgid
-		77 = fenno_nordid
-		59 = ladogan
-		41 = andronovo_turanid
-		11 = neo_danubian
-		6 = proto_nordid
-		6 = scythian
-		4 = uralid
-		2 = aralid
-		2 = north_pontid
-		2 = plains_pamirid
-		2 = scando_lappid
-		1 = aisto_nordid
-		1 = north_lappid
-	}
-}
-pecheneg = {
-	color = { 0.85 0.79 0.25 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_turkic
-	language = language_turkic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_horse_lords
-		tradition_swords_for_hire
-		tradition_quarrelsome
-		tradition_warrior_culture
-	}
-	
-	name_list = name_list_pecheneg
-
-	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = north_pontid
-		74 = alfoeld
-		71 = andronovo_turanid
-		68 = pontid
-		57 = gorid
-		54 = carpathid
-		51 = neo_danubian
-		35 = norid
-		30 = scythian
-		30 = dinarid
-		22 = plains_pamirid
-		7 = anatolid
-		6 = proto_nordid
-		5 = central_pamirid
-		4 = ladogan
-		4 = armenoid
-		3 = gracilemediterranid
-		3 = aralid
-		2 = eurafricanid
-		2 = borreby
-		2 = pre_slavic
-		2 = subnordid
-		2 = tavastid
-		1 = troender
-	}
-}
-khazar = {
-	color = khazar
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_turkic
-	language = language_oghur
-	martial_custom = martial_custom_equal
-	traditions = {
-		tradition_steppe_tolerance
-		tradition_stand_and_fight
-		tradition_horse_lords
-	}
-	
-	name_list = name_list_khazar
-
-	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = north_pontid
-		74 = alfoeld
-		71 = andronovo_turanid
-		68 = pontid
-		57 = gorid
-		54 = carpathid
-		51 = neo_danubian
-		35 = norid
-		30 = scythian
-		30 = dinarid
-		22 = plains_pamirid
-		7 = anatolid
-		6 = proto_nordid
-		5 = central_pamirid
-		4 = ladogan
-		4 = armenoid
-		3 = gracilemediterranid
-		3 = aralid
-		2 = eurafricanid
-		2 = borreby
-		2 = pre_slavic
-		2 = subnordid
-		2 = tavastid
-		1 = troender
-	}
-}
-turkish = {
-	color = turkish
-	
-	ethos = ethos_bellicose
-	heritage = heritage_turkic
-	language = language_turkic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_warrior_culture
-		tradition_horse_lords
-		tradition_swords_for_hire
-		tradition_ruling_caste
-	}
-
-	name_list = name_list_turkish
-
-	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = aralid
-		74 = plains_pamirid
-		61 = transcaspian
-		29 = andronovo_turanid
-		18 = central_pamirid
-		7 = gobid
-		5 = asian_alpine
-		4 = armenoid
-		3 = iranid
-		2 = berid
-		2 = east_pamirid
-		2 = indo_iranid
-		2 = proto_iranid
-		1 = mountain_indid
 	}
 }
 cuman = {
@@ -586,6 +338,130 @@ karluk = {
 		3 = volgid
 	}
 }
+shatuo = {
+	color = { 0.7 0.3 0.2 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_chinese
+	language = language_chinese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_ruling_caste
+		tradition_court_eunuchs
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_shatuo
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = gobid
+		85 = baykal
+		32 = uralid
+		20 = aralid
+		8 = andronovo_turanid
+		7 = plains_pamirid
+		1 = scythian
+	}
+}
+khazar = {
+	color = khazar
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_turkic
+	language = language_oghur
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_steppe_tolerance
+		tradition_stand_and_fight
+		tradition_horse_lords
+	}
+	
+	name_list = name_list_khazar
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = north_pontid
+		74 = alfoeld
+		71 = andronovo_turanid
+		68 = pontid
+		57 = gorid
+		54 = carpathid
+		51 = neo_danubian
+		35 = norid
+		30 = scythian
+		30 = dinarid
+		22 = plains_pamirid
+		7 = anatolid
+		6 = proto_nordid
+		5 = central_pamirid
+		4 = ladogan
+		4 = armenoid
+		3 = gracilemediterranid
+		3 = aralid
+		2 = eurafricanid
+		2 = borreby
+		2 = pre_slavic
+		2 = subnordid
+		2 = tavastid
+		1 = troender
+	}
+}
+chuvash = {
+	color = { 0.7 0.5 0.6 }
+	created = 800.1.1 # Date set to allow them in 867 - Exact date/period is probably slightly later
+	parents = { bolghar } # Likely a divergent from Bolghar, but exact origin seem uncertain
+	
+	ethos = ethos_communal
+	heritage = heritage_turkic
+	language = language_oghur
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_sacred_groves
+		tradition_sacred_hunts
+		tradition_zealous_people
+		tradition_horse_lords
+	}
+	
+	name_list = name_list_chuvash
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = volgid
+		72 = ladogan
+		37 = neo_danubian
+		37 = north_pontid
+		23 = fenno_nordid
+		15 = proto_nordid
+		8 = andronovo_turanid
+		8 = scythian
+		7 = pontid
+		5 = aisto_nordid
+		5 = plains_pamirid
+		4 = gorid
+		2 = norid
+		2 = savolaxid
+	}
+}
 anatolian_turkish = {
 	color = anatolian_turkish
 	
@@ -680,21 +556,21 @@ kirghiz = {
 		16 = gobid
 	}
 }
-kimek = {
-	color = { 0.90 0.75 0.10 }
+laktan = {
+	color = { 0.55 0.45 0.10 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_horse_lords
 		tradition_hunters
-		tradition_pastoralists
+		tradition_forest_folk
+		tradition_horse_lords
 		tradition_stalwart_defenders
 	}
 	
-	name_list = name_list_kimek
+	name_list = name_list_laktan
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -703,37 +579,72 @@ kimek = {
 
 
 	ethnicities = {
-		100 = andronovo_turanid
-		58 = aralid
-		24 = plains_pamirid
-		12 = uralid
-		8 = volgid
-		5 = ladogan
-		5 = scythian
-		3 = central_pamirid
-		2 = neo_danubian
-		1 = baykal
+		100 = uralid
+		12 = aralid
+		6 = andronovo_turanid
+		6 = baykal
+		2 = scythian
 		1 = fenno_nordid
-		1 = proto_nordid
-		1 = transcaspian
 	}
 }
-uyghur = {
-	color = { 0.85 0.75 0.50 }
+turkish = {
+	color = turkish
 	
-	ethos = ethos_spiritual
+	ethos = ethos_bellicose
 	heritage = heritage_turkic
 	language = language_turkic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_religious_patronage
-		tradition_steppe_tolerance
-		tradition_caravaneers
-		tradition_charitable
-		tradition_xenophilic
+		tradition_warrior_culture
+		tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_ruling_caste
+	}
+
+	name_list = name_list_turkish
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = aralid
+		74 = plains_pamirid
+		61 = transcaspian
+		29 = andronovo_turanid
+		18 = central_pamirid
+		7 = gobid
+		5 = asian_alpine
+		4 = armenoid
+		3 = iranid
+		2 = berid
+		2 = east_pamirid
+		2 = indo_iranid
+		2 = proto_iranid
+		1 = mountain_indid
+	}
+}
+bolghar = {
+	color = { 147 124 93 }
+	
+	ethos = ethos_communal
+	heritage = heritage_turkic
+	language = language_oghur
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_ruling_caste
+		tradition_astute_diplomats
+		tradition_horse_lords
 	}
 	
-	name_list = name_list_uyghur
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_bolghar
 
 	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -742,36 +653,156 @@ uyghur = {
 
 
 	ethnicities = {
+		100 = volgid
+		77 = fenno_nordid
+		59 = ladogan
+		41 = andronovo_turanid
+		11 = neo_danubian
+		6 = proto_nordid
+		6 = scythian
+		4 = uralid
+		2 = aralid
+		2 = north_pontid
+		2 = plains_pamirid
+		2 = scando_lappid
+		1 = aisto_nordid
+		1 = north_lappid
+	}
+}
+pecheneg = {
+	color = { 0.85 0.79 0.25 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_swords_for_hire
+		tradition_quarrelsome
+		tradition_warrior_culture
+	}
+	
+	name_list = name_list_pecheneg
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = north_pontid
+		74 = alfoeld
+		71 = andronovo_turanid
+		68 = pontid
+		57 = gorid
+		54 = carpathid
+		51 = neo_danubian
+		35 = norid
+		30 = scythian
+		30 = dinarid
+		22 = plains_pamirid
+		7 = anatolid
+		6 = proto_nordid
+		5 = central_pamirid
+		4 = ladogan
+		4 = armenoid
+		3 = gracilemediterranid
+		3 = aralid
+		2 = eurafricanid
+		2 = borreby
+		2 = pre_slavic
+		2 = subnordid
+		2 = tavastid
+		1 = troender
+	}
+}
+yughur = {
+	color = { 0.65 0.95 0.55 }
+	
+	ethos = ethos_communal
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_steppe_tolerance
+		tradition_horse_lords
+	}
+	
+	name_list = name_list_yughur
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = gobid
 		100 = plains_pamirid
-		50 = gobid
-		36 = central_pamirid
-		24 = andronovo_turanid
-		19 = aralid
-		8 = east_pamirid
-		7 = tibetid
-		6 = kham
-		4 = huanghoid
-		4 = indo_nordid
-		4 = transcaspian
-		4 = changkiangid
-		2 = indo_brachid
-		2 = baykal
-		2 = asian_alpine
-		1 = volgid
-		1 = uralid
-		1 = shanid
+		5 = aralid
+		5 = central_pamirid
+		5 = changkiangid
+		5 = huanghoid
+		5 = kham
+		5 = manchukorean
+		5 = tibetid
+	}
+}
+azeri_turkish = {
+	color = azeri_turkish
+	
+	parents = { turkish adhari }
+	created = 1100.1.1
+	ethos = ethos_bellicose
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_philosopher_culture
+		tradition_gardening
+		tradition_dryland_dwellers
+		tradition_futuwaa
+	}
+
+	name_list = name_list_turkish
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+
+	ethnicities = {
+		100 = iranid
+		88 = proto_iranid
+		71 = aralid
+		70 = asian_alpine
+		68 = assyroid
+		42 = andronovo_turanid
+		38 = pontid
+		28 = arabid
+		20 = eurafricanid
+		20 = plains_pamirid
+		15 = armenoid
+		11 = litorid
+		7 = central_pamirid
+		5 = indo_iranid
+		5 = transcaspian
+		5 = mtebid
+		5 = anatolid
+		4 = berid
+		3 = gobid
+		3 = east_pamirid
+		3 = proto_nordid
+		2 = gracilemediterranid
+		2 = volgid
 		1 = scythian
-		1 = scando_lappid
-		1 = samoyedic
-		1 = proto_nordid
-		1 = north_indid
-		1 = mountain_indid
-		1 = ladogan
-		1 = iranid
-		1 = indo_iranid
-		1 = fenno_nordid
-		1 = east_brachid
-		1 = armenoid
+		1 = uralid
+		1 = yemenid
 	}
 }
 avar = {
@@ -817,36 +848,5 @@ avar = {
 		5 = transcaspian
 		4 = central_pamirid
 		2 = north_pontid
-	}
-}
-laktan = {
-	color = { 0.55 0.45 0.10 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_turkic
-	language = language_turkic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hunters
-		tradition_forest_folk
-		tradition_horse_lords
-		tradition_stalwart_defenders
-	}
-	
-	name_list = name_list_laktan
-
-	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = uralid
-		12 = aralid
-		6 = andronovo_turanid
-		6 = baykal
-		2 = scythian
-		1 = fenno_nordid
 	}
 }
