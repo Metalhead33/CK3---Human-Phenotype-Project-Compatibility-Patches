@@ -1,4 +1,45 @@
 ﻿
+khmer = {
+		
+	color = khmer
+	ethos = ethos_spiritual
+	heritage = heritage_khmer
+	language = language_khmer
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_jungle_warriors
+		tradition_fervent_temple_builders
+		tradition_festivities
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_khmer
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = khmerid
+		60 = south_palaungid
+		42 = east_shanid
+		17 = annamid
+		7 = changkiangid
+		7 = chukiangid
+		7 = senoid
+		6 = kachinid
+		5 = deutero_malayid
+		2 = karnatid
+		2 = kham
+		2 = palaungid
+		2 = shanid
+		2 = tonkinesid
+		1 = basic_negritid
+		1 = east_palaungid
+	}
+}
 vietnamese = {
 		
 	color = vietnamese
@@ -79,46 +120,5 @@ thai = {
 		2 = annamid
 		2 = senoid
 		1 = deutero_malayid
-	}
-}
-khmer = {
-		
-	color = khmer
-	ethos = ethos_spiritual
-	heritage = heritage_khmer
-	language = language_khmer
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_jungle_warriors
-		tradition_fervent_temple_builders
-		tradition_festivities
-		tradition_religion_blending
-	}
-	
-	name_list = name_list_khmer
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = khmerid
-		60 = south_palaungid
-		42 = east_shanid
-		17 = annamid
-		7 = changkiangid
-		7 = chukiangid
-		7 = senoid
-		6 = kachinid
-		5 = deutero_malayid
-		2 = karnatid
-		2 = kham
-		2 = palaungid
-		2 = shanid
-		2 = tonkinesid
-		1 = basic_negritid
-		1 = east_palaungid
 	}
 }
