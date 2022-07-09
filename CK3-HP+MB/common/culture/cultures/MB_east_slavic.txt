@@ -1,58 +1,38 @@
 ﻿
-russian = {
-	color = russian
-	
-	created = 860.1.1
-	parents = { volhynian norse } #It's honestly all 3 Rus tribes but you can only have 2 things here and Volhynian is the largest one
+belocroat = {
+	color = { 0.45 0.8 0.3 }
 	
 	ethos = ethos_communal
 	heritage = heritage_east_slavic
 	language = language_east_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_druzhina
-		tradition_mendicant_mystics
-		tradition_welcoming
+		tradition_hussar
+		tradition_highland_warriors
+		tradition_parochialism
+		tradition_hereditary_hierarchy
 	}
 	
 	name_list = name_list_russian
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { slavic_building_gfx western_building_gfx }
+	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 
 
 	ethnicities = {
+		100 = gorid
 		100 = neo_danubian
-		88 = north_pontid
-		57 = gorid
-		47 = norid
-		43 = pre_slavic
-		28 = proto_nordid
-		26 = savolaxid
-		21 = tavastid
-		19 = carpathid
-		15 = aisto_nordid
-		8 = scythian
-		7 = fenno_nordid
-		7 = dinarid
-		7 = pontid
-		6 = ladogan
-		4 = halstatt
-		4 = subnordid
-		3 = borreby
-		2 = troender
-		2 = volgid
-		1 = scando_lappid
-		1 = west_alpinid
-		1 = plains_pamirid
-		1 = north_lappid
-		1 = faelid
-		1 = brunn
-		1 = armenoid
-		1 = andronovo_turanid
-		1 = alfoeld
+		100 = north_pontid
+		100 = west_baltid
+		93 = pre_slavic
+		90 = norid
+		61 = carpathid
+		16 = dinarid
+		10 = pontid
+		10 = proto_nordid
+		8 = aisto_nordid
 	}
 }
 novgorodian = {
@@ -74,7 +54,7 @@ novgorodian = {
 	name_list = name_list_russian
 
 	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { slavic_building_gfx western_building_gfx }
+	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 
@@ -83,23 +63,52 @@ novgorodian = {
 		100 = neo_danubian
 		97 = savolaxid
 		95 = tavastid
-		42 = north_pontid
-		33 = aisto_nordid
-		30 = proto_nordid
-		6 = fenno_nordid
-		6 = halstatt
-		6 = ladogan
-		6 = pre_slavic
-		5 = volgid
-		5 = north_lappid
-		5 = gorid
-		5 = borreby
-		4 = norid
-		4 = subnordid
-		2 = pontid
-		2 = scythian
-		2 = faelid
-		1 = scando_lappid
-		1 = troender
+		92 = west_baltid
+		38 = north_pontid
+		29 = aisto_nordid
+		25 = proto_nordid
+	}
+}
+russian = {
+	color = russian
+	
+	created = 860.1.1
+	parents = { volhynian norse } #It's honestly all 3 Rus tribes but you can only have 2 things here and Volhynian is the largest one
+	
+	ethos = ethos_communal
+	heritage = heritage_east_slavic
+	language = language_east_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_druzhina
+		tradition_mendicant_mystics
+		tradition_welcoming
+	}
+	
+	name_list = name_list_russian
+
+	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = neo_danubian
+		87 = north_pontid
+		82 = west_baltid
+		55 = gorid
+		45 = norid
+		40 = pre_slavic
+		24 = proto_nordid
+		22 = savolaxid
+		17 = carpathid
+		17 = tavastid
+		11 = aisto_nordid
+		5 = dinarid
+		4 = fenno_nordid
+		4 = scythian
+		3 = pontid
+		1 = ladogan
 	}
 }

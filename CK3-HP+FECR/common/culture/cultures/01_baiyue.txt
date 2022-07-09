@@ -24,20 +24,15 @@ vietnamese = {
 
 	ethnicities = {
 		100 = tonkinesid
-		78 = east_shanid
-		44 = annamid
-		41 = south_palaungid
-		30 = east_palaungid
-		28 = kachinid
-		23 = shanid
-		17 = chukiangid
-		13 = tibetid
-		10 = khmerid
-		7 = changkiangid
-		6 = kham
-		6 = palaungid
-		5 = deutero_malayid
-		2 = senoid
+		77 = east_shanid
+		40 = annamid
+		37 = south_palaungid
+		27 = east_palaungid
+		24 = kachinid
+		18 = shanid
+		11 = chukiangid
+		11 = tibetid
+		5 = khmerid
 	}
 }
 thai = {
@@ -48,10 +43,10 @@ thai = {
 	language = language_tai
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_jungle_warriors
 		tradition_fervent_temple_builders
 		tradition_festivities
 		tradition_religion_blending
+		tradition_ailurophilia
 	}
 	
 	name_list = name_list_thai
@@ -65,20 +60,13 @@ thai = {
 	ethnicities = {
 		100 = east_palaungid
 		96 = east_shanid
-		90 = shanid
-		60 = kachinid
-		55 = palaungid
-		48 = south_palaungid
-		40 = changkiangid
-		15 = chukiangid
-		11 = tonkinesid
-		9 = kham
-		7 = tibetid
-		5 = khmerid
-		3 = huanghoid
-		2 = annamid
-		2 = senoid
-		1 = deutero_malayid
+		89 = shanid
+		56 = kachinid
+		51 = palaungid
+		45 = south_palaungid
+		34 = changkiangid
+		8 = chukiangid
+		6 = tonkinesid
 	}
 }
 khmer = {
@@ -105,20 +93,8 @@ khmer = {
 
 	ethnicities = {
 		100 = khmerid
-		60 = south_palaungid
-		42 = east_shanid
-		17 = annamid
-		7 = changkiangid
-		7 = chukiangid
-		7 = senoid
-		6 = kachinid
-		5 = deutero_malayid
-		2 = karnatid
-		2 = kham
-		2 = palaungid
-		2 = shanid
-		2 = tonkinesid
-		1 = basic_negritid
-		1 = east_palaungid
+		57 = south_palaungid
+		38 = east_shanid
+		13 = annamid
 	}
 }

@@ -1,18 +1,18 @@
 ﻿
-serer = {
-	color = { 0.45 0.45 0.3 }
+pulaar = {
+	color = { 0.40 0.45 0.35 }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_bellicose
 	heritage = heritage_senegambian
 	language = language_senegambian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_zealous_people
-		tradition_stalwart_defenders
-		tradition_hereditary_hierarchy
+		tradition_laawol_pulaaku
+		tradition_griots
+		tradition_warriors_of_the_dry
 	}
 	
-	name_list = name_list_serer
+	name_list = name_list_pulaar
 	
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -22,14 +22,8 @@ serer = {
 
 	ethnicities = {
 		100 = senegalid
-		33 = casamance
-		25 = sudanid
-		5 = fezzanid
-		5 = west_ethiopid
-		3 = guinesid
-		2 = guineo_camerunian
-		1 = bobo
-		1 = moorish
+		30 = casamance
+		21 = sudanid
 	}
 }
 wolof = {
@@ -56,30 +50,24 @@ wolof = {
 
 	ethnicities = {
 		100 = senegalid
-		33 = casamance
-		25 = sudanid
-		5 = fezzanid
-		5 = west_ethiopid
-		3 = guinesid
-		2 = guineo_camerunian
-		1 = bobo
-		1 = moorish
+		30 = casamance
+		21 = sudanid
 	}
 }
-pulaar = {
-	color = { 0.40 0.45 0.35 }
+serer = {
+	color = { 0.45 0.45 0.3 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_spiritual
 	heritage = heritage_senegambian
 	language = language_senegambian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_laawol_pulaaku
-		tradition_griots
-		tradition_warriors_of_the_dry
+		tradition_zealous_people
+		tradition_stalwart_defenders
+		tradition_hereditary_hierarchy
 	}
 	
-	name_list = name_list_pulaar
+	name_list = name_list_serer
 	
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -89,13 +77,7 @@ pulaar = {
 
 	ethnicities = {
 		100 = senegalid
-		33 = casamance
-		25 = sudanid
-		5 = fezzanid
-		5 = west_ethiopid
-		3 = guinesid
-		2 = guineo_camerunian
-		1 = bobo
-		1 = moorish
+		30 = casamance
+		21 = sudanid
 	}
 }

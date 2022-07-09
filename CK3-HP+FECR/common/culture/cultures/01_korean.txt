@@ -9,7 +9,7 @@ korean = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_ruling_caste
-		tradition_hereditary_hierarchy
+		tradition_tyrants
 		tradition_castle_keepers
 		tradition_adaptive_skirmishing
 	}
@@ -24,16 +24,9 @@ korean = {
 
 	ethnicities = {
 		100 = manchukorean
-		76 = huanghoid
-		19 = choshiu
-		15 = satsuma
-		8 = yakonin
-		5 = changkiangid
-		5 = gobid
-		5 = kham
-		4 = plains_pamirid
-		3 = baykal
-		1 = chukiangid
-		1 = deutero_malayid
+		75 = huanghoid
+		15 = choshiu
+		12 = satsuma
+		4 = yakonin
 	}
 }

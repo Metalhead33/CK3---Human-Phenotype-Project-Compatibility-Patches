@@ -1,58 +1,34 @@
 ﻿
-turco_hephthalite = {
-	color = { 0.20 0.08 0.25  }
-
-	parents = { hephthalite turkish }
-
-	created = 665.1.1 # Approximate date of when Barha Tegin's rule begins
+pamiri = {
+	color = { 0.11 0.11 0.22  }
 	
-	ethos = ethos_stoic
+	ethos = ethos_communal
 	heritage = heritage_iranian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_mountain_homes # May have originated from the Pamir region
-		tradition_sacred_mountains # Zun was a solar mountain god
-		#tradition_city_keepers # Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
-		tradition_fervent_temple_builders # Lots of Zun/Buddhist/Hindu religious sites
-		#tradition_RICE_white_huns
-	}
-
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
+		tradition_himalayan_settlers
+		tradition_pastoralists
+		tradition_mendicant_mystics
+		tradition_festivities
 	}
 	
-	name_list = name_list_hephthalite
+	name_list = name_list_afghan # Should be their own but eh
 	
 	coa_gfx = { iranian_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
 	clothing_gfx = { mena_clothing_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 
 
 	ethnicities = {
 		100 = east_pamirid
-		40 = indo_iranid
-		36 = central_pamirid
-		36 = indo_nordid
-		25 = asian_alpine
-		9 = scythian
-		7 = andronovo_turanid
-		7 = armenoid
-		7 = plains_pamirid
-		7 = north_indid
-		7 = iranid
-		7 = mountain_indid
-		6 = tibetid
-		6 = aralid
-		4 = indo_brachid
-		4 = berid
-		2 = kham
-		2 = east_brachid
-		2 = proto_nordid
+		35 = indo_iranid
+		31 = central_pamirid
+		31 = indo_nordid
+		20 = asian_alpine
+		4 = scythian
 	}
 }
 hephthalite = {
@@ -90,68 +66,53 @@ hephthalite = {
 
 	ethnicities = {
 		100 = east_pamirid
-		40 = indo_iranid
-		36 = central_pamirid
-		36 = indo_nordid
-		25 = asian_alpine
-		9 = scythian
-		7 = andronovo_turanid
-		7 = armenoid
-		7 = plains_pamirid
-		7 = north_indid
-		7 = iranid
-		7 = mountain_indid
-		6 = tibetid
-		6 = aralid
-		4 = indo_brachid
-		4 = berid
-		2 = kham
-		2 = east_brachid
-		2 = proto_nordid
+		35 = indo_iranid
+		31 = central_pamirid
+		31 = indo_nordid
+		20 = asian_alpine
+		4 = scythian
 	}
 }
-pamiri = {
-	color = { 0.11 0.11 0.22  }
+turco_hephthalite = {
+	color = { 0.20 0.08 0.25  }
+
+	parents = { hephthalite turkish }
+
+	created = 665.1.1 # Approximate date of when Barha Tegin's rule begins
 	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_iranian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_himalayan_settlers
-		tradition_pastoralists
-		tradition_mendicant_mystics
-		tradition_festivities
+		tradition_mountain_homes # May have originated from the Pamir region
+		tradition_sacred_mountains # Zun was a solar mountain god
+		#tradition_city_keepers # Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+		tradition_fervent_temple_builders # Lots of Zun/Buddhist/Hindu religious sites
+		#tradition_RICE_white_huns
+	}
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
 	}
 	
-	name_list = name_list_afghan # Should be their own but eh
+	name_list = name_list_hephthalite
 	
 	coa_gfx = { iranian_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
 	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
 	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 
 
 	ethnicities = {
 		100 = east_pamirid
-		40 = indo_iranid
-		36 = central_pamirid
-		36 = indo_nordid
-		25 = asian_alpine
-		9 = scythian
-		7 = andronovo_turanid
-		7 = armenoid
-		7 = plains_pamirid
-		7 = north_indid
-		7 = iranid
-		7 = mountain_indid
-		6 = tibetid
-		6 = aralid
-		4 = indo_brachid
-		4 = berid
-		2 = kham
-		2 = east_brachid
-		2 = proto_nordid
+		35 = indo_iranid
+		31 = central_pamirid
+		31 = indo_nordid
+		20 = asian_alpine
+		4 = scythian
 	}
 }

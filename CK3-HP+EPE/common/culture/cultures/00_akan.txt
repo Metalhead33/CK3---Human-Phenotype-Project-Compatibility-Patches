@@ -22,14 +22,10 @@ kru = {
 
 	ethnicities = {
 		100 = guinesid
-		79 = guineo_camerunian
-		26 = sudanid
-		9 = bobo
-		8 = congolesid
-		5 = westcongolesid
-		4 = casamance
-		1 = basic_bambutid
-		1 = senegalid
+		78 = guineo_camerunian
+		22 = sudanid
+		4 = bobo
+		4 = congolesid
 	}
 }
 akan = {
@@ -56,15 +52,10 @@ akan = {
 
 	ethnicities = {
 		100 = guineo_camerunian
-		73 = guinesid
-		22 = sudanid
-		18 = bobo
-		7 = casamance
-		5 = westcongolesid
-		4 = congolesid
-		1 = basic_bambutid
-		1 = fezzanid
-		1 = senegalid
+		71 = guinesid
+		18 = sudanid
+		14 = bobo
+		2 = casamance
 	}
 }
 guan = {
@@ -92,14 +83,8 @@ guan = {
 	ethnicities = {
 		100 = guineo_camerunian
 		97 = sudanid
-		80 = guinesid
-		37 = bobo
-		22 = casamance
-		5 = westcongolesid
-		4 = congolesid
-		4 = fezzanid
-		2 = basic_bambutid
-		2 = west_ethiopid
-		1 = equatorialsudanid
+		79 = guinesid
+		32 = bobo
+		16 = casamance
 	}
 }

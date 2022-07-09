@@ -1,4 +1,41 @@
 ﻿
+ripuarian = {
+	color = { 0.4 0.5 0.6 }
+	
+	created = 640.1.1 # Same origin as 'Franconian' (a modern linguistic division) though specifically the Ripuarian Franks. 
+	parents = { frankish }
+	
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_low_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_astute_diplomats
+		tradition_welcoming
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+
+	ethnicities = {
+		100 = subnordid
+		80 = borreby
+		50 = faelid
+		48 = west_alpinid
+		39 = halstatt
+		30 = anglo_saxon
+		24 = north_atlantid
+		6 = norid
+		3 = dinarid
+		3 = gracilemediterranid
+	}
+}
 low_frankish = {
 	color = { 1.0 0.25 0.0 } 
 	
@@ -21,23 +58,123 @@ low_frankish = {
 
 
 	ethnicities = {
-		100 = halstatt
 		100 = anglo_saxon
-		93 = subnordid
-		64 = borreby
-		64 = north_atlantid
-		42 = norid
-		35 = faelid
-		6 = west_alpinid
-		6 = brunn
-		6 = troender
-		6 = paleo_atlantid
-		5 = tavastid
-		4 = keltic_nordid
-		3 = gracilemediterranid
-		3 = dinarid
-		2 = litorid
-		1 = atlanto_mediterranean
+		100 = halstatt
+		94 = subnordid
+		67 = borreby
+		60 = north_atlantid
+		40 = faelid
+		34 = norid
+	}
+}
+east_elbian = {
+	color = { 65 45 55 }
+	created = 1250.1.1
+	parents = { saxon }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_astute_diplomats
+	}
+	
+	name_list = name_list_saxon
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = subnordid
+		73 = borreby
+		73 = tavastid
+		64 = west_baltid
+		46 = faelid
+		46 = norid
+		46 = west_alpinid
+		19 = halstatt
+		10 = neo_danubian
+	}
+}
+westphalian = {
+	color = { 45 55 45 }
+	created = 1250.1.1 #First attested in 1300
+	parents = { saxon }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_saxon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_ruling_caste
+		tradition_religious_patronage
+	}
+	
+	name_list = name_list_saxon
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = faelid
+		88 = subnordid
+		75 = anglo_saxon
+		63 = halstatt
+		59 = borreby
+		25 = north_atlantid
+		21 = west_alpinid
+		9 = norid
+	}
+}
+german_pommeranian = {
+	color = { 0.4 0.5 0.3 }
+	
+	created = 1250.1.1
+	parents = { pommeranian saxon  }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_east_saxon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_adaptive_skirmishing
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = hybridize_culture
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_pommeranian
+	
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+	
+
+	ethnicities = {
+		100 = borreby
+		100 = tavastid
+		100 = west_baltid
+		82 = halstatt
+		63 = faelid
+		38 = subnordid
 	}
 }
 thuringian = {
@@ -51,7 +188,7 @@ thuringian = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
+		tradition_malleable_invaders
 		tradition_castle_keepers
 	}
 	
@@ -64,25 +201,185 @@ thuringian = {
 
 
 	ethnicities = {
-		100 = west_alpinid
 		100 = subnordid
-		46 = faelid
-		33 = norid
-		33 = borreby
-		5 = dinarid
-		5 = brunn
-		5 = gorid
-		5 = halstatt
-		5 = neo_danubian
-		5 = north_atlantid
-		5 = north_pontid
-		5 = pontid
-		5 = pre_slavic
-		5 = proto_nordid
-		5 = tavastid
-		5 = troender
-		5 = anglo_saxon
-		3 = carpathid
-		3 = aisto_nordid
+		100 = west_alpinid
+		43 = faelid
+		29 = borreby
+		29 = norid
+	}
+}
+flemish = {
+	color = { 220 205 186 }
+	
+	parents = { dutch } #Closely related to Dutch. 
+	
+	created = 1250.1.1 #~13th century is when it started to be used to describe people in the region. Questionable if it should even exist even at the end of CK3's timeframe 
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_dutch
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+		tradition_artisans
+		tradition_hard_working
+		tradition_chivalry
+	}
+	
+	name_list = name_list_dutch
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+
+	ethnicities = {
+		100 = anglo_saxon
+		100 = halstatt
+		94 = subnordid
+		67 = borreby
+		60 = north_atlantid
+		40 = faelid
+		34 = norid
+	}
+}
+brabantian = {
+	color = { 85 103 134 }
+	
+	parents = { low_frankish } #
+	
+	created = 1150.1.1 #Break off at the same point Dutch appears
+	
+	
+	ethos = ethos_communal
+	heritage = heritage_central_germanic
+	language = language_dutch
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_family_entrepreneurship
+		tradition_ruling_caste
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = anglo_saxon
+		100 = halstatt
+		94 = subnordid
+		67 = borreby
+		60 = north_atlantid
+		40 = faelid
+		34 = norid
+	}
+}
+walloon = {
+	color = { 54 102 141 }
+	
+	parents = { french dutch } #Added Dutch to show it borrows aspects of it
+	
+	created = 1200.1.1 #Appeared between 8th and 12th century though it wasn't clearly defined till the 13th
+	
+	ethos = ethos_communal
+	heritage = heritage_frankish
+	language = language_walloon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_parochialism
+		tradition_city_keepers
+		tradition_artisans
+	}
+	
+	name_list = name_list_french
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = anglo_saxon
+		100 = halstatt
+		94 = subnordid
+		67 = borreby
+		60 = north_atlantid
+		40 = faelid
+		34 = norid
+	}
+}
+german_silesian = {
+	color = { 0.7 0.6 0.8 }
+	created = 1250.1.1 #Started to form ~13th century
+	parents = { thuringian polish }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_castle_keepers
+	}
+	
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx 		
+
+}
+
+high_alemannic = {
+	color = { 128 0 0 }
+	
+	ethos = ethos_communal
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes
+		tradition_parochialism
+		tradition_swords_for_hire
+	}
+	
+	name_list = name_list_swabian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+}
+
+
+	ethnicities = {
+		100 = subnordid
+		89 = borreby
+		77 = tavastid
+		74 = faelid
+		47 = west_alpinid
+		47 = west_baltid
+		43 = halstatt
+		27 = norid
+		4 = neo_danubian
 	}
 }
