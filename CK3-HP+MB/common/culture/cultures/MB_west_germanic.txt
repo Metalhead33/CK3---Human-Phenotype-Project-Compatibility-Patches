@@ -1,40 +1,4 @@
 ﻿
-anglo_norse = {
-	color = { 242 141 123 }
-	created = 900.1.1
-	parents = { norse anglo_saxon }
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_west_germanic
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hird
-		tradition_the_witenagemot
-		tradition_stand_and_fight
-		tradition_legalistic
-	}
-	
-	name_list = name_list_anglo_saxon
-
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { northern_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = halstatt
-		67 = borreby
-		42 = strandid
-		34 = faelid
-		33 = anglo_saxon
-		31 = paleo_atlantid
-		31 = troender
-		21 = keltic_nordid
-		17 = north_atlantid
-	}
-}
 northerner = {
 	color = { 218 163 71 }
 	created = 1100.1.1
@@ -61,13 +25,73 @@ northerner = {
 
 	ethnicities = {
 		100 = halstatt
-		67 = borreby
-		42 = strandid
-		34 = faelid
-		33 = anglo_saxon
-		31 = paleo_atlantid
-		31 = troender
-		21 = keltic_nordid
-		17 = north_atlantid
+		69 = borreby
+		44 = strandid
+		38 = faelid
+		36 = anglo_saxon
+		35 = troender
+		35 = paleo_atlantid
+		22 = keltic_nordid
+		22 = north_atlantid
+		6 = tavastid
+		5 = brunn
+		5 = west_alpinid
+		5 = aisto_nordid
+		5 = subnordid
+		3 = norid
+		2 = litorid
+		2 = scando_lappid
+		2 = gracilemediterranid
+		1 = gorid
+		1 = eurafricanid
+		1 = west_baltid
+	}
+}
+anglo_norse = {
+	color = { 242 141 123 }
+	created = 900.1.1
+	parents = { norse anglo_saxon }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hird
+		tradition_the_witenagemot
+		tradition_stand_and_fight
+		tradition_legalistic
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { northern_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = halstatt
+		69 = borreby
+		44 = strandid
+		38 = faelid
+		36 = anglo_saxon
+		35 = troender
+		35 = paleo_atlantid
+		22 = keltic_nordid
+		22 = north_atlantid
+		6 = tavastid
+		5 = brunn
+		5 = west_alpinid
+		5 = aisto_nordid
+		5 = subnordid
+		3 = norid
+		2 = litorid
+		2 = scando_lappid
+		2 = gracilemediterranid
+		1 = gorid
+		1 = eurafricanid
+		1 = west_baltid
 	}
 }

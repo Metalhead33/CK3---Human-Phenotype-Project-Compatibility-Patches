@@ -1,0 +1,49 @@
+﻿
+arpitan_ce = {
+	color = { 0.2 0.6 1.0 }
+
+	# parents = { occitan } #We know this isnt really correct for for gameplay mechanics atm this is what we have.
+
+	# created = 850.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_frankish
+	language = language_arpetan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chivalry
+		tradition_chanson_de_geste
+		tradition_mountain_homes
+		tradition_loyal_soldiers
+	}
+	
+	name_list = name_list_arpetan
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { french_clothing_gfx }
+	unit_gfx = { french_unit_gfx western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = subnordid
+		88 = west_alpinid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		5 = faelid
+		5 = brunn
+		5 = litorid
+		5 = north_atlantid
+		4 = carpathid
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
+		2 = baskid
+		1 = paleo_atlantid
+		1 = pre_slavic
+	}
+}

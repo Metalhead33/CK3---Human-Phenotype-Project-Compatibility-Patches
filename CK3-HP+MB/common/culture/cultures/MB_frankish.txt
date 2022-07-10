@@ -1,4 +1,50 @@
 ﻿
+poitevin = {
+	color = { 6 68 142 }
+	
+	parents = { french occitan }
+	
+	created = 1175.1.1 #First attested written use in 13th century. Has aspects of Occitan from being so close
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_frankish
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_castle_keepers
+		tradition_culture_blending
+		tradition_loyal_soldiers
+	}
+	
+	name_list = name_list_french
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = gracilemediterranid
+		89 = west_alpinid
+		59 = north_atlantid
+		53 = litorid
+		41 = subnordid
+		23 = atlanto_mediterranean
+		17 = dinarid
+		11 = norid
+		5 = baskid
+		5 = berberid
+		5 = berid
+		5 = eurafricanid
+		5 = paleo_sardinian
+		4 = halstatt
+		4 = anglo_saxon
+		3 = brunn
+		3 = keltic_nordid
+		2 = borreby
+	}
+}
 burgundian_oil = {
 	color = { 172 34 65 }
 	
@@ -28,47 +74,24 @@ burgundian_oil = {
 
 	ethnicities = {
 		100 = subnordid
-		87 = west_alpinid
-		83 = dinarid
-		57 = atlanto_mediterranean
-		27 = norid
-		14 = eurafricanid
-		9 = gracilemediterranid
-		5 = halstatt
-	}
-}
-arpitan_ce = {
-	color = { 0.6 0.2 0.3 }
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_frankish
-	language = language_occitano_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chanson_de_geste
-		#tradition_hereditary_hierarchy
-		tradition_chivalry
-		#tradition_parochialism
-		tradition_mountain_homes
-	}
-	
-	name_list = name_list_francoprovencal
-
-	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = subnordid
-		87 = west_alpinid
-		83 = dinarid
-		57 = atlanto_mediterranean
-		27 = norid
-		14 = eurafricanid
-		9 = gracilemediterranid
-		5 = halstatt
+		88 = west_alpinid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		5 = faelid
+		5 = brunn
+		5 = litorid
+		5 = north_atlantid
+		4 = carpathid
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
+		2 = baskid
+		1 = paleo_atlantid
+		1 = pre_slavic
 	}
 }
 provencal = {
@@ -99,80 +122,20 @@ provencal = {
 
 	ethnicities = {
 		100 = atlanto_mediterranean
-		75 = litorid
-		59 = west_alpinid
-		25 = eurafricanid
-		17 = subnordid
-		9 = dinarid
-		9 = gracilemediterranid
-	}
-}
-poitevin = {
-	color = { 6 68 142 }
-	
-	parents = { french occitan }
-	
-	created = 1175.1.1 #First attested written use in 13th century. Has aspects of Occitan from being so close
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_frankish
-	language = language_french
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_castle_keepers
-		tradition_culture_blending
-		tradition_loyal_soldiers
-	}
-	
-	name_list = name_list_french
-	
-	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-	}
-}
-lorrainian = {
-	color = { 120 137 148 }
-	
-	parents = { french }
-	
-	created = 1250.1.1 #Hard to find much on it so I'll make it exist in the later part of the period
-	
-	ethos = ethos_spiritual
-	heritage = heritage_frankish
-	language = language_french
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_fervent_temple_builders
-		tradition_xenophilic
-		tradition_zealous_people
-	}
-	
-	name_list = name_list_french
-	
-	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = subnordid
-		75 = norid
-		56 = dinarid
-		47 = north_atlantid
-		26 = west_alpinid
-		19 = faelid
-		17 = halstatt
-		14 = borreby
-		14 = eurafricanid
-		10 = atlanto_mediterranean
-		5 = gracilemediterranid
-		3 = litorid
+		77 = litorid
+		61 = west_alpinid
+		29 = eurafricanid
+		21 = subnordid
+		13 = dinarid
+		13 = gracilemediterranid
+		5 = berberid
+		5 = berid
+		5 = paleo_sardinian
+		4 = norid
+		2 = baskid
+		2 = north_atlantid
+		1 = faelid
+		1 = halstatt
 	}
 }
 angevin = {
@@ -203,13 +166,108 @@ angevin = {
 
 	ethnicities = {
 		100 = gracilemediterranid
+		89 = west_alpinid
+		59 = north_atlantid
+		53 = litorid
+		41 = subnordid
+		23 = atlanto_mediterranean
+		17 = dinarid
+		11 = norid
+		5 = baskid
+		5 = berberid
+		5 = berid
+		5 = eurafricanid
+		5 = paleo_sardinian
+		4 = halstatt
+		4 = anglo_saxon
+		3 = brunn
+		3 = keltic_nordid
+		2 = borreby
+	}
+}
+gascon = {
+	color = { 0.32 0.12 0.90 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_city_keepers
+		tradition_chanson_de_geste
+		tradition_chivalry
+		tradition_talent_acquisition
+	}
+	
+	name_list = name_list_occitan
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		93 = gracilemediterranid
+		86 = baskid
+		71 = west_alpinid
+		20 = dinarid
+		13 = litorid
+		5 = berberid
+		5 = berid
+		5 = eurafricanid
+		5 = halstatt
+		5 = north_atlantid
+		5 = paleo_sardinian
+		5 = subnordid
+		4 = paleo_atlantid
+	}
+}
+arpitan_ce = {
+	color = { 0.6 0.2 0.3 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_frankish
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chanson_de_geste
+		#tradition_hereditary_hierarchy
+		tradition_chivalry
+		#tradition_parochialism
+		tradition_mountain_homes
+	}
+	
+	name_list = name_list_francoprovencal
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = subnordid
 		88 = west_alpinid
-		57 = north_atlantid
-		50 = litorid
-		38 = subnordid
-		19 = atlanto_mediterranean
-		13 = dinarid
-		7 = norid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		5 = faelid
+		5 = brunn
+		5 = litorid
+		5 = north_atlantid
+		4 = carpathid
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
+		2 = baskid
+		1 = paleo_atlantid
+		1 = pre_slavic
 	}
 }
 picard = {
@@ -239,37 +297,74 @@ picard = {
 	
 
 	ethnicities = {
+		100 = halstatt
+		100 = anglo_saxon
+		94 = subnordid
+		69 = borreby
+		63 = north_atlantid
+		44 = faelid
+		37 = norid
+		6 = west_alpinid
+		6 = brunn
+		6 = troender
+		6 = paleo_atlantid
+		5 = tavastid
+		4 = keltic_nordid
+		3 = dinarid
+		2 = litorid
+		2 = gracilemediterranid
+		1 = atlanto_mediterranean
 	}
 }
-gascon = {
-	color = { 0.32 0.12 0.90 }
+lorrainian = {
+	color = { 120 137 148 }
 	
-	ethos = ethos_courtly
+	parents = { french }
+	
+	created = 1250.1.1 #Hard to find much on it so I'll make it exist in the later part of the period
+	
+	ethos = ethos_spiritual
 	heritage = heritage_frankish
-	language = language_occitano_romance
+	language = language_french
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_poetry
-		tradition_city_keepers
-		tradition_chanson_de_geste
-		tradition_chivalry
-		tradition_talent_acquisition
+		tradition_fervent_temple_builders
+		tradition_xenophilic
+		tradition_zealous_people
 	}
 	
-	name_list = name_list_occitan
-
-	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
+	name_list = name_list_french
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
 
 	ethnicities = {
-		100 = atlanto_mediterranean
-		93 = gracilemediterranid
-		85 = baskid
-		70 = west_alpinid
-		16 = dinarid
+		100 = subnordid
+		76 = norid
+		59 = dinarid
+		50 = north_atlantid
+		30 = west_alpinid
+		23 = faelid
+		21 = halstatt
+		19 = borreby
+		18 = eurafricanid
+		14 = atlanto_mediterranean
+		10 = gracilemediterranid
 		8 = litorid
+		5 = brunn
+		4 = pre_slavic
+		3 = gorid
+		3 = keltic_nordid
+		3 = carpathid
+		3 = paleo_atlantid
+		3 = paleo_sardinian
+		2 = berid
+		2 = anglo_saxon
+		1 = neo_danubian
+		1 = proto_nordid
+		1 = tavastid
 	}
 }

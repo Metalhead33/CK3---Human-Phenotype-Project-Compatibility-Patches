@@ -1,0 +1,76 @@
+﻿
+haratin = {
+	color = { 0.8 0.4 0.0 }
+	
+	ethos = ethos_communal
+	heritage = heritage_berber #unclear to the degree at which Haratin pops were assimilated but they are native north africans
+	language = language_haratine #now days they speak berber language but unclear when they may have lost their own language
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship  #provide specialist caste workers in west sahara
+		tradition_dryland_dwellers #desert agriculturalists
+		tradition_esteemed_hospitality 
+	}
+	
+	name_list = name_list_butr
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = senegalid
+		33 = casamance
+		25 = sudanid
+		5 = fezzanid
+		5 = west_ethiopid
+		3 = guinesid
+		2 = guineo_camerunian
+		1 = bobo
+		1 = moorish
+	}
+}
+tuareg = {
+	color = { 0.66 0.32 0.06 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_desert_ribat #the description is a bit off but the MAA is literally a tuareg unit so...
+		tradition_poetry #poetry and the performance of it is valued form of entertainment 
+		tradition_saharan_nomads #the ogs of the sahara
+		tradition_monogamous #traditionally monogamous
+		tradition_equal_inheritance #traditionally matrilineal sisters son succession but also with women allowed to inherit property
+	}
+	
+	name_list = name_list_tuareg
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { sahelian_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = berberid
+		91 = fezzanid
+		86 = targid
+		26 = libyid
+		14 = paleo_saharid
+		14 = saharan_ethiopid
+		6 = sudanid
+		5 = african_alpine
+		4 = moorish
+		4 = transmediterranid
+		3 = siwa
+		2 = arabid
+		2 = eurafricanid
+		1 = basic_khoid
+		1 = canarid
+		1 = west_ethiopid
+	}
+}

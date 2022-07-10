@@ -22,8 +22,14 @@ haratin = {
 
 	ethnicities = {
 		100 = senegalid
-		30 = casamance
-		21 = sudanid
+		33 = casamance
+		25 = sudanid
+		5 = fezzanid
+		5 = west_ethiopid
+		3 = guinesid
+		2 = guineo_camerunian
+		1 = bobo
+		1 = moorish
 	}
 }
 afariqa = {
@@ -51,10 +57,24 @@ afariqa = {
 	ethnicities = {
 		100 = gracilemediterranid
 		97 = berid
-		58 = litorid
-		47 = armenoid
-		24 = paleo_sardinian
-		20 = west_alpinid
-		12 = pontid
+		60 = litorid
+		49 = armenoid
+		27 = paleo_sardinian
+		24 = west_alpinid
+		16 = pontid
+		5 = eurafricanid
+		5 = berberid
+		5 = atlanto_mediterranean
+		5 = arabid
+		4 = dinarid
+		4 = anatolid
+		3 = transmediterranid
+		2 = borreby
+		2 = faelid
+		2 = halstatt
+		2 = libyid
+		2 = norid
+		1 = north_atlantid
+		1 = troender
 	}
 }

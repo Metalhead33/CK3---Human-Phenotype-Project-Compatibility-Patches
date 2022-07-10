@@ -1,15 +1,14 @@
 ﻿
-malinke = {
-	color = malinke
+bobo = {
+	color = hsv{ 0.58 0.94 0.7 }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_egalitarian
 	heritage = heritage_west_african
-	language = language_manding
+	language = language_soninke
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_upland_skirmishing
-		tradition_hunters
-		tradition_griots
+		tradition_stalwart_defenders
 	}
 	
 	dlc_tradition = {
@@ -17,7 +16,7 @@ malinke = {
 		requires_dlc_flag = royal_court
 	}
 	
-	name_list = name_list_malinke
+	name_list = name_list_bobo
 	
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -27,9 +26,13 @@ malinke = {
 
 	ethnicities = {
 		100 = sudanid
-		62 = senegalid
-		3 = guinesid
-		1 = bobo
+		74 = bobo
+		13 = guineo_camerunian
+		9 = casamance
+		8 = guinesid
+		5 = fezzanid
+		5 = senegalid
+		3 = west_ethiopid
 	}
 }
 mel = {
@@ -59,22 +62,28 @@ mel = {
 
 	ethnicities = {
 		100 = sudanid
-		78 = guinesid
-		54 = casamance
-		39 = senegalid
-		29 = guineo_camerunian
+		80 = guinesid
+		57 = casamance
+		43 = senegalid
+		34 = guineo_camerunian
+		7 = bobo
+		6 = fezzanid
+		5 = west_ethiopid
+		2 = congolesid
+		2 = westcongolesid
 	}
 }
-bobo = {
-	color = hsv{ 0.58 0.94 0.7 }
+malinke = {
+	color = malinke
 	
-	ethos = ethos_egalitarian
+	ethos = ethos_spiritual
 	heritage = heritage_west_african
-	language = language_soninke
+	language = language_manding
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_upland_skirmishing
-		tradition_stalwart_defenders
+		tradition_hunters
+		tradition_griots
 	}
 	
 	dlc_tradition = {
@@ -82,7 +91,7 @@ bobo = {
 		requires_dlc_flag = royal_court
 	}
 	
-	name_list = name_list_bobo
+	name_list = name_list_malinke
 	
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -92,9 +101,13 @@ bobo = {
 
 	ethnicities = {
 		100 = sudanid
-		72 = bobo
-		9 = guineo_camerunian
-		4 = casamance
-		3 = guinesid
+		64 = senegalid
+		7 = guinesid
+		6 = bobo
+		5 = casamance
+		5 = fezzanid
+		5 = west_ethiopid
+		3 = guineo_camerunian
+		1 = moorish
 	}
 }

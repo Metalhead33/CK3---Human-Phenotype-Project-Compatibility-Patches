@@ -22,8 +22,14 @@ pulaar = {
 
 	ethnicities = {
 		100 = senegalid
-		30 = casamance
-		21 = sudanid
+		33 = casamance
+		25 = sudanid
+		5 = fezzanid
+		5 = west_ethiopid
+		3 = guinesid
+		2 = guineo_camerunian
+		1 = bobo
+		1 = moorish
 	}
 }
 wolof = {
@@ -50,8 +56,14 @@ wolof = {
 
 	ethnicities = {
 		100 = senegalid
-		30 = casamance
-		21 = sudanid
+		33 = casamance
+		25 = sudanid
+		5 = fezzanid
+		5 = west_ethiopid
+		3 = guinesid
+		2 = guineo_camerunian
+		1 = bobo
+		1 = moorish
 	}
 }
 serer = {
@@ -77,7 +89,13 @@ serer = {
 
 	ethnicities = {
 		100 = senegalid
-		30 = casamance
-		21 = sudanid
+		33 = casamance
+		25 = sudanid
+		5 = fezzanid
+		5 = west_ethiopid
+		3 = guinesid
+		2 = guineo_camerunian
+		1 = bobo
+		1 = moorish
 	}
 }
