@@ -110,3 +110,73 @@ mozarab = {
 		1 = troender
 	}
 }
+iqritis = {
+	color = { 0.45 0.65 0.15 }
+
+	parents = { andalusian }
+
+	created = 824.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_practiced_pirates
+		tradition_talent_acquisition
+		tradition_seafaring
+		tradition_stalwart_defenders
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_andalusian
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
+	
+
+	ethnicities = {
+		100 = anatolid
+		81 = asian_alpine
+		71 = pontid
+		58 = litorid
+		48 = armenoid
+		26 = gracilemediterranid
+		14 = dinarid
+		7 = eurafricanid
+		5 = proto_iranid
+		5 = north_pontid
+		4 = paleo_sardinian
+		4 = east_pamirid
+		3 = arabid
+		3 = west_alpinid
+		3 = berid
+		3 = assyroid
+		3 = berberid
+		3 = carpathid
+		2 = transmediterranid
+		2 = iranid
+		2 = mtebid
+		2 = neo_danubian
+		2 = norid
+		2 = gorid
+		2 = atlanto_mediterranean
+		1 = borreby
+		1 = subnordid
+		1 = scythian
+		1 = proto_nordid
+		1 = pre_slavic
+		1 = andronovo_turanid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = aralid
+		1 = halstatt
+		1 = alfoeld
+	}
+}

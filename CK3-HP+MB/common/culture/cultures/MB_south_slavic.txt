@@ -1,15 +1,19 @@
 ﻿
-slavonian = {
-	color = { 0.28 0.52 0.5 }
+croatian = {
+	color = { 0.4 0.2 0.2 }
 	
-	ethos = ethos_stoic
+	parents = { belocroat }
+	
+	created = 725.1.1
+	
+	ethos = ethos_communal
 	heritage = heritage_south_slavic
 	language = language_south_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hussar
-		tradition_stalwart_defenders
-		tradition_martial_admiration
+		tradition_astute_diplomats
+		tradition_hereditary_hierarchy
 	}
 	
 	name_list = name_list_croatian
@@ -48,21 +52,17 @@ slavonian = {
 		1 = anglo_saxon
 	}
 }
-croatian = {
-	color = { 0.4 0.2 0.2 }
+slavonian = {
+	color = { 0.28 0.52 0.5 }
 	
-	parents = { belocroat }
-	
-	created = 725.1.1
-	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_south_slavic
 	language = language_south_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hussar
-		tradition_astute_diplomats
-		tradition_hereditary_hierarchy
+		tradition_stalwart_defenders
+		tradition_martial_admiration
 	}
 	
 	name_list = name_list_croatian

@@ -1,16 +1,16 @@
 ﻿
-mahri = {
-	color = { 0.3 0.6 0.4 }
+south_arabian = {
+	color = { 0.3 0.6 0.5 }
 	
 	ethos = ethos_communal
 	heritage = heritage_arabic
 	language = language_south_arabian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_stand_and_fight
+		tradition_seafaring
+		tradition_quarrelsome
+		tradition_fishermen
 		tradition_maritime_mercantilism
-		tradition_horse_breeder
-		tradition_caravaneers
 	}
 	
 	name_list = name_list_south_arabian
@@ -72,18 +72,18 @@ himyarite = {
 		1 = transmediterranid
 	}
 }
-south_arabian = {
-	color = { 0.3 0.6 0.5 }
+mahri = {
+	color = { 0.3 0.6 0.4 }
 	
 	ethos = ethos_communal
 	heritage = heritage_arabic
 	language = language_south_arabian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_seafaring
-		tradition_quarrelsome
-		tradition_fishermen
+		tradition_stand_and_fight
 		tradition_maritime_mercantilism
+		tradition_horse_breeder
+		tradition_caravaneers
 	}
 	
 	name_list = name_list_south_arabian

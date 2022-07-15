@@ -1,55 +1,4 @@
 ﻿
-venetian_ce = {
-	color = { 0.26 0.52 0.52 }
-
-	parents = { cisalpine greek }
-
-	created = 820.1.1
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_latin
-	language = language_venetian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_republican_legacy
-		tradition_welcoming
-		tradition_seafaring
-		tradition_maritime_mercantilism
-	}
-	
-	name_list = name_list_venetian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { italian_clothing_gfx }
-	unit_gfx = { italian_unit_gfx western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = dinarid
-		100 = norid
-		77 = carpathid
-		77 = eurafricanid
-		77 = gorid
-		53 = litorid
-		53 = neo_danubian
-		5 = halstatt
-		5 = west_alpinid
-		5 = subnordid
-		5 = proto_nordid
-		5 = pre_slavic
-		5 = pontid
-		5 = north_pontid
-		5 = north_atlantid
-		5 = anglo_saxon
-		5 = gracilemediterranid
-		5 = borreby
-		5 = berid
-		5 = atlanto_mediterranean
-		3 = faelid
-		3 = brunn
-	}
-}
 dalmatian_ce = {
 	color = { 0.6 0.7 0.77 }
 
@@ -196,5 +145,56 @@ african_roman = {
 		1 = targid
 		1 = assyroid
 		1 = troender
+	}
+}
+venetian_ce = {
+	color = { 0.26 0.52 0.52 }
+
+	parents = { cisalpine greek }
+
+	created = 820.1.1
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_latin
+	language = language_venetian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+		tradition_welcoming
+		tradition_seafaring
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_venetian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { italian_clothing_gfx }
+	unit_gfx = { italian_unit_gfx western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = dinarid
+		100 = norid
+		77 = carpathid
+		77 = eurafricanid
+		77 = gorid
+		53 = litorid
+		53 = neo_danubian
+		5 = halstatt
+		5 = west_alpinid
+		5 = subnordid
+		5 = proto_nordid
+		5 = pre_slavic
+		5 = pontid
+		5 = north_pontid
+		5 = north_atlantid
+		5 = anglo_saxon
+		5 = gracilemediterranid
+		5 = borreby
+		5 = berid
+		5 = atlanto_mediterranean
+		3 = faelid
+		3 = brunn
 	}
 }
