@@ -1,195 +1,4 @@
 ﻿
-parthian = {
-	color = { 0.82 0.72 0.74 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_iranian
-	language = language_iranian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_poetry
-		tradition_culture_blending
-		tradition_dryland_dwellers
-		tradition_horse_breeder
-		tradition_hit_and_run
-	}
-	
-	name_list = name_list_persian
-	
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = proto_iranid
-		98 = iranid
-		96 = asian_alpine
-		90 = assyroid
-		29 = eurafricanid
-		20 = arabid
-		16 = litorid
-		14 = anatolid
-		10 = armenoid
-		5 = indo_iranid
-		5 = mtebid
-		5 = pontid
-		4 = east_pamirid
-		3 = berid
-		1 = proto_nordid
-	}
-}
-mazandarani = {
-	color = { 0.756 0.745 0.521 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_iranian
-	language = language_iranian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_poetry
-		tradition_stalwart_defenders
-		tradition_isolationist
-		tradition_forest_folk
-		tradition_futuwaa
-	}
-	
-	name_list = name_list_daylamite
-	
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-
-
-	ethnicities = {
-		100 = proto_iranid
-		84 = iranid
-		54 = pontid
-		12 = armenoid
-		11 = assyroid
-		10 = asian_alpine
-		7 = arabid
-		7 = indo_iranid
-		6 = east_pamirid
-		5 = eurafricanid
-		5 = transcaspian
-		4 = anatolid
-		4 = berid
-		4 = litorid
-		3 = mtebid
-		1 = proto_nordid
-	}
-}
-hephthalite = {
-	color = { 0.35 0.03 0.19  }
-
-	parents = { saka turkish }
-
-	created = 350.1.1 # First mentioned in 361 CE, likely part of wave of major nomadic migrations in Central Asia c. 350 CE
-	history_loc_override = iranian_hun_history_loc
-	
-	ethos = ethos_bellicose
-	heritage = heritage_iranian
-	language = language_iranian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_horse_lords # Warriors from the steppes
-		tradition_mountain_homes # May have originated from the Pamir region
-		tradition_sacred_mountains # Zun was a solar mountain god
-		tradition_city_keepers # Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
-	}
-
-	dlc_tradition = { # Did a lot of culture blending later on
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_afghan
-	
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = east_pamirid
-		40 = indo_iranid
-		36 = central_pamirid
-		36 = indo_nordid
-		25 = asian_alpine
-		9 = scythian
-		7 = andronovo_turanid
-		7 = armenoid
-		7 = plains_pamirid
-		7 = north_indid
-		7 = iranid
-		7 = mountain_indid
-		6 = tibetid
-		6 = aralid
-		4 = indo_brachid
-		4 = berid
-		2 = kham
-		2 = east_brachid
-		2 = proto_nordid
-	}
-}
-semnani = {
-	color = { 0.752 0.725 0.427 }
-
-	parents = { parthian }
-
-	created = 600.1.1
-	
-	ethos = ethos_communal
-	heritage = heritage_iranian
-	language = language_iranian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_poetry
-		tradition_dryland_dwellers
-		tradition_hit_and_run
-		tradition_esteemed_hospitality 
-	}
-	
-	name_list = name_list_daylamite
-	
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-
-
-	ethnicities = {
-		100 = iranid
-		38 = assyroid
-		28 = proto_iranid
-		23 = indo_iranid
-		19 = pontid
-		12 = arabid
-		10 = armenoid
-		9 = asian_alpine
-		3 = eurafricanid
-		2 = yemenid
-		2 = anatolid
-		2 = north_indid
-		2 = litorid
-		2 = east_pamirid
-		1 = indo_brachid
-		1 = gracilemediterranid
-		1 = mountain_indid
-		1 = mtebid
-		1 = plains_pamirid
-		1 = central_pamirid
-		1 = berid
-		1 = proto_nordid
-		1 = transcaspian
-		1 = transmediterranid
-		1 = andronovo_turanid
-	}
-}
 huna = {
 	color = { 0.772 0.549 0.662 }
 
@@ -329,6 +138,60 @@ gilani = {
 		1 = proto_nordid
 	}
 }
+hephthalite = {
+	color = { 0.35 0.03 0.19  }
+
+	parents = { saka turkish }
+
+	created = 350.1.1 # First mentioned in 361 CE, likely part of wave of major nomadic migrations in Central Asia c. 350 CE
+	history_loc_override = iranian_hun_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Warriors from the steppes
+		tradition_mountain_homes # May have originated from the Pamir region
+		tradition_sacred_mountains # Zun was a solar mountain god
+		tradition_city_keepers # Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+	}
+
+	dlc_tradition = { # Did a lot of culture blending later on
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_afghan
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_pamirid
+		40 = indo_iranid
+		36 = central_pamirid
+		36 = indo_nordid
+		25 = asian_alpine
+		9 = scythian
+		7 = andronovo_turanid
+		7 = armenoid
+		7 = plains_pamirid
+		7 = north_indid
+		7 = iranid
+		7 = mountain_indid
+		6 = tibetid
+		6 = aralid
+		4 = indo_brachid
+		4 = berid
+		2 = kham
+		2 = east_brachid
+		2 = proto_nordid
+	}
+}
 pamiri = {
 	color = { 0.572 0.525 0.466 }
 	
@@ -371,5 +234,142 @@ pamiri = {
 		2 = kham
 		2 = east_brachid
 		2 = proto_nordid
+	}
+}
+parthian = {
+	color = { 0.82 0.72 0.74 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_culture_blending
+		tradition_dryland_dwellers
+		tradition_horse_breeder
+		tradition_hit_and_run
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = proto_iranid
+		98 = iranid
+		96 = asian_alpine
+		90 = assyroid
+		29 = eurafricanid
+		20 = arabid
+		16 = litorid
+		14 = anatolid
+		10 = armenoid
+		5 = indo_iranid
+		5 = mtebid
+		5 = pontid
+		4 = east_pamirid
+		3 = berid
+		1 = proto_nordid
+	}
+}
+semnani = {
+	color = { 0.752 0.725 0.427 }
+
+	parents = { parthian }
+
+	created = 600.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_dryland_dwellers
+		tradition_hit_and_run
+		tradition_esteemed_hospitality 
+	}
+	
+	name_list = name_list_daylamite
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+
+	ethnicities = {
+		100 = iranid
+		38 = assyroid
+		28 = proto_iranid
+		23 = indo_iranid
+		19 = pontid
+		12 = arabid
+		10 = armenoid
+		9 = asian_alpine
+		3 = eurafricanid
+		2 = yemenid
+		2 = anatolid
+		2 = north_indid
+		2 = litorid
+		2 = east_pamirid
+		1 = indo_brachid
+		1 = gracilemediterranid
+		1 = mountain_indid
+		1 = mtebid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = berid
+		1 = proto_nordid
+		1 = transcaspian
+		1 = transmediterranid
+		1 = andronovo_turanid
+	}
+}
+mazandarani = {
+	color = { 0.756 0.745 0.521 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_stalwart_defenders
+		tradition_isolationist
+		tradition_forest_folk
+		tradition_futuwaa
+	}
+	
+	name_list = name_list_daylamite
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+
+	ethnicities = {
+		100 = proto_iranid
+		84 = iranid
+		54 = pontid
+		12 = armenoid
+		11 = assyroid
+		10 = asian_alpine
+		7 = arabid
+		7 = indo_iranid
+		6 = east_pamirid
+		5 = eurafricanid
+		5 = transcaspian
+		4 = anatolid
+		4 = berid
+		4 = litorid
+		3 = mtebid
+		1 = proto_nordid
 	}
 }

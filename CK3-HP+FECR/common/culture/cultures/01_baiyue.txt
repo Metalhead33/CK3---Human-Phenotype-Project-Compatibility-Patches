@@ -1,4 +1,45 @@
 ﻿
+vietnamese = {
+		
+	color = vietnamese
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_vietnamese
+	language = language_vietnamese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_jungle_warriors
+		tradition_fervent_temple_builders
+		tradition_festivities
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_vietnamese
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = tonkinesid
+		78 = east_shanid
+		44 = annamid
+		41 = south_palaungid
+		30 = east_palaungid
+		28 = kachinid
+		23 = shanid
+		17 = chukiangid
+		13 = tibetid
+		10 = khmerid
+		7 = changkiangid
+		6 = kham
+		6 = palaungid
+		5 = deutero_malayid
+		2 = senoid
+	}
+}
 thai = {
 
 	color = thai
@@ -79,46 +120,5 @@ khmer = {
 		2 = tonkinesid
 		1 = basic_negritid
 		1 = east_palaungid
-	}
-}
-vietnamese = {
-		
-	color = vietnamese
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_vietnamese
-	language = language_vietnamese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_jungle_warriors
-		tradition_fervent_temple_builders
-		tradition_festivities
-		tradition_religion_blending
-	}
-	
-	name_list = name_list_vietnamese
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { chinese_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = tonkinesid
-		78 = east_shanid
-		44 = annamid
-		41 = south_palaungid
-		30 = east_palaungid
-		28 = kachinid
-		23 = shanid
-		17 = chukiangid
-		13 = tibetid
-		10 = khmerid
-		7 = changkiangid
-		6 = kham
-		6 = palaungid
-		5 = deutero_malayid
-		2 = senoid
 	}
 }

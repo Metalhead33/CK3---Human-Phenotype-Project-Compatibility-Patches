@@ -1,4 +1,38 @@
 ﻿
+harla = {
+	color = { 220 45 120 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_somalian #proto-somalis
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		#tradition_city_keepers
+		tradition_horn_mountain_skirmishing
+		tradition_ancient_miners
+		tradition_dryland_dwellers
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_harla
+	
+	coa_gfx = { arabic_group_coa_gfx }
+	#coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_ethiopid
+		90 = central_ethiopid
+		8 = omotic
+		5 = north_ethiopid
+		5 = proto_ethiopid
+		1 = arabid
+		1 = eurafricanid
+	}
+}
 oromo = {
 	color = hsv { 0 0 0.392 }
 	
@@ -32,39 +66,5 @@ oromo = {
 		2 = equatorialsudanid
 		1 = basic_bambutid
 		1 = congolesid
-	}
-}
-harla = {
-	color = { 220 45 120 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_somalian #proto-somalis
-	language = language_cushitic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		#tradition_city_keepers
-		tradition_horn_mountain_skirmishing
-		tradition_ancient_miners
-		tradition_dryland_dwellers
-		tradition_religion_blending
-	}
-	
-	name_list = name_list_harla
-	
-	coa_gfx = { arabic_group_coa_gfx }
-	#coa_gfx = { east_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = east_ethiopid
-		90 = central_ethiopid
-		8 = omotic
-		5 = north_ethiopid
-		5 = proto_ethiopid
-		1 = arabid
-		1 = eurafricanid
 	}
 }

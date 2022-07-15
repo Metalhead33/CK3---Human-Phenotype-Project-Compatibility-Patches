@@ -1,4 +1,37 @@
 ﻿
+soninke = {
+	color = soninke
+	
+	ethos = ethos_courtly
+	heritage = heritage_sahelian
+	language = language_soninke
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_griots
+		tradition_dryland_dwellers
+		tradition_zealous_people
+	}
+	
+	name_list = name_list_soninke
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = sudanid
+		18 = west_ethiopid
+		9 = senegalid
+		8 = fezzanid
+		8 = saharan_ethiopid
+		6 = moorish
+		3 = bobo
+		1 = targid
+	}
+}
 gaw = {
 	color = hsv{ 0.14 0.4 0.7 }
 	
@@ -30,39 +63,6 @@ gaw = {
 		6 = saharan_ethiopid
 		4 = senegalid
 		4 = targid
-	}
-}
-mossi = {
-	color = hsv{ 0.07 1.0 0.9 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_sahelian
-	language = language_gur
-	martial_custom = martial_custom_equal
-	traditions = {
-		tradition_ruling_caste
-		tradition_horse_breeder
-		tradition_savanna_raiders
-	}
-	
-	name_list = name_list_mossi
-	
-	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = sudanid
-		32 = saharan_ethiopid
-		14 = fezzanid
-		8 = west_ethiopid
-		5 = bobo
-		5 = senegalid
-		3 = moorish
-		2 = targid
-		1 = guinesid
 	}
 }
 songhai = {
@@ -134,71 +134,6 @@ sorko = {
 		1 = westcongolesid
 	}
 }
-zarma = {
-	color = { 0.45 0.6 0.2 }
-	ethos = ethos_bellicose
-	heritage = heritage_sahelian
-	language = language_ayneha
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_wetlanders #before migrating south to Dendi, Zarma reportedly lived at Lake Debo and areas adajcent to Niger at the Niger Bend
-		tradition_upland_skirmishing
-		tradition_religion_blending #historically were happy to mix traditional beliefs with Islam accepting both
-		tradition_collective_lands #land is collectively rather than individually owned and land sales are discouraged
-	}
-		
-	name_list = name_list_songhai
-	
-	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = sudanid
-		18 = west_ethiopid
-		9 = senegalid
-		8 = fezzanid
-		8 = saharan_ethiopid
-		6 = moorish
-		3 = bobo
-		1 = targid
-	}
-}
-soninke = {
-	color = soninke
-	
-	ethos = ethos_courtly
-	heritage = heritage_sahelian
-	language = language_soninke
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_caravaneers
-		tradition_griots
-		tradition_dryland_dwellers
-		tradition_zealous_people
-	}
-	
-	name_list = name_list_soninke
-	
-	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = sudanid
-		18 = west_ethiopid
-		9 = senegalid
-		8 = fezzanid
-		8 = saharan_ethiopid
-		6 = moorish
-		3 = bobo
-		1 = targid
-	}
-}
 bozo = {
 	color = hsv{ 0.12 1.0 0.5}
 	
@@ -231,5 +166,70 @@ bozo = {
 		3 = moorish
 		2 = targid
 		1 = guinesid
+	}
+}
+mossi = {
+	color = hsv{ 0.07 1.0 0.9 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_sahelian
+	language = language_gur
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_ruling_caste
+		tradition_horse_breeder
+		tradition_savanna_raiders
+	}
+	
+	name_list = name_list_mossi
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = sudanid
+		32 = saharan_ethiopid
+		14 = fezzanid
+		8 = west_ethiopid
+		5 = bobo
+		5 = senegalid
+		3 = moorish
+		2 = targid
+		1 = guinesid
+	}
+}
+zarma = {
+	color = { 0.45 0.6 0.2 }
+	ethos = ethos_bellicose
+	heritage = heritage_sahelian
+	language = language_ayneha
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_wetlanders #before migrating south to Dendi, Zarma reportedly lived at Lake Debo and areas adajcent to Niger at the Niger Bend
+		tradition_upland_skirmishing
+		tradition_religion_blending #historically were happy to mix traditional beliefs with Islam accepting both
+		tradition_collective_lands #land is collectively rather than individually owned and land sales are discouraged
+	}
+		
+	name_list = name_list_songhai
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = sudanid
+		18 = west_ethiopid
+		9 = senegalid
+		8 = fezzanid
+		8 = saharan_ethiopid
+		6 = moorish
+		3 = bobo
+		1 = targid
 	}
 }
