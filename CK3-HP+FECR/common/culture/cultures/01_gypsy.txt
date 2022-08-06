@@ -9,10 +9,10 @@ gypsy_india = {
 	
 	name_list = name_list_gypsy
 	
-	coa_gfx = { dravidian_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 
 	traditions = {
 		tradition_diasporic

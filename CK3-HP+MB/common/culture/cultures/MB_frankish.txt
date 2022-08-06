@@ -1,95 +1,4 @@
 ﻿
-angevin = {
-	color = { 14 4 128 }
-	
-	parents = { french }
-	
-	created = 950.1.1 #Was the speech of the Angevins. Influenced the creation of Gallo in the 9th and 10th centuries
-	
-	ethos = ethos_courtly
-	heritage = heritage_frankish
-	language = language_french
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_astute_diplomats
-		tradition_legalistic
-		tradition_chivalry
-		tradition_chanson_de_geste
-	}
-	
-	name_list = name_list_french
-	
-	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = gracilemediterranid
-		89 = west_alpinid
-		59 = north_atlantid
-		53 = litorid
-		41 = subnordid
-		23 = atlanto_mediterranean
-		17 = dinarid
-		11 = norid
-		5 = baskid
-		5 = berberid
-		5 = berid
-		5 = eurafricanid
-		5 = paleo_sardinian
-		4 = halstatt
-		4 = anglo_saxon
-		3 = brunn
-		3 = keltic_nordid
-		2 = borreby
-	}
-}
-provencal = {
-	color = { 149 225 244 }
-
-	parents = { occitan }
-	
-	created = 1000.1.1
-	
-	ethos = ethos_spiritual
-	heritage = heritage_frankish
-	language = language_occitano_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_fervent_temple_builders
-		tradition_music_theory
-		tradition_festivities
-		tradition_fishermen
-	}
-	
-	name_list = name_list_occitan
-
-	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		77 = litorid
-		61 = west_alpinid
-		29 = eurafricanid
-		21 = subnordid
-		13 = dinarid
-		13 = gracilemediterranid
-		5 = berberid
-		5 = berid
-		5 = paleo_sardinian
-		4 = norid
-		2 = baskid
-		2 = north_atlantid
-		1 = faelid
-		1 = halstatt
-	}
-}
 lorrainian = {
 	color = { 120 137 148 }
 	
@@ -142,46 +51,6 @@ lorrainian = {
 		1 = tavastid
 	}
 }
-gascon = {
-	color = { 0.32 0.12 0.90 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_frankish
-	language = language_occitano_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_poetry
-		tradition_city_keepers
-		tradition_chanson_de_geste
-		tradition_chivalry
-		tradition_talent_acquisition
-	}
-	
-	name_list = name_list_occitan
-
-	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		93 = gracilemediterranid
-		86 = baskid
-		71 = west_alpinid
-		20 = dinarid
-		13 = litorid
-		5 = berberid
-		5 = berid
-		5 = eurafricanid
-		5 = halstatt
-		5 = north_atlantid
-		5 = paleo_sardinian
-		5 = subnordid
-		4 = paleo_atlantid
-	}
-}
 arpitan_ce = {
 	color = { 0.6 0.2 0.3 }
 	
@@ -204,55 +73,6 @@ arpitan_ce = {
 	clothing_gfx = { western_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 	
 
-
-	ethnicities = {
-		100 = subnordid
-		88 = west_alpinid
-		84 = dinarid
-		59 = atlanto_mediterranean
-		30 = norid
-		18 = eurafricanid
-		14 = gracilemediterranid
-		10 = halstatt
-		5 = faelid
-		5 = brunn
-		5 = litorid
-		5 = north_atlantid
-		4 = carpathid
-		4 = borreby
-		4 = paleo_sardinian
-		4 = berid
-		2 = baskid
-		1 = paleo_atlantid
-		1 = pre_slavic
-	}
-}
-burgundian_oil = {
-	color = { 172 34 65 }
-	
-	parents = { frankish burgundian }
-	
-	created = 862.1.1 #Was the speech of the House of Burgundy. I see nothing that says it formed later and that it wasn't just a mix of French of Burgundian
-	
-	
-	ethos = ethos_bellicose
-	heritage = heritage_frankish
-	language = language_french
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_quarrelsome
-		tradition_hereditary_hierarchy
-		tradition_chivalry
-		tradition_chanson_de_geste
-	}
-	
-	name_list = name_list_french
-	
-	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
 
 	ethnicities = {
 		100 = subnordid
@@ -322,6 +142,46 @@ poitevin = {
 		2 = borreby
 	}
 }
+gascon = {
+	color = { 0.32 0.12 0.90 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_city_keepers
+		tradition_chanson_de_geste
+		tradition_chivalry
+		tradition_talent_acquisition
+	}
+	
+	name_list = name_list_occitan
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		93 = gracilemediterranid
+		86 = baskid
+		71 = west_alpinid
+		20 = dinarid
+		13 = litorid
+		5 = berberid
+		5 = berid
+		5 = eurafricanid
+		5 = halstatt
+		5 = north_atlantid
+		5 = paleo_sardinian
+		5 = subnordid
+		4 = paleo_atlantid
+	}
+}
 picard = {
 	color = { 0 0 128 }
 	
@@ -366,5 +226,145 @@ picard = {
 		2 = litorid
 		2 = gracilemediterranid
 		1 = atlanto_mediterranean
+	}
+}
+provencal = {
+	color = { 149 225 244 }
+
+	parents = { occitan }
+	
+	created = 1000.1.1
+	
+	ethos = ethos_spiritual
+	heritage = heritage_frankish
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fervent_temple_builders
+		tradition_music_theory
+		tradition_festivities
+		tradition_fishermen
+	}
+	
+	name_list = name_list_occitan
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		77 = litorid
+		61 = west_alpinid
+		29 = eurafricanid
+		21 = subnordid
+		13 = dinarid
+		13 = gracilemediterranid
+		5 = berberid
+		5 = berid
+		5 = paleo_sardinian
+		4 = norid
+		2 = baskid
+		2 = north_atlantid
+		1 = faelid
+		1 = halstatt
+	}
+}
+burgundian_oil = {
+	color = { 172 34 65 }
+	
+	parents = { frankish burgundian }
+	
+	created = 862.1.1 #Was the speech of the House of Burgundy. I see nothing that says it formed later and that it wasn't just a mix of French of Burgundian
+	
+	
+	ethos = ethos_bellicose
+	heritage = heritage_frankish
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_french
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = subnordid
+		88 = west_alpinid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		5 = faelid
+		5 = brunn
+		5 = litorid
+		5 = north_atlantid
+		4 = carpathid
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
+		2 = baskid
+		1 = paleo_atlantid
+		1 = pre_slavic
+	}
+}
+angevin = {
+	color = { 14 4 128 }
+	
+	parents = { french }
+	
+	created = 950.1.1 #Was the speech of the Angevins. Influenced the creation of Gallo in the 9th and 10th centuries
+	
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_astute_diplomats
+		tradition_legalistic
+		tradition_chivalry
+		tradition_chanson_de_geste
+	}
+	
+	name_list = name_list_french
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = gracilemediterranid
+		89 = west_alpinid
+		59 = north_atlantid
+		53 = litorid
+		41 = subnordid
+		23 = atlanto_mediterranean
+		17 = dinarid
+		11 = norid
+		5 = baskid
+		5 = berberid
+		5 = berid
+		5 = eurafricanid
+		5 = paleo_sardinian
+		4 = halstatt
+		4 = anglo_saxon
+		3 = brunn
+		3 = keltic_nordid
+		2 = borreby
 	}
 }

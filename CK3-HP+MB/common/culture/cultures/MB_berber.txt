@@ -1,6 +1,6 @@
 ﻿
-masmuda = {
-	color = { 0.4 0.4 0.2 }
+tagelmust = {
+	color = { 0.55 0.35 0.25 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_berber
@@ -21,19 +21,23 @@ masmuda = {
 	
 
 	ethnicities = {
-		100 = berberid
-		93 = transmediterranid
-		71 = berid
-		29 = eurafricanid
-		24 = libyid
-		19 = african_alpine
-		8 = canarid
-		8 = gracilemediterranid
-		7 = fezzanid
-		5 = arabid
-		5 = atlanto_mediterranean
-		4 = moorish
-		2 = litorid
+		100 = moorish
+		65 = libyid
+		57 = berberid
+		48 = west_ethiopid
+		21 = transmediterranid
+		12 = sudanid
+		11 = fezzanid
+		5 = targid
+		4 = canarid
+		4 = eurafricanid
+		4 = berid
+		4 = arabid
+		4 = african_alpine
+		3 = saharan_ethiopid
+		3 = senegalid
+		2 = gracilemediterranid
+		1 = paleo_saharid
 	}
 }
 tuareg = {
@@ -78,8 +82,8 @@ tuareg = {
 		1 = west_ethiopid
 	}
 }
-tagelmust = {
-	color = { 0.55 0.35 0.25 }
+masmuda = {
+	color = { 0.4 0.4 0.2 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_berber
@@ -100,22 +104,18 @@ tagelmust = {
 	
 
 	ethnicities = {
-		100 = moorish
-		65 = libyid
-		57 = berberid
-		48 = west_ethiopid
-		21 = transmediterranid
-		12 = sudanid
-		11 = fezzanid
-		5 = targid
-		4 = canarid
-		4 = eurafricanid
-		4 = berid
-		4 = arabid
-		4 = african_alpine
-		3 = saharan_ethiopid
-		3 = senegalid
-		2 = gracilemediterranid
-		1 = paleo_saharid
+		100 = berberid
+		93 = transmediterranid
+		71 = berid
+		29 = eurafricanid
+		24 = libyid
+		19 = african_alpine
+		8 = canarid
+		8 = gracilemediterranid
+		7 = fezzanid
+		5 = arabid
+		5 = atlanto_mediterranean
+		4 = moorish
+		2 = litorid
 	}
 }

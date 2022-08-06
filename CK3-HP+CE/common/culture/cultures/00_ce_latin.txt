@@ -63,7 +63,7 @@ african_roman = {
 		tradition_african_agriculture
 	}
 	
-	name_list = name_list_sardinian
+	name_list = name_list_afri
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

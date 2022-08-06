@@ -1,46 +1,54 @@
 ﻿
-burgundian = {
-	color = { 0.62 0.2 0.29 }
+ostrogothic = {
+	color = { 0.2 0.4 0.5 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_east_germanic
-	language = language_burgundian
+	language = language_crimeangothic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_horse_breeder
-		tradition_hereditary_hierarchy 
-		tradition_stand_and_fight
+		tradition_hereditary_hierarchy
 		tradition_warrior_culture
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_legalistic
 	}
 	
-	name_list = name_list_frankish
+	name_list = name_list_german
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 		
+	unit_gfx = { western_unit_gfx } 			
 
 
 	ethnicities = {
-		100 = subnordid
-		88 = west_alpinid
-		84 = dinarid
-		59 = atlanto_mediterranean
-		30 = norid
-		18 = eurafricanid
-		14 = gracilemediterranid
-		10 = halstatt
-		5 = faelid
+		100 = dinarid
+		92 = west_alpinid
+		79 = norid
+		58 = subnordid
+		51 = carpathid
+		44 = atlanto_mediterranean
+		40 = pre_slavic
+		28 = halstatt
+		21 = litorid
+		21 = north_atlantid
+		19 = eurafricanid
+		17 = gorid
+		16 = neo_danubian
+		15 = faelid
+		7 = gracilemediterranid
+		6 = borreby
 		5 = brunn
-		5 = litorid
-		5 = north_atlantid
-		4 = carpathid
-		4 = borreby
-		4 = paleo_sardinian
-		4 = berid
-		2 = baskid
-		1 = paleo_atlantid
-		1 = pre_slavic
+		5 = proto_nordid
+		5 = north_pontid
+		5 = pontid
+		4 = anglo_saxon
+		3 = berid
+		3 = tavastid
+		1 = keltic_nordid
+		1 = troender
+		1 = alfoeld
 	}
 }
 vandalic = {
@@ -95,55 +103,47 @@ vandalic = {
 		1 = alfoeld
 	}
 }
-ostrogothic = {
-	color = { 0.2 0.4 0.5 }
+burgundian = {
+	color = { 0.62 0.2 0.29 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_east_germanic
-	language = language_crimeangothic
+	language = language_burgundian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_warrior_culture
+		tradition_horse_breeder
+		tradition_hereditary_hierarchy 
 		tradition_stand_and_fight
-		tradition_ruling_caste
-		tradition_legalistic
+		tradition_warrior_culture
 	}
 	
-	name_list = name_list_german
+	name_list = name_list_frankish
 
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 			
+	unit_gfx = { western_unit_gfx } 		
 
 
 	ethnicities = {
-		100 = dinarid
-		92 = west_alpinid
-		79 = norid
-		58 = subnordid
-		51 = carpathid
-		44 = atlanto_mediterranean
-		40 = pre_slavic
-		28 = halstatt
-		21 = litorid
-		21 = north_atlantid
-		19 = eurafricanid
-		17 = gorid
-		16 = neo_danubian
-		15 = faelid
-		7 = gracilemediterranid
-		6 = borreby
+		100 = subnordid
+		88 = west_alpinid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		5 = faelid
 		5 = brunn
-		5 = proto_nordid
-		5 = north_pontid
-		5 = pontid
-		4 = anglo_saxon
-		3 = berid
-		3 = tavastid
-		1 = keltic_nordid
-		1 = troender
-		1 = alfoeld
+		5 = litorid
+		5 = north_atlantid
+		4 = carpathid
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
+		2 = baskid
+		1 = paleo_atlantid
+		1 = pre_slavic
 	}
 }
