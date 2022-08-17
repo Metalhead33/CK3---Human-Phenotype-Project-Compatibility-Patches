@@ -42,78 +42,6 @@ finnish = {
 		1 = subnordid
 	}
 }
-samoyed = {
-	color = { 0.3 0.87 0.21 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_ugro_permian
-	language = language_finnic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_xenophilic
-		tradition_welcoming
-		tradition_forest_wardens
-		tradition_caravaneers
-	}
-	
-	name_list = name_list_samoyed
-	
-	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = samoyedic
-		45 = north_lappid
-		45 = savolaxid
-		8 = fenno_nordid
-		8 = ladogan
-		8 = neo_danubian
-		8 = volgid
-		6 = tavastid
-		3 = north_pontid
-		2 = proto_nordid
-		2 = scando_lappid
-	}
-}
-bjarmian = {
-	color = { 0.1 0.80 0.10 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_ugro_permian
-	language = language_finnic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_xenophilic
-		tradition_welcoming
-		tradition_forest_wardens
-		tradition_caravaneers
-	}
-	
-	name_list = name_list_samoyed
-	
-	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = uralid
-		6 = andronovo_turanid
-		6 = aralid
-		5 = baykal
-		3 = ladogan
-		3 = samoyedic
-		2 = fenno_nordid
-		1 = gobid
-		1 = north_lappid
-		1 = scythian
-		1 = volgid
-	}
-}
 sami = {
 	color = sami
 	
@@ -158,39 +86,40 @@ sami = {
 		1 = strandid
 	}
 }
-karelian = {
-	color = { 0.15 0.85 0.85 }
+bjarmian = {
+	color = { 0.1 0.80 0.10 }
 	
 	ethos = ethos_stoic
-	heritage = heritage_balto_finnic
+	heritage = heritage_ugro_permian
 	language = language_finnic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_stalwart_defenders
+		tradition_xenophilic
+		tradition_welcoming
 		tradition_forest_wardens
-		tradition_swords_for_hire
+		tradition_caravaneers
 	}
-
-	name_list = name_list_karelian
-
-	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	
+	name_list = name_list_samoyed
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
-
+	
 
 	ethnicities = {
-		100 = samoyedic
-		45 = north_lappid
-		45 = savolaxid
-		8 = fenno_nordid
-		8 = ladogan
-		8 = neo_danubian
-		8 = volgid
-		6 = tavastid
-		3 = north_pontid
-		2 = proto_nordid
-		2 = scando_lappid
+		100 = uralid
+		6 = andronovo_turanid
+		6 = aralid
+		5 = baykal
+		3 = ladogan
+		3 = samoyedic
+		2 = fenno_nordid
+		1 = gobid
+		1 = north_lappid
+		1 = scythian
+		1 = volgid
 	}
 }
 estonian = {
@@ -283,5 +212,76 @@ vepsian = {
 		1 = halstatt
 		1 = gorid
 		1 = borreby
+	}
+}
+karelian = {
+	color = { 0.15 0.85 0.85 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_balto_finnic
+	language = language_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_forest_wardens
+		tradition_swords_for_hire
+	}
+
+	name_list = name_list_karelian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+
+	ethnicities = {
+		100 = samoyedic
+		45 = north_lappid
+		45 = savolaxid
+		8 = fenno_nordid
+		8 = ladogan
+		8 = neo_danubian
+		8 = volgid
+		6 = tavastid
+		3 = north_pontid
+		2 = proto_nordid
+		2 = scando_lappid
+	}
+}
+samoyed = {
+	color = { 0.3 0.87 0.21 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_ugro_permian
+	language = language_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_welcoming
+		tradition_forest_wardens
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_samoyed
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = samoyedic
+		45 = north_lappid
+		45 = savolaxid
+		8 = fenno_nordid
+		8 = ladogan
+		8 = neo_danubian
+		8 = volgid
+		6 = tavastid
+		3 = north_pontid
+		2 = proto_nordid
+		2 = scando_lappid
 	}
 }

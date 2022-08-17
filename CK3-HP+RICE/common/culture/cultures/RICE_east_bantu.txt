@@ -1,4 +1,42 @@
 ﻿
+malagasy = {
+	color = { 0.80 0.97 0.97 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_bantu
+	language = language_malagasy
+	martial_custom = martial_custom_male_only
+	traditions = {
+		#tradition_RICE_swahili_contacts
+		tradition_sacred_groves
+		tradition_esteemed_hospitality
+	}
+	
+	name_list = name_list_malagasy
+	
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = deutero_malayid
+		57 = dayakid
+		16 = east_shanid
+		13 = chukiangid
+		12 = kachinid
+		7 = basic_negritid
+		7 = toalid
+		6 = proto_malayid
+		5 = changkiangid
+		5 = south_palaungid
+		4 = senoid
+		3 = karnatid
+		2 = khmerid
+		1 = nesiotid
+	}
+}
 swahili = {
 	color = { 0.52 0.88 0.99 }
 	
@@ -69,43 +107,5 @@ shona = {
 		4 = sudanid
 		3 = bobo
 		3 = casamance
-	}
-}
-malagasy = {
-	color = { 0.80 0.97 0.97 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_east_bantu
-	language = language_malagasy
-	martial_custom = martial_custom_male_only
-	traditions = {
-		#tradition_RICE_swahili_contacts
-		tradition_sacred_groves
-		tradition_esteemed_hospitality
-	}
-	
-	name_list = name_list_malagasy
-	
-	coa_gfx = { east_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = deutero_malayid
-		57 = dayakid
-		16 = east_shanid
-		13 = chukiangid
-		12 = kachinid
-		7 = basic_negritid
-		7 = toalid
-		6 = proto_malayid
-		5 = changkiangid
-		5 = south_palaungid
-		4 = senoid
-		3 = karnatid
-		2 = khmerid
-		1 = nesiotid
 	}
 }

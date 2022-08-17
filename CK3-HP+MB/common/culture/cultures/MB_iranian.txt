@@ -1,4 +1,40 @@
 ﻿
+qufs = {
+	color = { 0.8 0.6 0.03 }
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_futuwaa
+		tradition_desert_nomads
+		tradition_esteemed_hospitality
+		tradition_isolationist
+	}
+
+	name_list = name_list_baloch
+
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = indo_iranid
+		19 = indo_brachid
+		11 = iranid
+		9 = north_indid
+		6 = armenoid
+		4 = arabid
+		2 = central_pamirid
+		2 = yemenid
+		1 = gracile_indid
+		1 = mountain_indid
+		1 = pontid
+	}
+}
 hazara = {
 	color = { 110 190 230 }
 	
@@ -42,42 +78,6 @@ hazara = {
 		2 = tibetid
 		1 = gracile_indid
 		1 = gobid
-		1 = pontid
-	}
-}
-qufs = {
-	color = { 0.8 0.6 0.03 }
-	
-	ethos = ethos_communal
-	heritage = heritage_iranian
-	language = language_iranian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_futuwaa
-		tradition_desert_nomads
-		tradition_esteemed_hospitality
-		tradition_isolationist
-	}
-
-	name_list = name_list_baloch
-
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = indo_iranid
-		19 = indo_brachid
-		11 = iranid
-		9 = north_indid
-		6 = armenoid
-		4 = arabid
-		2 = central_pamirid
-		2 = yemenid
-		1 = gracile_indid
-		1 = mountain_indid
 		1 = pontid
 	}
 }

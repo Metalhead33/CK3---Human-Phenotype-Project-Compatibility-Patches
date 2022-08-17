@@ -1,23 +1,22 @@
 ﻿
-laziale = {
-	color = { 0.7 0.9 0.1 }
-
-	parents = { roman }
+venetian = {
+	color = { 0.2 0.6 1.0 }
 
 	created = 476.11.4
+
+	parents = { roman }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_bellicose
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_formation_fighting
 		tradition_republican_legacy
-		tradition_poetry
-		tradition_welcoming
+		tradition_maritime_mercantilism
+		tradition_battlefield_looters
 	}
 	
-	name_list = name_list_laziale
+	name_list = name_list_venetian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -26,25 +25,28 @@ laziale = {
 	
 
 	ethnicities = {
-		100 = litorid
-		100 = gracilemediterranid
-		60 = berid
-		46 = atlanto_mediterranean
-		33 = dinarid
-		19 = armenoid
-		19 = west_alpinid
-		5 = eurafricanid
+		100 = dinarid
+		100 = norid
+		77 = carpathid
+		77 = eurafricanid
+		77 = gorid
+		53 = litorid
+		53 = neo_danubian
 		5 = halstatt
-		5 = berberid
-		5 = norid
-		5 = north_atlantid
-		5 = paleo_sardinian
+		5 = west_alpinid
+		5 = subnordid
+		5 = proto_nordid
+		5 = pre_slavic
 		5 = pontid
-		4 = carpathid
-		3 = borreby
-		3 = subnordid
-		2 = faelid
-		2 = arabid
+		5 = north_pontid
+		5 = north_atlantid
+		5 = anglo_saxon
+		5 = gracilemediterranid
+		5 = borreby
+		5 = berid
+		5 = atlanto_mediterranean
+		3 = faelid
+		3 = brunn
 	}
 }
 tuscan = {
@@ -92,6 +94,51 @@ tuscan = {
 		3 = subnordid
 	}
 }
+arpitan = {
+	color = { 0.6 0.2 0.3 }
+	created = 862.1.1
+	parents = { frankish }
+	
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_parochialism
+		tradition_chivalry
+	}
+	
+	name_list = name_list_arpitan
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = subnordid
+		88 = west_alpinid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		5 = faelid
+		5 = brunn
+		5 = litorid
+		5 = north_atlantid
+		4 = carpathid
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
+		2 = baskid
+		1 = paleo_atlantid
+		1 = pre_slavic
+	}
+}
 romagnol = {
 	color = { 0.85 0.65 0.2 }
 
@@ -133,50 +180,6 @@ romagnol = {
 		4 = berberid
 		3 = borreby
 		2 = armenoid
-	}
-}
-dalmatian = {
-	color = { 0.75 0.75 0.6 }
-
-	created = 476.11.4
-
-	parents = { roman }
-	
-	ethos = ethos_communal
-	heritage = heritage_latin
-	language = language_italian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_republican_legacy
-		tradition_culture_blending
-		tradition_practiced_pirates
-	}
-	
-	name_list = name_list_dalmatian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = eurafricanid
-		100 = litorid
-		69 = dinarid
-		48 = norid
-		5 = atlanto_mediterranean
-		5 = berid
-		5 = carpathid
-		5 = gorid
-		5 = gracilemediterranid
-		5 = neo_danubian
-		5 = north_pontid
-		5 = pontid
-		5 = subnordid
-		5 = west_alpinid
-		3 = pre_slavic
-		2 = halstatt
 	}
 }
 neapolitan = {
@@ -228,53 +231,8 @@ neapolitan = {
 		1 = troender
 	}
 }
-arpitan = {
-	color = { 0.6 0.2 0.3 }
-	created = 862.1.1
-	parents = { frankish }
-	
-	ethos = ethos_courtly
-	heritage = heritage_frankish
-	language = language_french
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chanson_de_geste
-		tradition_parochialism
-		tradition_chivalry
-	}
-	
-	name_list = name_list_arpitan
-	
-	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = subnordid
-		88 = west_alpinid
-		84 = dinarid
-		59 = atlanto_mediterranean
-		30 = norid
-		18 = eurafricanid
-		14 = gracilemediterranid
-		10 = halstatt
-		5 = faelid
-		5 = brunn
-		5 = litorid
-		5 = north_atlantid
-		4 = carpathid
-		4 = borreby
-		4 = paleo_sardinian
-		4 = berid
-		2 = baskid
-		1 = paleo_atlantid
-		1 = pre_slavic
-	}
-}
-umbrian = {
-	color = { 0.9 0.7 0.1 }
+laziale = {
+	color = { 0.7 0.9 0.1 }
 
 	parents = { roman }
 
@@ -287,10 +245,11 @@ umbrian = {
 	traditions = {
 		tradition_formation_fighting
 		tradition_republican_legacy
-		tradition_family_entrepreneurship
+		tradition_poetry
+		tradition_welcoming
 	}
 	
-	name_list = name_list_umbrian
+	name_list = name_list_laziale
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -300,71 +259,24 @@ umbrian = {
 
 	ethnicities = {
 		100 = litorid
-		100 = west_alpinid
-		53 = berid
-		53 = gracilemediterranid
-		29 = armenoid
-		29 = atlanto_mediterranean
-		29 = dinarid
-		5 = berberid
+		100 = gracilemediterranid
+		60 = berid
+		46 = atlanto_mediterranean
+		33 = dinarid
+		19 = armenoid
+		19 = west_alpinid
 		5 = eurafricanid
 		5 = halstatt
+		5 = berberid
 		5 = norid
 		5 = north_atlantid
+		5 = paleo_sardinian
 		5 = pontid
 		4 = carpathid
-		3 = faelid
-		3 = paleo_sardinian
-	}
-}
-venetian = {
-	color = { 0.2 0.6 1.0 }
-
-	created = 476.11.4
-
-	parents = { roman }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_latin
-	language = language_italian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_republican_legacy
-		tradition_maritime_mercantilism
-		tradition_battlefield_looters
-	}
-	
-	name_list = name_list_venetian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = dinarid
-		100 = norid
-		77 = carpathid
-		77 = eurafricanid
-		77 = gorid
-		53 = litorid
-		53 = neo_danubian
-		5 = halstatt
-		5 = west_alpinid
-		5 = subnordid
-		5 = proto_nordid
-		5 = pre_slavic
-		5 = pontid
-		5 = north_pontid
-		5 = north_atlantid
-		5 = anglo_saxon
-		5 = gracilemediterranid
-		5 = borreby
-		5 = berid
-		5 = atlanto_mediterranean
-		3 = faelid
-		3 = brunn
+		3 = borreby
+		3 = subnordid
+		2 = faelid
+		2 = arabid
 	}
 }
 ligurian = {
@@ -410,5 +322,93 @@ ligurian = {
 		2 = borreby
 		2 = carpathid
 		2 = faelid
+	}
+}
+dalmatian = {
+	color = { 0.75 0.75 0.6 }
+
+	created = 476.11.4
+
+	parents = { roman }
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+		tradition_culture_blending
+		tradition_practiced_pirates
+	}
+	
+	name_list = name_list_dalmatian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = eurafricanid
+		100 = litorid
+		69 = dinarid
+		48 = norid
+		5 = atlanto_mediterranean
+		5 = berid
+		5 = carpathid
+		5 = gorid
+		5 = gracilemediterranid
+		5 = neo_danubian
+		5 = north_pontid
+		5 = pontid
+		5 = subnordid
+		5 = west_alpinid
+		3 = pre_slavic
+		2 = halstatt
+	}
+}
+umbrian = {
+	color = { 0.9 0.7 0.1 }
+
+	parents = { roman }
+
+	created = 476.11.4
+	
+	ethos = ethos_spiritual
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_family_entrepreneurship
+	}
+	
+	name_list = name_list_umbrian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = litorid
+		100 = west_alpinid
+		53 = berid
+		53 = gracilemediterranid
+		29 = armenoid
+		29 = atlanto_mediterranean
+		29 = dinarid
+		5 = berberid
+		5 = eurafricanid
+		5 = halstatt
+		5 = norid
+		5 = north_atlantid
+		5 = pontid
+		4 = carpathid
+		3 = faelid
+		3 = paleo_sardinian
 	}
 }

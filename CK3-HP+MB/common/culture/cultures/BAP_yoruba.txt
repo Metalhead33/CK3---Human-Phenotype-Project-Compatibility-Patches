@@ -37,6 +37,39 @@ edo = {
 		1 = basic_bantuid
 	}
 }
+akpoto = {
+	color = { 0.4 0.65 0.20 }
+	
+	ethos = ethos_communal
+	heritage = heritage_yoruba
+	language = language_yoruba
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_bush_hunting
+		tradition_isolationist
+		tradition_collective_lands
+	}
+	
+	name_list = name_list_akpoto
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = guinesid
+		28 = guineo_camerunian
+		5 = basic_bambutid
+		5 = congolesid
+		5 = equatorialsudanid
+		5 = westcongolesid
+		4 = sudanid
+		3 = bobo
+		3 = casamance
+	}
+}
 baatonu = {
 	color = hsv{ 45 135 220 }
 	
@@ -111,8 +144,8 @@ igbo = {
 		1 = basic_bantuid
 	}
 }
-akpoto = {
-	color = { 0.4 0.65 0.20 }
+ijaw = {
+	color = { 0.2 0.4 0.1 }
 	
 	ethos = ethos_communal
 	heritage = heritage_yoruba
@@ -120,11 +153,11 @@ akpoto = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_bush_hunting
-		tradition_isolationist
-		tradition_collective_lands
+		tradition_culture_conversion
+		tradition_wetlanders
 	}
 	
-	name_list = name_list_akpoto
+	name_list = name_list_ijaw
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -175,39 +208,6 @@ ewe = {
 		4 = congolesid
 		3 = equatorialsudanid
 		2 = fezzanid
-	}
-}
-ijaw = {
-	color = { 0.2 0.4 0.1 }
-	
-	ethos = ethos_communal
-	heritage = heritage_yoruba
-	language = language_yoruba
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_bush_hunting
-		tradition_culture_conversion
-		tradition_wetlanders
-	}
-	
-	name_list = name_list_ijaw
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = guinesid
-		28 = guineo_camerunian
-		5 = basic_bambutid
-		5 = congolesid
-		5 = equatorialsudanid
-		5 = westcongolesid
-		4 = sudanid
-		3 = bobo
-		3 = casamance
 	}
 }
 yoruba = {
