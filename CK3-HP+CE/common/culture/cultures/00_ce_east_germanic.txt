@@ -1,4 +1,49 @@
 ﻿
+burgundian = {
+	color = { 0.62 0.2 0.29 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_east_germanic
+	language = language_vandalic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_religion_blending
+		tradition_concubines
+		tradition_ruling_caste
+		tradition_culture_blending
+		
+	}
+	
+	name_list = name_list_frankish
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx german_clothing_gfx } 
+	unit_gfx = { german_unit_gfx western_unit_gfx }			
+
+
+	ethnicities = {
+		100 = subnordid
+		88 = west_alpinid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		5 = faelid
+		5 = brunn
+		5 = litorid
+		5 = north_atlantid
+		4 = carpathid
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
+		2 = baskid
+		1 = paleo_atlantid
+		1 = pre_slavic
+	}
+}
 ostrogothic = {
 	color = { 0.2 0.4 0.5 }
 	
@@ -49,51 +94,6 @@ ostrogothic = {
 		1 = keltic_nordid
 		1 = troender
 		1 = alfoeld
-	}
-}
-burgundian = {
-	color = { 0.62 0.2 0.29 }
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_east_germanic
-	language = language_vandalic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_religion_blending
-		tradition_concubines
-		tradition_ruling_caste
-		tradition_culture_blending
-		
-	}
-	
-	name_list = name_list_frankish
-
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { dde_hre_clothing_gfx german_clothing_gfx } 
-	unit_gfx = { german_unit_gfx western_unit_gfx }			
-
-
-	ethnicities = {
-		100 = subnordid
-		88 = west_alpinid
-		84 = dinarid
-		59 = atlanto_mediterranean
-		30 = norid
-		18 = eurafricanid
-		14 = gracilemediterranid
-		10 = halstatt
-		5 = faelid
-		5 = brunn
-		5 = litorid
-		5 = north_atlantid
-		4 = carpathid
-		4 = borreby
-		4 = paleo_sardinian
-		4 = berid
-		2 = baskid
-		1 = paleo_atlantid
-		1 = pre_slavic
 	}
 }
 vandalic = {

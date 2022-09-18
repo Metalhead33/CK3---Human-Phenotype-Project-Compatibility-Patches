@@ -1,17 +1,18 @@
 ﻿
-konkomba = {
-	color = hsv{ 0.58 1 3.6 }
+kulango = {
+	color = hsv{ 0.58 0.8 2.6 }
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_esteemed_hospitality #cultural emphasis on hospitality
+	traditions = {	
 		tradition_upland_skirmishing
-		tradition_sacred_groves #earth priests
-		tradition_isolationist
-	}	
+		tradition_hard_working
+		tradition_zealous_people #resisted conversion to Islam
+		tradition_ancient_miners
+	}
+	
 	name_list = name_list_gur
 	
 	coa_gfx = { west_african_group_coa_gfx }
@@ -34,20 +35,20 @@ konkomba = {
 		1 = westcongolesid
 	}
 }
-kulango = {
-	color = hsv{ 0.58 0.8 2.6 }
+kurumba = {
+	color = hsv{ 0.58 0.8 0.8 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
-	traditions = {	
+	traditions = {
+		tradition_adaptive_skirmishing
+		tradition_isolationist
+		tradition_sacred_groves #earth priests
 		tradition_upland_skirmishing
-		tradition_hard_working
-		tradition_zealous_people #resisted conversion to Islam
-		tradition_ancient_miners
 	}
-	
+		
 	name_list = name_list_gur
 	
 	coa_gfx = { west_african_group_coa_gfx }
@@ -106,23 +107,19 @@ senufo = {
 		1 = westcongolesid
 	}
 }
-gur = {
-	color = gur
+konkomba = {
+	color = hsv{ 0.58 1 3.6 }
 	
 	ethos = ethos_communal
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_ancient_miners
+		tradition_esteemed_hospitality #cultural emphasis on hospitality
 		tradition_upland_skirmishing
-	}
-	
-	dlc_tradition = {
-		trait = tradition_sorcerous_metallurgy
-		requires_dlc_flag = royal_court
-	}
-	
+		tradition_sacred_groves #earth priests
+		tradition_isolationist
+	}	
 	name_list = name_list_gur
 	
 	coa_gfx = { west_african_group_coa_gfx }
@@ -145,18 +142,18 @@ gur = {
 		1 = westcongolesid
 	}
 }
-kurumba = {
-	color = hsv{ 0.58 0.8 0.8 }
+lilse = {
+	color = { 0.8 0.3 0.3 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_adaptive_skirmishing
-		tradition_isolationist
-		tradition_sacred_groves #earth priests
 		tradition_upland_skirmishing
+		tradition_medicinal_plants
+		tradition_stalwart_defenders
+		tradition_sacred_groves #earth priests
 	}
 		
 	name_list = name_list_gur
@@ -220,20 +217,23 @@ kibsi = {
 		1 = westcongolesid
 	}
 }
-lilse = {
-	color = { 0.8 0.3 0.3 }
+gur = {
+	color = gur
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_ancient_miners
 		tradition_upland_skirmishing
-		tradition_medicinal_plants
-		tradition_stalwart_defenders
-		tradition_sacred_groves #earth priests
 	}
-		
+	
+	dlc_tradition = {
+		trait = tradition_sorcerous_metallurgy
+		requires_dlc_flag = royal_court
+	}
+	
 	name_list = name_list_gur
 	
 	coa_gfx = { west_african_group_coa_gfx }

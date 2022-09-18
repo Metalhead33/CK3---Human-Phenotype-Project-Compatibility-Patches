@@ -1,58 +1,8 @@
 ﻿
-belocroat = {
-	color = { 0.45 0.8 0.3 }
-	
-	ethos = ethos_communal
-	heritage = heritage_east_slavic
-	language = language_east_slavic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hussar
-		tradition_highland_warriors
-		tradition_parochialism
-		tradition_hereditary_hierarchy
-	}
-	
-	name_list = name_list_russian
-
-	coa_gfx = { east_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-
-
-	ethnicities = {
-		100 = west_baltid
-		100 = north_pontid
-		100 = neo_danubian
-		100 = gorid
-		93 = pre_slavic
-		90 = norid
-		63 = carpathid
-		20 = dinarid
-		14 = pontid
-		14 = proto_nordid
-		11 = aisto_nordid
-		5 = tavastid
-		5 = ladogan
-		5 = subnordid
-		5 = borreby
-		5 = scythian
-		5 = savolaxid
-		4 = alfoeld
-		3 = halstatt
-		3 = west_alpinid
-		1 = armenoid
-		1 = plains_pamirid
-		1 = brunn
-		1 = troender
-		1 = faelid
-	}
-}
 novgorodian = {
 	color = { 0.1 0.5 0.1 }
 	
-	created = 866.1.1
+	created = 1000.1.1
 	parents = { russian }
 	
 	ethos = ethos_communal
@@ -101,7 +51,7 @@ novgorodian = {
 russian = {
 	color = russian
 	
-	created = 860.1.1
+	created = 930.1.1
 	parents = { norse } 
 	history_loc_override = russian_history_loc
 	

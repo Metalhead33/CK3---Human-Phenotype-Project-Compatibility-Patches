@@ -1,57 +1,18 @@
 ﻿
-gur = {
-	color = gur
+kulango = {
+	color = hsv{ 0.58 0.8 2.6 }
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
-	traditions = {
+	traditions = {	
+		tradition_upland_skirmishing
+		tradition_hard_working
+		tradition_zealous_people #resisted conversion to Islam
 		tradition_ancient_miners
-		tradition_upland_skirmishing
 	}
 	
-	dlc_tradition = {
-		trait = tradition_sorcerous_metallurgy
-		requires_dlc_flag = royal_court
-	}
-	
-	name_list = name_list_gur
-	
-	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = sudanid
-		7 = bobo
-		6 = fezzanid
-		6 = guinesid
-		5 = guineo_camerunian
-		5 = west_ethiopid
-		3 = saharan_ethiopid
-		2 = casamance
-		2 = senegalid
-		1 = equatorialsudanid
-		1 = westcongolesid
-	}
-}
-senufo = {
-	color = { 25 25 255 }
-	
-	ethos = ethos_communal
-	heritage = heritage_gur
-	language = language_gur
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_equal_inheritance #matrilineal inheritance
-		tradition_upland_skirmishing
-		tradition_music_theory #regionally renowned musicians
-		tradition_bush_schools #proliferation of secret societies
-	}
-		
 	name_list = name_list_gur
 	
 	coa_gfx = { west_african_group_coa_gfx }
@@ -109,18 +70,21 @@ konkomba = {
 		1 = westcongolesid
 	}
 }
-kulango = {
-	color = hsv{ 0.58 0.8 2.6 }
+gur = {
+	color = gur
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
-	traditions = {	
-		tradition_upland_skirmishing
-		tradition_hard_working
-		tradition_zealous_people #resisted conversion to Islam
+	traditions = {
 		tradition_ancient_miners
+		tradition_upland_skirmishing
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sorcerous_metallurgy
+		requires_dlc_flag = royal_court
 	}
 	
 	name_list = name_list_gur
@@ -193,6 +157,42 @@ kurumba = {
 		tradition_isolationist
 		tradition_sacred_groves #earth priests
 		tradition_upland_skirmishing
+	}
+		
+	name_list = name_list_gur
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = sudanid
+		7 = bobo
+		6 = fezzanid
+		6 = guinesid
+		5 = guineo_camerunian
+		5 = west_ethiopid
+		3 = saharan_ethiopid
+		2 = casamance
+		2 = senegalid
+		1 = equatorialsudanid
+		1 = westcongolesid
+	}
+}
+senufo = {
+	color = { 25 25 255 }
+	
+	ethos = ethos_communal
+	heritage = heritage_gur
+	language = language_gur
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_equal_inheritance #matrilineal inheritance
+		tradition_upland_skirmishing
+		tradition_music_theory #regionally renowned musicians
+		tradition_bush_schools #proliferation of secret societies
 	}
 		
 	name_list = name_list_gur

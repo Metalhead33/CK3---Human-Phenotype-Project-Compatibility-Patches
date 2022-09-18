@@ -50,7 +50,7 @@ hausa = {
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { central_african_clothing_gfx }
+	clothing_gfx = { sahelian_clothing_gfx }
 	unit_gfx = { sub_sahran_unit_gfx }
 	
 
@@ -88,7 +88,7 @@ kanuri = {
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { central_african_clothing_gfx }
+	clothing_gfx = { sahelian_clothing_gfx }
 	unit_gfx = { central_african_unit_gfx sub_sahran_unit_gfx }
 	
 

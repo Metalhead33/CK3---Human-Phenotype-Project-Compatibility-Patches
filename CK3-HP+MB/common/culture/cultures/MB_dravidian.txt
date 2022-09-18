@@ -2,7 +2,7 @@
 brahui = {
 	color = { 0.85 0.82 0.25 }
 	
-	ethos = ethos_stoic
+	ethos = ethos_communal
 	heritage = heritage_dravidian
 	language = language_kannada
 	martial_custom = martial_custom_male_only
@@ -15,10 +15,13 @@ brahui = {
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
-		tradition_fervent_temple_builders
-		tradition_ruling_caste
-		tradition_poetry
-		tradition_garuda_warriors
+		tradition_tribe_unity
+		tradition_pastoralists
+	}
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
 	}
 	
 
