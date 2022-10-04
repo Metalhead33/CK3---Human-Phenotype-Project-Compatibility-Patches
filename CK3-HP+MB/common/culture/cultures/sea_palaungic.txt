@@ -1,0 +1,37 @@
+﻿
+khasi = {
+	color = khasi
+
+	ethos = ethos_communal
+	heritage = heritage_palaungic
+	language = language_palaungic
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_khasi
+
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_female_only_inheritance
+		tradition_monogamous
+		tradition_mountain_homes
+		tradition_tribe_unity
+	}
+
+
+	ethnicities = {
+		100 = east_brachid
+		100 = kolid
+		5 = central_brachid
+		5 = gracile_indid
+		5 = indo_brachid
+		5 = karnatid
+		5 = north_gondid
+		5 = north_indid
+		5 = palaungid
+		5 = south_gondid
+	}
+}

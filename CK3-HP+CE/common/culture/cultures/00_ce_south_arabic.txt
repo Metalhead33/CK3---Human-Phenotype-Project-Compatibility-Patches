@@ -35,21 +35,22 @@ mahri = {
 		1 = transmediterranid
 	}
 }
-south_arabian = {
-	color = { 0.3 0.6 0.5 }
+himyarite = {
+	color = { 0.53 0.66 0.56 }
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_arabic
-	language = language_south_arabian
+	language = language_sayhadic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_seafaring
-		tradition_quarrelsome
-		tradition_fishermen
+		tradition_mountaineers
+		tradition_mountain_herding 
+		tradition_religion_blending
 		tradition_maritime_mercantilism
+		tradition_ancient_miners
 	}
 	
-	name_list = name_list_south_arabian
+	name_list = name_list_himyarite
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
@@ -71,22 +72,21 @@ south_arabian = {
 		1 = transmediterranid
 	}
 }
-himyarite = {
-	color = { 0.53 0.66 0.56 }
+south_arabian = {
+	color = { 0.3 0.6 0.5 }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_arabic
-	language = language_sayhadic
+	language = language_south_arabian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_mountaineers
-		tradition_mountain_herding 
-		tradition_religion_blending
+		tradition_seafaring
+		tradition_quarrelsome
+		tradition_fishermen
 		tradition_maritime_mercantilism
-		tradition_ancient_miners
 	}
 	
-	name_list = name_list_himyarite
+	name_list = name_list_south_arabian
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 

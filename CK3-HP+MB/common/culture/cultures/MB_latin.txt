@@ -1,20 +1,111 @@
 ﻿
-corsican = {
-	color = { 241 209 188 }
+tuscan_ce = {
+	color = { 0.6 0.1 0.1 }
 
-	created = 1250.1.1
-	parents = { sardinian tuscan_ce } #Corsican is very much like Tuscan due to the Tuscanisation of the island under Pisan and Genoese rule and not mutually intelligible with Sardinian but it's theorized there may have been a Sardinian variety originally spoken on the island
+	parents = { roman }
+
+	created = 476.11.4
 	
-	
-	ethos = ethos_stoic
+	ethos = ethos_spiritual
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_hard_working
+		tradition_republican_legacy
+		tradition_family_entrepreneurship
+		tradition_talent_acquisition
+	}
+	
+	name_list = name_list_italian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		100 = litorid
+		77 = eurafricanid
+		53 = west_alpinid
+		5 = berberid
+		5 = berid
+		5 = borreby
+		5 = carpathid
+		5 = dinarid
+		5 = gracilemediterranid
+		5 = halstatt
+		5 = norid
+		5 = north_atlantid
+		5 = pontid
+		3 = paleo_sardinian
+		3 = subnordid
+	}
+}
+piedmontese = {
+	color = { 122 149 152 }
+
+	created = 1250.1.1 #First document from the 12th century and it was very close to Occitan then
+	parents = { provencal cisalpine } #Added provencal due to its similarities with Occitan
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_mountain_homes
+		tradition_highland_warriors
+	}
+	
+	name_list = name_list_cisalpine
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		100 = west_alpinid
+		69 = dinarid
+		50 = subnordid
+		37 = litorid
+		31 = eurafricanid
+		11 = north_atlantid
+		5 = berid
+		5 = faelid
+		5 = gracilemediterranid
+		5 = halstatt
+		5 = norid
+		4 = paleo_sardinian
+		3 = berberid
+		3 = carpathid
+		2 = pre_slavic
+		2 = brunn
+		2 = borreby
+		1 = gorid
+	}
+}
+sardinian = {
+	color = sardinian
+
+	parents = { roman }
+	history_loc_override = sardinian_history_loc
+	
+	created = 100.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_sardinian
+	martial_custom = martial_custom_male_only
+	traditions = {
 		tradition_stalwart_defenders
 		tradition_isolationist
-		tradition_eye_for_an_eye
-		tradition_family_entrepreneurship
+		tradition_seafaring
 	}
 	
 	name_list = name_list_sardinian
@@ -40,6 +131,150 @@ corsican = {
 		2 = dinarid
 		2 = halstatt
 		2 = norid
+	}
+}
+african_roman = {
+	color = { 0.737 0.368 0.321 }
+
+	parents = { afro_roman vandalic }
+
+	created = 500.1.1
+
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_african_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_dryland_dwellers
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_sardinian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = berid
+		67 = gracilemediterranid
+		63 = transmediterranid
+		63 = african_alpine
+		61 = arabid
+		58 = berberid
+		48 = litorid
+		46 = eurafricanid
+		33 = armenoid
+		24 = libyid
+		22 = paleo_sardinian
+		14 = west_alpinid
+		12 = atlanto_mediterranean
+		8 = canarid
+		7 = dinarid
+		7 = pontid
+		3 = fezzanid
+		2 = anatolid
+		1 = halstatt
+		1 = faelid
+		1 = norid
+		1 = north_atlantid
+		1 = carpathid
+		1 = borreby
+		1 = subnordid
+		1 = targid
+		1 = assyroid
+		1 = troender
+	}
+}
+illyrian = {
+	color = asdac_illyrian
+
+	ethos = ethos_communal
+	heritage = heritage_byzantine
+	language = language_albanian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes
+		tradition_stalwart_defenders
+		tradition_roman_legacy
+	}
+	
+	name_list = name_list_arberian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = dinarid
+		61 = eurafricanid
+		53 = litorid
+		29 = pontid
+		20 = borreby
+		13 = norid
+		12 = west_alpinid
+		5 = gracilemediterranid
+		5 = proto_nordid
+		5 = paleo_sardinian
+		5 = north_pontid
+		5 = neo_danubian
+		5 = anatolid
+		5 = gorid
+		5 = carpathid
+		5 = berid
+		5 = atlanto_mediterranean
+		5 = asian_alpine
+		4 = armenoid
+		2 = pre_slavic
+	}
+}
+dalmatian_ce = {
+	color = { 0.75 0.75 0.6 }
+
+	parents = { illyro_roman }
+
+	created = 500.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_astute_diplomats
+	}
+	
+	name_list = name_list_dalmatian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = eurafricanid
+		100 = litorid
+		69 = dinarid
+		48 = norid
+		5 = atlanto_mediterranean
+		5 = berid
+		5 = carpathid
+		5 = gorid
+		5 = gracilemediterranid
+		5 = neo_danubian
+		5 = north_pontid
+		5 = pontid
+		5 = subnordid
+		5 = west_alpinid
+		3 = pre_slavic
+		2 = halstatt
 	}
 }
 venetian_ce = {
@@ -93,21 +328,21 @@ venetian_ce = {
 		3 = brunn
 	}
 }
-emilian = {
-	color = { 230 250 210}
+romagnol = {
+	color = { 221 243 197}
 
 	created = 1250.1.1
-	parents = { cisalpine } #Having North Italy dialects come into play starting in ~1250. No real dates given for when these dialects really started to form but by 1250 they were likely meaningfully different from what I've been told
+	parents = { italian cisalpine } #Having North Italy dialects come into play starting in ~1250. No real dates given for when these dialects really started to form but by 1250 they were likely meaningfully different from what I've been told
 	
 	ethos = ethos_spiritual
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_philosopher_culture
+		tradition_hereditary_hierarchy
 		tradition_republican_legacy
-		tradition_forbearing
-		tradition_fervent_temple_builders
+		tradition_religious_patronage
+		tradition_legalistic
 	}
 	
 	name_list = name_list_italian
@@ -134,6 +369,56 @@ emilian = {
 		4 = berberid
 		3 = borreby
 		2 = armenoid
+	}
+}
+friulian = {
+	color = { 200 225 200 }
+	
+	parents = { rhaetio_roman } 
+
+	created = 476.11.4 #Language itself diverged from vulgar latin in ~1000 AD
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_rhaeto
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_culture_blending
+		tradition_ruling_caste
+	}
+	
+	name_list = name_list_italian
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+
+	ethnicities = {
+		100 = dinarid
+		100 = norid
+		77 = carpathid
+		77 = eurafricanid
+		77 = gorid
+		53 = litorid
+		53 = neo_danubian
+		5 = halstatt
+		5 = west_alpinid
+		5 = subnordid
+		5 = proto_nordid
+		5 = pre_slavic
+		5 = pontid
+		5 = north_pontid
+		5 = north_atlantid
+		5 = anglo_saxon
+		5 = gracilemediterranid
+		5 = borreby
+		5 = berid
+		5 = atlanto_mediterranean
+		3 = faelid
+		3 = brunn
 	}
 }
 neapolitan = {
@@ -185,204 +470,21 @@ neapolitan = {
 		1 = troender
 	}
 }
-romansh = {
-	color = { 253 204 189 }
-	
-	parents = { rhaetio_roman } 
-
-	created = 476.11.4 #Not a dialect
-	
-	ethos = ethos_communal
-	heritage = heritage_latin
-	language = language_rhaeto
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_xenophilic
-		tradition_mountain_homes
-		tradition_pacifism
-	}
-	
-	name_list = name_list_cisalpine
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = west_alpinid
-		100 = subnordid
-		69 = dinarid
-		58 = atlanto_mediterranean
-		58 = litorid
-		48 = norid
-		27 = eurafricanid
-		27 = north_atlantid
-		16 = pre_slavic
-		16 = halstatt
-		5 = berid
-		5 = gracilemediterranid
-		5 = gorid
-		5 = faelid
-		5 = carpathid
-		5 = brunn
-		5 = borreby
-		4 = neo_danubian
-		4 = proto_nordid
-		2 = keltic_nordid
-		2 = north_pontid
-		2 = pontid
-	}
-}
-ligurian = {
-	color = { 0.6 0.9 0.5 }
-
-	parents = { roman }
-
-	created = 476.11.4
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_latin
-	language = language_italian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_city_keepers
-		tradition_republican_legacy
-		tradition_maritime_mercantilism
-		tradition_swords_for_hire
-	}
-	
-	name_list = name_list_italian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		89 = eurafricanid
-		77 = litorid
-		53 = west_alpinid
-		41 = dinarid
-		5 = berid
-		5 = gracilemediterranid
-		5 = norid
-		5 = north_atlantid
-		5 = subnordid
-		4 = berberid
-		4 = halstatt
-		4 = paleo_sardinian
-		2 = borreby
-		2 = carpathid
-		2 = faelid
-	}
-}
-illyrian = {
-	color = asdac_illyrian
-
-	ethos = ethos_communal
-	heritage = heritage_byzantine
-	language = language_albanian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_mountain_homes
-		tradition_stalwart_defenders
-		tradition_roman_legacy
-	}
-	
-	name_list = name_list_arberian
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = dinarid
-		61 = eurafricanid
-		53 = litorid
-		29 = pontid
-		20 = borreby
-		13 = norid
-		12 = west_alpinid
-		5 = gracilemediterranid
-		5 = proto_nordid
-		5 = paleo_sardinian
-		5 = north_pontid
-		5 = neo_danubian
-		5 = anatolid
-		5 = gorid
-		5 = carpathid
-		5 = berid
-		5 = atlanto_mediterranean
-		5 = asian_alpine
-		4 = armenoid
-		2 = pre_slavic
-	}
-}
-rhaetio_roman = {
-	color = { 0.6 0.1 0.1 }
-	created = 2.1.1
-	parents = { roman rhaetian }
-
-	ethos = ethos_communal
-	heritage = heritage_latin
-	language = language_rhaeto
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_stalwart_defenders
-		tradition_legalistic
-		tradition_poetry
-		tradition_mountain_homes # Cybr: They're in the Alps
-		tradition_mountaineers # Cybr: Alpine legions
-	}
-	
-	name_list = name_list_roman
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		100 = litorid
-		77 = eurafricanid
-		53 = west_alpinid
-		5 = berberid
-		5 = berid
-		5 = borreby
-		5 = carpathid
-		5 = dinarid
-		5 = gracilemediterranid
-		5 = halstatt
-		5 = norid
-		5 = north_atlantid
-		5 = pontid
-		3 = paleo_sardinian
-		3 = subnordid
-	}
-}
-romagnol = {
-	color = { 221 243 197}
+emilian = {
+	color = { 230 250 210}
 
 	created = 1250.1.1
-	parents = { italian cisalpine } #Having North Italy dialects come into play starting in ~1250. No real dates given for when these dialects really started to form but by 1250 they were likely meaningfully different from what I've been told
+	parents = { cisalpine } #Having North Italy dialects come into play starting in ~1250. No real dates given for when these dialects really started to form but by 1250 they were likely meaningfully different from what I've been told
 	
 	ethos = ethos_spiritual
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
+		tradition_philosopher_culture
 		tradition_republican_legacy
-		tradition_religious_patronage
-		tradition_legalistic
+		tradition_forbearing
+		tradition_fervent_temple_builders
 	}
 	
 	name_list = name_list_italian
@@ -409,99 +511,6 @@ romagnol = {
 		4 = berberid
 		3 = borreby
 		2 = armenoid
-	}
-}
-tuscan_ce = {
-	color = { 0.6 0.1 0.1 }
-
-	parents = { roman }
-
-	created = 476.11.4
-	
-	ethos = ethos_spiritual
-	heritage = heritage_latin
-	language = language_italian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hard_working
-		tradition_republican_legacy
-		tradition_family_entrepreneurship
-		tradition_talent_acquisition
-	}
-	
-	name_list = name_list_italian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		100 = litorid
-		77 = eurafricanid
-		53 = west_alpinid
-		5 = berberid
-		5 = berid
-		5 = borreby
-		5 = carpathid
-		5 = dinarid
-		5 = gracilemediterranid
-		5 = halstatt
-		5 = norid
-		5 = north_atlantid
-		5 = pontid
-		3 = paleo_sardinian
-		3 = subnordid
-	}
-}
-rhaetian = {
-	color = { 0.1 0.75 0.2 }
-	created = 2.1.1
-	parents = { etruscan }
-	history_loc_override = rhaetian_history_loc
-
-	ethos = ethos_stoic
-	heritage = heritage_latin
-	language = language_etruscan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_stalwart_defenders # Cybr: Described as savage warriors by Strabo, but could be bias from the Roman POV
-		tradition_mountain_homes # Cybr: They're in the Alps
-		tradition_mountaineers # Cybr: Alpine legions
-	}
-
-	dlc_tradition = { # Cybr: Celtic and Roman influences
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_cisalpine
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		100 = litorid
-		77 = eurafricanid
-		53 = west_alpinid
-		5 = berberid
-		5 = berid
-		5 = borreby
-		5 = carpathid
-		5 = dinarid
-		5 = gracilemediterranid
-		5 = halstatt
-		5 = norid
-		5 = north_atlantid
-		5 = pontid
-		3 = paleo_sardinian
-		3 = subnordid
 	}
 }
 maltese = {
@@ -554,23 +563,25 @@ maltese = {
 		1 = troender
 	}
 }
-piedmontese = {
-	color = { 122 149 152 }
+ligurian = {
+	color = { 0.6 0.9 0.5 }
 
-	created = 1250.1.1 #First document from the 12th century and it was very close to Occitan then
-	parents = { provencal cisalpine } #Added provencal due to its similarities with Occitan
+	parents = { roman }
+
+	created = 476.11.4
 	
-	ethos = ethos_egalitarian
+	ethos = ethos_bureaucratic
 	heritage = heritage_latin
 	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_pastoralists
-		tradition_mountain_homes
-		tradition_highland_warriors
+		tradition_city_keepers
+		tradition_republican_legacy
+		tradition_maritime_mercantilism
+		tradition_swords_for_hire
 	}
 	
-	name_list = name_list_cisalpine
+	name_list = name_list_italian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -580,84 +591,89 @@ piedmontese = {
 
 	ethnicities = {
 		100 = atlanto_mediterranean
-		100 = west_alpinid
-		69 = dinarid
-		50 = subnordid
-		37 = litorid
-		31 = eurafricanid
-		11 = north_atlantid
-		5 = berid
-		5 = faelid
-		5 = gracilemediterranid
-		5 = halstatt
-		5 = norid
-		4 = paleo_sardinian
-		3 = berberid
-		3 = carpathid
-		2 = pre_slavic
-		2 = brunn
-		2 = borreby
-		1 = gorid
-	}
-}
-etruscan = {
-	color = { 0.1 0.9 0.3 }
-
-	ethos = ethos_communal
-	heritage = heritage_latin
-	language = language_etruscan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_legalistic
-		tradition_poetry
-		tradition_parochialism # Cybr: Etruscan city-states
-		tradition_astute_diplomats # Cybr: Etruscan tradition of city-state leagues
-		tradition_maritime_mercantilism # Cybr: Etruscan trade
-	}
-	
-	name_list = name_list_cisalpine
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		100 = litorid
-		77 = eurafricanid
+		89 = eurafricanid
+		77 = litorid
 		53 = west_alpinid
-		5 = berberid
+		41 = dinarid
 		5 = berid
-		5 = borreby
-		5 = carpathid
-		5 = dinarid
 		5 = gracilemediterranid
-		5 = halstatt
 		5 = norid
 		5 = north_atlantid
-		5 = pontid
-		3 = paleo_sardinian
-		3 = subnordid
+		5 = subnordid
+		4 = berberid
+		4 = halstatt
+		4 = paleo_sardinian
+		2 = borreby
+		2 = carpathid
+		2 = faelid
 	}
 }
-sardinian = {
-	color = sardinian
-
-	parents = { roman }
-	history_loc_override = sardinian_history_loc
+romansh = {
+	color = { 253 204 189 }
 	
-	created = 100.1.1
+	parents = { rhaetio_roman } 
+
+	created = 476.11.4 #Not a dialect
 	
 	ethos = ethos_communal
 	heritage = heritage_latin
-	language = language_sardinian
+	language = language_rhaeto
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_mountain_homes
+		tradition_pacifism
+	}
+	
+	name_list = name_list_cisalpine
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = west_alpinid
+		100 = subnordid
+		69 = dinarid
+		58 = atlanto_mediterranean
+		58 = litorid
+		48 = norid
+		27 = eurafricanid
+		27 = north_atlantid
+		16 = pre_slavic
+		16 = halstatt
+		5 = berid
+		5 = gracilemediterranid
+		5 = gorid
+		5 = faelid
+		5 = carpathid
+		5 = brunn
+		5 = borreby
+		4 = neo_danubian
+		4 = proto_nordid
+		2 = keltic_nordid
+		2 = north_pontid
+		2 = pontid
+	}
+}
+corsican = {
+	color = { 241 209 188 }
+
+	created = 1250.1.1
+	parents = { sardinian tuscan_ce } #Corsican is very much like Tuscan due to the Tuscanisation of the island under Pisan and Genoese rule and not mutually intelligible with Sardinian but it's theorized there may have been a Sardinian variety originally spoken on the island
+	
+	
+	ethos = ethos_stoic
+	heritage = heritage_latin
+	language = language_italian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_stalwart_defenders
 		tradition_isolationist
-		tradition_seafaring
+		tradition_eye_for_an_eye
+		tradition_family_entrepreneurship
 	}
 	
 	name_list = name_list_sardinian
@@ -683,155 +699,5 @@ sardinian = {
 		2 = dinarid
 		2 = halstatt
 		2 = norid
-	}
-}
-dalmatian_ce = {
-	color = { 0.75 0.75 0.6 }
-
-	parents = { roman illyrian }
-
-	created = 100.1.1
-	
-	ethos = ethos_courtly
-	heritage = heritage_latin
-	language = language_italian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_formation_fighting
-		tradition_republican_legacy
-		tradition_astute_diplomats
-	}
-	
-	name_list = name_list_dalmatian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = eurafricanid
-		100 = litorid
-		69 = dinarid
-		48 = norid
-		5 = atlanto_mediterranean
-		5 = berid
-		5 = carpathid
-		5 = gorid
-		5 = gracilemediterranid
-		5 = neo_danubian
-		5 = north_pontid
-		5 = pontid
-		5 = subnordid
-		5 = west_alpinid
-		3 = pre_slavic
-		2 = halstatt
-	}
-}
-african_roman = {
-	color = { 0.737 0.368 0.321 }
-
-	parents = { roman vandalic }
-
-	created = 500.1.1
-
-	ethos = ethos_communal
-	heritage = heritage_latin
-	language = language_african_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_maritime_mercantilism
-		tradition_dryland_dwellers
-		tradition_city_keepers
-	}
-	
-	name_list = name_list_sardinian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = berid
-		67 = gracilemediterranid
-		63 = transmediterranid
-		63 = african_alpine
-		61 = arabid
-		58 = berberid
-		48 = litorid
-		46 = eurafricanid
-		33 = armenoid
-		24 = libyid
-		22 = paleo_sardinian
-		14 = west_alpinid
-		12 = atlanto_mediterranean
-		8 = canarid
-		7 = dinarid
-		7 = pontid
-		3 = fezzanid
-		2 = anatolid
-		1 = halstatt
-		1 = faelid
-		1 = norid
-		1 = north_atlantid
-		1 = carpathid
-		1 = borreby
-		1 = subnordid
-		1 = targid
-		1 = assyroid
-		1 = troender
-	}
-}
-friulian = {
-	color = { 200 225 200 }
-	
-	parents = { rhaetio_roman } 
-
-	created = 476.11.4 #Language itself diverged from vulgar latin in ~1000 AD
-	
-	ethos = ethos_communal
-	heritage = heritage_latin
-	language = language_rhaeto
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_isolationist
-		tradition_culture_blending
-		tradition_ruling_caste
-	}
-	
-	name_list = name_list_italian
-
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-
-
-	ethnicities = {
-		100 = dinarid
-		100 = norid
-		77 = carpathid
-		77 = eurafricanid
-		77 = gorid
-		53 = litorid
-		53 = neo_danubian
-		5 = halstatt
-		5 = west_alpinid
-		5 = subnordid
-		5 = proto_nordid
-		5 = pre_slavic
-		5 = pontid
-		5 = north_pontid
-		5 = north_atlantid
-		5 = anglo_saxon
-		5 = gracilemediterranid
-		5 = borreby
-		5 = berid
-		5 = atlanto_mediterranean
-		3 = faelid
-		3 = brunn
 	}
 }

@@ -1,6 +1,9 @@
 ﻿
-balti = {
-	color = { 1.0 0.6 0.2 }
+amdo = {
+	color = { 1.0 0.6 0.3 }
+	
+	created = 800.1.1
+	parents = { sumpa bodpa }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_tibetan
@@ -8,8 +11,8 @@ balti = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_sacred_mountains
-		tradition_religion_blending
+		tradition_tribe_unity
+		tradition_religious_patronage
 	}
 	
 	name_list = name_list_bodpa
@@ -35,11 +38,8 @@ balti = {
 		1 = mountain_indid
 	}
 }
-amdo = {
-	color = { 1.0 0.6 0.3 }
-	
-	created = 800.1.1
-	parents = { sumpa bodpa }
+balti = {
+	color = { 1.0 0.6 0.2 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_tibetan
@@ -47,8 +47,8 @@ amdo = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_tribe_unity
-		tradition_religious_patronage
+		tradition_sacred_mountains
+		tradition_religion_blending
 	}
 	
 	name_list = name_list_bodpa
@@ -91,6 +91,82 @@ khampa = {
 	}
 	
 	name_list = name_list_bodpa
+
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = kham
+		100 = tibetid
+		57 = kachinid
+		52 = palaungid
+		46 = shanid
+		42 = east_brachid
+		5 = gracile_indid
+		4 = changkiangid
+		4 = east_palaungid
+		2 = central_brachid
+		1 = chukiangid
+		1 = mountain_indid
+	}
+}
+salar = {
+	color = { 235 180 40 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_turkic
+	language = language_turkic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_religion_blending
+		tradition_swords_for_hire
+		tradition_ruling_caste
+	}
+
+	name_list = name_list_turkish
+
+	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = kham
+		100 = tibetid
+		57 = kachinid
+		52 = palaungid
+		46 = shanid
+		42 = east_brachid
+		5 = gracile_indid
+		4 = changkiangid
+		4 = east_palaungid
+		2 = central_brachid
+		1 = chukiangid
+		1 = mountain_indid
+	}
+}
+kinnauri = {
+	color = { 1.0 0.8 0.2 }
+	
+	created = 1000.1.1
+	parents = { zhangzhung }
+	
+	
+	ethos = ethos_spiritual
+	heritage = heritage_tibetan
+	language = language_tibetan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_sacred_mountains
+	}
+	
+	name_list = name_list_zhangzhung
 
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -170,82 +246,6 @@ ladakhi = {
 
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = kham
-		100 = tibetid
-		57 = kachinid
-		52 = palaungid
-		46 = shanid
-		42 = east_brachid
-		5 = gracile_indid
-		4 = changkiangid
-		4 = east_palaungid
-		2 = central_brachid
-		1 = chukiangid
-		1 = mountain_indid
-	}
-}
-kinnauri = {
-	color = { 1.0 0.8 0.2 }
-	
-	created = 1000.1.1
-	parents = { zhangzhung }
-	
-	
-	ethos = ethos_spiritual
-	heritage = heritage_tibetan
-	language = language_tibetan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_himalayan_settlers
-		tradition_sacred_mountains
-	}
-	
-	name_list = name_list_zhangzhung
-
-	coa_gfx = { tibetan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = kham
-		100 = tibetid
-		57 = kachinid
-		52 = palaungid
-		46 = shanid
-		42 = east_brachid
-		5 = gracile_indid
-		4 = changkiangid
-		4 = east_palaungid
-		2 = central_brachid
-		1 = chukiangid
-		1 = mountain_indid
-	}
-}
-salar = {
-	color = { 235 180 40 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_turkic
-	language = language_turkic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_warrior_culture
-		tradition_religion_blending
-		tradition_swords_for_hire
-		tradition_ruling_caste
-	}
-
-	name_list = name_list_turkish
-
-	coa_gfx = { oghuz_coa_gfx turkic_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 

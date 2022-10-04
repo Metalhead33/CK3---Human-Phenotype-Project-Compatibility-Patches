@@ -1,18 +1,17 @@
 ﻿
-baatonu = {
-	color = hsv{ 45 135 220 }
+ijaw = {
+	color = { 0.2 0.4 0.1 }
 	
 	ethos = ethos_communal
 	heritage = heritage_yoruba
 	language = language_yoruba
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_horse_breeder
-		tradition_ruling_caste
-		tradition_dryland_dwellers
+		tradition_bush_hunting
+		tradition_wetlanders
 	}
 	
-	name_list = name_list_baatonu
+	name_list = name_list_ijaw
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -65,19 +64,20 @@ akpoto = {
 		3 = casamance
 	}
 }
-ijaw = {
-	color = { 0.2 0.4 0.1 }
+baatonu = {
+	color = hsv{ 45 135 220 }
 	
 	ethos = ethos_communal
 	heritage = heritage_yoruba
 	language = language_yoruba
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_bush_hunting
-		tradition_wetlanders
+		tradition_horse_breeder
+		tradition_ruling_caste
+		tradition_dryland_dwellers
 	}
 	
-	name_list = name_list_ijaw
+	name_list = name_list_baatonu
 	
 	coa_gfx = { central_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }

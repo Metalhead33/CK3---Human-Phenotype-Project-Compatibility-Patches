@@ -78,16 +78,16 @@ merya = {
 		3 = tavastid
 	}
 }
-muroma = {
-	color = { 0.2 0.3 0.6 }
+meshchera = {
+	color = { 0.35 0.4 0.8 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_volga_finnic
 	language = language_volga_finnic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_storytellers
-		tradition_festivities
+		tradition_music_theory
+		tradition_religion_blending
 		tradition_sauna
 	}
 	
@@ -96,7 +96,7 @@ muroma = {
 		requires_dlc_flag = hybridize_culture
 	}
 	
-	name_list = name_list_muroma
+	name_list = name_list_meshchera
 	
 	coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -105,19 +105,23 @@ muroma = {
 	
 
 	ethnicities = {
-		100 = fenno_nordid
-		97 = ladogan
-		47 = neo_danubian
-		5 = north_lappid
-		5 = north_pontid
-		5 = proto_nordid
-		5 = savolaxid
+		100 = neo_danubian
+		50 = north_pontid
+		45 = ladogan
+		11 = proto_nordid
+		5 = pontid
+		5 = west_baltid
 		5 = volgid
+		5 = scythian
+		5 = savolaxid
+		5 = aisto_nordid
+		5 = gorid
+		5 = fenno_nordid
 		4 = scando_lappid
-		3 = aisto_nordid
-		2 = scythian
-		1 = gorid
-		1 = west_baltid
+		4 = norid
+		3 = north_lappid
+		2 = tavastid
+		1 = troender
 	}
 }
 mordvin = {
@@ -164,16 +168,16 @@ mordvin = {
 		2 = carpathid
 	}
 }
-meshchera = {
-	color = { 0.35 0.4 0.8 }
+muroma = {
+	color = { 0.2 0.3 0.6 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_volga_finnic
 	language = language_volga_finnic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_music_theory
-		tradition_religion_blending
+		tradition_storytellers
+		tradition_festivities
 		tradition_sauna
 	}
 	
@@ -182,7 +186,7 @@ meshchera = {
 		requires_dlc_flag = hybridize_culture
 	}
 	
-	name_list = name_list_meshchera
+	name_list = name_list_muroma
 	
 	coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -191,22 +195,18 @@ meshchera = {
 	
 
 	ethnicities = {
-		100 = neo_danubian
-		50 = north_pontid
-		45 = ladogan
-		11 = proto_nordid
-		5 = pontid
-		5 = west_baltid
-		5 = volgid
-		5 = scythian
+		100 = fenno_nordid
+		97 = ladogan
+		47 = neo_danubian
+		5 = north_lappid
+		5 = north_pontid
+		5 = proto_nordid
 		5 = savolaxid
-		5 = aisto_nordid
-		5 = gorid
-		5 = fenno_nordid
+		5 = volgid
 		4 = scando_lappid
-		4 = norid
-		3 = north_lappid
-		2 = tavastid
-		1 = troender
+		3 = aisto_nordid
+		2 = scythian
+		1 = gorid
+		1 = west_baltid
 	}
 }

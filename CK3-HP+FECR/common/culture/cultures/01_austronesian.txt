@@ -1,80 +1,4 @@
 ﻿
-malay = {
-	
-	color = malay
-	ethos = ethos_courtly
-	heritage = heritage_malay
-	language = language_malay
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_seafaring
-		tradition_religion_blending
-		tradition_jungle_warriors
-	}
-	
-	name_list = name_list_malay
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = deutero_malayid
-		57 = dayakid
-		16 = east_shanid
-		13 = chukiangid
-		12 = kachinid
-		7 = basic_negritid
-		7 = toalid
-		6 = proto_malayid
-		5 = changkiangid
-		5 = south_palaungid
-		4 = senoid
-		3 = karnatid
-		2 = khmerid
-		1 = nesiotid
-	}
-}
-batak = {
-		
-	color = batak
-	ethos = ethos_bellicose
-	heritage = heritage_malay
-	language = language_malay
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_warrior_culture
-		tradition_religion_blending
-		tradition_jungle_warriors
-	}
-	
-	name_list = name_list_malay
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = kachinid
-		62 = deutero_malayid
-		47 = toalid
-		40 = dayakid
-		17 = south_palaungid
-		9 = east_shanid
-		9 = proto_malayid
-		9 = senoid
-		8 = chukiangid
-		8 = karnatid
-		4 = indo_brachid
-		4 = nesiotid
-		2 = changkiangid
-		2 = khmerid
-	}
-}
 achenese = {
 		
 	color = { 0.796 0.227 0.535 }
@@ -112,6 +36,78 @@ achenese = {
 		5 = south_palaungid
 		5 = toalid
 		3 = proto_malayid
+	}
+}
+javanese = {
+		
+	color = javanese
+	ethos = ethos_courtly
+	heritage = heritage_malay
+	language = language_javanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_religion_blending
+		tradition_jungle_warriors
+	}
+	
+	name_list = name_list_javanese
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = deutero_malayid
+		18 = proto_malayid
+		16 = chukiangid
+		10 = dayakid
+		5 = changkiangid
+		5 = east_shanid
+		5 = kachinid
+		5 = toalid
+		1 = indo_brachid
+		1 = karnatid
+	}
+}
+malay = {
+	
+	color = malay
+	ethos = ethos_courtly
+	heritage = heritage_malay
+	language = language_malay
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_religion_blending
+		tradition_jungle_warriors
+	}
+	
+	name_list = name_list_malay
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = deutero_malayid
+		57 = dayakid
+		16 = east_shanid
+		13 = chukiangid
+		12 = kachinid
+		7 = basic_negritid
+		7 = toalid
+		6 = proto_malayid
+		5 = changkiangid
+		5 = south_palaungid
+		4 = senoid
+		3 = karnatid
+		2 = khmerid
+		1 = nesiotid
 	}
 }
 cham = {
@@ -152,20 +148,20 @@ cham = {
 		1 = karnatid
 	}
 }
-javanese = {
+batak = {
 		
-	color = javanese
-	ethos = ethos_courtly
+	color = batak
+	ethos = ethos_bellicose
 	heritage = heritage_malay
-	language = language_javanese
+	language = language_malay
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_seafaring
+		tradition_warrior_culture
 		tradition_religion_blending
 		tradition_jungle_warriors
 	}
 	
-	name_list = name_list_javanese
+	name_list = name_list_malay
 	
 	coa_gfx = { chinese_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -174,15 +170,19 @@ javanese = {
 	
 
 	ethnicities = {
-		100 = deutero_malayid
-		18 = proto_malayid
-		16 = chukiangid
-		10 = dayakid
-		5 = changkiangid
-		5 = east_shanid
-		5 = kachinid
-		5 = toalid
-		1 = indo_brachid
-		1 = karnatid
+		100 = kachinid
+		62 = deutero_malayid
+		47 = toalid
+		40 = dayakid
+		17 = south_palaungid
+		9 = east_shanid
+		9 = proto_malayid
+		9 = senoid
+		8 = chukiangid
+		8 = karnatid
+		4 = indo_brachid
+		4 = nesiotid
+		2 = changkiangid
+		2 = khmerid
 	}
 }

@@ -1,96 +1,47 @@
 ﻿
-kochinim = {
+kaifeng_jew = {
 
-	parents = { mizrahi tamil }
-	created = 52.1.1
-
+	parents = { radhanite han }
+	created = 618.1.1
 	ethos = ethos_communal
 	heritage = heritage_israelite
-	language = language_tamil
+	language = language_chinese
 	martial_custom = martial_custom_male_only	
 	traditions = {
 		tradition_diasporic
 		tradition_philosopher_culture
-		tradition_xenophilic
-		tradition_fervent_temple_builders #Despite being a religious minority, Synagogues existed all over India
+		tradition_faith_bound
+		tradition_court_eunuchs
 	}
 	
-	color = { 0.5 0.2 0.7 }
+	color = kaifeng_jew
 
-	name_list = name_list_radhanite
+	name_list = name_list_han
 
 	coa_gfx = { israelite_group_coa_gfx } 
 	building_gfx = { indian_building_gfx } 
-	clothing_gfx = { indian_clothing_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
 	unit_gfx = { indian_unit_gfx } 	
 
 
 	ethnicities = {
-		100 = malabarese
-		55 = karnatid
-		38 = sinhalesid
-		19 = keralid
-		7 = indo_brachid
-		7 = vedda
-		5 = gracile_indid
-		5 = north_indid
-		4 = dayakid
-		3 = arabid
-		2 = deutero_malayid
-		2 = kolid
-		2 = proto_malayid
-	}
-}
-radhanite = {
-
-	created = 476.1.1
-	parents = { mizrahi }
-	ethos = ethos_egalitarian
-	heritage = heritage_israelite
-	language = language_arabic
-	martial_custom = martial_custom_male_only	
-	traditions = {
-		tradition_diasporic
-		tradition_philosopher_culture
-		tradition_maritime_mercantilism
-		tradition_xenophilic
-		tradition_mobile_guards
-	}
-	
-	color = { 0.5 0.2 0.7 }
-
-	name_list = name_list_radhanite
-
-	coa_gfx = { israelite_group_coa_gfx } 
-	building_gfx = { mena_building_gfx } 
-	clothing_gfx = { mongol_clothing_gfx } #Radhanites travelled all over the world; trade networks spanning from Iceland to China
-	unit_gfx = { mena_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = arabid
-		77 = assyroid
-		73 = asian_alpine
-		50 = armenoid
-		47 = iranid
-		27 = proto_iranid
-		23 = anatolid
-		17 = pontid
-		13 = litorid
-		10 = transmediterranid
-		6 = gracilemediterranid
-		6 = eurafricanid
-		4 = berberid
-		3 = indo_iranid
-		3 = yemenid
-		2 = egyptid
-		2 = berid
-		1 = indo_brachid
-		1 = libyid
-		1 = east_pamirid
-		1 = mtebid
-		1 = canarid
-		1 = proto_nordid
+		100 = changkiangid
+		66 = huanghoid
+		24 = choshiu
+		8 = kham
+		7 = chukiangid
+		6 = manchukorean
+		3 = gobid
+		3 = east_palaungid
+		3 = kachinid
+		3 = plains_pamirid
+		3 = tibetid
+		3 = yakonin
+		2 = east_shanid
+		2 = palaungid
+		2 = shanid
+		1 = south_palaungid
+		1 = tonkinesid
 	}
 }
 sephardi = {
@@ -157,6 +108,98 @@ sephardi = {
 		1 = mtebid
 		1 = east_pamirid
 		1 = halstatt
+	}
+}
+mizrahi = {
+
+	ethos = ethos_communal
+	heritage = heritage_israelite
+	language = language_aramaic
+	martial_custom = martial_custom_male_only	
+	traditions = {
+		tradition_diasporic
+		tradition_philosopher_culture
+		tradition_maritime_mercantilism
+		tradition_xenophilic
+		tradition_mobile_guards
+	}
+	
+	color = { 0.6 0.2 0.7 }
+
+	name_list = name_list_radhanite
+
+	coa_gfx = { israelite_group_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = arabid
+		77 = assyroid
+		73 = asian_alpine
+		50 = armenoid
+		47 = iranid
+		27 = proto_iranid
+		23 = anatolid
+		17 = pontid
+		13 = litorid
+		10 = transmediterranid
+		6 = gracilemediterranid
+		6 = eurafricanid
+		4 = berberid
+		3 = indo_iranid
+		3 = yemenid
+		2 = egyptid
+		2 = berid
+		1 = indo_brachid
+		1 = libyid
+		1 = east_pamirid
+		1 = mtebid
+		1 = canarid
+		1 = proto_nordid
+	}
+}
+kochinim = {
+
+	parents = { mizrahi tamil }
+	created = 52.1.1
+
+	ethos = ethos_communal
+	heritage = heritage_israelite
+	language = language_tamil
+	martial_custom = martial_custom_male_only	
+	traditions = {
+		tradition_diasporic
+		tradition_philosopher_culture
+		tradition_xenophilic
+		tradition_fervent_temple_builders #Despite being a religious minority, Synagogues existed all over India
+	}
+	
+	color = { 0.5 0.2 0.7 }
+
+	name_list = name_list_radhanite
+
+	coa_gfx = { israelite_group_coa_gfx } 
+	building_gfx = { indian_building_gfx } 
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = malabarese
+		55 = karnatid
+		38 = sinhalesid
+		19 = keralid
+		7 = indo_brachid
+		7 = vedda
+		5 = gracile_indid
+		5 = north_indid
+		4 = dayakid
+		3 = arabid
+		2 = deutero_malayid
+		2 = kolid
+		2 = proto_malayid
 	}
 }
 beta_israeli = {
@@ -275,56 +318,13 @@ ashkenazi = {
 		1 = anglo_saxon
 	}
 }
-kaifeng_jew = {
+radhanite = {
 
-	parents = { radhanite han }
-	created = 618.1.1
-	ethos = ethos_communal
+	created = 476.1.1
+	parents = { mizrahi }
+	ethos = ethos_egalitarian
 	heritage = heritage_israelite
-	language = language_chinese
-	martial_custom = martial_custom_male_only	
-	traditions = {
-		tradition_diasporic
-		tradition_philosopher_culture
-		tradition_faith_bound
-		tradition_court_eunuchs
-	}
-	
-	color = kaifeng_jew
-
-	name_list = name_list_han
-
-	coa_gfx = { israelite_group_coa_gfx } 
-	building_gfx = { indian_building_gfx } 
-	clothing_gfx = { chinese_clothing_gfx }
-	unit_gfx = { indian_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = changkiangid
-		66 = huanghoid
-		24 = choshiu
-		8 = kham
-		7 = chukiangid
-		6 = manchukorean
-		3 = gobid
-		3 = east_palaungid
-		3 = kachinid
-		3 = plains_pamirid
-		3 = tibetid
-		3 = yakonin
-		2 = east_shanid
-		2 = palaungid
-		2 = shanid
-		1 = south_palaungid
-		1 = tonkinesid
-	}
-}
-mizrahi = {
-
-	ethos = ethos_communal
-	heritage = heritage_israelite
-	language = language_aramaic
+	language = language_arabic
 	martial_custom = martial_custom_male_only	
 	traditions = {
 		tradition_diasporic
@@ -334,13 +334,13 @@ mizrahi = {
 		tradition_mobile_guards
 	}
 	
-	color = { 0.6 0.2 0.7 }
+	color = { 0.5 0.2 0.7 }
 
 	name_list = name_list_radhanite
 
 	coa_gfx = { israelite_group_coa_gfx } 
 	building_gfx = { mena_building_gfx } 
-	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx } #Radhanites travelled all over the world; trade networks spanning from Iceland to China
 	unit_gfx = { mena_unit_gfx } 	
 
 
