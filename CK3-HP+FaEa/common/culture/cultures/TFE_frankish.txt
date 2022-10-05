@@ -1,0 +1,103 @@
+﻿
+franconian = {
+	color = { 0.5 0.5 0.5 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_frankish
+	language = language_frankish
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
+		tradition_malleable_invaders
+		tradition_migrations
+	}
+	
+	name_list = name_list_taifalian
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = subnordid
+		81 = borreby
+		53 = faelid
+		50 = west_alpinid
+		42 = halstatt
+		33 = anglo_saxon
+		28 = north_atlantid
+		11 = norid
+		8 = dinarid
+		7 = gracilemediterranid
+		5 = brunn
+		5 = tavastid
+		5 = pre_slavic
+		4 = neo_danubian
+		4 = troender
+		4 = gorid
+		3 = paleo_atlantid
+		3 = proto_nordid
+		2 = litorid
+		2 = north_pontid
+		2 = paleo_sardinian
+		2 = keltic_nordid
+		2 = eurafricanid
+		1 = pontid
+		1 = carpathid
+		1 = atlanto_mediterranean
+	}
+}
+french = {
+	color = french
+	created = 862.1.1
+	parents = { frankish gallo_roman }
+	
+	ethos = ethos_courtly
+	heritage = heritage_frankish
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chanson_de_geste
+		tradition_hereditary_hierarchy
+		tradition_chivalry
+	}
+	
+	name_list = name_list_french
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = subnordid
+		62 = west_alpinid
+		55 = norid
+		51 = dinarid
+		39 = north_atlantid
+		31 = gracilemediterranid
+		18 = atlanto_mediterranean
+		13 = halstatt
+		11 = anglo_saxon
+		8 = litorid
+		8 = faelid
+		6 = brunn
+		5 = borreby
+		5 = eurafricanid
+		5 = paleo_sardinian
+		3 = berid
+		3 = baskid
+		2 = keltic_nordid
+		2 = paleo_atlantid
+		1 = berberid
+		1 = pre_slavic
+		1 = tavastid
+		1 = troender
+		1 = carpathid
+	}
+}

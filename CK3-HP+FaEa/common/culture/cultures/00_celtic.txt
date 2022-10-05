@@ -1,0 +1,154 @@
+﻿
+galatian = {
+	color = { 0.3 0.6 0.09 }
+
+	ethos = ethos_stoic
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_swords_for_hire
+		tradition_hill_dwellers # Cybr: Anatolian highlands
+	}
+
+	dlc_tradition = { # Cybr: Heavily Hellenized by the TFE start date
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_gaul
+	
+	coa_gfx = { latin_group_coa_gfx breton_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = subnordid
+		62 = west_alpinid
+		55 = norid
+		51 = dinarid
+		39 = north_atlantid
+		31 = gracilemediterranid
+		18 = atlanto_mediterranean
+		13 = halstatt
+		11 = anglo_saxon
+		8 = litorid
+		8 = faelid
+		6 = brunn
+		5 = borreby
+		5 = eurafricanid
+		5 = paleo_sardinian
+		3 = berid
+		3 = baskid
+		2 = keltic_nordid
+		2 = paleo_atlantid
+		1 = berberid
+		1 = pre_slavic
+		1 = tavastid
+		1 = troender
+		1 = carpathid
+	}
+}
+gaul = {
+	color = { 0.4 0.8 0.12 }
+
+	ethos = ethos_communal
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_poetry
+		tradition_polygamous
+		tradition_language_scholars
+		tradition_monastic_communities
+	}
+	
+	name_list = name_list_gaul
+	
+	coa_gfx = { celtic_coa_gfx }
+	building_gfx = { western_building_gfx  }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+
+	ethnicities = {
+		100 = subnordid
+		62 = west_alpinid
+		55 = norid
+		51 = dinarid
+		39 = north_atlantid
+		31 = gracilemediterranid
+		18 = atlanto_mediterranean
+		13 = halstatt
+		11 = anglo_saxon
+		8 = litorid
+		8 = faelid
+		6 = brunn
+		5 = borreby
+		5 = eurafricanid
+		5 = paleo_sardinian
+		3 = berid
+		3 = baskid
+		2 = keltic_nordid
+		2 = paleo_atlantid
+		1 = berberid
+		1 = pre_slavic
+		1 = tavastid
+		1 = troender
+		1 = carpathid
+	}
+}
+noric = {
+	color = { 0.3 0.6 0.09 }
+
+	ethos = ethos_stoic
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_swords_for_hire
+		tradition_metal_craftsmanship # Cybr: Famous for Noric steel
+	}
+	
+	name_list = name_list_gaul
+	
+	coa_gfx = { latin_group_coa_gfx breton_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = norid
+		85 = dinarid
+		70 = west_alpinid
+		60 = pre_slavic
+		58 = subnordid
+		48 = carpathid
+		25 = gorid
+		25 = neo_danubian
+		23 = halstatt
+		15 = faelid
+		13 = north_atlantid
+		10 = eurafricanid
+		5 = proto_nordid
+		5 = brunn
+		5 = pontid
+		5 = litorid
+		5 = borreby
+		5 = north_pontid
+		4 = anglo_saxon
+		4 = tavastid
+		4 = gracilemediterranid
+		4 = atlanto_mediterranean
+		2 = troender
+		1 = ladogan
+		1 = keltic_nordid
+		1 = berid
+		1 = alfoeld
+	}
+}

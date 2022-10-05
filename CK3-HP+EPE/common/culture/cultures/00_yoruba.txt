@@ -1,38 +1,4 @@
 ﻿
-yoruba = {
-	color = yoruba
-	
-	ethos = ethos_communal
-	heritage = heritage_yoruba
-	language = language_yoruba
-	martial_custom = martial_custom_equal
-	traditions = {
-		tradition_equal_inheritance
-		tradition_philosopher_culture
-		tradition_hidden_cities
-		tradition_bush_hunting
-	}
-	
-	name_list = name_list_yoruba
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { central_african_clothing_gfx }
-	unit_gfx = { central_african_unit_gfx sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = guinesid
-		28 = guineo_camerunian
-		5 = basic_bambutid
-		5 = congolesid
-		5 = equatorialsudanid
-		5 = westcongolesid
-		4 = sudanid
-		3 = bobo
-		3 = casamance
-	}
-}
 edo = {
 	color = hsv{ 0.35 0.5 0.7 }
 	
@@ -101,6 +67,40 @@ ewe = {
 		4 = congolesid
 		3 = equatorialsudanid
 		2 = fezzanid
+	}
+}
+yoruba = {
+	color = yoruba
+	
+	ethos = ethos_communal
+	heritage = heritage_yoruba
+	language = language_yoruba
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_equal_inheritance
+		tradition_philosopher_culture
+		tradition_hidden_cities
+		tradition_bush_hunting
+	}
+	
+	name_list = name_list_yoruba
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { central_african_clothing_gfx }
+	unit_gfx = { central_african_unit_gfx sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = guinesid
+		28 = guineo_camerunian
+		5 = basic_bambutid
+		5 = congolesid
+		5 = equatorialsudanid
+		5 = westcongolesid
+		4 = sudanid
+		3 = bobo
+		3 = casamance
 	}
 }
 igbo = {

@@ -1,18 +1,18 @@
 ﻿
-guan = {
-	color = hsv{ 0.025 0.55 0.7 }
+kru = {
+	color = kru
 	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_akan
-	language = language_kwa
-	martial_custom = martial_custom_equal
+	language = language_kru
+	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_formation_fighting
-		tradition_zealous_people
+		tradition_fishermen
 		tradition_bush_hunting
+		tradition_isolationist
 	}
 	
-	name_list = name_list_guan
+	name_list = name_list_kru
 	
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -21,17 +21,15 @@ guan = {
 	
 
 	ethnicities = {
-		100 = guineo_camerunian
-		97 = sudanid
-		80 = guinesid
-		37 = bobo
-		22 = casamance
+		100 = guinesid
+		79 = guineo_camerunian
+		26 = sudanid
+		9 = bobo
+		8 = congolesid
 		5 = westcongolesid
-		4 = congolesid
-		4 = fezzanid
-		2 = basic_bambutid
-		2 = west_ethiopid
-		1 = equatorialsudanid
+		4 = casamance
+		1 = basic_bambutid
+		1 = senegalid
 	}
 }
 akan = {
@@ -70,20 +68,20 @@ akan = {
 		1 = senegalid
 	}
 }
-kru = {
-	color = kru
+guan = {
+	color = hsv{ 0.025 0.55 0.7 }
 	
-	ethos = ethos_stoic
+	ethos = ethos_communal
 	heritage = heritage_akan
-	language = language_kru
-	martial_custom = martial_custom_male_only
+	language = language_kwa
+	martial_custom = martial_custom_equal
 	traditions = {
-		tradition_fishermen
+		tradition_formation_fighting
+		tradition_zealous_people
 		tradition_bush_hunting
-		tradition_isolationist
 	}
 	
-	name_list = name_list_kru
+	name_list = name_list_guan
 	
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -92,14 +90,16 @@ kru = {
 	
 
 	ethnicities = {
-		100 = guinesid
-		79 = guineo_camerunian
-		26 = sudanid
-		9 = bobo
-		8 = congolesid
+		100 = guineo_camerunian
+		97 = sudanid
+		80 = guinesid
+		37 = bobo
+		22 = casamance
 		5 = westcongolesid
-		4 = casamance
-		1 = basic_bambutid
-		1 = senegalid
+		4 = congolesid
+		4 = fezzanid
+		2 = basic_bambutid
+		2 = west_ethiopid
+		1 = equatorialsudanid
 	}
 }

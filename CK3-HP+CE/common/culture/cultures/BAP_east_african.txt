@@ -34,6 +34,40 @@ sidama = {
 		1 = dinkaid
 	}
 }
+tigray = {
+	color = hsv { 0.1 0.5 0.8 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_african
+	language = language_ethiopic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_amharic_highlanders
+		tradition_family_entrepreneurship
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_ethiopian
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { east_african_clothing_gfx }
+	unit_gfx = { east_african_unit_gfx mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = north_ethiopid
+		5 = arabid
+		5 = east_ethiopid
+		5 = proto_ethiopid
+		5 = yemenid
+		4 = central_ethiopid
+		4 = middle_nile
+		2 = omotic
+		1 = arabian_veddoid
+	}
+}
 argobba = {
 	color = hsv { 0.7 0.8 0.6 }
 	
@@ -101,39 +135,5 @@ agaw = {
 		2 = eurafricanid
 		2 = moorish
 		1 = yemenid
-	}
-}
-tigray = {
-	color = hsv { 0.1 0.5 0.8 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_east_african
-	language = language_ethiopic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_zealous_people
-		tradition_amharic_highlanders
-		tradition_family_entrepreneurship
-		tradition_city_keepers
-	}
-	
-	name_list = name_list_ethiopian
-	
-	coa_gfx = { east_african_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { east_african_clothing_gfx }
-	unit_gfx = { east_african_unit_gfx mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = north_ethiopid
-		5 = arabid
-		5 = east_ethiopid
-		5 = proto_ethiopid
-		5 = yemenid
-		4 = central_ethiopid
-		4 = middle_nile
-		2 = omotic
-		1 = arabian_veddoid
 	}
 }

@@ -1,0 +1,88 @@
+﻿
+pictish = {
+	color = hsv { 0.58 1.00 0.72 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_concubines
+		tradition_highland_warriors
+		tradition_hill_dwellers
+		tradition_sacred_springs # Cybr: British sacred wells
+	}
+	
+	name_list = name_list_pictish
+	
+	coa_gfx = { scottish_coa_gfx }
+	building_gfx = { western_building_gfx  }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		83 = brunn
+		66 = paleo_atlantid
+		57 = borreby
+		53 = troender
+		36 = anglo_saxon
+		23 = halstatt
+		5 = faelid
+		5 = gracilemediterranid
+		5 = litorid
+		4 = strandid
+		3 = eurafricanid
+		2 = norid
+		2 = west_alpinid
+	}
+}
+briton = {
+	color = { 97 129 170 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_brythonic
+	language = language_brythonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight # Juli: Britons where really really stubborn on loosing their homelands, (pre-romman and sub-roman)
+		tradition_storytellers # Juli: Strong Celtic Influences of their lore are still present today in Europe, they certainly liked to tell stories :P
+		tradition_quarrelsome # Juli: Britons brought their own demise by constantly fighting each other (goofy ahh)
+		tradition_loyal_soldiers # Juli: Britons where proud to be part of the Roman Empire
+		tradition_sword_bending #....
+		tradition_sacred_springs # Cybr: British sacred wells
+	}
+	
+	name_list = name_list_briton
+	
+	coa_gfx = { celtic_coa_gfx }
+	building_gfx = { western_building_gfx  }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		58 = eurafricanid
+		48 = litorid
+		48 = gracilemediterranid
+		16 = anglo_saxon
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = halstatt
+		5 = faelid
+		5 = dinarid
+		5 = brunn
+		5 = borreby
+		5 = berberid
+		5 = baskid
+		4 = paleo_sardinian
+		3 = berid
+		3 = norid
+		3 = subnordid
+		3 = troender
+		2 = atlanto_mediterranean
+	}
+}

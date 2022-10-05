@@ -51,65 +51,6 @@ navarro_aragonese = {
 		1 = troender
 	}
 }
-mozarab = {
-	color = { 0.86 0.62 0.28 }
-
-	parents = { visigothic bedouin }
-
-	created = 800.1.1
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_iberian
-	language = language_iberian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_poetry
-		tradition_family_entrepreneurship
-	}
-	
-	dlc_tradition = {
-		trait = tradition_fp2_malleable_subjects
-		requires_dlc_flag = the_fate_of_iberia
-		fallback = tradition_xenophilic
-	}
-	dlc_tradition = {
-		trait = tradition_fp2_ritualised_friendship
-		requires_dlc_flag = the_fate_of_iberia
-	}
-	
-	name_list = name_list_andalusian
-
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
-	unit_gfx = { iberian_muslim_unit_gfx }
-
-
-	ethnicities = {
-		100 = berid
-		89 = atlanto_mediterranean
-		69 = transmediterranid
-		56 = gracilemediterranid
-		51 = litorid
-		43 = eurafricanid
-		25 = berberid
-		19 = libyid
-		10 = armenoid
-		7 = arabid
-		7 = canarid
-		2 = moorish
-		2 = paleo_sardinian
-		2 = african_alpine
-		2 = west_alpinid
-		1 = halstatt
-		1 = dinarid
-		1 = north_atlantid
-		1 = north_ethiopid
-		1 = subnordid
-		1 = sudanid
-		1 = troender
-	}
-}
 iqritis = {
 	color = { 0.45 0.65 0.15 }
 
@@ -178,5 +119,64 @@ iqritis = {
 		1 = aralid
 		1 = halstatt
 		1 = alfoeld
+	}
+}
+mozarab = {
+	color = { 0.86 0.62 0.28 }
+
+	parents = { visigothic bedouin }
+
+	created = 800.1.1
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_family_entrepreneurship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_andalusian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
+
+
+	ethnicities = {
+		100 = berid
+		89 = atlanto_mediterranean
+		69 = transmediterranid
+		56 = gracilemediterranid
+		51 = litorid
+		43 = eurafricanid
+		25 = berberid
+		19 = libyid
+		10 = armenoid
+		7 = arabid
+		7 = canarid
+		2 = moorish
+		2 = paleo_sardinian
+		2 = african_alpine
+		2 = west_alpinid
+		1 = halstatt
+		1 = dinarid
+		1 = north_atlantid
+		1 = north_ethiopid
+		1 = subnordid
+		1 = sudanid
+		1 = troender
 	}
 }

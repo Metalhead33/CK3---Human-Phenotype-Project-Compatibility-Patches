@@ -1,0 +1,1255 @@
+﻿
+galecian = {
+	color = { 0.8 0.3 0.3 } # Colors need tweaking
+	created = 730.1.1
+	parents = { hispano_roman }
+
+	ethos = ethos_stoic
+	heritage = heritage_iberian
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting # Retained from Hispano-Roman
+		tradition_pastoralists # Inherited from neighboring Celtiberian cultures
+		tradition_mountaineers # Region is very hilly and mountainous
+		tradition_castle_keepers # Inherited from neighboring Celtiberian cultures
+	}
+	
+	name_list = name_list_hispano_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		100 = litorid
+		86 = baskid
+		79 = gracilemediterranid
+		71 = west_alpinid
+		57 = eurafricanid
+		5 = berberid
+		5 = berid
+		5 = dinarid
+		5 = halstatt
+		5 = north_atlantid
+		5 = paleo_sardinian
+		5 = subnordid
+		5 = transmediterranid
+		4 = paleo_atlantid
+	}
+}
+italian = {
+	color = italian
+
+	parents = { roman }
+
+	created = 485.1.1
+	
+	ethos = ethos_spiritual
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_republican_legacy
+		tradition_poetry
+	}
+	
+	name_list = name_list_italian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = litorid
+		88 = atlanto_mediterranean
+		62 = west_alpinid
+		36 = dinarid
+		27 = gracilemediterranid
+		23 = carpathid
+		18 = eurafricanid
+		14 = berid
+		5 = halstatt
+		5 = norid
+		5 = north_atlantid
+		5 = pontid
+		4 = borreby
+		4 = berberid
+		3 = armenoid
+		2 = paleo_sardinian
+		2 = subnordid
+		1 = gorid
+		1 = north_pontid
+	}
+}
+sardinian = {
+	color = { 0.9 0.9 0.3 }
+	created = 2.1.1
+	parents = { roman }
+
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_isolationist
+		tradition_ancient_miners # Cybr: Important mining center in Roman times
+		tradition_quarrelsome # Cybr: Romans had difficulty controlling the island
+		tradition_sacred_springs # Cybr: Nuraghe sacred springs which continued into Roman times
+	}
+	
+	name_list = name_list_sardinian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+	
+
+	ethnicities = {
+		100 = gracilemediterranid
+		63 = berid
+		63 = paleo_sardinian
+		53 = litorid
+		34 = atlanto_mediterranean
+		5 = armenoid
+		5 = berberid
+		5 = eurafricanid
+		5 = transmediterranid
+		5 = west_alpinid
+		3 = troender
+		2 = dinarid
+		2 = halstatt
+		2 = norid
+	}
+}
+iberian = {
+	color = { 0.7 0.1 0.1 } # Colors need tweaking
+	created = 730.1.1
+	parents = { hispano_roman }
+
+	ethos = ethos_spiritual
+	heritage = heritage_iberian
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = { # Picked semi-randomly, might need work
+		tradition_formation_fighting
+		tradition_zealous_people
+		tradition_mountaineers # Region is very hilly and mountainous
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_hispano_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = berid
+		89 = atlanto_mediterranean
+		69 = transmediterranid
+		56 = gracilemediterranid
+		51 = litorid
+		43 = eurafricanid
+		25 = berberid
+		19 = libyid
+		10 = armenoid
+		7 = arabid
+		7 = canarid
+		2 = moorish
+		2 = paleo_sardinian
+		2 = african_alpine
+		2 = west_alpinid
+		1 = halstatt
+		1 = dinarid
+		1 = north_atlantid
+		1 = north_ethiopid
+		1 = subnordid
+		1 = sudanid
+		1 = troender
+	}
+}
+thracio_roman = {
+	color = { 142 65 86 }
+	created = 46.1.1
+	parents = { roman thracian }
+
+	ethos = ethos_bellicose # Juli: Only thing remarkable about Thracio-Romans i can find is that their lands where constatnly occupied by Legions and that they where part of the army
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_highland_warriors # Juli: Thracians lived in Highlands all the time lmao
+		tradition_stalwart_defenders # Juli: Thracians are noted for taking care of their land
+		tradition_loyal_soldiers # Juli: Thracians are and where mainly noted for being part of the army lmao goofy
+		tradition_roman_legacy # Juli: Standard Roman
+		tradition_bread_and_circuses # Juli: Standard Roman
+	}
+	
+	name_list = name_list_thracio_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = pontid
+		93 = gorid
+		78 = dinarid
+		47 = neo_danubian
+		43 = carpathid
+		36 = litorid
+		35 = gracilemediterranid
+		27 = anatolid
+		16 = pre_slavic
+		12 = eurafricanid
+		9 = asian_alpine
+		9 = armenoid
+		9 = north_pontid
+		8 = borreby
+		7 = proto_nordid
+		5 = scythian
+		5 = alfoeld
+		5 = norid
+		4 = proto_iranid
+		3 = andronovo_turanid
+		2 = subnordid
+		2 = troender
+		2 = halstatt
+		2 = berid
+		2 = atlanto_mediterranean
+		1 = west_alpinid
+		1 = west_baltid
+		1 = paleo_sardinian
+		1 = ladogan
+	}
+}
+baetican = {
+	color = { 0.6 0.3 0.2 } # Colors need tweaking
+	created = 730.1.1
+	parents = { hispano_roman }
+
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = { # Picked semi-randomly, might need work
+		tradition_swords_for_hire
+		tradition_hard_working
+		tradition_mountaineers # Region is very hilly and mountainous
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_hispano_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = berid
+		89 = atlanto_mediterranean
+		69 = transmediterranid
+		56 = gracilemediterranid
+		51 = litorid
+		43 = eurafricanid
+		25 = berberid
+		19 = libyid
+		10 = armenoid
+		7 = arabid
+		7 = canarid
+		2 = moorish
+		2 = paleo_sardinian
+		2 = african_alpine
+		2 = west_alpinid
+		1 = halstatt
+		1 = dinarid
+		1 = north_atlantid
+		1 = north_ethiopid
+		1 = subnordid
+		1 = sudanid
+		1 = troender
+	}
+}
+britano_roman = {
+	color = { 160 32 29 }
+	created = 43.1.1
+	parents = { roman briton }
+
+	ethos = ethos_bellicose # Juli: Britano Romans where fiesty during the 4th and 5th century
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome # Juli: Britano-Romans brought their own demise by constantly fighting each other (goofy ahh)
+		tradition_loyal_soldiers # Juli: Britano-Romans where proud to be part of the Roman Empire and where later quickly assimilated by the Anglo-Saxon overlords
+		tradition_martial_admiration # Juli: To represent the constant Usurpers and Britannia being a powerhouse for soldiers
+		tradition_roman_legacy # Juli: Standard Roman
+		tradition_bread_and_circuses # Juli: Standard Roman
+		tradition_sacred_springs # Cybr: Roman/Celtic veneration in the region
+	}
+	
+	name_list = name_list_britano_roman
+	
+	coa_gfx = { latin_group_coa_gfx welsh_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = litorid
+		100 = keltic_nordid
+		69 = brunn
+		5 = gracilemediterranid
+		5 = west_alpinid
+		5 = subnordid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = halstatt
+		5 = anglo_saxon
+		5 = faelid
+		5 = eurafricanid
+		5 = dinarid
+		5 = borreby
+		5 = berid
+		5 = berberid
+		5 = baskid
+		4 = troender
+		4 = atlanto_mediterranean
+	}
+}
+roman = {
+	color = { 143 0 0 }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_legalistic
+		tradition_roman_legacy
+		tradition_roman_hubris
+		tradition_bread_and_circuses
+	}
+	
+	name_list = name_list_roman
+	
+	coa_gfx = { latin_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx  }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		94 = gracilemediterranid
+		94 = litorid
+		60 = anatolid
+		56 = west_alpinid
+		55 = asian_alpine
+		55 = eurafricanid
+		54 = berid
+		50 = armenoid
+		44 = dinarid
+		38 = pontid
+		31 = transmediterranid
+		29 = subnordid
+		24 = north_atlantid
+		20 = norid
+		19 = arabid
+		17 = berberid
+		12 = paleo_sardinian
+		11 = baskid
+		9 = carpathid
+		9 = libyid
+		8 = halstatt
+		7 = egyptid
+		6 = proto_iranid
+		6 = assyroid
+		5 = anglo_saxon
+		5 = african_alpine
+		4 = gorid
+		4 = north_pontid
+		4 = borreby
+		3 = east_pamirid
+		3 = neo_danubian
+		3 = canarid
+		2 = iranid
+		2 = brunn
+		2 = faelid
+		1 = sudanid
+		1 = troender
+		1 = siwa
+		1 = west_baltid
+		1 = scando_lappid
+		1 = yemenid
+		1 = proto_nordid
+		1 = pre_slavic
+		1 = paleo_atlantid
+		1 = north_ethiopid
+		1 = mtebid
+		1 = moorish
+		1 = middle_nile
+		1 = keltic_nordid
+		1 = indo_iranid
+		1 = fezzanid
+	}
+}
+sicilian = {
+	color = { 0.65 0.65 0.2 }
+
+	created = 700.1.1
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_swords_for_hire
+		tradition_ruling_caste
+		tradition_poetry
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_sicilian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = gracilemediterranid
+		97 = berid
+		60 = litorid
+		49 = armenoid
+		27 = paleo_sardinian
+		24 = west_alpinid
+		16 = pontid
+		5 = eurafricanid
+		5 = berberid
+		5 = atlanto_mediterranean
+		5 = arabid
+		4 = dinarid
+		4 = anatolid
+		3 = transmediterranid
+		2 = borreby
+		2 = faelid
+		2 = halstatt
+		2 = libyid
+		2 = norid
+		1 = north_atlantid
+		1 = troender
+	}
+}
+armorican = {
+	color = { 0.7 0.2 0.1 } # Colors need tweaking
+	created = 730.1.1
+	parents = { gallo_roman }
+
+	ethos = ethos_communal
+	heritage = heritage_gaulish
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_fishermen
+		tradition_storytellers
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = west_alpinid
+		100 = north_atlantid
+		27 = norid
+		20 = gracilemediterranid
+		20 = litorid
+		5 = borreby
+		5 = brunn
+		5 = dinarid
+		5 = eurafricanid
+		5 = anglo_saxon
+		5 = keltic_nordid
+		5 = berid
+		5 = berberid
+		5 = baskid
+		5 = paleo_sardinian
+		5 = subnordid
+		5 = atlanto_mediterranean
+		4 = halstatt
+		2 = scando_lappid
+	}
+}
+gallo_roman = {
+	color = { 0.5 0.1 0.1 }
+	created = 2.1.1 # Juli: Juli's Conquest of Gaul :P
+	parents = { roman gaul }
+	history_loc_override = gallo_roman_history_loc
+
+	ethos = ethos_spiritual # Juli: Gaull was home to several religious moments and identities during our timeframe and also housed a lot of important early christian saints and figures
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people # Juli: A lot of Gaullish noblemen where notable scholars and poets during our timeframe
+		tradition_legalistic # Juli: Standard Roman, but also Gallo-Romans culture valued law strongly, visible with the later Frankish need and importance of respectivg roman law
+		tradition_poetry # Juli: A lot of Gaullish noblemen where notable scholars and poets during our timeframe
+		tradition_roman_legacy # Juli: Standard Roman
+		tradition_bread_and_circuses # Juli: Standard Roman
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = subnordid
+		62 = west_alpinid
+		55 = norid
+		51 = dinarid
+		39 = north_atlantid
+		31 = gracilemediterranid
+		18 = atlanto_mediterranean
+		13 = halstatt
+		11 = anglo_saxon
+		8 = litorid
+		8 = faelid
+		6 = brunn
+		5 = borreby
+		5 = eurafricanid
+		5 = paleo_sardinian
+		3 = berid
+		3 = baskid
+		2 = keltic_nordid
+		2 = paleo_atlantid
+		1 = berberid
+		1 = pre_slavic
+		1 = tavastid
+		1 = troender
+		1 = carpathid
+	}
+}
+lombard = {
+	color = { 0.8 0.8 0.5 }
+
+	created = 650.1.1
+
+	parents = { langobard italian }
+	
+	ethos = ethos_stoic
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_martial_admiration
+		tradition_stand_and_fight
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_lombard
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = dinarid
+		92 = west_alpinid
+		79 = norid
+		58 = subnordid
+		51 = carpathid
+		44 = atlanto_mediterranean
+		40 = pre_slavic
+		28 = halstatt
+		21 = litorid
+		21 = north_atlantid
+		19 = eurafricanid
+		17 = gorid
+		16 = neo_danubian
+		15 = faelid
+		7 = gracilemediterranid
+		6 = borreby
+		5 = brunn
+		5 = proto_nordid
+		5 = north_pontid
+		5 = pontid
+		4 = anglo_saxon
+		3 = berid
+		3 = tavastid
+		1 = keltic_nordid
+		1 = troender
+		1 = alfoeld
+	}
+}
+cisalpine = {
+	color = { 0.95 0.95 0.55 }
+
+	created = 800.1.1
+
+	parents = { frankish lombard }
+	
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_italian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+		tradition_mountain_homes
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_cisalpine
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		80 = west_alpinid
+		78 = dinarid
+		52 = litorid
+		49 = eurafricanid
+		37 = subnordid
+		33 = carpathid
+		21 = north_atlantid
+		19 = norid
+		16 = halstatt
+		11 = gracilemediterranid
+		9 = gorid
+		8 = neo_danubian
+		6 = berid
+		5 = faelid
+		5 = borreby
+		3 = brunn
+		3 = pre_slavic
+		2 = north_pontid
+		2 = paleo_sardinian
+		2 = pontid
+		2 = proto_nordid
+		2 = berberid
+		2 = anglo_saxon
+		1 = keltic_nordid
+		1 = paleo_atlantid
+	}
+}
+dacio_roman = {
+	color = { 0.8 0.1 0.3 }
+	created = 106.1.1
+	parents = { roman dacian }
+
+	ethos = ethos_bellicose
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_ancient_miners # Cybr: Apparently Dacia's mines were in demand
+		tradition_highland_warriors # Juli: Dacia lived in Highlands all the time lmao
+		tradition_stalwart_defenders # Juli: Dacia are noted for taking care of their land
+		tradition_roman_legacy # Juli: Standard Roman
+		tradition_bread_and_circuses # Juli: Standard Roman
+	}
+	
+	name_list = name_list_dacio_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = gorid
+		98 = neo_danubian
+		96 = carpathid
+		80 = dinarid
+		60 = north_pontid
+		58 = pontid
+		37 = norid
+		15 = alfoeld
+		8 = andronovo_turanid
+		8 = gracilemediterranid
+		7 = litorid
+		6 = armenoid
+		6 = scythian
+		6 = proto_nordid
+		6 = pre_slavic
+		5 = west_baltid
+		5 = ladogan
+		4 = subnordid
+		4 = anatolid
+		3 = borreby
+		3 = asian_alpine
+		3 = west_alpinid
+		2 = faelid
+		2 = eurafricanid
+		2 = tavastid
+		1 = halstatt
+		1 = plains_pamirid
+		1 = troender
+	}
+}
+illyro_roman = {
+	color = { 0.68 0.05 0.15 }
+	created = 9.1.1 # Illyrian Revolt was quelched
+	parents = { roman illyrian }
+
+	ethos = ethos_bellicose # Illyro romans made good soliders uwu
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_strength_in_numbers # Juli: Illyria was the source for most of the Roman Army
+		tradition_loyal_soldiers # Juli: Illyria was the source for most of the Roman Army
+		tradition_hill_dwellers # Juli: Illyria is a hilly area
+		tradition_roman_legacy # Juli: Standard Roman
+		tradition_bread_and_circuses # Juli: Standard Roman
+	}
+	
+	name_list = name_list_illyro_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = dinarid
+		61 = eurafricanid
+		53 = litorid
+		29 = pontid
+		20 = borreby
+		13 = norid
+		12 = west_alpinid
+		5 = gracilemediterranid
+		5 = proto_nordid
+		5 = paleo_sardinian
+		5 = north_pontid
+		5 = neo_danubian
+		5 = anatolid
+		5 = gorid
+		5 = carpathid
+		5 = berid
+		5 = atlanto_mediterranean
+		5 = asian_alpine
+		4 = armenoid
+		2 = pre_slavic
+	}
+}
+lusitanian = {
+	color = { 0.9 0.4 0.3 } # Colors need tweaking
+	created = 730.1.1
+	parents = { hispano_roman }
+
+	ethos = ethos_bureaucratic
+	heritage = heritage_iberian
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = { # Picked semi-randomly, might need work
+		tradition_maritime_mercantilism 
+		tradition_legalistic # Retained from Hispano-Roman
+		tradition_city_keepers
+		tradition_artisans
+	}
+	
+	name_list = name_list_hispano_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		69 = eurafricanid
+		69 = gracilemediterranid
+		62 = north_atlantid
+		37 = litorid
+		18 = berid
+		5 = west_alpinid
+		5 = transmediterranid
+		5 = paleo_sardinian
+		5 = halstatt
+		5 = berberid
+		5 = baskid
+		4 = libyid
+		4 = dinarid
+		4 = arabid
+		3 = keltic_nordid
+		2 = subnordid
+		1 = canarid
+	}
+}
+helvetian = {
+	color = { 0.8 0.4 0.1 } # Colors need tweaking
+	created = 730.1.1
+	parents = { gallo_roman }
+
+	ethos = ethos_stoic
+	heritage = heritage_gaulish
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_castle_keepers
+		tradition_mountain_homes
+		tradition_mountaineers
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = west_alpinid
+		100 = subnordid
+		69 = dinarid
+		58 = atlanto_mediterranean
+		58 = litorid
+		48 = norid
+		27 = eurafricanid
+		27 = north_atlantid
+		16 = pre_slavic
+		16 = halstatt
+		5 = berid
+		5 = gracilemediterranid
+		5 = gorid
+		5 = faelid
+		5 = carpathid
+		5 = brunn
+		5 = borreby
+		4 = neo_danubian
+		4 = proto_nordid
+		2 = keltic_nordid
+		2 = north_pontid
+		2 = pontid
+	}
+}
+aquitan = {
+	color = { 0.7 0.1 0.3 } # Colors need tweaking
+	created = 730.1.1
+	parents = { gallo_roman }
+
+	ethos = ethos_courtly
+	heritage = heritage_gaulish
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_culture_blending
+		tradition_fervent_temple_builders
+		tradition_chivalry
+		tradition_zealous_people
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		100 = litorid
+		86 = baskid
+		79 = gracilemediterranid
+		71 = west_alpinid
+		57 = eurafricanid
+		5 = berberid
+		5 = berid
+		5 = dinarid
+		5 = halstatt
+		5 = north_atlantid
+		5 = paleo_sardinian
+		5 = subnordid
+		5 = transmediterranid
+		4 = paleo_atlantid
+	}
+}
+rhaetio_roman = {
+	color = { 0.6 0.1 0.1 }
+	created = 2.1.1
+	parents = { roman rhaetian }
+
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_legalistic
+		tradition_poetry
+		tradition_mountain_homes # Cybr: They're in the Alps
+		tradition_mountaineers # Cybr: Alpine legions
+	}
+	
+	name_list = name_list_rhaetian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		100 = litorid
+		77 = eurafricanid
+		53 = west_alpinid
+		5 = berberid
+		5 = berid
+		5 = borreby
+		5 = carpathid
+		5 = dinarid
+		5 = gracilemediterranid
+		5 = halstatt
+		5 = norid
+		5 = north_atlantid
+		5 = pontid
+		3 = paleo_sardinian
+		3 = subnordid
+	}
+}
+germanian = {
+	color = { 0.9 0.3 0.2 } # Colors need tweaking
+	created = 730.1.1
+	parents = { gallo_roman }
+
+	ethos = ethos_bellicose
+	heritage = heritage_gaulish
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_hereditary_hierarchy
+		tradition_parochialism
+		tradition_pastoralists
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = norid
+		85 = dinarid
+		70 = west_alpinid
+		60 = pre_slavic
+		58 = subnordid
+		48 = carpathid
+		25 = gorid
+		25 = neo_danubian
+		23 = halstatt
+		15 = faelid
+		13 = north_atlantid
+		10 = eurafricanid
+		5 = proto_nordid
+		5 = brunn
+		5 = pontid
+		5 = litorid
+		5 = borreby
+		5 = north_pontid
+		4 = anglo_saxon
+		4 = tavastid
+		4 = gracilemediterranid
+		4 = atlanto_mediterranean
+		2 = troender
+		1 = ladogan
+		1 = keltic_nordid
+		1 = berid
+		1 = alfoeld
+	}
+}
+afro_roman = {
+	color = { 0.8 0.1 0.1 }
+	created = 2.1.1
+	parents = { roman gaetulian }
+	history_loc_override = afro_roman_history_loc
+
+	ethos = ethos_spiritual # Juli: Africa was home to several religious moments and identities during our timeframe and also housed a lot of important early christian saints and figures
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism # Juli: Africa and Cartago where important maritime mercantile stopping points
+		# tradition_agrarian # Juli: Africa was the agrarian powerhouse of the cell, i mean of the western roman empire
+		# Shatzi: replaced agrarian for a tailored tradition. love y'all
+		tradition_african_agriculture
+		tradition_religion_blending # Juli: Africa was home to many many different christian sects, pagan cults and jewish
+		tradition_roman_legacy # Juli: Standard Roman
+		tradition_bread_and_circuses # Juli: Standard Roman
+	}
+	
+	name_list = name_list_afro_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = gracilemediterranid
+		97 = berid
+		60 = litorid
+		49 = armenoid
+		27 = paleo_sardinian
+		24 = west_alpinid
+		16 = pontid
+		5 = eurafricanid
+		5 = berberid
+		5 = atlanto_mediterranean
+		5 = arabid
+		4 = dinarid
+		4 = anatolid
+		3 = transmediterranid
+		2 = borreby
+		2 = faelid
+		2 = halstatt
+		2 = libyid
+		2 = norid
+		1 = north_atlantid
+		1 = troender
+	}
+}
+britanian = {
+	color = { 0.9 0.2 0.2 } # Colors need tweaking
+	created = 730.1.1
+	parents = { britano_roman }
+
+	ethos = ethos_communal
+	heritage = heritage_brythonic
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_fishermen
+		tradition_storytellers
+		tradition_formation_fighting
+	}
+	
+	name_list = name_list_britano_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		58 = eurafricanid
+		48 = litorid
+		48 = gracilemediterranid
+		16 = anglo_saxon
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = halstatt
+		5 = faelid
+		5 = dinarid
+		5 = brunn
+		5 = borreby
+		5 = berberid
+		5 = baskid
+		4 = paleo_sardinian
+		3 = berid
+		3 = norid
+		3 = subnordid
+		3 = troender
+		2 = atlanto_mediterranean
+	}
+}
+balearic = {
+	color = { 0.8 0.2 0.1 } # Colors need tweaking
+	created = 730.1.1
+	parents = { hispano_roman }
+
+	ethos = ethos_communal
+	heritage = heritage_iberian
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist # Island culture probably translates to less contact with the continental world
+		tradition_maritime_mercantilism # Mediterranean trade
+		tradition_fishermen # Island culture = Fish
+		tradition_poetry # Retained from Hispano-Roman
+	}
+	
+	name_list = name_list_hispano_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		95 = gracilemediterranid
+		95 = eurafricanid
+		68 = litorid
+		41 = berid
+		12 = west_alpinid
+		11 = dinarid
+		8 = transmediterranid
+		7 = baskid
+		5 = berberid
+		5 = paleo_sardinian
+		5 = arabid
+		4 = halstatt
+		4 = subnordid
+		2 = libyid
+		1 = canarid
+		1 = north_atlantid
+		1 = troender
+	}
+}
+gallian = {
+	color = { 0.8 0.4 0.2 } # Colors need tweaking
+	created = 730.1.1
+	parents = { gallo_roman }
+
+	ethos = ethos_courtly
+	heritage = heritage_gaulish
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_formation_fighting
+		tradition_chivalry
+		tradition_monastic_communities
+		tradition_agrarian
+	}
+	
+	name_list = name_list_gallo_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = subnordid
+		62 = west_alpinid
+		55 = norid
+		51 = dinarid
+		39 = north_atlantid
+		31 = gracilemediterranid
+		18 = atlanto_mediterranean
+		13 = halstatt
+		11 = anglo_saxon
+		8 = litorid
+		8 = faelid
+		6 = brunn
+		5 = borreby
+		5 = eurafricanid
+		5 = paleo_sardinian
+		3 = berid
+		3 = baskid
+		2 = keltic_nordid
+		2 = paleo_atlantid
+		1 = berberid
+		1 = pre_slavic
+		1 = tavastid
+		1 = troender
+		1 = carpathid
+	}
+}
+hispano_roman = {
+	color = { 0.8 0.2 0.1 }
+	created = 2.1.1
+	parents = { roman cantabrian }  # Cantabrian is standin for Celtiberian
+	history_loc_override = hispano_roman_history_loc
+
+	ethos = ethos_spiritual # Juli: Hispania was home to several religious moments and identities during our timeframe and also housed a lot of important early christian saints and figures
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fp2_ritualised_friendship # Juli: A lot of Hispano Roman aristorcatic families where friends of imperial officers and Emperors, and Vanilla Spanish cultures have this so cheks out
+		tradition_legalistic # Juli: Roman filler tradition, but also roman law and later visigothic law where very valued and strong parameters of their culture and tradition
+		tradition_ancient_miners # Juli: Hispania means land of metals lmao, no seriously Iberian cultures had long and strong ties to metalurgy and Iberian Peninsula is still a very minerally rich culture
+		tradition_roman_legacy # Juli: Standard Roman
+		tradition_bread_and_circuses # Juli: Standard Roman
+	}
+	
+	name_list = name_list_hispano_roman
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = berid
+		89 = atlanto_mediterranean
+		69 = transmediterranid
+		56 = gracilemediterranid
+		51 = litorid
+		43 = eurafricanid
+		25 = berberid
+		19 = libyid
+		10 = armenoid
+		7 = arabid
+		7 = canarid
+		2 = moorish
+		2 = paleo_sardinian
+		2 = african_alpine
+		2 = west_alpinid
+		1 = halstatt
+		1 = dinarid
+		1 = north_atlantid
+		1 = north_ethiopid
+		1 = subnordid
+		1 = sudanid
+		1 = troender
+	}
+}

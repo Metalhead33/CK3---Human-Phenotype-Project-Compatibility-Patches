@@ -1,0 +1,50 @@
+﻿
+soissons = {
+	color = { 167 10 100 }
+	created = 690.4.20
+	parents = { han hebrew }
+	ethos = ethos_stoic
+	heritage = heritage_levantine
+	language = language_chinese
+	martial_custom = martial_custom_female_only
+
+	name_list = name_list_horse
+	
+	coa_gfx = { baltic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	traditions = {
+		tradition_roman_legacy
+		tradition_life_is_just_a_joke
+		tradition_varangians
+	}
+
+	ethnicities = {
+		100 = subnordid
+		62 = west_alpinid
+		55 = norid
+		51 = dinarid
+		39 = north_atlantid
+		31 = gracilemediterranid
+		18 = atlanto_mediterranean
+		13 = halstatt
+		11 = anglo_saxon
+		8 = litorid
+		8 = faelid
+		6 = brunn
+		5 = borreby
+		5 = eurafricanid
+		5 = paleo_sardinian
+		3 = berid
+		3 = baskid
+		2 = keltic_nordid
+		2 = paleo_atlantid
+		1 = berberid
+		1 = pre_slavic
+		1 = tavastid
+		1 = troender
+		1 = carpathid
+	}
+}

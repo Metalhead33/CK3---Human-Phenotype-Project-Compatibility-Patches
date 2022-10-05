@@ -1,4 +1,44 @@
 ﻿
+hausa = {
+	color = hausa
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_central_african
+	language = language_chadic
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_caravaneers
+		tradition_parochialism
+		tradition_family_entrepreneurship
+		tradition_hill_dwellers
+	}
+	
+	name_list = name_list_hausa
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = sudanid
+		37 = saharan_ethiopid
+		23 = equatorialsudanid
+		6 = bobo
+		6 = fezzanid
+		6 = shari
+		4 = guineo_camerunian
+		3 = guinesid
+		3 = west_ethiopid
+		2 = moorish
+		2 = westcongolesid
+		1 = basic_bambutid
+		1 = congolesid
+		1 = senegalid
+		1 = targid
+	}
+}
 nupe = {
 	color = hsv{ 0.95 0.35 0.7 }
 	
@@ -31,45 +71,6 @@ nupe = {
 		3 = congolesid
 		3 = shari
 		2 = casamance
-	}
-}
-jukun = {
-	color = hsv{ 0.95 0.8 0.3 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_central_african
-	language = language_chadic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_tribe_unity
-		tradition_hunters
-		tradition_family_entrepreneurship
-	}
-	
-	name_list = name_list_jukun
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = sudanid
-		37 = saharan_ethiopid
-		23 = equatorialsudanid
-		6 = bobo
-		6 = fezzanid
-		6 = shari
-		4 = guineo_camerunian
-		3 = guinesid
-		3 = west_ethiopid
-		2 = moorish
-		2 = westcongolesid
-		1 = basic_bambutid
-		1 = congolesid
-		1 = senegalid
-		1 = targid
 	}
 }
 sao = {
@@ -112,46 +113,6 @@ sao = {
 		1 = guinesid
 	}
 }
-hausa = {
-	color = hausa
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_central_african
-	language = language_chadic
-	martial_custom = martial_custom_equal
-	traditions = {
-		tradition_caravaneers
-		tradition_parochialism
-		tradition_family_entrepreneurship
-		tradition_hill_dwellers
-	}
-	
-	name_list = name_list_hausa
-	
-	coa_gfx = { central_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = sudanid
-		37 = saharan_ethiopid
-		23 = equatorialsudanid
-		6 = bobo
-		6 = fezzanid
-		6 = shari
-		4 = guineo_camerunian
-		3 = guinesid
-		3 = west_ethiopid
-		2 = moorish
-		2 = westcongolesid
-		1 = basic_bambutid
-		1 = congolesid
-		1 = senegalid
-		1 = targid
-	}
-}
 kanuri = {
 	color = hsv{ 0.95 0.8 0.7 }
 	
@@ -183,5 +144,44 @@ kanuri = {
 		2 = moorish
 		1 = targid
 		1 = west_ethiopid
+	}
+}
+jukun = {
+	color = hsv{ 0.95 0.8 0.3 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_african
+	language = language_chadic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_hunters
+		tradition_family_entrepreneurship
+	}
+	
+	name_list = name_list_jukun
+	
+	coa_gfx = { central_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = sudanid
+		37 = saharan_ethiopid
+		23 = equatorialsudanid
+		6 = bobo
+		6 = fezzanid
+		6 = shari
+		4 = guineo_camerunian
+		3 = guinesid
+		3 = west_ethiopid
+		2 = moorish
+		2 = westcongolesid
+		1 = basic_bambutid
+		1 = congolesid
+		1 = senegalid
+		1 = targid
 	}
 }

@@ -1,4 +1,49 @@
 ﻿
+scanian = {
+	color = { 0.13 0.4 0.35 }
+	created = 965.1.1 #Appears in writings prior to 1100. Not related to the modern dialect
+	parents = { dane }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_norse
+	martial_custom = martial_custom_male_only	
+	traditions = {
+		tradition_things
+		tradition_runestones
+		tradition_seafaring
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_danish
+	
+	coa_gfx = { danish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		47 = faelid
+		30 = borreby
+		14 = tavastid
+		10 = strandid
+		5 = aisto_nordid
+		5 = north_atlantid
+		5 = paleo_atlantid
+		5 = subnordid
+		5 = troender
+		5 = west_baltid
+		4 = brunn
+		3 = anglo_saxon
+		2 = west_alpinid
+		1 = proto_nordid
+	}
+}
 icelandic = {
 	color = { 0.25 0.4 0.55 }
 	
@@ -54,50 +99,5 @@ icelandic = {
 		5 = paleo_atlantid
 		5 = tavastid
 		1 = scando_lappid
-	}
-}
-scanian = {
-	color = { 0.13 0.4 0.35 }
-	created = 965.1.1 #Appears in writings prior to 1100. Not related to the modern dialect
-	parents = { dane }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_north_germanic
-	language = language_norse
-	martial_custom = martial_custom_male_only	
-	traditions = {
-		tradition_things
-		tradition_runestones
-		tradition_seafaring
-	}
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_danish
-	
-	coa_gfx = { danish_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		47 = faelid
-		30 = borreby
-		14 = tavastid
-		10 = strandid
-		5 = aisto_nordid
-		5 = north_atlantid
-		5 = paleo_atlantid
-		5 = subnordid
-		5 = troender
-		5 = west_baltid
-		4 = brunn
-		3 = anglo_saxon
-		2 = west_alpinid
-		1 = proto_nordid
 	}
 }

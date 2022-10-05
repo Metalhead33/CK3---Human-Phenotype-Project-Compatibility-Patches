@@ -89,21 +89,20 @@ evenk = {
 		3 = andronovo_turanid
 	}
 }
-yeniseian = {
-		
-	color = { 0.84 0.91 0.93 }
+nivkh = {
+
+	color = { 0.51 0.59 0.61 }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_siberian
-	language = language_yeniseian
+	language = language_nivkh
 	martial_custom = martial_custom_male_only
 	traditions = {
 		#tradition_RICE_siberian_survivalists
-		tradition_storytellers
-		tradition_forest_folk
+		tradition_welcoming
 	}
 	
-	name_list = name_list_yeniseian
+	name_list = name_list_nivkh
 	
 	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -119,20 +118,21 @@ yeniseian = {
 		3 = andronovo_turanid
 	}
 }
-nivkh = {
-
-	color = { 0.51 0.59 0.61 }
+yeniseian = {
+		
+	color = { 0.84 0.91 0.93 }
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_siberian
-	language = language_nivkh
+	language = language_yeniseian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		#tradition_RICE_siberian_survivalists
-		tradition_welcoming
+		tradition_storytellers
+		tradition_forest_folk
 	}
 	
-	name_list = name_list_nivkh
+	name_list = name_list_yeniseian
 	
 	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }

@@ -1,17 +1,17 @@
 ﻿
-vandalic = {
-	color = { 0.7 0.65 0.6 }
+ostrogothic = {
+	color = { 0.2 0.4 0.5 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_east_germanic
-	language = language_vandalic
+	language = language_crimeangothic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_horse_breeder
-		tradition_hit_and_run
-		tradition_seafaring
-		tradition_practiced_pirates
+		tradition_hereditary_hierarchy
 		tradition_warrior_culture
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_legalistic
 	}
 	
 	name_list = name_list_german
@@ -51,19 +51,19 @@ vandalic = {
 		1 = alfoeld
 	}
 }
-ostrogothic = {
-	color = { 0.2 0.4 0.5 }
+vandalic = {
+	color = { 0.7 0.65 0.6 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_east_germanic
-	language = language_crimeangothic
+	language = language_vandalic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
+		tradition_horse_breeder
+		tradition_hit_and_run
+		tradition_seafaring
+		tradition_practiced_pirates
 		tradition_warrior_culture
-		tradition_stand_and_fight
-		tradition_ruling_caste
-		tradition_legalistic
 	}
 	
 	name_list = name_list_german

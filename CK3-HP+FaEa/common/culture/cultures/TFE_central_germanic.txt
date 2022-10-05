@@ -1,0 +1,246 @@
+﻿
+old_suebi = {
+	color = { 0.35 0.35 0.35 }
+	
+	ethos = ethos_spiritual # Juli: Some of the first groops to adopt chritianity and also prone to worship stuff
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_migrations # Juli: Biggest Migrators Out There
+		tradition_hunters # Juli: Noted for being hunters as oposed to more agriciultural
+		tradition_sacred_groves # Juli: Murdered people in their woods!
+		tradition_mountain_homes # Juli: They come very hilly places :0
+	}
+	
+	name_list = name_list_old_suebi
+
+	coa_gfx = { norse_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx western_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx } 
+	unit_gfx = { norse_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = subnordid
+		80 = norid
+		72 = dinarid
+		67 = north_atlantid
+		47 = halstatt
+		39 = west_alpinid
+		22 = eurafricanid
+		22 = faelid
+		14 = gracilemediterranid
+		14 = borreby
+		10 = atlanto_mediterranean
+		5 = gorid
+		5 = brunn
+		5 = litorid
+		5 = pre_slavic
+		4 = keltic_nordid
+		4 = carpathid
+		2 = neo_danubian
+		2 = proto_nordid
+		2 = paleo_atlantid
+		2 = berid
+		1 = paleo_sardinian
+		1 = anglo_saxon
+	}
+}
+thuringian = {
+	color = { 0.48 0.48 0.48 }
+	ethos = ethos_communal # Juli: United People
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders # Juli: Thuringians defended themselves a lot uwu
+		tradition_tribe_unity # Juli: Thuringians where united
+		tradition_pastoralists # Juli: Cattle Farmers
+	}
+	name_list = name_list_thuringian
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+
+	ethnicities = {
+		100 = west_alpinid
+		100 = subnordid
+		46 = faelid
+		33 = borreby
+		33 = norid
+		5 = west_baltid
+		5 = troender
+		5 = tavastid
+		5 = proto_nordid
+		5 = pre_slavic
+		5 = pontid
+		5 = north_pontid
+		5 = north_atlantid
+		5 = neo_danubian
+		5 = halstatt
+		5 = gorid
+		5 = dinarid
+		5 = brunn
+		5 = anglo_saxon
+		3 = carpathid
+		3 = aisto_nordid
+	}
+}
+langobard = {
+	color = { 0.2 0.2 0.2 }
+	
+	ethos = ethos_bellicose # Juli:  Battlehardened peeps
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = { # Vanilla + Migrators
+		tradition_stand_and_fight
+		tradition_martial_admiration
+		tradition_migrations
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_lombard
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = dinarid
+		92 = west_alpinid
+		79 = norid
+		58 = subnordid
+		51 = carpathid
+		44 = atlanto_mediterranean
+		40 = pre_slavic
+		28 = halstatt
+		21 = litorid
+		21 = north_atlantid
+		19 = eurafricanid
+		17 = gorid
+		16 = neo_danubian
+		15 = faelid
+		7 = gracilemediterranid
+		6 = borreby
+		5 = brunn
+		5 = proto_nordid
+		5 = north_pontid
+		5 = pontid
+		4 = anglo_saxon
+		3 = berid
+		3 = tavastid
+		1 = keltic_nordid
+		1 = troender
+		1 = alfoeld
+	}
+}
+marcomannic = {
+	color = { 0.4 0.4 0.4 }
+	
+	ethos = ethos_communal # Juli: By the 4th century, alltho a very bellicose culture, they had become more chill
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_battlefield_looters # Juli: Often ravaging roman stuff!
+		tradition_forest_fighters # Juli: Forests of Bohemia
+		tradition_hunters # Juli: As the suebi, noted for hunting
+		tradition_sacred_groves # Juli: Murdered people in their woods!
+		tradition_tribe_unity # Juli: Marcomannis are a united tribe
+	}
+	
+	name_list = name_list_old_suebi
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx northern_clothing_gfx fp1_norse_clothing_gfx } 
+	unit_gfx = { norse_unit_gfx northern_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = subnordid
+		78 = west_alpinid
+		74 = norid
+		66 = dinarid
+		59 = north_atlantid
+		55 = halstatt
+		21 = faelid
+		17 = gracilemediterranid
+		13 = eurafricanid
+		13 = borreby
+		9 = pre_slavic
+		5 = carpathid
+		5 = brunn
+		5 = gorid
+		5 = proto_nordid
+		5 = litorid
+		4 = atlanto_mediterranean
+		4 = neo_danubian
+		3 = keltic_nordid
+		3 = anglo_saxon
+		2 = north_pontid
+		2 = pontid
+		2 = berid
+		2 = tavastid
+		1 = paleo_atlantid
+	}
+}
+alamannic = {
+	color = { 0.68 0.68 0.68 }
+	
+	ethos = ethos_bellicose # Juli: 4th century fighting like beasts agaisnt everyone
+	heritage = heritage_central_germanic
+	language = language_irminonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_battlefield_looters # Juli: Often ravaging roman stuff!
+		tradition_forest_fighters # Juli: Forests of Bohemia
+		tradition_tribe_unity # Juli: Literally a confederation of tribes
+		tradition_warrior_culture # Juli: 4th century fighting like beasts agaisnt everyone
+	}
+	
+	name_list = name_list_alamannic
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { norse_building_gfx western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx northern_clothing_gfx fp1_norse_clothing_gfx } 
+	unit_gfx = { norse_unit_gfx northern_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = subnordid
+		78 = west_alpinid
+		74 = norid
+		66 = dinarid
+		59 = north_atlantid
+		55 = halstatt
+		21 = faelid
+		17 = gracilemediterranid
+		13 = eurafricanid
+		13 = borreby
+		9 = pre_slavic
+		5 = carpathid
+		5 = brunn
+		5 = gorid
+		5 = proto_nordid
+		5 = litorid
+		4 = atlanto_mediterranean
+		4 = neo_danubian
+		3 = keltic_nordid
+		3 = anglo_saxon
+		2 = north_pontid
+		2 = pontid
+		2 = berid
+		2 = tavastid
+		1 = paleo_atlantid
+	}
+}

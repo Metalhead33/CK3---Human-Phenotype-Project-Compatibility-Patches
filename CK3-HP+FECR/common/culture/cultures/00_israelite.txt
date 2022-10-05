@@ -1,4 +1,54 @@
 ﻿
+mizrahi = {
+
+	ethos = ethos_communal
+	heritage = heritage_israelite
+	language = language_aramaic
+	martial_custom = martial_custom_male_only	
+	traditions = {
+		tradition_diasporic
+		tradition_philosopher_culture
+		tradition_maritime_mercantilism
+		tradition_xenophilic
+		tradition_mobile_guards
+	}
+	
+	color = { 0.6 0.2 0.7 }
+
+	name_list = name_list_radhanite
+
+	coa_gfx = { israelite_group_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = arabid
+		77 = assyroid
+		73 = asian_alpine
+		50 = armenoid
+		47 = iranid
+		27 = proto_iranid
+		23 = anatolid
+		17 = pontid
+		13 = litorid
+		10 = transmediterranid
+		6 = gracilemediterranid
+		6 = eurafricanid
+		4 = berberid
+		3 = indo_iranid
+		3 = yemenid
+		2 = egyptid
+		2 = berid
+		1 = indo_brachid
+		1 = libyid
+		1 = east_pamirid
+		1 = mtebid
+		1 = canarid
+		1 = proto_nordid
+	}
+}
 kaifeng_jew = {
 
 	parents = { radhanite han }
@@ -110,11 +160,13 @@ sephardi = {
 		1 = halstatt
 	}
 }
-mizrahi = {
+radhanite = {
 
-	ethos = ethos_communal
+	created = 476.1.1
+	parents = { mizrahi }
+	ethos = ethos_egalitarian
 	heritage = heritage_israelite
-	language = language_aramaic
+	language = language_arabic
 	martial_custom = martial_custom_male_only	
 	traditions = {
 		tradition_diasporic
@@ -124,13 +176,13 @@ mizrahi = {
 		tradition_mobile_guards
 	}
 	
-	color = { 0.6 0.2 0.7 }
+	color = { 0.5 0.2 0.7 }
 
 	name_list = name_list_radhanite
 
 	coa_gfx = { israelite_group_coa_gfx } 
 	building_gfx = { mena_building_gfx } 
-	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx } #Radhanites travelled all over the world; trade networks spanning from Iceland to China
 	unit_gfx = { mena_unit_gfx } 	
 
 
@@ -316,57 +368,5 @@ ashkenazi = {
 		1 = canarid
 		1 = tavastid
 		1 = anglo_saxon
-	}
-}
-radhanite = {
-
-	created = 476.1.1
-	parents = { mizrahi }
-	ethos = ethos_egalitarian
-	heritage = heritage_israelite
-	language = language_arabic
-	martial_custom = martial_custom_male_only	
-	traditions = {
-		tradition_diasporic
-		tradition_philosopher_culture
-		tradition_maritime_mercantilism
-		tradition_xenophilic
-		tradition_mobile_guards
-	}
-	
-	color = { 0.5 0.2 0.7 }
-
-	name_list = name_list_radhanite
-
-	coa_gfx = { israelite_group_coa_gfx } 
-	building_gfx = { mena_building_gfx } 
-	clothing_gfx = { mongol_clothing_gfx } #Radhanites travelled all over the world; trade networks spanning from Iceland to China
-	unit_gfx = { mena_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = arabid
-		77 = assyroid
-		73 = asian_alpine
-		50 = armenoid
-		47 = iranid
-		27 = proto_iranid
-		23 = anatolid
-		17 = pontid
-		13 = litorid
-		10 = transmediterranid
-		6 = gracilemediterranid
-		6 = eurafricanid
-		4 = berberid
-		3 = indo_iranid
-		3 = yemenid
-		2 = egyptid
-		2 = berid
-		1 = indo_brachid
-		1 = libyid
-		1 = east_pamirid
-		1 = mtebid
-		1 = canarid
-		1 = proto_nordid
 	}
 }

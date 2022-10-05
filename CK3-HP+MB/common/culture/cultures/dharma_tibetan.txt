@@ -1,90 +1,39 @@
 ﻿
-meitei = {
-	color = hsv{ 0.59 0.55 0.8 }
+lhomon = {
+	color = hsv{ 0.62 0.9 0.7 }
 	
-	ethos = ethos_stoic
-	heritage = heritage_tibetan
-	language = language_tibetan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_tribe_unity	
-		tradition_hill_dwellers # They are agraian but Agarian only affects farmland not the Hills of Manipur.
-		tradition_sacred_groves
-	}
-	
-	name_list = name_list_meitei
-
-	coa_gfx = { tibetan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = tibetid
-		98 = kham
-		41 = shanid
-		25 = kachinid
-		18 = changkiangid
-		18 = mountain_indid
-		12 = palaungid
-		8 = huanghoid
-		5 = east_brachid
-		5 = east_palaungid
-		5 = gobid
-		3 = plains_pamirid
-		3 = east_pamirid
-		2 = asian_alpine
-		2 = gracile_indid
-		2 = chukiangid
-		1 = indo_nordid
-		1 = indo_iranid
-		1 = indo_brachid
-		1 = manchukorean
-		1 = north_indid
-		1 = central_pamirid
-		1 = central_brachid
-		1 = armenoid
-	}
-}
-zhangzhung = {
-	color = hsv{ 0.55 0.7 0.7 }
-	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_tibetan
 	language = language_tibetan
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_sacred_mountains
+		tradition_medicinal_plants
+		tradition_mystical_ancestors
 	}
 	
-	name_list = name_list_zhangzhung
+	name_list = name_list_lhomon
 
-	coa_gfx = { tibetan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
+	coa_gfx = { tibetan_group_coa_gfx } 
+	building_gfx = { indian_building_gfx } 
+	clothing_gfx = { mongol_clothing_gfx } 
+	clothing_gfx = { indian_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 	
 
 
 	ethnicities = {
+		100 = kham
 		100 = tibetid
-		47 = shanid
-		35 = kham
-		15 = palaungid
-		6 = changkiangid
-		5 = east_pamirid
-		4 = gobid
-		3 = central_pamirid
-		3 = east_brachid
-		3 = plains_pamirid
-		3 = kachinid
-		2 = huanghoid
-		2 = mountain_indid
-		1 = indo_nordid
-		1 = aralid
-		1 = gracile_indid
-		1 = asian_alpine
+		57 = kachinid
+		52 = palaungid
+		46 = shanid
+		42 = east_brachid
+		5 = gracile_indid
+		4 = changkiangid
+		4 = east_palaungid
+		2 = central_brachid
+		1 = chukiangid
+		1 = mountain_indid
 	}
 }
 tsangpa = {
@@ -169,38 +118,6 @@ tani = {
 		1 = armenoid
 	}
 }
-kirati = {
-	color = hsv{ 0.58 0.94 0.7 }
-	
-	ethos = ethos_communal
-	heritage = heritage_tibetan
-	language = language_tibetan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_himalayan_settlers
-		tradition_religion_blending
-	}
-
-	name_list = name_list_kirati
-
-	coa_gfx = { tibetan_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-
-
-	ethnicities = {
-		100 = tibetid
-		86 = kham
-		71 = east_brachid
-		71 = gracile_indid
-		13 = mountain_indid
-		13 = palaungid
-		5 = central_brachid
-		5 = kachinid
-		2 = shanid
-	}
-}
 bodpa = {
 	color = hsv{ 0.6 0.8 0.3 }
 	
@@ -247,6 +164,78 @@ bodpa = {
 		1 = central_pamirid
 		1 = central_brachid
 		1 = armenoid
+	}
+}
+zhangzhung = {
+	color = hsv{ 0.55 0.7 0.7 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_tibetan
+	language = language_tibetan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_sacred_mountains
+	}
+	
+	name_list = name_list_zhangzhung
+
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = tibetid
+		47 = shanid
+		35 = kham
+		15 = palaungid
+		6 = changkiangid
+		5 = east_pamirid
+		4 = gobid
+		3 = central_pamirid
+		3 = east_brachid
+		3 = plains_pamirid
+		3 = kachinid
+		2 = huanghoid
+		2 = mountain_indid
+		1 = indo_nordid
+		1 = aralid
+		1 = gracile_indid
+		1 = asian_alpine
+	}
+}
+kirati = {
+	color = hsv{ 0.58 0.94 0.7 }
+	
+	ethos = ethos_communal
+	heritage = heritage_tibetan
+	language = language_tibetan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_religion_blending
+	}
+
+	name_list = name_list_kirati
+
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = tibetid
+		86 = kham
+		71 = east_brachid
+		71 = gracile_indid
+		13 = mountain_indid
+		13 = palaungid
+		5 = central_brachid
+		5 = kachinid
+		2 = shanid
 	}
 }
 kachari = {
@@ -332,6 +321,54 @@ sumpa = {
 		1 = palaungid
 	}
 }
+meitei = {
+	color = hsv{ 0.59 0.55 0.8 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_tibetan
+	language = language_tibetan
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity	
+		tradition_hill_dwellers # They are agraian but Agarian only affects farmland not the Hills of Manipur.
+		tradition_sacred_groves
+	}
+	
+	name_list = name_list_meitei
+
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = tibetid
+		98 = kham
+		41 = shanid
+		25 = kachinid
+		18 = changkiangid
+		18 = mountain_indid
+		12 = palaungid
+		8 = huanghoid
+		5 = east_brachid
+		5 = east_palaungid
+		5 = gobid
+		3 = plains_pamirid
+		3 = east_pamirid
+		2 = asian_alpine
+		2 = gracile_indid
+		2 = chukiangid
+		1 = indo_nordid
+		1 = indo_iranid
+		1 = indo_brachid
+		1 = manchukorean
+		1 = north_indid
+		1 = central_pamirid
+		1 = central_brachid
+		1 = armenoid
+	}
+}
 tripuri = {
 	color = { 54 136 117 }	
 	ethos = ethos_communal
@@ -378,42 +415,5 @@ tripuri = {
 		1 = central_pamirid
 		1 = central_brachid
 		1 = armenoid
-	}
-}
-lhomon = {
-	color = hsv{ 0.62 0.9 0.7 }
-	
-	ethos = ethos_communal
-	heritage = heritage_tibetan
-	language = language_tibetan
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_himalayan_settlers
-		tradition_medicinal_plants
-		tradition_mystical_ancestors
-	}
-	
-	name_list = name_list_lhomon
-
-	coa_gfx = { tibetan_group_coa_gfx } 
-	building_gfx = { indian_building_gfx } 
-	clothing_gfx = { mongol_clothing_gfx } 
-	clothing_gfx = { indian_clothing_gfx } 
-	unit_gfx = { mongol_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = kham
-		100 = tibetid
-		57 = kachinid
-		52 = palaungid
-		46 = shanid
-		42 = east_brachid
-		5 = gracile_indid
-		4 = changkiangid
-		4 = east_palaungid
-		2 = central_brachid
-		1 = chukiangid
-		1 = mountain_indid
 	}
 }

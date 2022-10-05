@@ -1,49 +1,4 @@
 ﻿
-dalmatian_ce = {
-	color = { 0.6 0.7 0.77 }
-
-	parents = { roman }
-
-	created = 480.1.1
-	
-	ethos = ethos_stoic
-	heritage = heritage_latin
-	language = language_dalmatian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_republican_legacy
-		tradition_formation_fighting
-		tradition_seafaring
-		tradition_maritime_mercantilism
-	}
-	
-	name_list = name_list_dalmatian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { italian_clothing_gfx }
-	unit_gfx = { italian_unit_gfx western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = eurafricanid
-		100 = litorid
-		69 = dinarid
-		48 = norid
-		5 = atlanto_mediterranean
-		5 = berid
-		5 = carpathid
-		5 = gorid
-		5 = gracilemediterranid
-		5 = neo_danubian
-		5 = north_pontid
-		5 = pontid
-		5 = subnordid
-		5 = west_alpinid
-		3 = pre_slavic
-		2 = halstatt
-	}
-}
 tuscan_ce = {
 	color = { 0.91 0.74 0.2 }
 
@@ -87,6 +42,51 @@ tuscan_ce = {
 		5 = pontid
 		3 = paleo_sardinian
 		3 = subnordid
+	}
+}
+dalmatian_ce = {
+	color = { 0.6 0.7 0.77 }
+
+	parents = { roman }
+
+	created = 480.1.1
+	
+	ethos = ethos_stoic
+	heritage = heritage_latin
+	language = language_dalmatian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+		tradition_formation_fighting
+		tradition_seafaring
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_dalmatian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { italian_clothing_gfx }
+	unit_gfx = { italian_unit_gfx western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = eurafricanid
+		100 = litorid
+		69 = dinarid
+		48 = norid
+		5 = atlanto_mediterranean
+		5 = berid
+		5 = carpathid
+		5 = gorid
+		5 = gracilemediterranid
+		5 = neo_danubian
+		5 = north_pontid
+		5 = pontid
+		5 = subnordid
+		5 = west_alpinid
+		3 = pre_slavic
+		2 = halstatt
 	}
 }
 venetian_ce = {

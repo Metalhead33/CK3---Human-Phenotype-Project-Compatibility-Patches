@@ -1,0 +1,114 @@
+﻿
+thracian = {
+	color = { 108 20 50 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_daco_thracian
+	language = language_thracian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_adaptive_skirmishing # Cybr: Well known for skirmishing
+		tradition_hit_and_run # Cybr: Known for being excellent cavalrymen
+		tradition_swords_for_hire # Cybr: Sought after mercenaries for Greeks and Romans, many served in Roman armies
+		tradition_pastoralists # Cybr: It's there in the region I guess
+	}
+
+	dlc_tradition = { # Cybr: Persian and Greek influences
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_thracio_roman # Should have their own namelist type in the future
+	
+	coa_gfx = { latin_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx  }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = pontid
+		93 = gorid
+		78 = dinarid
+		47 = neo_danubian
+		43 = carpathid
+		36 = litorid
+		35 = gracilemediterranid
+		27 = anatolid
+		16 = pre_slavic
+		12 = eurafricanid
+		9 = asian_alpine
+		9 = armenoid
+		9 = north_pontid
+		8 = borreby
+		7 = proto_nordid
+		5 = scythian
+		5 = alfoeld
+		5 = norid
+		4 = proto_iranid
+		3 = andronovo_turanid
+		2 = subnordid
+		2 = troender
+		2 = halstatt
+		2 = berid
+		2 = atlanto_mediterranean
+		1 = west_alpinid
+		1 = west_baltid
+		1 = paleo_sardinian
+		1 = ladogan
+	}
+}
+dacian = {
+	color = { 143 40 60 }
+
+	ethos = ethos_stoic
+	heritage = heritage_daco_thracian
+	language = language_dacian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_formation_fighting
+		tradition_ancient_miners # Cybr: Apparently Dacia's mines were in demand
+		tradition_castle_keepers # Cybr: Fortified settlements surrounded by villages
+		tradition_metal_craftsmanship # Cybr: High degree of sophistication with goldsmithing and metalsmithing
+	}
+	
+	name_list = name_list_dacio_roman # Should have their own namelist type in the future
+	
+	coa_gfx = { latin_group_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx  }
+	unit_gfx = { late_roman_unit_gfx }
+
+
+	ethnicities = {
+		100 = gorid
+		98 = neo_danubian
+		96 = carpathid
+		80 = dinarid
+		60 = north_pontid
+		58 = pontid
+		37 = norid
+		15 = alfoeld
+		8 = andronovo_turanid
+		8 = gracilemediterranid
+		7 = litorid
+		6 = armenoid
+		6 = scythian
+		6 = proto_nordid
+		6 = pre_slavic
+		5 = west_baltid
+		5 = ladogan
+		4 = subnordid
+		4 = anatolid
+		3 = borreby
+		3 = asian_alpine
+		3 = west_alpinid
+		2 = faelid
+		2 = eurafricanid
+		2 = tavastid
+		1 = halstatt
+		1 = plains_pamirid
+		1 = troender
+	}
+}

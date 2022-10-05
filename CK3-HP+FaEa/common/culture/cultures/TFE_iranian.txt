@@ -1,0 +1,817 @@
+﻿
+turco_hephthalite = {
+	color = { 0.20 0.08 0.25  }
+
+	parents = { hephthalite turkish }
+
+	created = 665.1.1 # Approximate date of when Barha Tegin's rule begins
+	
+	ethos = ethos_stoic
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes # Cybr: May have originated from the Pamir region
+		tradition_sacred_mountains # Cybr: Zun was a solar mountain god
+		tradition_city_keepers # Cybr: Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+		tradition_fervent_temple_builders # Cybr: Lots of Zun/Buddhist/Hindu religious sites
+		tradition_quarrelsome # Cybr: Quarreling I guess
+	}
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_hephthalite
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+
+	ethnicities = {
+		100 = east_pamirid
+		40 = indo_iranid
+		36 = central_pamirid
+		36 = indo_nordid
+		25 = asian_alpine
+		9 = scythian
+		7 = andronovo_turanid
+		7 = armenoid
+		7 = plains_pamirid
+		7 = north_indid
+		7 = iranid
+		7 = mountain_indid
+		6 = tibetid
+		6 = aralid
+		4 = indo_brachid
+		4 = berid
+		2 = kham
+		2 = east_brachid
+		2 = proto_nordid
+	}
+}
+median = {
+	color = { 0.8 0.9 0.4 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_philosopher_culture
+		tradition_gardening
+		tradition_mountain_homes # Cybr: Switched from Dryland Dwellers due to mountainous region of Media
+		tradition_futuwaa
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = iranid
+		38 = assyroid
+		28 = proto_iranid
+		23 = indo_iranid
+		19 = pontid
+		12 = arabid
+		10 = armenoid
+		9 = asian_alpine
+		3 = eurafricanid
+		2 = yemenid
+		2 = anatolid
+		2 = north_indid
+		2 = litorid
+		2 = east_pamirid
+		1 = indo_brachid
+		1 = gracilemediterranid
+		1 = mountain_indid
+		1 = mtebid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = berid
+		1 = proto_nordid
+		1 = transcaspian
+		1 = transmediterranid
+		1 = andronovo_turanid
+	}
+}
+shaka = {
+	color = { 0.4 0.1 0.75  }
+	
+	parents = { saka rajput }
+	created = 150.1.1
+	history_loc_override = iranian_shaka_history_loc
+
+	ethos = ethos_bellicose
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_rajasthani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords
+		tradition_warrior_culture
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_shaka
+	
+	coa_gfx = { iranian_group_coa_gfx indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+
+	ethnicities = {
+		100 = east_pamirid
+		72 = central_pamirid
+		67 = indo_nordid
+		34 = scythian
+		18 = andronovo_turanid
+		14 = tibetid
+		12 = asian_alpine
+		11 = alfoeld
+		8 = transcaspian
+		7 = uralid
+		5 = kham
+		5 = plains_pamirid
+		5 = mountain_indid
+		5 = aralid
+		5 = indo_brachid
+		5 = changkiangid
+		4 = ladogan
+		4 = armenoid
+		4 = east_brachid
+		4 = volgid
+		3 = north_indid
+		3 = proto_nordid
+		3 = scando_lappid
+		2 = indo_iranid
+		2 = iranid
+		2 = huanghoid
+		2 = gobid
+		2 = shanid
+		1 = berid
+		1 = fenno_nordid
+	}
+}
+hephthalite = {
+	color = { 0.35 0.03 0.19 }
+
+	parents = { saka tiele }
+
+	created = 350.1.1 # First mentioned in 361 CE, likely part of wave of major nomadic migrations in Central Asia c. 350 CE
+	history_loc_override = iranian_hun_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Cybr: Warriors from the steppes
+		tradition_mountain_homes # Cybr: May have originated from the Pamir region
+		tradition_sacred_mountains # Cybr: Zun was a solar mountain god
+		tradition_city_keepers # Cybr: Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+		tradition_nomadic_migrations # Cybr: nomad empire
+	}
+
+	dlc_tradition = { # Did a lot of culture blending later on
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_hephthalite
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_pamirid
+		40 = indo_iranid
+		36 = central_pamirid
+		36 = indo_nordid
+		25 = asian_alpine
+		9 = scythian
+		7 = andronovo_turanid
+		7 = armenoid
+		7 = plains_pamirid
+		7 = north_indid
+		7 = iranid
+		7 = mountain_indid
+		6 = tibetid
+		6 = aralid
+		4 = indo_brachid
+		4 = berid
+		2 = kham
+		2 = east_brachid
+		2 = proto_nordid
+	}
+}
+xionite = {
+	color = { 147 124 93 }
+
+	parents = { saka tiele }
+
+	created = 350.1.1 # First mentioned around the 350s CE, likely part of wave of major nomadic migrations in Central Asia c. 350 CE
+	history_loc_override = iranian_hun_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE 
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Cybr: Steppe nomads
+		tradition_steppe_tolerance # Cybr: Steppe nomads
+		tradition_city_keepers # Cybr: Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+		tradition_nomadic_migrations # Cybr: nomad empire
+	}
+	
+	dlc_tradition = { # Did a lot of culture blending later on
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_hephthalite
+
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = aralid
+		74 = plains_pamirid
+		61 = transcaspian
+		29 = andronovo_turanid
+		18 = central_pamirid
+		7 = gobid
+		5 = asian_alpine
+		4 = armenoid
+		3 = iranid
+		2 = berid
+		2 = east_pamirid
+		2 = indo_iranid
+		2 = proto_iranid
+		1 = mountain_indid
+	}
+}
+yuezhi = {
+
+	color = { 120 88 150 }
+
+	parents = { tocharian bactrian }
+
+	created = 2.1.1
+	history_loc_override = yuezhi_history_loc
+	
+	ethos = ethos_egalitarian # Many diverse influences
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_horse_lords 			# Cybr: Warriors from the steppes
+		tradition_city_keepers 			# Cybr: To represent Bactrian cities
+		tradition_horse_breeder			# Cybr: Noted for their horses in Chinese records
+		tradition_steppe_tolerance		# Cybr: Sponsored many different religions
+		#tradition_nomadic_migrations	# Kushans are kinda settled down by now
+	}
+
+	dlc_tradition = { # Did a lot of culture blending later on
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_tocharian # Need custom namelist in the future
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = aralid
+		74 = plains_pamirid
+		61 = transcaspian
+		29 = andronovo_turanid
+		18 = central_pamirid
+		7 = gobid
+		5 = asian_alpine
+		4 = armenoid
+		3 = iranid
+		2 = berid
+		2 = east_pamirid
+		2 = indo_iranid
+		2 = proto_iranid
+		1 = mountain_indid
+	}
+}
+wusun = {
+	color = { 0.19 0.08 0.87 }
+	
+	ethos = ethos_stoic # By this time they're basically on the run
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Cybr: Steppe nomads
+		tradition_steppe_tolerance # Cybr: Steppe nomads
+		tradition_pastoralists # Cybr: Pastoral based economy
+		tradition_hereditary_hierarchy # Cybr: Highly stratified society
+		tradition_nomadic_migrations # Cybr: nomads fleeing stuff
+	}
+	
+	name_list = name_list_wusun
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+
+	ethnicities = {
+		100 = aralid
+		74 = plains_pamirid
+		61 = transcaspian
+		29 = andronovo_turanid
+		18 = central_pamirid
+		7 = gobid
+		5 = asian_alpine
+		4 = armenoid
+		3 = iranid
+		2 = berid
+		2 = east_pamirid
+		2 = indo_iranid
+		2 = proto_iranid
+		1 = mountain_indid
+	}
+}
+saka = {
+	color = { 0.4 0.2 0.75  }
+	
+	ethos = ethos_bureaucratic # Cybr: LOTS of documents lying around
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_language_scholars # Cybr: Translators
+		tradition_dryland_dwellers
+		tradition_artisans
+	}
+	
+	name_list = name_list_saka
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+
+
+	ethnicities = {
+		100 = east_pamirid
+		72 = central_pamirid
+		67 = indo_nordid
+		34 = scythian
+		18 = andronovo_turanid
+		14 = tibetid
+		12 = asian_alpine
+		11 = alfoeld
+		8 = transcaspian
+		7 = uralid
+		5 = kham
+		5 = plains_pamirid
+		5 = mountain_indid
+		5 = aralid
+		5 = indo_brachid
+		5 = changkiangid
+		4 = ladogan
+		4 = armenoid
+		4 = east_brachid
+		4 = volgid
+		3 = north_indid
+		3 = proto_nordid
+		3 = scando_lappid
+		2 = indo_iranid
+		2 = iranid
+		2 = huanghoid
+		2 = gobid
+		2 = shanid
+		1 = berid
+		1 = fenno_nordid
+	}
+}
+parthian = {
+	color = { 0.75 0.45 0.95  }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_dryland_dwellers
+		tradition_horse_lords # Cybr: Famous for their cavalry
+		tradition_caravaneers # Cybr: Increase in Silk Road trade
+		tradition_mystical_ancestors # Cybr: Something to represent the 7 Noble Parthian clans, maybe a custom tradition in the future
+	}
+
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = proto_iranid
+		98 = iranid
+		96 = asian_alpine
+		90 = assyroid
+		29 = eurafricanid
+		20 = arabid
+		16 = litorid
+		14 = anatolid
+		10 = armenoid
+		5 = indo_iranid
+		5 = mtebid
+		5 = pontid
+		4 = east_pamirid
+		3 = berid
+		1 = proto_nordid
+	}
+}
+bactrian = {
+	color = { 248 138 71 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers # Cybr: Silk Road
+		tradition_mountain_homes # Cybr: Mostly in Afghanistan and Tajikistan
+		tradition_sogdian_naf # Cybr: Silk Road cities
+	}
+
+	dlc_tradition = { # Many cultures came through here
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_bactrian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_pamirid
+		72 = central_pamirid
+		67 = indo_nordid
+		34 = scythian
+		18 = andronovo_turanid
+		14 = tibetid
+		12 = asian_alpine
+		11 = alfoeld
+		8 = transcaspian
+		7 = uralid
+		5 = kham
+		5 = plains_pamirid
+		5 = mountain_indid
+		5 = aralid
+		5 = indo_brachid
+		5 = changkiangid
+		4 = ladogan
+		4 = armenoid
+		4 = east_brachid
+		4 = volgid
+		3 = north_indid
+		3 = proto_nordid
+		3 = scando_lappid
+		2 = indo_iranid
+		2 = iranid
+		2 = huanghoid
+		2 = gobid
+		2 = shanid
+		1 = berid
+		1 = fenno_nordid
+	}
+}
+pactyan = {
+	color = { 0.65 0.95 0.55 }
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		# Cybr: Since they are basically Proto-Afghans I just copypasta'd the Afghan traditions
+		tradition_loyal_soldiers
+		tradition_esteemed_hospitality
+		tradition_mountain_homes
+		tradition_futuwaa
+	}
+	
+	name_list = name_list_afghan # Proto-Afghans
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = iranid
+		38 = assyroid
+		28 = proto_iranid
+		23 = indo_iranid
+		19 = pontid
+		12 = arabid
+		10 = armenoid
+		9 = asian_alpine
+		3 = eurafricanid
+		2 = yemenid
+		2 = anatolid
+		2 = north_indid
+		2 = litorid
+		2 = east_pamirid
+		1 = indo_brachid
+		1 = gracilemediterranid
+		1 = mountain_indid
+		1 = mtebid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = berid
+		1 = proto_nordid
+		1 = transcaspian
+		1 = transmediterranid
+		1 = andronovo_turanid
+	}
+}
+cadusian = {
+	color = { 0.8 0.6 0.0 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome # Cybr: Xenophon said they were very warlike, and they often rebelled against Achaemenid central authority
+		tradition_mountain_homes # Cybr: Lived in mountainous region
+		tradition_mountaineers # Cybr: Mountain warriors
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = iranid
+		38 = assyroid
+		28 = proto_iranid
+		23 = indo_iranid
+		19 = pontid
+		12 = arabid
+		10 = armenoid
+		9 = asian_alpine
+		3 = eurafricanid
+		2 = yemenid
+		2 = anatolid
+		2 = north_indid
+		2 = litorid
+		2 = east_pamirid
+		1 = indo_brachid
+		1 = gracilemediterranid
+		1 = mountain_indid
+		1 = mtebid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = berid
+		1 = proto_nordid
+		1 = transcaspian
+		1 = transmediterranid
+		1 = andronovo_turanid
+	}
+}
+aorsi = {
+	color = { 233 145 77 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_lords # Cybr: Steppe nomads
+		tradition_steppe_tolerance # Cybr: Steppe nomads
+		tradition_caravaneers # Cybr: Controlled northern Silk Road
+		tradition_metal_craftsmanship # Cybr: Famous for gold ornaments
+		tradition_nomadic_migrations # Cybr: nomads
+	}
+	
+	name_list = name_list_alan # Sarmatian group
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+
+	ethnicities = {
+		100 = iranid
+		38 = assyroid
+		28 = proto_iranid
+		23 = indo_iranid
+		19 = pontid
+		12 = arabid
+		10 = armenoid
+		9 = asian_alpine
+		3 = eurafricanid
+		2 = yemenid
+		2 = anatolid
+		2 = north_indid
+		2 = litorid
+		2 = east_pamirid
+		1 = indo_brachid
+		1 = gracilemediterranid
+		1 = mountain_indid
+		1 = mtebid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = berid
+		1 = proto_nordid
+		1 = transcaspian
+		1 = transmediterranid
+		1 = andronovo_turanid
+	}
+}
+elymaean = {
+	color = { 144 66 44 }
+
+	parents = { elamite persian }
+
+	created = 5.1.1
+	history_loc_override = elymaean_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_iranian
+	language = language_elamite # It is possible it may have survived as late as the medieval Islamic period as "Khuzi" but this is extremely speculative
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes # Cybr: Lived in the mountainous regions of SE Iran
+		tradition_dryland_dwellers # Cybr: Khuzestan, a part of the Elamite territory, was desert
+		tradition_adaptive_skirmishing # Cybr: Famous for their skills in archery and camel archery
+		#tradition_hit_and_run # Cybr: Famous for their skills in archery and camel archery
+		tradition_religion_blending # Cybr: Mixed together older Elamite (?) gods with Mesopotamian, Iranian, and Hellenic ones
+		tradition_fervent_temple_builders # Cybr: Elamite ziggurats and temples
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = iranid
+		72 = assyroid
+		26 = pontid
+		18 = arabid
+		13 = proto_iranid
+		5 = armenoid
+		5 = asian_alpine
+		5 = indo_iranid
+		5 = yemenid
+		4 = eurafricanid
+		3 = litorid
+		1 = indo_brachid
+		1 = transmediterranid
+	}
+}
+xiao_yuezhi = {
+
+	color = { 77 66 88 }
+
+	parents = { yuezhi qiang }
+
+	created = 5.1.1
+	history_loc_override = xiao_yuezhi_history_loc
+	
+	ethos = ethos_stoic # Survived in the mountains of Qinghai after fleeing the Xiongnu
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_qiangic # Adopted Qiang customs
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_himalayan_settlers	# Cybr: In the mountains of Qinghai
+		tradition_horse_lords 			# Cybr: Warriors from the steppes
+		tradition_swords_for_hire		# Cybr: Huangzhong Army, some from Xiao Yuezhi tribes were called to serve in Han Dynasty armies
+	}
+
+	dlc_tradition = { # Assimilated into Qiang, Xiongnu, Han cultures
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_qiang # name_list_tocharian # Assimilating into Qiang tribes
+	
+	coa_gfx = { tibetan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+
+	ethnicities = {
+		100 = aralid
+		74 = plains_pamirid
+		61 = transcaspian
+		29 = andronovo_turanid
+		18 = central_pamirid
+		7 = gobid
+		5 = asian_alpine
+		4 = armenoid
+		3 = iranid
+		2 = berid
+		2 = east_pamirid
+		2 = indo_iranid
+		2 = proto_iranid
+		1 = mountain_indid
+	}
+}
+sogdian = {
+	color = { 0.43 0.32 0.32 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_tocharian # Changed to "Serindian" for TFE
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_religion_blending
+		tradition_sogdian_naf # Cybr: Silk Road cities
+	}
+
+	dlc_tradition = { # Many cultures came through here
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_sogdian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_pamirid
+		40 = indo_iranid
+		36 = central_pamirid
+		36 = indo_nordid
+		25 = asian_alpine
+		9 = scythian
+		7 = andronovo_turanid
+		7 = armenoid
+		7 = plains_pamirid
+		7 = north_indid
+		7 = iranid
+		7 = mountain_indid
+		6 = tibetid
+		6 = aralid
+		4 = indo_brachid
+		4 = berid
+		2 = kham
+		2 = east_brachid
+		2 = proto_nordid
+	}
+}

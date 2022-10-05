@@ -1,0 +1,63 @@
+﻿
+vlach = {
+	color = vlach
+
+	parents = { dacio_roman sclavenian }
+
+	created = 600.1.1
+	
+	ethos = ethos_communal
+	heritage = heritage_vlach
+	language = language_wallachian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_zealous_people
+		tradition_hussar
+		tradition_xenophilic
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_vlach
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = gorid
+		98 = neo_danubian
+		96 = carpathid
+		80 = dinarid
+		60 = north_pontid
+		58 = pontid
+		37 = norid
+		15 = alfoeld
+		8 = andronovo_turanid
+		8 = gracilemediterranid
+		7 = litorid
+		6 = armenoid
+		6 = scythian
+		6 = proto_nordid
+		6 = pre_slavic
+		5 = west_baltid
+		5 = ladogan
+		4 = subnordid
+		4 = anatolid
+		3 = borreby
+		3 = asian_alpine
+		3 = west_alpinid
+		2 = faelid
+		2 = eurafricanid
+		2 = tavastid
+		1 = halstatt
+		1 = plains_pamirid
+		1 = troender
+	}
+}

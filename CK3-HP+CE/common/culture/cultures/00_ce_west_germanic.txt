@@ -1,17 +1,17 @@
 ﻿
-east_anglian = {
-	color = { 0.807 0.345 0.172 }
+west_saxon = {
+	color = { 0.819 0.301 0.239 }
 	created = 500.1.1
 	parents = { old_saxon }
 	
-	ethos = ethos_stoic
+	ethos = ethos_bureaucratic
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
-		tradition_wetlanders
+		tradition_stalwart_defenders
 		tradition_hird
 	}
 	
@@ -93,19 +93,19 @@ mercian = {
 		1 = paleo_sardinian
 	}
 }
-northumbrian = {
-	color = { 0.807 0.172 0.364 }
+east_anglian = {
+	color = { 0.807 0.345 0.172 }
 	created = 500.1.1
 	parents = { old_saxon }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
-		tradition_eye_for_an_eye
+		tradition_wetlanders
 		tradition_hird
 	}
 	
@@ -188,19 +188,19 @@ kentish = {
 		1 = paleo_sardinian
 	}
 }
-west_saxon = {
-	color = { 0.819 0.301 0.239 }
+northumbrian = {
+	color = { 0.807 0.172 0.364 }
 	created = 500.1.1
 	parents = { old_saxon }
 	
-	ethos = ethos_bureaucratic
+	ethos = ethos_bellicose
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
-		tradition_stalwart_defenders
+		tradition_eye_for_an_eye
 		tradition_hird
 	}
 	
