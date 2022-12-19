@@ -1,53 +1,4 @@
 ﻿
-arpitan_ce = {
-	color = { 0.6 0.2 0.3 }
-	
-	parents = { gallo_roman } #Better than nothing.
-
-	created = 700.1.1
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_frankish
-	language = language_occitano_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_chanson_de_geste
-		#tradition_hereditary_hierarchy
-		tradition_chivalry
-		#tradition_parochialism
-		tradition_mountain_homes
-	}
-	
-	name_list = name_list_francoprovencal
-
-	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = subnordid
-		88 = west_alpinid
-		84 = dinarid
-		59 = atlanto_mediterranean
-		30 = norid
-		18 = eurafricanid
-		14 = gracilemediterranid
-		10 = halstatt
-		5 = faelid
-		5 = brunn
-		5 = litorid
-		5 = north_atlantid
-		4 = carpathid
-		4 = borreby
-		4 = paleo_sardinian
-		4 = berid
-		2 = baskid
-		1 = paleo_atlantid
-		1 = pre_slavic
-	}
-}
 gascon = {
 	color = { 0.32 0.12 0.90 }
 	
@@ -143,53 +94,6 @@ lorrainian = {
 		1 = tavastid
 	}
 }
-angevin = {
-	color = { 14 4 128 }
-	
-	parents = { french }
-	
-	created = 950.1.1 #Was the speech of the Angevins. Influenced the creation of Gallo in the 9th and 10th centuries
-	
-	ethos = ethos_courtly
-	heritage = heritage_frankish
-	language = language_french
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_astute_diplomats
-		tradition_legalistic
-		tradition_chivalry
-		tradition_chanson_de_geste
-	}
-	
-	name_list = name_list_french
-	
-	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = gracilemediterranid
-		89 = west_alpinid
-		59 = north_atlantid
-		53 = litorid
-		41 = subnordid
-		23 = atlanto_mediterranean
-		17 = dinarid
-		11 = norid
-		5 = baskid
-		5 = berberid
-		5 = berid
-		5 = eurafricanid
-		5 = paleo_sardinian
-		4 = halstatt
-		4 = anglo_saxon
-		3 = brunn
-		3 = keltic_nordid
-		2 = borreby
-	}
-}
 burgundian_oil = {
 	color = { 172 34 65 }
 	
@@ -239,65 +143,22 @@ burgundian_oil = {
 		1 = pre_slavic
 	}
 }
-provencal = {
-	color = { 149 225 244 }
-
-	parents = { occitan }
+angevin = {
+	color = { 14 4 128 }
 	
-	created = 1000.1.1
+	parents = { french }
 	
-	ethos = ethos_spiritual
-	heritage = heritage_frankish
-	language = language_occitano_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_fervent_temple_builders
-		tradition_music_theory
-		tradition_festivities
-		tradition_fishermen
-	}
+	created = 950.1.1 #Was the speech of the Angevins. Influenced the creation of Gallo in the 9th and 10th centuries
 	
-	name_list = name_list_occitan
-
-	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mediterranean_building_gfx } 
-	clothing_gfx = { western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		77 = litorid
-		61 = west_alpinid
-		29 = eurafricanid
-		21 = subnordid
-		13 = dinarid
-		13 = gracilemediterranid
-		5 = berberid
-		5 = berid
-		5 = paleo_sardinian
-		4 = norid
-		2 = baskid
-		2 = north_atlantid
-		1 = faelid
-		1 = halstatt
-	}
-}
-poitevin = {
-	color = { 6 68 142 }
-	
-	parents = { french occitan }
-	
-	created = 1175.1.1 #First attested written use in 13th century. Has aspects of Occitan from being so close
-	
-	ethos = ethos_egalitarian
+	ethos = ethos_courtly
 	heritage = heritage_frankish
 	language = language_french
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_castle_keepers
-		tradition_culture_blending
-		tradition_loyal_soldiers
+		tradition_astute_diplomats
+		tradition_legalistic
+		tradition_chivalry
+		tradition_chanson_de_geste
 	}
 	
 	name_list = name_list_french
@@ -373,5 +234,144 @@ picard = {
 		2 = litorid
 		2 = gracilemediterranid
 		1 = atlanto_mediterranean
+	}
+}
+poitevin = {
+	color = { 6 68 142 }
+	
+	parents = { french occitan }
+	
+	created = 1175.1.1 #First attested written use in 13th century. Has aspects of Occitan from being so close
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_frankish
+	language = language_french
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_castle_keepers
+		tradition_culture_blending
+		tradition_loyal_soldiers
+	}
+	
+	name_list = name_list_french
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = gracilemediterranid
+		89 = west_alpinid
+		59 = north_atlantid
+		53 = litorid
+		41 = subnordid
+		23 = atlanto_mediterranean
+		17 = dinarid
+		11 = norid
+		5 = baskid
+		5 = berberid
+		5 = berid
+		5 = eurafricanid
+		5 = paleo_sardinian
+		4 = halstatt
+		4 = anglo_saxon
+		3 = brunn
+		3 = keltic_nordid
+		2 = borreby
+	}
+}
+arpitan_ce = {
+	color = { 0.6 0.2 0.3 }
+	
+	parents = { gallo_roman } #Better than nothing.
+
+	created = 700.1.1
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_frankish
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_chanson_de_geste
+		#tradition_hereditary_hierarchy
+		tradition_chivalry
+		#tradition_parochialism
+		tradition_mountain_homes
+	}
+	
+	name_list = name_list_francoprovencal
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = subnordid
+		88 = west_alpinid
+		84 = dinarid
+		59 = atlanto_mediterranean
+		30 = norid
+		18 = eurafricanid
+		14 = gracilemediterranid
+		10 = halstatt
+		5 = faelid
+		5 = brunn
+		5 = litorid
+		5 = north_atlantid
+		4 = carpathid
+		4 = borreby
+		4 = paleo_sardinian
+		4 = berid
+		2 = baskid
+		1 = paleo_atlantid
+		1 = pre_slavic
+	}
+}
+provencal = {
+	color = { 149 225 244 }
+
+	parents = { occitan }
+	
+	created = 1000.1.1
+	
+	ethos = ethos_spiritual
+	heritage = heritage_frankish
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fervent_temple_builders
+		tradition_music_theory
+		tradition_festivities
+		tradition_fishermen
+	}
+	
+	name_list = name_list_occitan
+
+	coa_gfx = { occitan_coa_gfx frankish_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		77 = litorid
+		61 = west_alpinid
+		29 = eurafricanid
+		21 = subnordid
+		13 = dinarid
+		13 = gracilemediterranid
+		5 = berberid
+		5 = berid
+		5 = paleo_sardinian
+		4 = norid
+		2 = baskid
+		2 = north_atlantid
+		1 = faelid
+		1 = halstatt
 	}
 }

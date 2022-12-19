@@ -1,16 +1,16 @@
 ﻿
-cappadocian = {
-	color = { 0.8 0.15 0.6 }
+phrygian = {
+	color = { 0.6 0.1 0.3 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_hellenistic
-	language = language_luwian # Could be called Luwian or Luwic, maybe Anatolian; Isaurian and Ancient Cappadocian attested into the 5th and 6th centuries, probably just by local commoners though and not elites
+	language = language_phrygian # Inscription evidence as late as the 3rd century, attested as still existing in the 5th century, probably just by local commoners though and not elites
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_legalistic
 		tradition_roman_legacy
-		tradition_hill_dwellers # Cybr: In the rugged parts of Anatolia
-		tradition_mountain_homes # Cybr: Replace with unique custom tradition for Cappadocian underground cities, this is just the closest equivalent
+		tradition_hill_dwellers # Cybr: Anatolian highlands
+		tradition_festivities # Cybr: Wikipedia says religious rituals in honor of the Imperial Cult were very common, don't know how reliable but putting here so they have something unique for now
 	}
 	
 	name_list = name_list_greek
@@ -60,20 +60,177 @@ cappadocian = {
 		1 = alfoeld
 	}
 }
-isaurian = {
-	color = { 0.6 0.2 0.7 }
+pontic = {
+	color = { 0.95 0.34 0.62 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_egalitarian
+	heritage = heritage_hellenistic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_roman_legacy
+		tradition_hill_dwellers # Cybr: Anatolian highlands
+		tradition_maritime_mercantilism # Cybr: Black Sea trade		
+	}
+
+	dlc_tradition = { # Cybr: Different Hellenized cultures, I guess
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_greek
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = armenoid
+		79 = anatolid
+		75 = asian_alpine
+		38 = pontid
+		31 = mtebid
+		5 = arabid
+		5 = east_pamirid
+		5 = iranid
+		5 = north_pontid
+		5 = proto_iranid
+		4 = assyroid
+		3 = litorid
+		2 = berid
+		2 = gracilemediterranid
+		1 = dinarid
+	}
+}
+aegyptian = {
+	color = { 0.6 0.3 0.5 }
+	created = 2.1.1
+	parents = { kemetic greek }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_hellenistic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_roman_legacy
+		tradition_agrarian # Cybr: One word: Nile
+		tradition_monastic_communities # Cybr: Desert Church fathers
+	}
+
+	dlc_tradition = { # Cybr: Melting pot of cultures
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_greek
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = egyptid
+		86 = arabid
+		45 = transmediterranid
+		35 = armenoid
+		29 = berberid
+		18 = libyid
+		13 = asian_alpine
+		5 = yemenid
+		5 = middle_nile
+		5 = assyroid
+		4 = eurafricanid
+		4 = siwa
+		3 = north_ethiopid
+		3 = african_alpine
+		2 = gracilemediterranid
+		2 = canarid
+		2 = pontid
+		1 = east_ethiopid
+		1 = litorid
+		1 = moorish
+	}
+}
+greek = {
+	color = greek
+	color = { 0.8 0.3 0.8 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_hellenistic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_roman_legacy
+		tradition_formation_fighting
+		tradition_byzantine_succession
+	}
+	
+	name_list = name_list_greek
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = anatolid
+		81 = asian_alpine
+		71 = pontid
+		58 = litorid
+		48 = armenoid
+		26 = gracilemediterranid
+		14 = dinarid
+		7 = eurafricanid
+		5 = proto_iranid
+		5 = north_pontid
+		4 = paleo_sardinian
+		4 = east_pamirid
+		3 = arabid
+		3 = west_alpinid
+		3 = berid
+		3 = assyroid
+		3 = berberid
+		3 = carpathid
+		2 = transmediterranid
+		2 = iranid
+		2 = mtebid
+		2 = neo_danubian
+		2 = norid
+		2 = gorid
+		2 = atlanto_mediterranean
+		1 = borreby
+		1 = subnordid
+		1 = scythian
+		1 = proto_nordid
+		1 = pre_slavic
+		1 = andronovo_turanid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = aralid
+		1 = halstatt
+		1 = alfoeld
+	}
+}
+cappadocian = {
+	color = { 0.8 0.15 0.6 }
+	
+	ethos = ethos_spiritual
 	heritage = heritage_hellenistic
 	language = language_luwian # Could be called Luwian or Luwic, maybe Anatolian; Isaurian and Ancient Cappadocian attested into the 5th and 6th centuries, probably just by local commoners though and not elites
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hill_dwellers # Cybr: Anatolian highlands
-		tradition_practiced_pirates # Cybr: They be raiding marauding
-		tradition_battlefield_looters # Cybr: They be raiding marauding
-		tradition_highland_warriors # Cybr: They be raiding maurauding in the Anatolian highlands
-		tradition_castle_keepers # Cybr: They also be defending in rugged terrain
-		#tradition_stalwart_defenders # Cybr: They also be defending in rugged terrain
+		tradition_legalistic
+		tradition_roman_legacy
+		tradition_hill_dwellers # Cybr: In the rugged parts of Anatolia
+		tradition_mountain_homes # Cybr: Replace with unique custom tradition for Cappadocian underground cities, this is just the closest equivalent
 	}
 	
 	name_list = name_list_greek
@@ -177,177 +334,20 @@ syrian = {
 		1 = proto_nordid
 	}
 }
-aegyptian = {
-	color = { 0.6 0.3 0.5 }
-	created = 2.1.1
-	parents = { kemetic greek }
+isaurian = {
+	color = { 0.6 0.2 0.7 }
 	
-	ethos = ethos_bureaucratic
+	ethos = ethos_bellicose
 	heritage = heritage_hellenistic
-	language = language_greek
+	language = language_luwian # Could be called Luwian or Luwic, maybe Anatolian; Isaurian and Ancient Cappadocian attested into the 5th and 6th centuries, probably just by local commoners though and not elites
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_legalistic
-		tradition_roman_legacy
-		tradition_agrarian # Cybr: One word: Nile
-		tradition_monastic_communities # Cybr: Desert Church fathers
-	}
-
-	dlc_tradition = { # Cybr: Melting pot of cultures
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_greek
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = egyptid
-		86 = arabid
-		45 = transmediterranid
-		35 = armenoid
-		29 = berberid
-		18 = libyid
-		13 = asian_alpine
-		5 = yemenid
-		5 = middle_nile
-		5 = assyroid
-		4 = eurafricanid
-		4 = siwa
-		3 = north_ethiopid
-		3 = african_alpine
-		2 = gracilemediterranid
-		2 = canarid
-		2 = pontid
-		1 = east_ethiopid
-		1 = litorid
-		1 = moorish
-	}
-}
-pontic = {
-	color = { 0.95 0.34 0.62 }
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_hellenistic
-	language = language_greek
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_legalistic
-		tradition_roman_legacy
 		tradition_hill_dwellers # Cybr: Anatolian highlands
-		tradition_maritime_mercantilism # Cybr: Black Sea trade		
-	}
-
-	dlc_tradition = { # Cybr: Different Hellenized cultures, I guess
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_greek
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = armenoid
-		79 = anatolid
-		75 = asian_alpine
-		38 = pontid
-		31 = mtebid
-		5 = arabid
-		5 = east_pamirid
-		5 = iranid
-		5 = north_pontid
-		5 = proto_iranid
-		4 = assyroid
-		3 = litorid
-		2 = berid
-		2 = gracilemediterranid
-		1 = dinarid
-	}
-}
-phrygian = {
-	color = { 0.6 0.1 0.3 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_hellenistic
-	language = language_phrygian # Inscription evidence as late as the 3rd century, attested as still existing in the 5th century, probably just by local commoners though and not elites
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_legalistic
-		tradition_roman_legacy
-		tradition_hill_dwellers # Cybr: Anatolian highlands
-		tradition_festivities # Cybr: Wikipedia says religious rituals in honor of the Imperial Cult were very common, don't know how reliable but putting here so they have something unique for now
-	}
-	
-	name_list = name_list_greek
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = anatolid
-		81 = asian_alpine
-		71 = pontid
-		58 = litorid
-		48 = armenoid
-		26 = gracilemediterranid
-		14 = dinarid
-		7 = eurafricanid
-		5 = proto_iranid
-		5 = north_pontid
-		4 = paleo_sardinian
-		4 = east_pamirid
-		3 = arabid
-		3 = west_alpinid
-		3 = berid
-		3 = assyroid
-		3 = berberid
-		3 = carpathid
-		2 = transmediterranid
-		2 = iranid
-		2 = mtebid
-		2 = neo_danubian
-		2 = norid
-		2 = gorid
-		2 = atlanto_mediterranean
-		1 = borreby
-		1 = subnordid
-		1 = scythian
-		1 = proto_nordid
-		1 = pre_slavic
-		1 = andronovo_turanid
-		1 = plains_pamirid
-		1 = central_pamirid
-		1 = aralid
-		1 = halstatt
-		1 = alfoeld
-	}
-}
-greek = {
-	color = greek
-	color = { 0.8 0.3 0.8 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_hellenistic
-	language = language_greek
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_legalistic
-		tradition_roman_legacy
-		tradition_formation_fighting
-		tradition_byzantine_succession
+		tradition_practiced_pirates # Cybr: They be raiding marauding
+		tradition_battlefield_looters # Cybr: They be raiding marauding
+		tradition_highland_warriors # Cybr: They be raiding maurauding in the Anatolian highlands
+		tradition_castle_keepers # Cybr: They also be defending in rugged terrain
+		#tradition_stalwart_defenders # Cybr: They also be defending in rugged terrain
 	}
 	
 	name_list = name_list_greek

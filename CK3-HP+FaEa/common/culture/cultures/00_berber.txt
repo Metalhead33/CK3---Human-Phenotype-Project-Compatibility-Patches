@@ -1,45 +1,4 @@
 ﻿
-zaghawa = {
-	color = zaghawa
-	
-	ethos = ethos_egalitarian
-	heritage = heritage_berber
-	language = language_tubu
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_african_tolerance
-		tradition_saharan_nomads
-		#tradition_desert_ribat
-		tradition_desert_horsemen
-	}
-	
-	name_list = name_list_zaghawa
-	
-	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = saharan_ethiopid
-		32 = shari
-		21 = fezzanid
-		18 = paleo_saharid
-		14 = targid
-		8 = sudanid
-		7 = berberid
-		7 = moorish
-		5 = north_ethiopid
-		3 = west_ethiopid
-		2 = dinkaid
-		2 = equatorialsudanid
-		2 = libyid
-		2 = middle_nile
-		1 = basic_khoid
-		1 = congolesid
-	}
-}
 guanches = {
 	color = { 181 87 67 }
 	
@@ -163,5 +122,46 @@ baranis = {
 		4 = paleo_sardinian
 		2 = moorish
 		1 = targid
+	}
+}
+zaghawa = {
+	color = zaghawa
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_berber
+	language = language_tubu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_african_tolerance
+		tradition_saharan_nomads
+		#tradition_desert_ribat
+		tradition_desert_horsemen
+	}
+	
+	name_list = name_list_zaghawa
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = saharan_ethiopid
+		32 = shari
+		21 = fezzanid
+		18 = paleo_saharid
+		14 = targid
+		8 = sudanid
+		7 = berberid
+		7 = moorish
+		5 = north_ethiopid
+		3 = west_ethiopid
+		2 = dinkaid
+		2 = equatorialsudanid
+		2 = libyid
+		2 = middle_nile
+		1 = basic_khoid
+		1 = congolesid
 	}
 }

@@ -1,4 +1,55 @@
 ﻿
+noric = {
+	color = { 0.3 0.6 0.09 }
+
+	ethos = ethos_stoic
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_swords_for_hire
+		tradition_metal_craftsmanship # Cybr: Famous for Noric steel
+	}
+	
+	name_list = name_list_gaul
+	
+	coa_gfx = { latin_group_coa_gfx breton_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = norid
+		85 = dinarid
+		70 = west_alpinid
+		60 = pre_slavic
+		58 = subnordid
+		48 = carpathid
+		25 = gorid
+		25 = neo_danubian
+		23 = halstatt
+		15 = faelid
+		13 = north_atlantid
+		10 = eurafricanid
+		5 = proto_nordid
+		5 = brunn
+		5 = pontid
+		5 = litorid
+		5 = borreby
+		5 = north_pontid
+		4 = anglo_saxon
+		4 = tavastid
+		4 = gracilemediterranid
+		4 = atlanto_mediterranean
+		2 = troender
+		1 = ladogan
+		1 = keltic_nordid
+		1 = berid
+		1 = alfoeld
+	}
+}
 galatian = {
 	color = { 0.3 0.6 0.09 }
 
@@ -99,56 +150,5 @@ gaul = {
 		1 = tavastid
 		1 = troender
 		1 = carpathid
-	}
-}
-noric = {
-	color = { 0.3 0.6 0.09 }
-
-	ethos = ethos_stoic
-	heritage = heritage_celtic
-	language = language_celtic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_isolationist
-		tradition_swords_for_hire
-		tradition_metal_craftsmanship # Cybr: Famous for Noric steel
-	}
-	
-	name_list = name_list_gaul
-	
-	coa_gfx = { latin_group_coa_gfx breton_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-
-
-	ethnicities = {
-		100 = norid
-		85 = dinarid
-		70 = west_alpinid
-		60 = pre_slavic
-		58 = subnordid
-		48 = carpathid
-		25 = gorid
-		25 = neo_danubian
-		23 = halstatt
-		15 = faelid
-		13 = north_atlantid
-		10 = eurafricanid
-		5 = proto_nordid
-		5 = brunn
-		5 = pontid
-		5 = litorid
-		5 = borreby
-		5 = north_pontid
-		4 = anglo_saxon
-		4 = tavastid
-		4 = gracilemediterranid
-		4 = atlanto_mediterranean
-		2 = troender
-		1 = ladogan
-		1 = keltic_nordid
-		1 = berid
-		1 = alfoeld
 	}
 }

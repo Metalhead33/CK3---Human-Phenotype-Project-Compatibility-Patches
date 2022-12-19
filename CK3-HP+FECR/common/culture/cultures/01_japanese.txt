@@ -1,37 +1,4 @@
 ﻿
-ainu = {
-		
-	color = ainu
-	
-	ethos = ethos_communal
-	heritage = heritage_ainu
-	language = language_ainu
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_forest_folk
-		tradition_forest_fighters
-		tradition_hit_and_run
-		tradition_hunters
-	}
-	
-	name_list = name_list_ainu
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-	
-
-	ethnicities = {
-		100 = aoshima
-		31 = ishikawa
-		14 = baykal
-		5 = choshiu
-		4 = chikuzen
-		4 = satsuma
-		3 = manchukorean
-	}
-}
 japanese = {
 		
 	color = japanese
@@ -71,5 +38,38 @@ japanese = {
 		4 = chukiangid
 		2 = nesiotid
 		1 = okinawa
+	}
+}
+ainu = {
+		
+	color = ainu
+	
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_forest_fighters
+		tradition_hit_and_run
+		tradition_hunters
+	}
+	
+	name_list = name_list_ainu
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+
+	ethnicities = {
+		100 = aoshima
+		31 = ishikawa
+		14 = baykal
+		5 = choshiu
+		4 = chikuzen
+		4 = satsuma
+		3 = manchukorean
 	}
 }

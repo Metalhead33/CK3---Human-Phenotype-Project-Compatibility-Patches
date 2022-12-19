@@ -1,49 +1,49 @@
 ﻿
-gaetulian = {
-	color = hsv{ 1.39 0.24 1.0 }
+sanhaja = {
+	color = { 181 116 77 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_berber
 	language = language_berber
 	martial_custom = martial_custom_male_only
 	traditions = {
+		tradition_african_tolerance
 		tradition_saharan_nomads
 		#tradition_desert_ribat
 		tradition_desert_horsemen
-		tradition_wedding_ceremonies # Cybr: Frequently intermarried with other tribes, not sure how to represent otherwise - Astute Diplomats???
-		#tradition_horse_breeder # Cybr: Known for breeding horses
-		tradition_swords_for_hire # Cybr: Auxiliary troops in the Roman armies
+		tradition_equal_inheritance
 	}
 	
-	name_list = name_list_maurian
+	name_list = name_list_butr
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
 
 	ethnicities = {
-		100 = berid
-		98 = berberid
-		98 = transmediterranid
-		59 = eurafricanid
-		57 = african_alpine
-		37 = arabid
-		25 = gracilemediterranid
-		24 = libyid
-		10 = armenoid
-		10 = canarid
-		8 = litorid
-		7 = atlanto_mediterranean
-		6 = fezzanid
-		4 = paleo_sardinian
-		2 = moorish
-		1 = targid
+		100 = moorish
+		65 = libyid
+		57 = berberid
+		48 = west_ethiopid
+		21 = transmediterranid
+		12 = sudanid
+		11 = fezzanid
+		5 = targid
+		4 = canarid
+		4 = eurafricanid
+		4 = berid
+		4 = arabid
+		4 = african_alpine
+		3 = saharan_ethiopid
+		3 = senegalid
+		2 = gracilemediterranid
+		1 = paleo_saharid
 	}
 }
-masmuda = {
-	color = { 161 90 40 }
+tuareg = {
+	color = { 122 117 86 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_berber
@@ -67,220 +67,21 @@ masmuda = {
 
 	ethnicities = {
 		100 = berberid
-		93 = transmediterranid
-		71 = berid
-		29 = eurafricanid
-		24 = libyid
-		19 = african_alpine
-		8 = canarid
-		8 = gracilemediterranid
-		7 = fezzanid
-		5 = arabid
-		5 = atlanto_mediterranean
+		91 = fezzanid
+		86 = targid
+		26 = libyid
+		14 = paleo_saharid
+		14 = saharan_ethiopid
+		6 = sudanid
+		5 = african_alpine
 		4 = moorish
-		2 = litorid
-	}
-}
-garamantian = {
-	color = { 175 152 82 }
-	
-	ethos = ethos_communal
-	heritage = heritage_berber
-	language = language_berber
-	martial_custom = martial_custom_male_only
-	traditions = {
-		#tradition_desert_ribat
-		# garamantes were charioteers but it most likely was abandonned by now
-		tradition_desert_horsemen #Shatzi: fits raiding partern of the III and IVth century
-		tradition_saharan_nomads #Shatzi: Yup there were garamantes nomads
-		tradition_desert_wonders #Shatzi : Built cities in the desert
-		# tradition_city_keepers # Cybr: Built cities in the desert
-		# tradition_hard_working # Cybr: Built cities in the desert
-		tradition_caravaneers # Cybr: Maintained a lot of trade across the Sahara
-	}
-	
-	name_list = name_list_maurian
-	
-	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = libyid
-		76 = arabid
-		66 = transmediterranid
-		66 = berberid
-		24 = african_alpine
-		18 = armenoid
-		10 = canarid
-		7 = eurafricanid
-		7 = fezzanid
-		6 = litorid
-		5 = assyroid
-		5 = gracilemediterranid
-		4 = egyptid
-		4 = targid
-		2 = atlanto_mediterranean
-		2 = berid
-		2 = siwa
-		1 = paleo_sardinian
-		1 = saharan_ethiopid
-	}
-}
-libian = {
-	color = hsv360{ 25 75 63 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_berber
-	language = language_berber
-	martial_custom = martial_custom_male_only
-	traditions = {
-		# Cybr: Not sure what they're supposed to represent so I'll just leave this here
-		tradition_african_tolerance
-		tradition_saharan_nomads
-		#tradition_desert_ribat
-		tradition_desert_horsemen
-		tradition_equal_inheritance 
-	}
-	
-	name_list = name_list_maurian
-	
-	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = libyid
-		76 = arabid
-		66 = transmediterranid
-		66 = berberid
-		24 = african_alpine
-		18 = armenoid
-		10 = canarid
-		7 = eurafricanid
-		7 = fezzanid
-		6 = litorid
-		5 = assyroid
-		5 = gracilemediterranid
-		4 = egyptid
-		4 = targid
-		2 = atlanto_mediterranean
-		2 = berid
-		2 = siwa
-		1 = paleo_sardinian
-		1 = saharan_ethiopid
-	}
-}
-butr = {
-	color = { 161 90 40 }
-	
-	parents = { gaetulian } 
-	ethos = ethos_stoic
-	heritage = heritage_berber
-	language = language_berber
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_african_tolerance
-		tradition_saharan_nomads
-		#tradition_desert_ribat
-		tradition_desert_horsemen
-		tradition_equal_inheritance
-	}
-	
-	name_list = name_list_butr
-	
-	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = berberid
-		66 = libyid
-		46 = fezzanid
-		33 = targid
-		24 = african_alpine
-		24 = transmediterranid
-		22 = moorish
-		16 = eurafricanid
-		14 = berid
-		10 = west_ethiopid
-		8 = arabid
-		6 = egyptid
-		6 = paleo_saharid
-		6 = saharan_ethiopid
-		5 = canarid
-		5 = sudanid
-		3 = gracilemediterranid
-		2 = armenoid
-		2 = atlanto_mediterranean
-		2 = siwa
-		1 = yemenid
-		1 = asian_alpine
-		1 = assyroid
-		1 = senegalid
-		1 = paleo_sardinian
-		1 = middle_nile
-		1 = litorid
+		4 = transmediterranid
+		3 = siwa
+		2 = arabid
+		2 = eurafricanid
 		1 = basic_khoid
-	}
-}
-tora = {
-	color = { 161 90 40 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_berber
-	language = language_berber
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_african_tolerance
-		#tradition_desert_ribat
-		tradition_desert_horsemen
-		tradition_equal_inheritance
-	}
-	
-	name_list = name_list_butr
-	
-	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = berberid
-		66 = libyid
-		46 = fezzanid
-		33 = targid
-		24 = african_alpine
-		24 = transmediterranid
-		22 = moorish
-		16 = eurafricanid
-		14 = berid
-		10 = west_ethiopid
-		8 = arabid
-		6 = egyptid
-		6 = paleo_saharid
-		6 = saharan_ethiopid
-		5 = canarid
-		5 = sudanid
-		3 = gracilemediterranid
-		2 = armenoid
-		2 = atlanto_mediterranean
-		2 = siwa
-		1 = yemenid
-		1 = asian_alpine
-		1 = assyroid
-		1 = senegalid
-		1 = paleo_sardinian
-		1 = middle_nile
-		1 = litorid
-		1 = basic_khoid
+		1 = canarid
+		1 = west_ethiopid
 	}
 }
 maurian = {
@@ -338,8 +139,253 @@ maurian = {
 		1 = basic_khoid
 	}
 }
-tuareg = {
-	color = { 122 117 86 }
+gaetulian = {
+	color = hsv{ 1.39 0.24 1.0 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_saharan_nomads
+		#tradition_desert_ribat
+		tradition_desert_horsemen
+		tradition_wedding_ceremonies # Cybr: Frequently intermarried with other tribes, not sure how to represent otherwise - Astute Diplomats???
+		#tradition_horse_breeder # Cybr: Known for breeding horses
+		tradition_swords_for_hire # Cybr: Auxiliary troops in the Roman armies
+	}
+	
+	name_list = name_list_maurian
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = berid
+		98 = berberid
+		98 = transmediterranid
+		59 = eurafricanid
+		57 = african_alpine
+		37 = arabid
+		25 = gracilemediterranid
+		24 = libyid
+		10 = armenoid
+		10 = canarid
+		8 = litorid
+		7 = atlanto_mediterranean
+		6 = fezzanid
+		4 = paleo_sardinian
+		2 = moorish
+		1 = targid
+	}
+}
+butr = {
+	color = { 161 90 40 }
+	
+	parents = { gaetulian } 
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_african_tolerance
+		tradition_saharan_nomads
+		#tradition_desert_ribat
+		tradition_desert_horsemen
+		tradition_equal_inheritance
+	}
+	
+	name_list = name_list_butr
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = berberid
+		66 = libyid
+		46 = fezzanid
+		33 = targid
+		24 = african_alpine
+		24 = transmediterranid
+		22 = moorish
+		16 = eurafricanid
+		14 = berid
+		10 = west_ethiopid
+		8 = arabid
+		6 = egyptid
+		6 = paleo_saharid
+		6 = saharan_ethiopid
+		5 = canarid
+		5 = sudanid
+		3 = gracilemediterranid
+		2 = armenoid
+		2 = atlanto_mediterranean
+		2 = siwa
+		1 = yemenid
+		1 = asian_alpine
+		1 = assyroid
+		1 = senegalid
+		1 = paleo_sardinian
+		1 = middle_nile
+		1 = litorid
+		1 = basic_khoid
+	}
+}
+libian = {
+	color = hsv360{ 25 75 63 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		# Cybr: Not sure what they're supposed to represent so I'll just leave this here
+		tradition_african_tolerance
+		tradition_saharan_nomads
+		#tradition_desert_ribat
+		tradition_desert_horsemen
+		tradition_equal_inheritance 
+	}
+	
+	name_list = name_list_maurian
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = libyid
+		76 = arabid
+		66 = transmediterranid
+		66 = berberid
+		24 = african_alpine
+		18 = armenoid
+		10 = canarid
+		7 = eurafricanid
+		7 = fezzanid
+		6 = litorid
+		5 = assyroid
+		5 = gracilemediterranid
+		4 = egyptid
+		4 = targid
+		2 = atlanto_mediterranean
+		2 = berid
+		2 = siwa
+		1 = paleo_sardinian
+		1 = saharan_ethiopid
+	}
+}
+tora = {
+	color = { 161 90 40 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_african_tolerance
+		#tradition_desert_ribat
+		tradition_desert_horsemen
+		tradition_equal_inheritance
+	}
+	
+	name_list = name_list_butr
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = berberid
+		66 = libyid
+		46 = fezzanid
+		33 = targid
+		24 = african_alpine
+		24 = transmediterranid
+		22 = moorish
+		16 = eurafricanid
+		14 = berid
+		10 = west_ethiopid
+		8 = arabid
+		6 = egyptid
+		6 = paleo_saharid
+		6 = saharan_ethiopid
+		5 = canarid
+		5 = sudanid
+		3 = gracilemediterranid
+		2 = armenoid
+		2 = atlanto_mediterranean
+		2 = siwa
+		1 = yemenid
+		1 = asian_alpine
+		1 = assyroid
+		1 = senegalid
+		1 = paleo_sardinian
+		1 = middle_nile
+		1 = litorid
+		1 = basic_khoid
+	}
+}
+garamantian = {
+	color = { 175 152 82 }
+	
+	ethos = ethos_communal
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		#tradition_desert_ribat
+		# garamantes were charioteers but it most likely was abandonned by now
+		tradition_desert_horsemen #Shatzi: fits raiding partern of the III and IVth century
+		tradition_saharan_nomads #Shatzi: Yup there were garamantes nomads
+		tradition_desert_wonders #Shatzi : Built cities in the desert
+		# tradition_city_keepers # Cybr: Built cities in the desert
+		# tradition_hard_working # Cybr: Built cities in the desert
+		tradition_caravaneers # Cybr: Maintained a lot of trade across the Sahara
+	}
+	
+	name_list = name_list_maurian
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = libyid
+		76 = arabid
+		66 = transmediterranid
+		66 = berberid
+		24 = african_alpine
+		18 = armenoid
+		10 = canarid
+		7 = eurafricanid
+		7 = fezzanid
+		6 = litorid
+		5 = assyroid
+		5 = gracilemediterranid
+		4 = egyptid
+		4 = targid
+		2 = atlanto_mediterranean
+		2 = berid
+		2 = siwa
+		1 = paleo_sardinian
+		1 = saharan_ethiopid
+	}
+}
+masmuda = {
+	color = { 161 90 40 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_berber
@@ -363,21 +409,18 @@ tuareg = {
 
 	ethnicities = {
 		100 = berberid
-		91 = fezzanid
-		86 = targid
-		26 = libyid
-		14 = paleo_saharid
-		14 = saharan_ethiopid
-		6 = sudanid
-		5 = african_alpine
+		93 = transmediterranid
+		71 = berid
+		29 = eurafricanid
+		24 = libyid
+		19 = african_alpine
+		8 = canarid
+		8 = gracilemediterranid
+		7 = fezzanid
+		5 = arabid
+		5 = atlanto_mediterranean
 		4 = moorish
-		4 = transmediterranid
-		3 = siwa
-		2 = arabid
-		2 = eurafricanid
-		1 = basic_khoid
-		1 = canarid
-		1 = west_ethiopid
+		2 = litorid
 	}
 }
 baranis = {
@@ -418,48 +461,5 @@ baranis = {
 		4 = paleo_sardinian
 		2 = moorish
 		1 = targid
-	}
-}
-sanhaja = {
-	color = { 181 116 77 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_berber
-	language = language_berber
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_african_tolerance
-		tradition_saharan_nomads
-		#tradition_desert_ribat
-		tradition_desert_horsemen
-		tradition_equal_inheritance
-	}
-	
-	name_list = name_list_butr
-	
-	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = moorish
-		65 = libyid
-		57 = berberid
-		48 = west_ethiopid
-		21 = transmediterranid
-		12 = sudanid
-		11 = fezzanid
-		5 = targid
-		4 = canarid
-		4 = eurafricanid
-		4 = berid
-		4 = arabid
-		4 = african_alpine
-		3 = saharan_ethiopid
-		3 = senegalid
-		2 = gracilemediterranid
-		1 = paleo_saharid
 	}
 }

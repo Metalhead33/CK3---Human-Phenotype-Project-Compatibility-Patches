@@ -1,0 +1,69 @@
+﻿
+asian_american = {
+	color = { 255 255 0 }
+	created = 1776.7.4
+	parents = { han english }
+	
+	ethos = ethos_communal
+	heritage = heritage_chinese
+	language = language_anglic
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_philosopher_culture
+		tradition_RICE_music_practice
+		tradition_forbearing
+		tradition_RICE_boba_drinkers
+	}
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_han # name_list_english
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+
+	ethnicities = {
+		100 = changkiangid
+		94 = huanghoid
+		65 = manchukorean
+		63 = chukiangid
+		56 = choshiu
+		37 = east_shanid
+		35 = south_palaungid
+		35 = east_palaungid
+		33 = deutero_malayid
+		31 = satsuma
+		23 = tonkinesid
+		22 = annamid
+		17 = khmerid
+		15 = yakonin
+		14 = ishikawa
+		12 = kham
+		11 = dayakid
+		9 = kachinid
+		9 = basic_negritid
+		7 = chikuzen
+		6 = gobid
+		5 = shanid
+		4 = tibetid
+		4 = plains_pamirid
+		3 = palaungid
+		3 = senoid
+		2 = basic_melanesid
+		2 = proto_malayid
+		2 = honshu
+		2 = baykal
+		1 = okinawa
+		1 = nesiotid
+		1 = karnatid
+		1 = toalid
+	}
+}

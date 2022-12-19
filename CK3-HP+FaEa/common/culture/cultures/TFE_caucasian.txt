@@ -81,6 +81,52 @@ abkhazian = {
 		1 = gorid
 	}
 }
+circassian = {
+	color = { 0.2 0.5 0.1 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_caucasian
+	language = language_circassian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_swords_for_hire
+		tradition_mountain_homes
+		tradition_steppe_tolerance
+	}
+	
+	name_list = name_list_abkhazian
+	
+	coa_gfx = { caucasian_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = mtebid
+		92 = pontid
+		70 = anatolid
+		53 = armenoid
+		18 = andronovo_turanid
+		17 = scythian
+		16 = east_pamirid
+		11 = proto_iranid
+		6 = asian_alpine
+		6 = berid
+		6 = dinarid
+		6 = north_pontid
+		6 = iranid
+		5 = gracilemediterranid
+		4 = gorid
+		4 = plains_pamirid
+		4 = central_pamirid
+		4 = proto_nordid
+		3 = transcaspian
+		2 = carpathid
+		2 = aralid
+		1 = neo_danubian
+	}
+}
 caspian = {
 	color = { 0.8 0.2 0.2 }
 	
@@ -209,51 +255,5 @@ georgian = {
 		2 = proto_nordid
 		1 = transcaspian
 		1 = gorid
-	}
-}
-circassian = {
-	color = { 0.2 0.5 0.1 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_caucasian
-	language = language_circassian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_swords_for_hire
-		tradition_mountain_homes
-		tradition_steppe_tolerance
-	}
-	
-	name_list = name_list_abkhazian
-	
-	coa_gfx = { caucasian_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = mtebid
-		92 = pontid
-		70 = anatolid
-		53 = armenoid
-		18 = andronovo_turanid
-		17 = scythian
-		16 = east_pamirid
-		11 = proto_iranid
-		6 = asian_alpine
-		6 = berid
-		6 = dinarid
-		6 = north_pontid
-		6 = iranid
-		5 = gracilemediterranid
-		4 = gorid
-		4 = plains_pamirid
-		4 = central_pamirid
-		4 = proto_nordid
-		3 = transcaspian
-		2 = carpathid
-		2 = aralid
-		1 = neo_danubian
 	}
 }

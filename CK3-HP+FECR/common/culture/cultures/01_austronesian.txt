@@ -1,4 +1,42 @@
 ﻿
+batak = {
+		
+	color = batak
+	ethos = ethos_bellicose
+	heritage = heritage_malay
+	language = language_malay
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_religion_blending
+		tradition_jungle_warriors
+	}
+	
+	name_list = name_list_malay
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = kachinid
+		62 = deutero_malayid
+		47 = toalid
+		40 = dayakid
+		17 = south_palaungid
+		9 = east_shanid
+		9 = proto_malayid
+		9 = senoid
+		8 = chukiangid
+		8 = karnatid
+		4 = indo_brachid
+		4 = nesiotid
+		2 = changkiangid
+		2 = khmerid
+	}
+}
 malay = {
 	
 	color = malay
@@ -35,6 +73,45 @@ malay = {
 		3 = karnatid
 		2 = khmerid
 		1 = nesiotid
+	}
+}
+achenese = {
+		
+	color = { 0.796 0.227 0.535 }
+	ethos = ethos_spiritual
+	heritage = heritage_malay
+	language = language_achenese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_religious_patronage
+		tradition_jungle_warriors
+	}
+	
+	name_list = name_list_achenese
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = deutero_malayid
+		33 = kachinid
+		19 = karnatid
+		19 = khmerid
+		5 = changkiangid
+		5 = chukiangid
+		5 = dayakid
+		5 = east_brachid
+		5 = east_shanid
+		5 = indo_brachid
+		5 = north_indid
+		5 = senoid
+		5 = south_palaungid
+		5 = toalid
+		3 = proto_malayid
 	}
 }
 cham = {
@@ -107,82 +184,5 @@ javanese = {
 		5 = toalid
 		1 = indo_brachid
 		1 = karnatid
-	}
-}
-achenese = {
-		
-	color = { 0.796 0.227 0.535 }
-	ethos = ethos_spiritual
-	heritage = heritage_malay
-	language = language_achenese
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_zealous_people
-		tradition_religious_patronage
-		tradition_jungle_warriors
-	}
-	
-	name_list = name_list_achenese
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = deutero_malayid
-		33 = kachinid
-		19 = karnatid
-		19 = khmerid
-		5 = changkiangid
-		5 = chukiangid
-		5 = dayakid
-		5 = east_brachid
-		5 = east_shanid
-		5 = indo_brachid
-		5 = north_indid
-		5 = senoid
-		5 = south_palaungid
-		5 = toalid
-		3 = proto_malayid
-	}
-}
-batak = {
-		
-	color = batak
-	ethos = ethos_bellicose
-	heritage = heritage_malay
-	language = language_malay
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_warrior_culture
-		tradition_religion_blending
-		tradition_jungle_warriors
-	}
-	
-	name_list = name_list_malay
-	
-	coa_gfx = { chinese_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = kachinid
-		62 = deutero_malayid
-		47 = toalid
-		40 = dayakid
-		17 = south_palaungid
-		9 = east_shanid
-		9 = proto_malayid
-		9 = senoid
-		8 = chukiangid
-		8 = karnatid
-		4 = indo_brachid
-		4 = nesiotid
-		2 = changkiangid
-		2 = khmerid
 	}
 }

@@ -1,0 +1,29 @@
+﻿
+laurentian = {
+	color = { 180 150 102 }
+	
+	ethos = ethos_communal
+	heritage = heritage_iroquoian
+	language = language_iroquoian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_hit_and_run
+		tradition_fishermen
+		tradition_forest_folk
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_laurentian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = basic_silvid
+		21 = basic_centralid
+	}
+}
