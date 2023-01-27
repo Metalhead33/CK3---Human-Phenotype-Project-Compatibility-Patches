@@ -1,46 +1,4 @@
 ﻿
-manx = {
-	color = { 21 51 128 }
-	created = 800.1.1
-	parents = { irish }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_goidelic
-	language = language_goidelic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_practiced_pirates
-		tradition_battlefield_looters
-		tradition_fp1_the_right_to_prove
-		tradition_seafaring
-	}
-
-	name_list = name_list_gaelic
-	
-	coa_gfx = { scottish_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = keltic_nordid
-		58 = anglo_saxon
-		37 = halstatt
-		27 = troender
-		16 = paleo_atlantid
-		5 = borreby
-		5 = brunn
-		5 = faelid
-		5 = gracilemediterranid
-		5 = litorid
-		5 = norid
-		5 = west_alpinid
-		4 = eurafricanid
-		2 = berberid
-		2 = tavastid
-	}
-}
 gall_goidel = {
 	color = { 72 112 123 }
 	
@@ -92,5 +50,47 @@ gall_goidel = {
 		2 = berid
 		1 = savolaxid
 		1 = north_lappid
+	}
+}
+manx = {
+	color = { 21 51 128 }
+	created = 800.1.1
+	parents = { irish }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_goidelic
+	language = language_goidelic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_practiced_pirates
+		tradition_battlefield_looters
+		tradition_fp1_the_right_to_prove
+		tradition_seafaring
+	}
+
+	name_list = name_list_gaelic
+	
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = keltic_nordid
+		58 = anglo_saxon
+		37 = halstatt
+		27 = troender
+		16 = paleo_atlantid
+		5 = borreby
+		5 = brunn
+		5 = faelid
+		5 = gracilemediterranid
+		5 = litorid
+		5 = norid
+		5 = west_alpinid
+		4 = eurafricanid
+		2 = berberid
+		2 = tavastid
 	}
 }

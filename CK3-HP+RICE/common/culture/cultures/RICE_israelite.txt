@@ -1,47 +1,4 @@
 ﻿
-teimani = {
-	
-	color = { 0.88 0.22 0.77 }
-
-	ethos = ethos_stoic
-	heritage = heritage_israelite
-	language = language_israelite
-	martial_custom = martial_custom_male_only	
-	traditions = {
-		tradition_diasporic
-		tradition_philosopher_culture
-		tradition_staunch_traditionalists
-		tradition_maritime_mercantilism
-		tradition_mobile_guards
-	}
-	
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-
-	name_list = name_list_radhanite
-
-	coa_gfx = { israelite_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = yemenid
-		43 = arabid
-		11 = arabian_veddoid
-		6 = armenoid
-		5 = asian_alpine
-		4 = assyroid
-		4 = north_ethiopid
-		1 = east_ethiopid
-		1 = libyid
-		1 = pontid
-		1 = transmediterranid
-	}
-}
 mustaarabi = {
 	
 	color = { 0.8 0.25 0.8 }
@@ -86,6 +43,49 @@ mustaarabi = {
 		1 = anatolid
 		1 = gracilemediterranid
 		1 = indo_brachid
+	}
+}
+teimani = {
+	
+	color = { 0.88 0.22 0.77 }
+
+	ethos = ethos_stoic
+	heritage = heritage_israelite
+	language = language_israelite
+	martial_custom = martial_custom_male_only	
+	traditions = {
+		tradition_diasporic
+		tradition_philosopher_culture
+		tradition_staunch_traditionalists
+		tradition_maritime_mercantilism
+		tradition_mobile_guards
+	}
+	
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+
+	name_list = name_list_radhanite
+
+	coa_gfx = { israelite_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = yemenid
+		43 = arabid
+		11 = arabian_veddoid
+		6 = armenoid
+		5 = asian_alpine
+		4 = assyroid
+		4 = north_ethiopid
+		1 = east_ethiopid
+		1 = libyid
+		1 = pontid
+		1 = transmediterranid
 	}
 }
 persian_jewish = {

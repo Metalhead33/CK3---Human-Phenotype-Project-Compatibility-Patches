@@ -44,6 +44,45 @@ cantabrian = {
 		1 = armenoid
 	}
 }
+aquitanian = {
+	color = { 0.5 0.4 0.1}
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_iberian
+	language = language_basque
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_visigothic_codes
+		tradition_mountaineers
+		tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_basque
+	
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		100 = litorid
+		86 = baskid
+		79 = gracilemediterranid
+		71 = west_alpinid
+		57 = eurafricanid
+		5 = berberid
+		5 = berid
+		5 = dinarid
+		5 = halstatt
+		5 = north_atlantid
+		5 = paleo_sardinian
+		5 = subnordid
+		5 = transmediterranid
+		4 = paleo_atlantid
+	}
+}
 basque = {
 	color = basque
 	
@@ -87,43 +126,96 @@ basque = {
 		4 = paleo_atlantid
 	}
 }
-aquitanian = {
-	color = { 0.5 0.4 0.1}
-	
-	ethos = ethos_egalitarian
+castran = {
+	color = { 0.25 0.5 0.08 }
+
+	ethos = ethos_stoic
 	heritage = heritage_iberian
-	language = language_basque
+	language = language_celtiberian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_visigothic_codes
-		tradition_mountaineers
-		tradition_wedding_ceremonies
+		tradition_pastoralists # Juli: Celtiberians are well-known pastoralist
+		tradition_castle_keepers # Juli: Their id literally means castle people, they made well known forts
+		tradition_ancient_miners # Cybr: Rich in various ores and minerals
+		tradition_metal_craftsmanship # Cybr: High degree of sophistication with smithing and stoneworking
 	}
 	
-	name_list = name_list_basque
+	name_list = name_list_castran
 	
-	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
+	coa_gfx = { celtic_coa_gfx }
+	building_gfx = { western_building_gfx  }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
-	
+
 
 	ethnicities = {
 		100 = atlanto_mediterranean
-		100 = litorid
-		86 = baskid
-		79 = gracilemediterranid
-		71 = west_alpinid
-		57 = eurafricanid
+		100 = gracilemediterranid
+		32 = berid
+		25 = west_alpinid
+		15 = eurafricanid
+		15 = litorid
+		11 = dinarid
+		9 = north_atlantid
 		5 = berberid
-		5 = berid
-		5 = dinarid
-		5 = halstatt
-		5 = north_atlantid
-		5 = paleo_sardinian
-		5 = subnordid
 		5 = transmediterranid
-		4 = paleo_atlantid
+		4 = baskid
+		3 = halstatt
+		3 = paleo_sardinian
+		2 = libyid
+		2 = paleo_atlantid
+		2 = subnordid
+		2 = canarid
+		1 = arabid
+		1 = troender
+		1 = armenoid
+	}
+}
+asturian = {
+	color = { 0.4 0.8 0.2 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_celtiberian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_castle_keepers
+		tradition_mountaineers # Cybr: Trained for mountain warfare
+		tradition_horse_breeder # Cybr: Bred famous mountain horses apparently
+		tradition_hunters # Cybr: Hunter-Gatherers
+	}
+	
+	name_list = name_list_castran
+	
+	coa_gfx = { celtic_coa_gfx }
+	building_gfx = { western_building_gfx  }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		96 = gracilemediterranid
+		29 = berid
+		29 = eurafricanid
+		24 = west_alpinid
+		24 = north_atlantid
+		9 = dinarid
+		5 = halstatt
+		5 = transmediterranid
+		5 = litorid
+		5 = berberid
+		4 = libyid
+		4 = baskid
+		3 = arabid
+		3 = paleo_sardinian
+		2 = keltic_nordid
+		2 = canarid
+		2 = subnordid
+		1 = paleo_atlantid
+		1 = troender
+		1 = armenoid
 	}
 }
 suebi = {
@@ -175,97 +267,5 @@ suebi = {
 		2 = berid
 		1 = paleo_sardinian
 		1 = anglo_saxon
-	}
-}
-asturian = {
-	color = { 0.4 0.8 0.2 }
-
-	ethos = ethos_bellicose
-	heritage = heritage_iberian
-	language = language_celtiberian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_pastoralists
-		tradition_castle_keepers
-		tradition_mountaineers # Cybr: Trained for mountain warfare
-		tradition_horse_breeder # Cybr: Bred famous mountain horses apparently
-		tradition_hunters # Cybr: Hunter-Gatherers
-	}
-	
-	name_list = name_list_castran
-	
-	coa_gfx = { celtic_coa_gfx }
-	building_gfx = { western_building_gfx  }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		96 = gracilemediterranid
-		29 = berid
-		29 = eurafricanid
-		24 = west_alpinid
-		24 = north_atlantid
-		9 = dinarid
-		5 = halstatt
-		5 = transmediterranid
-		5 = litorid
-		5 = berberid
-		4 = libyid
-		4 = baskid
-		3 = arabid
-		3 = paleo_sardinian
-		2 = keltic_nordid
-		2 = canarid
-		2 = subnordid
-		1 = paleo_atlantid
-		1 = troender
-		1 = armenoid
-	}
-}
-castran = {
-	color = { 0.25 0.5 0.08 }
-
-	ethos = ethos_stoic
-	heritage = heritage_iberian
-	language = language_celtiberian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_pastoralists # Juli: Celtiberians are well-known pastoralist
-		tradition_castle_keepers # Juli: Their id literally means castle people, they made well known forts
-		tradition_ancient_miners # Cybr: Rich in various ores and minerals
-		tradition_metal_craftsmanship # Cybr: High degree of sophistication with smithing and stoneworking
-	}
-	
-	name_list = name_list_castran
-	
-	coa_gfx = { celtic_coa_gfx }
-	building_gfx = { western_building_gfx  }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		100 = gracilemediterranid
-		32 = berid
-		25 = west_alpinid
-		15 = eurafricanid
-		15 = litorid
-		11 = dinarid
-		9 = north_atlantid
-		5 = berberid
-		5 = transmediterranid
-		4 = baskid
-		3 = halstatt
-		3 = paleo_sardinian
-		2 = libyid
-		2 = paleo_atlantid
-		2 = subnordid
-		2 = canarid
-		1 = arabid
-		1 = troender
-		1 = armenoid
 	}
 }

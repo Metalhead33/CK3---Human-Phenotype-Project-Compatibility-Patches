@@ -59,26 +59,26 @@ yukaghir = {
 		3 = andronovo_turanid
 	}
 }
-yakut = {
-
-	color = { 0.40 0.84 0.95 }
+yeniseian = {
+		
+	color = { 0.84 0.91 0.93 }
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_siberian
-	language = language_turkic
+	language = language_yeniseian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		#tradition_RICE_siberian_survivalists
-		tradition_pastoralists
-		tradition_horse_breeder
+		tradition_storytellers
+		tradition_forest_folk
 	}
 	
-	name_list = name_list_yughur
+	name_list = name_list_yeniseian
 	
-	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
 	
 
 	ethnicities = {
@@ -118,26 +118,26 @@ nivkh = {
 		3 = andronovo_turanid
 	}
 }
-yeniseian = {
-		
-	color = { 0.84 0.91 0.93 }
+yakut = {
+
+	color = { 0.40 0.84 0.95 }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_siberian
-	language = language_yeniseian
+	language = language_turkic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		#tradition_RICE_siberian_survivalists
-		tradition_storytellers
-		tradition_forest_folk
+		tradition_pastoralists
+		tradition_horse_breeder
 	}
 	
-	name_list = name_list_yeniseian
+	name_list = name_list_yughur
 	
-	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	coa_gfx = { turkic_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
 	
 
 	ethnicities = {

@@ -44,18 +44,25 @@ scanian = {
 		1 = proto_nordid
 	}
 }
-greenlandic = {
-	color = { 202 242 232 }
-	created = 980.1.1
-	parents = { norse icelandic }
+icelandic = {
+	color = { 0.25 0.4 0.55 }
 	
-	ethos = ethos_stoic
+	created = 930.1.1
+	parents = { norse irish }
+	# The majority of women, and a noticeable minority of men, who settled in Iceland were of Gaelic origin
+	# Many were slaves, but a good number were probably freemen/freewomen as well
+	history_loc_override = RICE_icelandic_history_loc
+	
+	ethos = ethos_communal
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
+	
 	traditions = {
 		tradition_things
-		tradition_hunters
+		tradition_fishermen
+		tradition_concubines
+		# something related to Iceland's decentralized system of governance
 	}
 	
 	# # FP1 Traditions
@@ -92,25 +99,18 @@ greenlandic = {
 		1 = scando_lappid
 	}
 }
-icelandic = {
-	color = { 0.25 0.4 0.55 }
+greenlandic = {
+	color = { 202 242 232 }
+	created = 980.1.1
+	parents = { norse icelandic }
 	
-	created = 930.1.1
-	parents = { norse irish }
-	# The majority of women, and a noticeable minority of men, who settled in Iceland were of Gaelic origin
-	# Many were slaves, but a good number were probably freemen/freewomen as well
-	history_loc_override = RICE_icelandic_history_loc
-	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
-	
 	traditions = {
 		tradition_things
-		tradition_fishermen
-		tradition_concubines
-		# something related to Iceland's decentralized system of governance
+		tradition_hunters
 	}
 	
 	# # FP1 Traditions

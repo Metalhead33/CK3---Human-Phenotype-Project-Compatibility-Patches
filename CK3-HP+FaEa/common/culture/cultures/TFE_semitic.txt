@@ -59,15 +59,15 @@ assyrian = {
 	language = language_aramaic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_zealous_people
-		tradition_loyal_soldiers
-		tradition_philosopher_culture
-		tradition_caravaneers
+		tradition_formation_fighting
+		tradition_storytellers
+		tradition_quarrelsome
+		tradition_mystical_ancestors
 	}
 	
 	name_list = name_list_assyrian
 
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { arabic_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mena_building_gfx } 
 	clothing_gfx = { byzantine_clothing_gfx } 
 	clothing_gfx = { mena_clothing_gfx } 

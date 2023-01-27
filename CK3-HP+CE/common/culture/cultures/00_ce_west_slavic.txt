@@ -1,13 +1,13 @@
 ﻿
-golensizi = {
-	color = { 0.4 0.8 0.9 }
+lendian = {
+	color = { 0.8 0.9 0.9 }
 	
-	ethos = ethos_communal
+	ethos = ethos_stoic
 	heritage = heritage_west_slavic
 	language = language_lechitic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_xenophilic
+		tradition_agrarian
 		tradition_hussar
 	}
 	
@@ -48,15 +48,15 @@ golensizi = {
 		1 = ladogan
 	}
 }
-vistulan = {
-	color = { 0.6 0.9 0.9 }
+masovian = {
+	color = { 0.7 0.8 0.9 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_west_slavic
 	language = language_lechitic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_stalwart_defenders
+		tradition_forest_fighters
 		tradition_hussar
 	}
 	
@@ -142,55 +142,6 @@ sorbian = {
 		2 = carpathid
 	}
 }
-lendian = {
-	color = { 0.8 0.9 0.9 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_west_slavic
-	language = language_lechitic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_agrarian
-		tradition_hussar
-	}
-	
-	name_list = name_list_polish
-	
-	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { polish_clothing_gfx }
-	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
-
-
-	ethnicities = {
-		100 = west_baltid
-		82 = norid
-		79 = gorid
-		77 = neo_danubian
-		69 = north_pontid
-		66 = pre_slavic
-		62 = subnordid
-		37 = tavastid
-		27 = carpathid
-		26 = borreby
-		16 = halstatt
-		13 = aisto_nordid
-		9 = west_alpinid
-		9 = pontid
-		5 = faelid
-		5 = dinarid
-		5 = proto_nordid
-		5 = savolaxid
-		4 = brunn
-		3 = alfoeld
-		2 = troender
-		2 = anglo_saxon
-		1 = scythian
-		1 = scando_lappid
-		1 = north_atlantid
-		1 = ladogan
-	}
-}
 obotrite = {
 	color = { 0.44 0.66 0.7 }
 	
@@ -239,55 +190,6 @@ obotrite = {
 		2 = carpathid
 	}
 }
-masovian = {
-	color = { 0.7 0.8 0.9 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_west_slavic
-	language = language_lechitic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_forest_fighters
-		tradition_hussar
-	}
-	
-	name_list = name_list_polish
-	
-	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { polish_clothing_gfx }
-	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
-
-
-	ethnicities = {
-		100 = west_baltid
-		82 = norid
-		79 = gorid
-		77 = neo_danubian
-		69 = north_pontid
-		66 = pre_slavic
-		62 = subnordid
-		37 = tavastid
-		27 = carpathid
-		26 = borreby
-		16 = halstatt
-		13 = aisto_nordid
-		9 = west_alpinid
-		9 = pontid
-		5 = faelid
-		5 = dinarid
-		5 = proto_nordid
-		5 = savolaxid
-		4 = brunn
-		3 = alfoeld
-		2 = troender
-		2 = anglo_saxon
-		1 = scythian
-		1 = scando_lappid
-		1 = north_atlantid
-		1 = ladogan
-	}
-}
 ranian = {
 	color = { 0.35 0.55 0.7 }
 	
@@ -331,6 +233,104 @@ ranian = {
 		3 = savolaxid
 		1 = north_atlantid
 		1 = dinarid
+	}
+}
+vistulan = {
+	color = { 0.6 0.9 0.9 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_hussar
+	}
+	
+	name_list = name_list_polish
+	
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { polish_clothing_gfx }
+	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = west_baltid
+		82 = norid
+		79 = gorid
+		77 = neo_danubian
+		69 = north_pontid
+		66 = pre_slavic
+		62 = subnordid
+		37 = tavastid
+		27 = carpathid
+		26 = borreby
+		16 = halstatt
+		13 = aisto_nordid
+		9 = west_alpinid
+		9 = pontid
+		5 = faelid
+		5 = dinarid
+		5 = proto_nordid
+		5 = savolaxid
+		4 = brunn
+		3 = alfoeld
+		2 = troender
+		2 = anglo_saxon
+		1 = scythian
+		1 = scando_lappid
+		1 = north_atlantid
+		1 = ladogan
+	}
+}
+golensizi = {
+	color = { 0.4 0.8 0.9 }
+	
+	ethos = ethos_communal
+	heritage = heritage_west_slavic
+	language = language_lechitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_xenophilic
+		tradition_hussar
+	}
+	
+	name_list = name_list_polish
+	
+	coa_gfx = { polish_coa_gfx west_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { polish_clothing_gfx }
+	unit_gfx = { polish_unit_gfx eastern_unit_gfx }
+
+
+	ethnicities = {
+		100 = west_baltid
+		82 = norid
+		79 = gorid
+		77 = neo_danubian
+		69 = north_pontid
+		66 = pre_slavic
+		62 = subnordid
+		37 = tavastid
+		27 = carpathid
+		26 = borreby
+		16 = halstatt
+		13 = aisto_nordid
+		9 = west_alpinid
+		9 = pontid
+		5 = faelid
+		5 = dinarid
+		5 = proto_nordid
+		5 = savolaxid
+		4 = brunn
+		3 = alfoeld
+		2 = troender
+		2 = anglo_saxon
+		1 = scythian
+		1 = scando_lappid
+		1 = north_atlantid
+		1 = ladogan
 	}
 }
 opolan = {

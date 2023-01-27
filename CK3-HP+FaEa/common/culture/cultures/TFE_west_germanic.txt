@@ -1,4 +1,85 @@
 ﻿
+jute = {
+	color = { 0.8 0.5 0.5 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_ingvaeonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fp2_ritualised_friendship
+		tradition_maritime_mercantilism
+		tradition_migrations
+	}
+	
+	name_list = name_list_anglo_saxon
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		86 = borreby
+		67 = faelid
+		34 = anglo_saxon
+		20 = tavastid
+		15 = north_atlantid
+		15 = strandid
+		6 = brunn
+		6 = troender
+		6 = aisto_nordid
+		6 = paleo_atlantid
+		6 = subnordid
+		4 = norid
+		4 = west_alpinid
+		2 = west_baltid
+		1 = neo_danubian
+		1 = keltic_nordid
+		1 = gorid
+	}
+}
+frisa = {
+	color = { 0.7 0.3 0.2 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_ingvaeonic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_migrations
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_frisian
+
+	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+
+	ethnicities = {
+		100 = anglo_saxon
+		100 = halstatt
+		79 = faelid
+		48 = borreby
+		48 = north_atlantid
+		37 = subnordid
+		5 = brunn
+		5 = norid
+		5 = paleo_atlantid
+		5 = tavastid
+		5 = troender
+		5 = west_alpinid
+		3 = keltic_nordid
+		2 = gorid
+		2 = pre_slavic
+	}
+}
 anglo_saxon = {
 	color = { 0.8 0.3 0.3 }
 	created = 500.1.1
@@ -48,48 +129,58 @@ anglo_saxon = {
 		1 = paleo_sardinian
 	}
 }
-angle = {
-	color = { 0.8 0.4 0.4 }
+frankish = {
+	color = { 0.2 0.2 0.5 }
 	
 	ethos = ethos_bellicose
-	heritage = heritage_west_germanic
-	language = language_ingvaeonic
+	heritage = heritage_central_germanic
+	language = language_istvaeonic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_the_witenagemot
-		tradition_astute_diplomats
+		tradition_warrior_culture
+		tradition_hereditary_hierarchy
+		tradition_stand_and_fight
 		tradition_migrations
 	}
 	
-	name_list = name_list_anglo_saxon
+	name_list = name_list_frankish
 	
-	coa_gfx = { norse_coa_gfx western_coa_gfx }
-	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { norse_unit_gfx }
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
 	
 
 	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
+		100 = subnordid
+		51 = west_alpinid
+		48 = north_atlantid
+		44 = norid
+		38 = borreby
+		37 = anglo_saxon
+		37 = halstatt
+		29 = dinarid
+		26 = faelid
+		19 = gracilemediterranid
+		10 = atlanto_mediterranean
+		6 = brunn
+		5 = litorid
 		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
+		4 = paleo_sardinian
+		4 = paleo_atlantid
+		3 = keltic_nordid
+		3 = tavastid
+		3 = troender
+		2 = neo_danubian
+		2 = berid
+		2 = gorid
+		2 = pre_slavic
+		2 = baskid
+		1 = north_pontid
+		1 = carpathid
+		1 = pontid
+		1 = proto_nordid
+		1 = berberid
 	}
 }
 frisian = {
@@ -131,48 +222,6 @@ frisian = {
 		3 = keltic_nordid
 		2 = gorid
 		2 = pre_slavic
-	}
-}
-jute = {
-	color = { 0.8 0.5 0.5 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_west_germanic
-	language = language_ingvaeonic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_fp2_ritualised_friendship
-		tradition_maritime_mercantilism
-		tradition_migrations
-	}
-	
-	name_list = name_list_anglo_saxon
-	
-	coa_gfx = { norse_coa_gfx western_coa_gfx }
-	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { norse_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		86 = borreby
-		67 = faelid
-		34 = anglo_saxon
-		20 = tavastid
-		15 = north_atlantid
-		15 = strandid
-		6 = brunn
-		6 = troender
-		6 = aisto_nordid
-		6 = paleo_atlantid
-		6 = subnordid
-		4 = norid
-		4 = west_alpinid
-		2 = west_baltid
-		1 = neo_danubian
-		1 = keltic_nordid
-		1 = gorid
 	}
 }
 ripurian = {
@@ -229,97 +278,48 @@ ripurian = {
 		1 = atlanto_mediterranean
 	}
 }
-frisa = {
-	color = { 0.7 0.3 0.2 }
+angle = {
+	color = { 0.8 0.4 0.4 }
 	
-	ethos = ethos_stoic
+	ethos = ethos_bellicose
 	heritage = heritage_west_germanic
 	language = language_ingvaeonic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_fishermen
+		tradition_the_witenagemot
+		tradition_astute_diplomats
 		tradition_migrations
-		tradition_maritime_mercantilism
 	}
 	
-	name_list = name_list_frisian
-
-	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 		
-
+	name_list = name_list_anglo_saxon
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
 
 	ethnicities = {
-		100 = anglo_saxon
-		100 = halstatt
-		79 = faelid
-		48 = borreby
-		48 = north_atlantid
-		37 = subnordid
-		5 = brunn
-		5 = norid
-		5 = paleo_atlantid
-		5 = tavastid
-		5 = troender
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
 		5 = west_alpinid
-		3 = keltic_nordid
-		2 = gorid
-		2 = pre_slavic
-	}
-}
-frankish = {
-	color = { 0.2 0.2 0.5 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_central_germanic
-	language = language_istvaeonic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_warrior_culture
-		tradition_hereditary_hierarchy
-		tradition_stand_and_fight
-		tradition_migrations
-	}
-	
-	name_list = name_list_frankish
-	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = subnordid
-		51 = west_alpinid
-		48 = north_atlantid
-		44 = norid
-		38 = borreby
-		37 = anglo_saxon
-		37 = halstatt
-		29 = dinarid
-		26 = faelid
-		19 = gracilemediterranid
-		10 = atlanto_mediterranean
-		6 = brunn
-		5 = litorid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
 		4 = eurafricanid
-		4 = paleo_sardinian
-		4 = paleo_atlantid
-		3 = keltic_nordid
-		3 = tavastid
-		3 = troender
-		2 = neo_danubian
-		2 = berid
-		2 = gorid
-		2 = pre_slavic
-		2 = baskid
-		1 = north_pontid
-		1 = carpathid
-		1 = pontid
-		1 = proto_nordid
-		1 = berberid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
 	}
 }
 old_saxon = {

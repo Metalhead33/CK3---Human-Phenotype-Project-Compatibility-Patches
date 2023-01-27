@@ -1,19 +1,18 @@
 ﻿
-nuristani = {
-	color = { 0.84 0.28 0.01 }
+burusho = {
+	color = { 0.39 0.19 0.09 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_indo_aryan
-	language = language_nuristani
+	language = language_burusho
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_isolationist
-		tradition_stalwart_defenders
+		tradition_tribe_unity
 		tradition_festivities
 	}
 	
-	name_list = name_list_nuristani
+	name_list = name_list_burusho
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -44,20 +43,21 @@ nuristani = {
 		2 = andronovo_turanid
 	}
 }
-burusho = {
-	color = { 0.39 0.19 0.09 }
+nuristani = {
+	color = { 0.84 0.28 0.01 }
 	
-	ethos = ethos_stoic
+	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_burusho
+	language = language_nuristani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_tribe_unity
+		tradition_isolationist
+		tradition_stalwart_defenders
 		tradition_festivities
 	}
 	
-	name_list = name_list_burusho
+	name_list = name_list_nuristani
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }

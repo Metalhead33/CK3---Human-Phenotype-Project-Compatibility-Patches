@@ -1,99 +1,4 @@
 ﻿
-northumbrian = {
-	color = { 0.807 0.172 0.364 }
-	created = 500.1.1
-	parents = { old_saxon }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_west_germanic
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_the_witenagemot
-		tradition_city_keepers
-		tradition_eye_for_an_eye
-		tradition_hird
-	}
-	
-	name_list = name_list_anglo_saxon
-
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
-
-
-	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
-		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
-	}
-}
-kentish = {
-	color = { 0.819 0.541 0.239 }
-	parents = { jute } 
-
-	created = 470.1.1 #Takeover of Cantiaca by Germanics in the mid 5th century
-	
-	ethos = ethos_stoic
-	heritage = heritage_west_germanic
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_the_witenagemot
-		tradition_city_keepers
-		tradition_culture_blending
-		tradition_hird
-	}
-	
-	name_list = name_list_anglo_saxon
-
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
-
-
-	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
-		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
-	}
-}
 mercian = {
 	color = { 0.807 0.207 0.172 }
 	created = 500.1.1
@@ -107,6 +12,53 @@ mercian = {
 		tradition_the_witenagemot
 		tradition_city_keepers
 		tradition_quarrelsome
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { anglo_saxon_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+east_anglian = {
+	color = { 0.807 0.345 0.172 }
+	created = 500.1.1
+	parents = { old_saxon }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_wetlanders
 		tradition_hird
 	}
 	
@@ -188,10 +140,58 @@ west_saxon = {
 		1 = paleo_sardinian
 	}
 }
-east_anglian = {
-	color = { 0.807 0.345 0.172 }
+northumbrian = {
+	color = { 0.807 0.172 0.364 }
 	created = 500.1.1
 	parents = { old_saxon }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_eye_for_an_eye
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { anglo_saxon_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+kentish = {
+	color = { 0.819 0.541 0.239 }
+	parents = { jute } 
+
+	created = 470.1.1 #Takeover of Cantiaca by Germanics in the mid 5th century
 	
 	ethos = ethos_stoic
 	heritage = heritage_west_germanic
@@ -200,7 +200,7 @@ east_anglian = {
 	traditions = {
 		tradition_the_witenagemot
 		tradition_city_keepers
-		tradition_wetlanders
+		tradition_culture_blending
 		tradition_hird
 	}
 	

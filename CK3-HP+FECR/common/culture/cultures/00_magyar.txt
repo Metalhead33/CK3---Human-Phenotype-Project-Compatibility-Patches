@@ -1,54 +1,4 @@
 ﻿
-mogyer = {
-	color = { 0.3 0.4 0.1 }
-
-	ethos = ethos_bellicose
-	heritage = heritage_magyar
-	language = language_ugric
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_tribe_unity
-		tradition_horse_lords
-		tradition_steppe_tolerance
-		tradition_hungarian_revanchism
-	}
-
-	name_list = name_list_mogyer
-
-	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx } 
-	unit_gfx = { mongol_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = north_pontid
-		74 = alfoeld
-		71 = andronovo_turanid
-		68 = pontid
-		57 = gorid
-		54 = carpathid
-		51 = neo_danubian
-		35 = norid
-		30 = scythian
-		30 = dinarid
-		22 = plains_pamirid
-		7 = anatolid
-		6 = proto_nordid
-		5 = central_pamirid
-		4 = ladogan
-		4 = armenoid
-		3 = gracilemediterranid
-		3 = aralid
-		3 = west_baltid
-		2 = eurafricanid
-		2 = borreby
-		2 = pre_slavic
-		2 = subnordid
-		2 = tavastid
-		1 = troender
-	}
-}
 szekely = {
 	color = { 0.5 0.55 0.2 }
 	created = 1000.1.1
@@ -98,6 +48,56 @@ szekely = {
 		3 = plains_pamirid
 		3 = west_alpinid
 		2 = anatolid
+	}
+}
+mogyer = {
+	color = { 0.3 0.4 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_magyar
+	language = language_ugric
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_horse_lords
+		tradition_steppe_tolerance
+		tradition_hungarian_revanchism
+	}
+
+	name_list = name_list_mogyer
+
+	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = north_pontid
+		74 = alfoeld
+		71 = andronovo_turanid
+		68 = pontid
+		57 = gorid
+		54 = carpathid
+		51 = neo_danubian
+		35 = norid
+		30 = scythian
+		30 = dinarid
+		22 = plains_pamirid
+		7 = anatolid
+		6 = proto_nordid
+		5 = central_pamirid
+		4 = ladogan
+		4 = armenoid
+		3 = gracilemediterranid
+		3 = aralid
+		3 = west_baltid
+		2 = eurafricanid
+		2 = borreby
+		2 = pre_slavic
+		2 = subnordid
+		2 = tavastid
+		1 = troender
 	}
 }
 hungarian = {

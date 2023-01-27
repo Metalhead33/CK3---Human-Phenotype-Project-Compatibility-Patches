@@ -1,46 +1,4 @@
 ﻿
-sitonian = {
-	color = { 0.1 0.3 0.6 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_balto_finnic
-	language = language_finnic
-	martial_custom = martial_custom_female_only
-	traditions = {
-		tradition_female_only_inheritance # Tacitus describes the Sitones as matriarchal
-		tradition_isolationist
-		tradition_fishermen
-	}
-	# FP1 Traditions
-	
-	name_list = name_list_sitonian
-	
-	coa_gfx = { swedish_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		43 = troender
-		33 = faelid
-		30 = borreby
-		25 = tavastid
-		19 = aisto_nordid
-		17 = paleo_atlantid
-		11 = strandid
-		6 = west_baltid
-		5 = north_atlantid
-		5 = subnordid
-		3 = west_alpinid
-		3 = savolaxid
-		2 = proto_nordid
-		2 = scando_lappid
-		2 = brunn
-		2 = anglo_saxon
-	}
-}
 jute = {
 	color = { 0.4 0.482 0.858 }
 	
@@ -218,6 +176,48 @@ got = {
 		3 = anglo_saxon
 		2 = west_alpinid
 		1 = proto_nordid
+	}
+}
+sitonian = {
+	color = { 0.1 0.3 0.6 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_balto_finnic
+	language = language_finnic
+	martial_custom = martial_custom_female_only
+	traditions = {
+		tradition_female_only_inheritance # Tacitus describes the Sitones as matriarchal
+		tradition_isolationist
+		tradition_fishermen
+	}
+	# FP1 Traditions
+	
+	name_list = name_list_sitonian
+	
+	coa_gfx = { swedish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		43 = troender
+		33 = faelid
+		30 = borreby
+		25 = tavastid
+		19 = aisto_nordid
+		17 = paleo_atlantid
+		11 = strandid
+		6 = west_baltid
+		5 = north_atlantid
+		5 = subnordid
+		3 = west_alpinid
+		3 = savolaxid
+		2 = proto_nordid
+		2 = scando_lappid
+		2 = brunn
+		2 = anglo_saxon
 	}
 }
 svear = {
