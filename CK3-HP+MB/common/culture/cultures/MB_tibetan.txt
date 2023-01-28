@@ -1,6 +1,10 @@
 ﻿
-balti = {
-	color = { 1.0 0.6 0.2 }
+kinnauri = {
+	color = { 1.0 0.8 0.2 }
+	
+	created = 1000.1.1
+	parents = { zhangzhung }
+	
 	
 	ethos = ethos_spiritual
 	heritage = heritage_tibetan
@@ -9,10 +13,9 @@ balti = {
 	traditions = {
 		tradition_himalayan_settlers
 		tradition_sacred_mountains
-		tradition_religion_blending
 	}
 	
-	name_list = name_list_bodpa
+	name_list = name_list_zhangzhung
 
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -150,11 +153,8 @@ baima = {
 		1 = mountain_indid
 	}
 }
-amdo = {
-	color = { 1.0 0.6 0.3 }
-	
-	created = 800.1.1
-	parents = { sumpa bodpa }
+balti = {
+	color = { 1.0 0.6 0.2 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_tibetan
@@ -162,8 +162,8 @@ amdo = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_tribe_unity
-		tradition_religious_patronage
+		tradition_sacred_mountains
+		tradition_religion_blending
 	}
 	
 	name_list = name_list_bodpa
@@ -189,12 +189,11 @@ amdo = {
 		1 = mountain_indid
 	}
 }
-kinnauri = {
-	color = { 1.0 0.8 0.2 }
+amdo = {
+	color = { 1.0 0.6 0.3 }
 	
-	created = 1000.1.1
-	parents = { zhangzhung }
-	
+	created = 800.1.1
+	parents = { sumpa bodpa }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_tibetan
@@ -202,10 +201,11 @@ kinnauri = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_sacred_mountains
+		tradition_tribe_unity
+		tradition_religious_patronage
 	}
 	
-	name_list = name_list_zhangzhung
+	name_list = name_list_bodpa
 
 	coa_gfx = { tibetan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }

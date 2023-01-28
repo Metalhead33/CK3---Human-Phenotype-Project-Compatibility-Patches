@@ -1,24 +1,24 @@
 ﻿
-sclavenian = {
-	color = { 0.38 0.7 0.5 }
-
-	ethos = ethos_bellicose
-	heritage = heritage_slavic
-	language = language_proto_slavic
+croatian = {
+	color = { 0.4 0.2 0.2 }
+	created = 750.1.1
+	parents = { belocroat }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_south_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hussar
-		tradition_swords_for_hire # Cybr: Served in Roman armies
-		tradition_battlefield_looters # Cybr: Raided deep into ERE territory
-		tradition_migrations
+		tradition_astute_diplomats
+		tradition_hereditary_hierarchy
 	}
 	
-	name_list = name_list_croatian  # Abby: Ideally should be a unique namelist but this will do for now.
-	# Hopefully no angry Serbs come yelling at me
+	name_list = name_list_croatian
 	
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	
 
@@ -48,6 +48,64 @@ sclavenian = {
 		2 = tavastid
 		1 = north_atlantid
 		1 = anglo_saxon
+	}
+}
+serbian = {
+	color = {  0.36 0.1 0.04 }
+	created = 750.1.1
+	parents = { beloserb }
+	
+	ethos = ethos_communal
+	heritage = heritage_south_slavic
+	language = language_south_slavic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hussar
+		tradition_religious_patronage
+		tradition_stalwart_defenders
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = dinarid
+		64 = carpathid
+		45 = eurafricanid
+		45 = norid
+		39 = borreby
+		36 = gorid
+		33 = neo_danubian
+		12 = pontid
+		9 = litorid
+		5 = atlanto_mediterranean
+		5 = north_pontid
+		4 = proto_nordid
+		4 = pre_slavic
+		3 = west_baltid
+		3 = subnordid
+		3 = gracilemediterranid
+		3 = berid
+		2 = alfoeld
+		2 = armenoid
+		2 = scythian
+		1 = tavastid
+		1 = west_alpinid
+		1 = halstatt
+		1 = paleo_sardinian
+		1 = faelid
+		1 = asian_alpine
+		1 = anatolid
 	}
 }
 belocroat = {
@@ -161,26 +219,26 @@ beloserb = {
 		1 = anatolid
 	}
 }
-croatian = {
-	color = { 0.4 0.2 0.2 }
-	created = 750.1.1
-	parents = { belocroat }
-	
-	ethos = ethos_communal
-	heritage = heritage_south_slavic
-	language = language_south_slavic
+sclavenian = {
+	color = { 0.38 0.7 0.5 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_slavic
+	language = language_proto_slavic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hussar
-		tradition_astute_diplomats
-		tradition_hereditary_hierarchy
+		tradition_swords_for_hire # Cybr: Served in Roman armies
+		tradition_battlefield_looters # Cybr: Raided deep into ERE territory
+		tradition_migrations
 	}
 	
-	name_list = name_list_croatian
+	name_list = name_list_croatian  # Abby: Ideally should be a unique namelist but this will do for now.
+	# Hopefully no angry Serbs come yelling at me
 	
 	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
+	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { eastern_unit_gfx }
 	
 
@@ -210,63 +268,5 @@ croatian = {
 		2 = tavastid
 		1 = north_atlantid
 		1 = anglo_saxon
-	}
-}
-serbian = {
-	color = {  0.36 0.1 0.04 }
-	created = 750.1.1
-	parents = { beloserb }
-	
-	ethos = ethos_communal
-	heritage = heritage_south_slavic
-	language = language_south_slavic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hussar
-		tradition_religious_patronage
-		tradition_stalwart_defenders
-	}
-	
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_serbian
-	
-	coa_gfx = { south_slavic_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = dinarid
-		64 = carpathid
-		45 = eurafricanid
-		45 = norid
-		39 = borreby
-		36 = gorid
-		33 = neo_danubian
-		12 = pontid
-		9 = litorid
-		5 = atlanto_mediterranean
-		5 = north_pontid
-		4 = proto_nordid
-		4 = pre_slavic
-		3 = west_baltid
-		3 = subnordid
-		3 = gracilemediterranid
-		3 = berid
-		2 = alfoeld
-		2 = armenoid
-		2 = scythian
-		1 = tavastid
-		1 = west_alpinid
-		1 = halstatt
-		1 = paleo_sardinian
-		1 = faelid
-		1 = asian_alpine
-		1 = anatolid
 	}
 }

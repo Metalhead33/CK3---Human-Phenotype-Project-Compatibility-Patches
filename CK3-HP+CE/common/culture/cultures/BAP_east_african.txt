@@ -1,4 +1,38 @@
 ﻿
+tigray = {
+	color = hsv { 0.1 0.5 0.8 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_african
+	language = language_ethiopic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_amharic_highlanders
+		tradition_family_entrepreneurship
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_ethiopian
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { east_african_clothing_gfx }
+	unit_gfx = { east_african_unit_gfx mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = north_ethiopid
+		5 = arabid
+		5 = east_ethiopid
+		5 = proto_ethiopid
+		5 = yemenid
+		4 = central_ethiopid
+		4 = middle_nile
+		2 = omotic
+		1 = arabian_veddoid
+	}
+}
 agaw = {
 	color = { 0.8 0.3 0.3 }
 	
@@ -36,38 +70,36 @@ agaw = {
 		1 = yemenid
 	}
 }
-tigray = {
-	color = hsv { 0.1 0.5 0.8 }
+argobba = {
+	color = hsv { 0.7 0.8 0.6 }
 	
 	ethos = ethos_spiritual
-	heritage = heritage_east_african
+	heritage = heritage_east_african #migrants to the horn but ethiopic origins
 	language = language_ethiopic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_zealous_people
-		tradition_amharic_highlanders
-		tradition_family_entrepreneurship
-		tradition_city_keepers
+		tradition_horn_mountain_skirmishing
+		tradition_hill_dwellers
+		tradition_religion_blending
+		tradition_caravaneers
 	}
 	
-	name_list = name_list_ethiopian
+	name_list = name_list_argobba
 	
-	coa_gfx = { east_african_coa_gfx }
+	coa_gfx = { arabic_group_coa_gfx } 
+	#coa_gfx = { east_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { east_african_clothing_gfx }
-	unit_gfx = { east_african_unit_gfx mena_unit_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
 	
 
 	ethnicities = {
-		100 = north_ethiopid
+		100 = east_ethiopid
+		95 = omotic
+		83 = central_ethiopid
+		77 = north_ethiopid
+		59 = proto_ethiopid
 		5 = arabid
-		5 = east_ethiopid
-		5 = proto_ethiopid
-		5 = yemenid
-		4 = central_ethiopid
-		4 = middle_nile
-		2 = omotic
-		1 = arabian_veddoid
 	}
 }
 sidama = {
@@ -103,37 +135,5 @@ sidama = {
 		3 = equatorialsudanid
 		2 = basic_bantuid
 		1 = dinkaid
-	}
-}
-argobba = {
-	color = hsv { 0.7 0.8 0.6 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_east_african #migrants to the horn but ethiopic origins
-	language = language_ethiopic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_horn_mountain_skirmishing
-		tradition_hill_dwellers
-		tradition_religion_blending
-		tradition_caravaneers
-	}
-	
-	name_list = name_list_argobba
-	
-	coa_gfx = { arabic_group_coa_gfx } 
-	#coa_gfx = { east_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = east_ethiopid
-		95 = omotic
-		83 = central_ethiopid
-		77 = north_ethiopid
-		59 = proto_ethiopid
-		5 = arabid
 	}
 }

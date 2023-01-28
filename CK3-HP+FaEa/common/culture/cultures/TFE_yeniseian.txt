@@ -1,4 +1,32 @@
 ﻿
+yeniseian = {
+	color = { 0.84 0.91 0.93 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_yeniseian
+	language = language_yeniseian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_forest_folk
+	}
+	
+	name_list = name_list_yeniseian
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = baykal
+		18 = gobid
+		7 = aralid
+		4 = plains_pamirid
+		3 = andronovo_turanid
+	}
+}
 xiongnu = {
 	color = { 0.65 0.89 0.99 }
 	
@@ -42,33 +70,5 @@ xiongnu = {
 		4 = gorid
 		2 = norid
 		2 = savolaxid
-	}
-}
-yeniseian = {
-	color = { 0.84 0.91 0.93 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_yeniseian
-	language = language_yeniseian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_storytellers
-		tradition_forest_folk
-	}
-	
-	name_list = name_list_yeniseian
-	
-	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = baykal
-		18 = gobid
-		7 = aralid
-		4 = plains_pamirid
-		3 = andronovo_turanid
 	}
 }

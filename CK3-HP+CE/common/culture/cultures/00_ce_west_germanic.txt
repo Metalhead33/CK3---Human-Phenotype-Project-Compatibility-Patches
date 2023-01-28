@@ -1,51 +1,4 @@
 ﻿
-mercian = {
-	color = { 0.807 0.207 0.172 }
-	created = 500.1.1
-	parents = { old_saxon }
-	
-	ethos = ethos_courtly
-	heritage = heritage_west_germanic
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_the_witenagemot
-		tradition_city_keepers
-		tradition_quarrelsome
-		tradition_hird
-	}
-	
-	name_list = name_list_anglo_saxon
-
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
-
-
-	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
-		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
-	}
-}
 east_anglian = {
 	color = { 0.807 0.345 0.172 }
 	created = 500.1.1
@@ -59,53 +12,6 @@ east_anglian = {
 		tradition_the_witenagemot
 		tradition_city_keepers
 		tradition_wetlanders
-		tradition_hird
-	}
-	
-	name_list = name_list_anglo_saxon
-
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
-
-
-	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
-		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
-	}
-}
-west_saxon = {
-	color = { 0.819 0.301 0.239 }
-	created = 500.1.1
-	parents = { old_saxon }
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_west_germanic
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_the_witenagemot
-		tradition_city_keepers
-		tradition_stalwart_defenders
 		tradition_hird
 	}
 	
@@ -201,6 +107,100 @@ kentish = {
 		tradition_the_witenagemot
 		tradition_city_keepers
 		tradition_culture_blending
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { anglo_saxon_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+west_saxon = {
+	color = { 0.819 0.301 0.239 }
+	created = 500.1.1
+	parents = { old_saxon }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_stalwart_defenders
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { anglo_saxon_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+mercian = {
+	color = { 0.807 0.207 0.172 }
+	created = 500.1.1
+	parents = { old_saxon }
+	
+	ethos = ethos_courtly
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_quarrelsome
 		tradition_hird
 	}
 	

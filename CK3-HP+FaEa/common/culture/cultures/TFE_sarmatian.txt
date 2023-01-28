@@ -1,53 +1,4 @@
 ﻿
-alan = {
-	color = { 100 35 0 }
-	
-	ethos = ethos_communal
-	heritage = heritage_sarmatian
-	language = language_scythian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_horse_lords
-		tradition_mountaineers
-		tradition_steppe_tolerance
-		tradition_wedding_ceremonies
-		tradition_migrations
-	}
-	
-	name_list = name_list_alan
-	
-	coa_gfx = { steppe_coa_gfx western_coa_gfx }
-	building_gfx = { steppe_building_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
-	
-
-	ethnicities = {
-		100 = andronovo_turanid
-		82 = mtebid
-		77 = pontid
-		58 = armenoid
-		50 = anatolid
-		31 = central_pamirid
-		31 = scythian
-		22 = plains_pamirid
-		20 = east_pamirid
-		14 = proto_iranid
-		8 = dinarid
-		8 = proto_nordid
-		8 = iranid
-		8 = asian_alpine
-		8 = north_pontid
-		7 = aralid
-		6 = berid
-		5 = transcaspian
-		5 = neo_danubian
-		4 = gracilemediterranid
-		3 = gorid
-		3 = carpathid
-		1 = alfoeld
-	}
-}
 ciscaucasian = {
 	color = { 90 30 5 }
 	
@@ -100,19 +51,23 @@ ciscaucasian = {
 		1 = troender
 	}
 }
-roxolan = {
-	color = { 70 35 0 }
+yazige = {
+	color = { 80 40 10 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_communal
 	heritage = heritage_sarmatian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_horse_lords
-		tradition_mountaineers
+		tradition_pastoralists # Cybr: Cattle grazing between the towns they settled in
 		tradition_steppe_tolerance
-		tradition_warrior_culture # Cybr: Eh, something to set them apart from the Alans
 		tradition_nomadic_migrations # Cybr: nomads
+	}
+
+	dlc_tradition = { # Cybr: Lived near Romans for a long time
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
 	}
 	
 	name_list = name_list_alan
@@ -149,23 +104,19 @@ roxolan = {
 		1 = alfoeld
 	}
 }
-yazige = {
-	color = { 80 40 10 }
+roxolan = {
+	color = { 70 35 0 }
 	
-	ethos = ethos_communal
+	ethos = ethos_bellicose
 	heritage = heritage_sarmatian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_horse_lords
-		tradition_pastoralists # Cybr: Cattle grazing between the towns they settled in
+		tradition_mountaineers
 		tradition_steppe_tolerance
+		tradition_warrior_culture # Cybr: Eh, something to set them apart from the Alans
 		tradition_nomadic_migrations # Cybr: nomads
-	}
-
-	dlc_tradition = { # Cybr: Lived near Romans for a long time
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
 	}
 	
 	name_list = name_list_alan
@@ -256,23 +207,80 @@ taifal = {
 		1 = troender
 	}
 }
-thyssagataen = {
-	color = { 150 80 10 }
+alan = {
+	color = { 100 35 0 }
 	
 	ethos = ethos_communal
 	heritage = heritage_sarmatian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		# Cybr: Quick search reveals literally nothing about these guys
 		tradition_horse_lords
 		tradition_mountaineers
 		tradition_steppe_tolerance
 		tradition_wedding_ceremonies
-		tradition_nomadic_migrations # Cybr: nomads
+		tradition_migrations
 	}
 	
 	name_list = name_list_alan
+	
+	coa_gfx = { steppe_coa_gfx western_coa_gfx }
+	building_gfx = { steppe_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+
+	ethnicities = {
+		100 = andronovo_turanid
+		82 = mtebid
+		77 = pontid
+		58 = armenoid
+		50 = anatolid
+		31 = central_pamirid
+		31 = scythian
+		22 = plains_pamirid
+		20 = east_pamirid
+		14 = proto_iranid
+		8 = dinarid
+		8 = proto_nordid
+		8 = iranid
+		8 = asian_alpine
+		8 = north_pontid
+		7 = aralid
+		6 = berid
+		5 = transcaspian
+		5 = neo_danubian
+		4 = gracilemediterranid
+		3 = gorid
+		3 = carpathid
+		1 = alfoeld
+	}
+}
+kangju = {
+	color = { 100 30 0 }
+
+	parents = { saka sogdian }
+
+	created = 2.1.1
+	history_loc_override = kangju_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_sarmatian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_horse_lords
+		tradition_steppe_tolerance
+		tradition_city_keepers
+	}
+
+	dlc_tradition = { # Cybr: Lived near Romans for a long time
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_sogdian
 	
 	coa_gfx = { steppe_coa_gfx western_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -308,31 +316,23 @@ thyssagataen = {
 		1 = troender
 	}
 }
-kangju = {
-	color = { 100 30 0 }
-
-	parents = { saka sogdian }
-
-	created = 2.1.1
-	history_loc_override = kangju_history_loc
+thyssagataen = {
+	color = { 150 80 10 }
 	
 	ethos = ethos_communal
 	heritage = heritage_sarmatian
 	language = language_scythian
 	martial_custom = martial_custom_male_only
-
 	traditions = {
+		# Cybr: Quick search reveals literally nothing about these guys
 		tradition_horse_lords
+		tradition_mountaineers
 		tradition_steppe_tolerance
-		tradition_city_keepers
-	}
-
-	dlc_tradition = { # Cybr: Lived near Romans for a long time
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
+		tradition_wedding_ceremonies
+		tradition_nomadic_migrations # Cybr: nomads
 	}
 	
-	name_list = name_list_sogdian
+	name_list = name_list_alan
 	
 	coa_gfx = { steppe_coa_gfx western_coa_gfx }
 	building_gfx = { steppe_building_gfx }
