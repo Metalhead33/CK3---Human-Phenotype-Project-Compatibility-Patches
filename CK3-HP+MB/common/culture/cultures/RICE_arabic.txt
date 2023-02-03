@@ -1,4 +1,44 @@
 ﻿
+himyarite = {
+	color = { 0.53 0.66 0.56 }
+	#color = { 0.12 0.60 0.44 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_sayhadic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountaineers
+		tradition_mountain_herding 
+		tradition_religion_blending
+		tradition_maritime_mercantilism
+		tradition_ancient_miners
+		#tradition_seafaring
+		#tradition_dryland_dwellers
+	}
+	
+	name_list = name_list_himyarite
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+
+	ethnicities = {
+		100 = yemenid
+		43 = arabid
+		11 = arabian_veddoid
+		6 = armenoid
+		5 = asian_alpine
+		4 = assyroid
+		4 = north_ethiopid
+		1 = east_ethiopid
+		1 = libyid
+		1 = pontid
+		1 = transmediterranid
+	}
+}
 soqotri = {
 	color = { 0.50 0.70 0.55 }
 	
@@ -57,46 +97,6 @@ south_arabian = {
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
 	clothing_gfx = { mena_clothing_gfx } 
 	clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { mena_unit_gfx } 
-
-
-	ethnicities = {
-		100 = yemenid
-		43 = arabid
-		11 = arabian_veddoid
-		6 = armenoid
-		5 = asian_alpine
-		4 = assyroid
-		4 = north_ethiopid
-		1 = east_ethiopid
-		1 = libyid
-		1 = pontid
-		1 = transmediterranid
-	}
-}
-himyarite = {
-	color = { 0.53 0.66 0.56 }
-	#color = { 0.12 0.60 0.44 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_arabic
-	language = language_sayhadic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_mountaineers
-		tradition_mountain_herding 
-		tradition_religion_blending
-		tradition_maritime_mercantilism
-		tradition_ancient_miners
-		#tradition_seafaring
-		#tradition_dryland_dwellers
-	}
-	
-	name_list = name_list_himyarite
-
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { mena_clothing_gfx } 
 	unit_gfx = { mena_unit_gfx } 
 
 

@@ -1,45 +1,4 @@
 ﻿
-tagelmust = {
-	color = { 0.55 0.35 0.25 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_berber
-	language = language_berber
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_african_tolerance
-		tradition_family_entrepreneurship
-		tradition_mountain_herding
-	}
-	
-	name_list = name_list_baranis
-	
-	coa_gfx = { berber_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = moorish
-		65 = libyid
-		57 = berberid
-		48 = west_ethiopid
-		21 = transmediterranid
-		12 = sudanid
-		11 = fezzanid
-		5 = targid
-		4 = canarid
-		4 = eurafricanid
-		4 = berid
-		4 = arabid
-		4 = african_alpine
-		3 = saharan_ethiopid
-		3 = senegalid
-		2 = gracilemediterranid
-		1 = paleo_saharid
-	}
-}
 tuareg = {
 	color = hsv{ 0.8 1 0.2 }
 	
@@ -80,6 +39,47 @@ tuareg = {
 		1 = basic_khoid
 		1 = canarid
 		1 = west_ethiopid
+	}
+}
+tagelmust = {
+	color = { 0.55 0.35 0.25 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_african_tolerance
+		tradition_family_entrepreneurship
+		tradition_mountain_herding
+	}
+	
+	name_list = name_list_baranis
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = moorish
+		65 = libyid
+		57 = berberid
+		48 = west_ethiopid
+		21 = transmediterranid
+		12 = sudanid
+		11 = fezzanid
+		5 = targid
+		4 = canarid
+		4 = eurafricanid
+		4 = berid
+		4 = arabid
+		4 = african_alpine
+		3 = saharan_ethiopid
+		3 = senegalid
+		2 = gracilemediterranid
+		1 = paleo_saharid
 	}
 }
 masmuda = {

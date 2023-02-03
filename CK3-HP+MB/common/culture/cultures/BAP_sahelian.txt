@@ -1,4 +1,70 @@
 ﻿
+bozo = {
+	color = hsv{ 0.12 1.0 0.5}
+	
+	ethos = ethos_communal
+	heritage = heritage_sahelian
+	language = language_soninke
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_wetlanders
+		tradition_religion_blending
+		tradition_isolationist
+		tradition_agrarian
+	}
+	
+	name_list = name_list_bozo
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = sudanid
+		32 = saharan_ethiopid
+		14 = fezzanid
+		8 = west_ethiopid
+		5 = bobo
+		5 = senegalid
+		3 = moorish
+		2 = targid
+		1 = guinesid
+	}
+}
+songhai = {
+	color = { 0.7 0.2 0.4 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_sahelian
+	language = language_ayneha
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_ruling_caste
+		tradition_dryland_dwellers
+		tradition_warrior_culture
+	}
+	
+	name_list = name_list_songhai
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+
+	ethnicities = {
+		100 = sudanid
+		18 = west_ethiopid
+		9 = senegalid
+		8 = fezzanid
+		8 = saharan_ethiopid
+		6 = moorish
+		3 = bobo
+		1 = targid
+	}
+}
 sorko = {
 	color = hsv{ 0.16 0.7 1 }
 	
@@ -34,38 +100,6 @@ sorko = {
 		1 = casamance
 		1 = equatorialsudanid
 		1 = westcongolesid
-	}
-}
-songhai = {
-	color = { 0.7 0.2 0.4 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_sahelian
-	language = language_ayneha
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_ruling_caste
-		tradition_dryland_dwellers
-		tradition_warrior_culture
-	}
-	
-	name_list = name_list_songhai
-	
-	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = sudanid
-		18 = west_ethiopid
-		9 = senegalid
-		8 = fezzanid
-		8 = saharan_ethiopid
-		6 = moorish
-		3 = bobo
-		1 = targid
 	}
 }
 zarma = {
@@ -133,21 +167,20 @@ mossi = {
 		1 = guinesid
 	}
 }
-bozo = {
-	color = hsv{ 0.12 1.0 0.5}
+soninke = {
+	color = soninke
 	
-	ethos = ethos_communal
+	ethos = ethos_courtly
 	heritage = heritage_sahelian
 	language = language_soninke
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_wetlanders
-		tradition_religion_blending
-		tradition_isolationist
-		tradition_agrarian
+		tradition_caravaneers
+		tradition_dryland_dwellers
+		tradition_zealous_people
 	}
 	
-	name_list = name_list_bozo
+	name_list = name_list_soninke
 	
 	coa_gfx = { west_african_group_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
@@ -157,14 +190,13 @@ bozo = {
 
 	ethnicities = {
 		100 = sudanid
-		32 = saharan_ethiopid
-		14 = fezzanid
-		8 = west_ethiopid
-		5 = bobo
-		5 = senegalid
-		3 = moorish
-		2 = targid
-		1 = guinesid
+		18 = west_ethiopid
+		9 = senegalid
+		8 = fezzanid
+		8 = saharan_ethiopid
+		6 = moorish
+		3 = bobo
+		1 = targid
 	}
 }
 gaw = {
@@ -198,37 +230,5 @@ gaw = {
 		6 = saharan_ethiopid
 		4 = senegalid
 		4 = targid
-	}
-}
-soninke = {
-	color = soninke
-	
-	ethos = ethos_courtly
-	heritage = heritage_sahelian
-	language = language_soninke
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_caravaneers
-		tradition_dryland_dwellers
-		tradition_zealous_people
-	}
-	
-	name_list = name_list_soninke
-	
-	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { sub_sahran_unit_gfx }
-	
-
-	ethnicities = {
-		100 = sudanid
-		18 = west_ethiopid
-		9 = senegalid
-		8 = fezzanid
-		8 = saharan_ethiopid
-		6 = moorish
-		3 = bobo
-		1 = targid
 	}
 }

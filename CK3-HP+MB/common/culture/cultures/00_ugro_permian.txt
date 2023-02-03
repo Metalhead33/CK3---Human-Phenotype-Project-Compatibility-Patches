@@ -34,8 +34,8 @@ khanty = {
 		1 = volgid
 	}
 }
-udmurt = {
-	color = udmurt
+komi = {
+	color = komi
 	
 	ethos = ethos_communal
 	heritage = heritage_ugro_permian
@@ -70,8 +70,8 @@ udmurt = {
 		1 = scando_lappid
 	}
 }
-komi = {
-	color = komi
+udmurt = {
+	color = udmurt
 	
 	ethos = ethos_communal
 	heritage = heritage_ugro_permian

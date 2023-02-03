@@ -1,39 +1,4 @@
 ﻿
-oromo = {
-	color = hsv { 0 0 0.392 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_somalian
-	language = language_cushitic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_pastoralists
-		tradition_horn_mountain_skirmishing
-		tradition_legalistic #the Gadaa system
-		tradition_quarrelsome #free neighbor conquest cbs as proxy for migrations
-	}
-	
-	name_list = name_list_oromo
-	
-	coa_gfx = { east_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = central_ethiopid
-		83 = east_ethiopid
-		42 = omotic
-		16 = basic_bantuid
-		7 = north_ethiopid
-		6 = proto_ethiopid
-		2 = dinkaid
-		2 = equatorialsudanid
-		1 = basic_bambutid
-		1 = congolesid
-	}
-}
 somali = {
 	color = somali
 	
@@ -68,6 +33,40 @@ somali = {
 		3 = yemenid
 		2 = arabian_veddoid
 		1 = eurafricanid
+	}
+}
+afar = {
+	color = hsv{ 0.6 0.9 0.7 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_somalian
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_monogamous
+		tradition_eye_for_an_eye
+		tradition_horn_mountain_skirmishing
+	}
+	
+	name_list = name_list_afar
+	
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = east_ethiopid
+		100 = omotic
+		69 = north_ethiopid
+		16 = proto_ethiopid
+		6 = arabid
+		6 = central_ethiopid
+		6 = yemenid
+		5 = arabian_veddoid
+		1 = moorish
 	}
 }
 beja = {
@@ -109,40 +108,6 @@ beja = {
 		1 = siwa
 	}
 }
-afar = {
-	color = hsv{ 0.6 0.9 0.7 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_somalian
-	language = language_cushitic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_warrior_culture
-		tradition_monogamous
-		tradition_eye_for_an_eye
-		tradition_horn_mountain_skirmishing
-	}
-	
-	name_list = name_list_afar
-	
-	coa_gfx = { east_african_group_coa_gfx }
-	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = east_ethiopid
-		100 = omotic
-		69 = north_ethiopid
-		16 = proto_ethiopid
-		6 = arabid
-		6 = central_ethiopid
-		6 = yemenid
-		5 = arabian_veddoid
-		1 = moorish
-	}
-}
 harla = {
 	color = { 220 45 120 }
 	
@@ -175,5 +140,40 @@ harla = {
 		5 = proto_ethiopid
 		1 = arabid
 		1 = eurafricanid
+	}
+}
+oromo = {
+	color = hsv { 0 0 0.392 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_somalian
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_horn_mountain_skirmishing
+		tradition_legalistic #the Gadaa system
+		tradition_quarrelsome #free neighbor conquest cbs as proxy for migrations
+	}
+	
+	name_list = name_list_oromo
+	
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = central_ethiopid
+		83 = east_ethiopid
+		42 = omotic
+		16 = basic_bantuid
+		7 = north_ethiopid
+		6 = proto_ethiopid
+		2 = dinkaid
+		2 = equatorialsudanid
+		1 = basic_bambutid
+		1 = congolesid
 	}
 }
