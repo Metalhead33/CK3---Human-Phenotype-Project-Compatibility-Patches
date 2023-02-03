@@ -1,0 +1,54 @@
+﻿
+szekely = {
+	parents = { hungarian }
+	created = 1150.1.1 #First documented in the 12th century. They spoke the same language as the rest of the Hungarians but their culture differed from being isolated in the frontier
+	color = { 0.4 0.4 0.2 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_magyar
+	language = language_magyar
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_mountaineers
+		tradition_castle_keepers
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	name_list = name_list_hungarian
+
+	coa_gfx = { magyar_group_coa_gfx ugro_permian_group_coa_gfx steppe_coa_gfx } 
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { hungarian_clothing_gfx } 
+	unit_gfx = { magyar_unit_gfx mongol_unit_gfx } 		
+
+
+	ethnicities = {
+		100 = neo_danubian
+		100 = gorid
+		100 = carpathid
+		100 = dinarid
+		92 = north_pontid
+		92 = norid
+		14 = west_baltid
+		5 = borreby
+		5 = ladogan
+		5 = litorid
+		5 = armenoid
+		5 = andronovo_turanid
+		5 = pontid
+		5 = pre_slavic
+		5 = proto_nordid
+		5 = scythian
+		5 = subnordid
+		5 = tavastid
+		5 = alfoeld
+		4 = halstatt
+		3 = plains_pamirid
+		3 = west_alpinid
+		2 = anatolid
+	}
+}

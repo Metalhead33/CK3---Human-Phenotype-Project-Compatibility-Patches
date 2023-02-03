@@ -1,57 +1,4 @@
 ﻿
-hebrew = {
-	color = { 0.1 0.7 1.0 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_levantine # heritage_levantine
-	language = language_israelite # Renamed to Hebrew
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_diasporic # Cybr: Duh, also in vanilla Israelite cultures
-		tradition_philosopher_culture # Cybr: Hebrew learning, also in vanilla Israelite cultures
-		tradition_legalistic # Cybr: Seems to be fitting for complexities of Jewish Law
-		tradition_mobile_guards # Cybr: vanilla Israelite MAA
-	}
-	
-	name_list = name_list_hebrew
-
-	dlc_tradition = { # Cybr: Because they spread all over the world, many different cultural influences
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 
-
-
-	ethnicities = {
-		100 = arabid
-		77 = assyroid
-		73 = asian_alpine
-		50 = armenoid
-		47 = iranid
-		27 = proto_iranid
-		23 = anatolid
-		17 = pontid
-		13 = litorid
-		10 = transmediterranid
-		6 = gracilemediterranid
-		6 = eurafricanid
-		4 = berberid
-		3 = indo_iranid
-		3 = yemenid
-		2 = egyptid
-		2 = berid
-		1 = indo_brachid
-		1 = libyid
-		1 = east_pamirid
-		1 = mtebid
-		1 = canarid
-		1 = proto_nordid
-	}
-}
 phoenician = {
 	color = { 0.15 0.18 0.62 }
 	
@@ -126,6 +73,59 @@ punic = {
 	}
 	
 	name_list = name_list_phoenician
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+
+	ethnicities = {
+		100 = arabid
+		77 = assyroid
+		73 = asian_alpine
+		50 = armenoid
+		47 = iranid
+		27 = proto_iranid
+		23 = anatolid
+		17 = pontid
+		13 = litorid
+		10 = transmediterranid
+		6 = gracilemediterranid
+		6 = eurafricanid
+		4 = berberid
+		3 = indo_iranid
+		3 = yemenid
+		2 = egyptid
+		2 = berid
+		1 = indo_brachid
+		1 = libyid
+		1 = east_pamirid
+		1 = mtebid
+		1 = canarid
+		1 = proto_nordid
+	}
+}
+hebrew = {
+	color = { 0.1 0.7 1.0 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_levantine # heritage_levantine
+	language = language_israelite # Renamed to Hebrew
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_diasporic # Cybr: Duh, also in vanilla Israelite cultures
+		tradition_philosopher_culture # Cybr: Hebrew learning, also in vanilla Israelite cultures
+		tradition_legalistic # Cybr: Seems to be fitting for complexities of Jewish Law
+		tradition_mobile_guards # Cybr: vanilla Israelite MAA
+	}
+	
+	name_list = name_list_hebrew
+
+	dlc_tradition = { # Cybr: Because they spread all over the world, many different cultural influences
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
 
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 

@@ -1,4 +1,99 @@
 ﻿
+gutish = {
+	color = { 0.1 0.6 0.9 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stand_and_fight
+		tradition_varangians
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_performative_honour
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_poetry
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	name_list = name_list_norse
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		47 = faelid
+		30 = borreby
+		14 = tavastid
+		10 = strandid
+		5 = aisto_nordid
+		5 = north_atlantid
+		5 = paleo_atlantid
+		5 = subnordid
+		5 = troender
+		5 = west_baltid
+		4 = brunn
+		3 = anglo_saxon
+		2 = west_alpinid
+		1 = proto_nordid
+	}
+}
+sitonian = {
+	color = { 0.1 0.3 0.6 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_balto_finnic
+	language = language_finnic
+	martial_custom = martial_custom_female_only
+	traditions = {
+		tradition_female_only_inheritance # Tacitus describes the Sitones as matriarchal
+		tradition_varangians
+		tradition_fishermen
+	}
+	# FP1 Traditions
+	
+	name_list = name_list_sitonian
+	
+	coa_gfx = { swedish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		43 = troender
+		33 = faelid
+		30 = borreby
+		25 = tavastid
+		19 = aisto_nordid
+		17 = paleo_atlantid
+		11 = strandid
+		6 = west_baltid
+		5 = north_atlantid
+		5 = subnordid
+		3 = west_alpinid
+		3 = savolaxid
+		2 = proto_nordid
+		2 = scando_lappid
+		2 = brunn
+		2 = anglo_saxon
+	}
+}
 norse = {
 	color = norse
 	# T_ 222 þ 254 Ð 208 T_ 240 E_
@@ -65,6 +160,103 @@ norse = {
 		1 = norid
 		1 = neo_danubian
 		1 = gorid
+	}
+}
+danish = {
+	color = { 0.15 0.4 0.55 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_norse
+	martial_custom = martial_custom_male_only	
+	traditions = {
+		tradition_things
+		tradition_eye_for_an_eye
+		tradition_runestones
+		tradition_varangians
+	}
+	# FP1 Traditions
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+	
+	name_list = name_list_danish
+	
+	coa_gfx = { danish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		86 = borreby
+		67 = faelid
+		34 = anglo_saxon
+		20 = tavastid
+		15 = north_atlantid
+		15 = strandid
+		6 = brunn
+		6 = troender
+		6 = aisto_nordid
+		6 = paleo_atlantid
+		6 = subnordid
+		4 = norid
+		4 = west_alpinid
+		2 = west_baltid
+		1 = neo_danubian
+		1 = keltic_nordid
+		1 = gorid
+	}
+}
+swedish = {
+	color = { 0.25 0.5 0.75 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_runestones
+		tradition_things
+		tradition_varangians
+	}
+	# FP1 Traditions
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+	
+	name_list = name_list_swedish
+	
+	coa_gfx = { swedish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		43 = troender
+		33 = faelid
+		30 = borreby
+		25 = tavastid
+		19 = aisto_nordid
+		17 = paleo_atlantid
+		11 = strandid
+		6 = west_baltid
+		5 = north_atlantid
+		5 = subnordid
+		3 = west_alpinid
+		3 = savolaxid
+		2 = proto_nordid
+		2 = scando_lappid
+		2 = brunn
+		2 = anglo_saxon
 	}
 }
 norwegian = {
@@ -167,197 +359,5 @@ gautish = {
 		3 = anglo_saxon
 		2 = west_alpinid
 		1 = proto_nordid
-	}
-}
-gutish = {
-	color = { 0.1 0.6 0.9 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_north_germanic
-	language = language_norse
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_stand_and_fight
-		tradition_varangians
-	}
-	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
-	}
-	dlc_tradition = {
-		trait = tradition_fp1_performative_honour
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_poetry
-	}
-	dlc_tradition = {
-		trait = tradition_fp1_northern_stories
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_runestones
-	}
-	
-	name_list = name_list_norse
-	
-	coa_gfx = { norse_coa_gfx western_coa_gfx }
-	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { norse_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		47 = faelid
-		30 = borreby
-		14 = tavastid
-		10 = strandid
-		5 = aisto_nordid
-		5 = north_atlantid
-		5 = paleo_atlantid
-		5 = subnordid
-		5 = troender
-		5 = west_baltid
-		4 = brunn
-		3 = anglo_saxon
-		2 = west_alpinid
-		1 = proto_nordid
-	}
-}
-sitonian = {
-	color = { 0.1 0.3 0.6 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_balto_finnic
-	language = language_finnic
-	martial_custom = martial_custom_female_only
-	traditions = {
-		tradition_female_only_inheritance # Tacitus describes the Sitones as matriarchal
-		tradition_varangians
-		tradition_fishermen
-	}
-	# FP1 Traditions
-	
-	name_list = name_list_sitonian
-	
-	coa_gfx = { swedish_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		43 = troender
-		33 = faelid
-		30 = borreby
-		25 = tavastid
-		19 = aisto_nordid
-		17 = paleo_atlantid
-		11 = strandid
-		6 = west_baltid
-		5 = north_atlantid
-		5 = subnordid
-		3 = west_alpinid
-		3 = savolaxid
-		2 = proto_nordid
-		2 = scando_lappid
-		2 = brunn
-		2 = anglo_saxon
-	}
-}
-danish = {
-	color = { 0.15 0.4 0.55 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_north_germanic
-	language = language_norse
-	martial_custom = martial_custom_male_only	
-	traditions = {
-		tradition_things
-		tradition_eye_for_an_eye
-		tradition_runestones
-		tradition_varangians
-	}
-	# FP1 Traditions
-	dlc_tradition = {
-		trait = tradition_fp1_coastal_warriors
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_hird
-	}
-	
-	name_list = name_list_danish
-	
-	coa_gfx = { danish_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		86 = borreby
-		67 = faelid
-		34 = anglo_saxon
-		20 = tavastid
-		15 = north_atlantid
-		15 = strandid
-		6 = brunn
-		6 = troender
-		6 = aisto_nordid
-		6 = paleo_atlantid
-		6 = subnordid
-		4 = norid
-		4 = west_alpinid
-		2 = west_baltid
-		1 = neo_danubian
-		1 = keltic_nordid
-		1 = gorid
-	}
-}
-swedish = {
-	color = { 0.25 0.5 0.75 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_north_germanic
-	language = language_norse
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_zealous_people
-		tradition_runestones
-		tradition_things
-		tradition_varangians
-	}
-	# FP1 Traditions
-	dlc_tradition = {
-		trait = tradition_fp1_coastal_warriors
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_hird
-	}
-	
-	name_list = name_list_swedish
-	
-	coa_gfx = { swedish_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { northern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		43 = troender
-		33 = faelid
-		30 = borreby
-		25 = tavastid
-		19 = aisto_nordid
-		17 = paleo_atlantid
-		11 = strandid
-		6 = west_baltid
-		5 = north_atlantid
-		5 = subnordid
-		3 = west_alpinid
-		3 = savolaxid
-		2 = proto_nordid
-		2 = scando_lappid
-		2 = brunn
-		2 = anglo_saxon
 	}
 }

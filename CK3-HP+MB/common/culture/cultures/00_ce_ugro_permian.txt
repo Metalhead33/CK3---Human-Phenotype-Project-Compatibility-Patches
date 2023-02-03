@@ -1,19 +1,18 @@
 ﻿
-yukaghir = {
-		
-	color = { 0.67 0.95 0.93 }
+nivkh = {
+
+	color = { 0.51 0.59 0.61 }
 	
 	ethos = ethos_communal
 	heritage = heritage_siberian
-	language = language_yukaghir
+	language = language_nivkh
 	martial_custom = martial_custom_male_only
 	traditions = {
 		#tradition_RICE_siberian_survivalists
-		tradition_hunters
-		tradition_tribe_unity
+		tradition_welcoming
 	}
 	
-	name_list = name_list_yukaghir
+	name_list = name_list_nivkh
 	
 	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }
@@ -60,20 +59,21 @@ yeniseian = {
 		3 = andronovo_turanid
 	}
 }
-nivkh = {
-
-	color = { 0.51 0.59 0.61 }
+yukaghir = {
+		
+	color = { 0.67 0.95 0.93 }
 	
 	ethos = ethos_communal
 	heritage = heritage_siberian
-	language = language_nivkh
+	language = language_yukaghir
 	martial_custom = martial_custom_male_only
 	traditions = {
 		#tradition_RICE_siberian_survivalists
-		tradition_welcoming
+		tradition_hunters
+		tradition_tribe_unity
 	}
 	
-	name_list = name_list_nivkh
+	name_list = name_list_yukaghir
 	
 	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
 	building_gfx = { steppe_building_gfx }

@@ -1,0 +1,182 @@
+﻿
+mozarab = {
+	color = { 0.86 0.62 0.28 }
+
+	parents = { visigothic bedouin }
+
+	created = 800.1.1
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_iberian
+	language = language_mozarab
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_family_entrepreneurship
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_andalusian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
+
+
+	ethnicities = {
+		100 = berid
+		89 = atlanto_mediterranean
+		69 = transmediterranid
+		56 = gracilemediterranid
+		51 = litorid
+		43 = eurafricanid
+		25 = berberid
+		19 = libyid
+		10 = armenoid
+		7 = arabid
+		7 = canarid
+		2 = moorish
+		2 = paleo_sardinian
+		2 = african_alpine
+		2 = west_alpinid
+		1 = halstatt
+		1 = dinarid
+		1 = north_atlantid
+		1 = north_ethiopid
+		1 = subnordid
+		1 = sudanid
+		1 = troender
+	}
+}
+iqritis = {
+	color = { 0.45 0.65 0.15 }
+
+	parents = { andalusian }
+
+	created = 824.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_maghrebi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_practiced_pirates
+		tradition_talent_acquisition
+		tradition_seafaring
+		tradition_stalwart_defenders
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_andalusian
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
+	
+
+	ethnicities = {
+		100 = anatolid
+		81 = asian_alpine
+		71 = pontid
+		58 = litorid
+		48 = armenoid
+		26 = gracilemediterranid
+		14 = dinarid
+		7 = eurafricanid
+		5 = proto_iranid
+		5 = north_pontid
+		4 = paleo_sardinian
+		4 = east_pamirid
+		3 = arabid
+		3 = west_alpinid
+		3 = berid
+		3 = assyroid
+		3 = berberid
+		3 = carpathid
+		2 = transmediterranid
+		2 = iranid
+		2 = mtebid
+		2 = neo_danubian
+		2 = norid
+		2 = gorid
+		2 = atlanto_mediterranean
+		1 = borreby
+		1 = subnordid
+		1 = scythian
+		1 = proto_nordid
+		1 = pre_slavic
+		1 = andronovo_turanid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = aralid
+		1 = halstatt
+		1 = alfoeld
+	}
+}
+navarro_aragonese = {
+	color = { 0.80 0.67 0.24  }
+
+	parents = { mozarab }
+
+	created = 850.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_pyreanean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_visigothic_codes
+		tradition_stand_and_fight
+		tradition_mountaineers
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_aragonese
+	
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberia_clothing_gfx } 
+	unit_gfx = { iberian_christian_unit_gfx iberian_unit_gfx western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		95 = gracilemediterranid
+		95 = eurafricanid
+		68 = litorid
+		41 = berid
+		12 = west_alpinid
+		11 = dinarid
+		8 = transmediterranid
+		7 = baskid
+		5 = berberid
+		5 = paleo_sardinian
+		5 = arabid
+		4 = halstatt
+		4 = subnordid
+		2 = libyid
+		1 = canarid
+		1 = north_atlantid
+		1 = troender
+	}
+}

@@ -1,0 +1,36 @@
+﻿
+nakhi = {
+	color = nakhi
+
+	ethos = ethos_egalitarian
+	heritage = heritage_qiangic
+	language = language_nakhi
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_music_theory
+		tradition_polygamous
+		tradition_female_only_inheritance
+		tradition_artisans
+	}
+
+	name_list = name_list_qiang
+
+	coa_gfx = { indian_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+
+	ethnicities = {
+		100 = changkiangid
+		60 = kham
+		60 = tibetid
+		19 = shanid
+		9 = east_palaungid
+		5 = chukiangid
+		5 = huanghoid
+		5 = kachinid
+		5 = palaungid
+		4 = gobid
+	}
+}

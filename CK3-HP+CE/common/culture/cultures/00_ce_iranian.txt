@@ -1,4 +1,47 @@
 ﻿
+adhari = {
+	color = { 0.733 0.756 0.521 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_iranian
+	language = language_caspian_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_castle_keepers
+		tradition_hill_dwellers
+		tradition_loyal_soldiers
+		tradition_futuwaa
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = iranid
+		88 = proto_iranid
+		70 = asian_alpine
+		68 = assyroid
+		38 = pontid
+		28 = arabid
+		20 = eurafricanid
+		15 = armenoid
+		11 = litorid
+		5 = indo_iranid
+		5 = mtebid
+		5 = anatolid
+		4 = berid
+		3 = east_pamirid
+		3 = proto_nordid
+		2 = gracilemediterranid
+		1 = transcaspian
+		1 = yemenid
+	}
+}
 semnani = {
 	color = { 0.752 0.725 0.427 }
 
@@ -181,6 +224,48 @@ parthian = {
 		1 = proto_nordid
 	}
 }
+mazandarani = {
+	color = { 0.756 0.745 0.521 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_iranian
+	language = language_caspian_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_poetry
+		tradition_stalwart_defenders
+		tradition_isolationist
+		tradition_forest_folk
+		tradition_futuwaa
+	}
+	
+	name_list = name_list_mazanderani
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { mena_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = proto_iranid
+		84 = iranid
+		54 = pontid
+		12 = armenoid
+		11 = assyroid
+		10 = asian_alpine
+		7 = arabid
+		7 = indo_iranid
+		6 = east_pamirid
+		5 = eurafricanid
+		5 = transcaspian
+		4 = anatolid
+		4 = berid
+		4 = litorid
+		3 = mtebid
+		1 = proto_nordid
+	}
+}
 pamiri = {
 	color = { 0.572 0.525 0.466 }
 	
@@ -223,90 +308,5 @@ pamiri = {
 		2 = kham
 		2 = east_brachid
 		2 = proto_nordid
-	}
-}
-adhari = {
-	color = { 0.733 0.756 0.521 }
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_iranian
-	language = language_caspian_iranian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_castle_keepers
-		tradition_hill_dwellers
-		tradition_loyal_soldiers
-		tradition_futuwaa
-	}
-	
-	name_list = name_list_persian
-	
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iranian_clothing_gfx }
-	unit_gfx = { iranian_unit_gfx mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = iranid
-		88 = proto_iranid
-		70 = asian_alpine
-		68 = assyroid
-		38 = pontid
-		28 = arabid
-		20 = eurafricanid
-		15 = armenoid
-		11 = litorid
-		5 = indo_iranid
-		5 = mtebid
-		5 = anatolid
-		4 = berid
-		3 = east_pamirid
-		3 = proto_nordid
-		2 = gracilemediterranid
-		1 = transcaspian
-		1 = yemenid
-	}
-}
-mazandarani = {
-	color = { 0.756 0.745 0.521 }
-	
-	ethos = ethos_courtly
-	heritage = heritage_iranian
-	language = language_caspian_iranian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_poetry
-		tradition_stalwart_defenders
-		tradition_isolationist
-		tradition_forest_folk
-		tradition_futuwaa
-	}
-	
-	name_list = name_list_mazanderani
-	
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { iranian_clothing_gfx }
-	unit_gfx = { iranian_unit_gfx mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = proto_iranid
-		84 = iranid
-		54 = pontid
-		12 = armenoid
-		11 = assyroid
-		10 = asian_alpine
-		7 = arabid
-		7 = indo_iranid
-		6 = east_pamirid
-		5 = eurafricanid
-		5 = transcaspian
-		4 = anatolid
-		4 = berid
-		4 = litorid
-		3 = mtebid
-		1 = proto_nordid
 	}
 }

@@ -1,16 +1,16 @@
 ﻿
-kurumba = {
-	color = hsv{ 0.58 0.8 0.8 }
+lilse = {
+	color = { 90 135 180 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_adaptive_skirmishing
-		tradition_isolationist
-		tradition_sacred_groves #earth priests
 		tradition_upland_skirmishing
+		tradition_medicinal_plants
+		tradition_stalwart_defenders
+		tradition_sacred_groves #earth priests
 	}
 		
 	name_list = name_list_gur
@@ -71,18 +71,18 @@ senufo = {
 		1 = westcongolesid
 	}
 }
-lilse = {
-	color = { 90 135 180 }
+kurumba = {
+	color = hsv{ 0.58 0.8 0.8 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_gur
 	language = language_gur
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_upland_skirmishing
-		tradition_medicinal_plants
-		tradition_stalwart_defenders
+		tradition_adaptive_skirmishing
+		tradition_isolationist
 		tradition_sacred_groves #earth priests
+		tradition_upland_skirmishing
 	}
 		
 	name_list = name_list_gur

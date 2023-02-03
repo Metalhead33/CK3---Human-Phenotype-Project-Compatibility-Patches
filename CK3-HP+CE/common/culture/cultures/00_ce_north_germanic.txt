@@ -1,18 +1,18 @@
 ﻿
-jute = {
-	color = { 0.4 0.482 0.858 }
+got = {
+	color = { 0.513 0.615 0.705 }
+
+	parents = { geat }
+
+	created = 550.1.1
 	
-	ethos = ethos_bellicose
+	ethos = ethos_bureaucratic
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_things
-	}
-	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
+		tradition_maritime_mercantilism
 	}
 	
 	# FP1 Traditions
@@ -42,23 +42,20 @@ jute = {
 
 	ethnicities = {
 		100 = halstatt
-		86 = borreby
-		67 = faelid
-		34 = anglo_saxon
-		20 = tavastid
-		15 = north_atlantid
-		15 = strandid
-		6 = brunn
-		6 = troender
-		6 = aisto_nordid
-		6 = paleo_atlantid
-		6 = subnordid
-		4 = norid
-		4 = west_alpinid
-		2 = west_baltid
-		1 = neo_danubian
-		1 = keltic_nordid
-		1 = gorid
+		47 = faelid
+		30 = borreby
+		14 = tavastid
+		10 = strandid
+		5 = aisto_nordid
+		5 = north_atlantid
+		5 = paleo_atlantid
+		5 = subnordid
+		5 = troender
+		5 = west_baltid
+		4 = brunn
+		3 = anglo_saxon
+		2 = west_alpinid
+		1 = proto_nordid
 	}
 }
 geat = {
@@ -119,20 +116,16 @@ geat = {
 		2 = west_alpinid
 	}
 }
-got = {
-	color = { 0.513 0.615 0.705 }
-
-	parents = { geat }
-
-	created = 550.1.1
+dane = {
+	color = { 0.305 0.486 0.831 }
 	
-	ethos = ethos_bureaucratic
+	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
 	language = language_norse
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_things
-		tradition_maritime_mercantilism
+		tradition_ruling_caste
 	}
 	
 	# FP1 Traditions
@@ -162,20 +155,23 @@ got = {
 
 	ethnicities = {
 		100 = halstatt
-		47 = faelid
-		30 = borreby
-		14 = tavastid
-		10 = strandid
-		5 = aisto_nordid
-		5 = north_atlantid
-		5 = paleo_atlantid
-		5 = subnordid
-		5 = troender
-		5 = west_baltid
-		4 = brunn
-		3 = anglo_saxon
-		2 = west_alpinid
-		1 = proto_nordid
+		86 = borreby
+		67 = faelid
+		34 = anglo_saxon
+		20 = tavastid
+		15 = north_atlantid
+		15 = strandid
+		6 = brunn
+		6 = troender
+		6 = aisto_nordid
+		6 = paleo_atlantid
+		6 = subnordid
+		4 = norid
+		4 = west_alpinid
+		2 = west_baltid
+		1 = neo_danubian
+		1 = keltic_nordid
+		1 = gorid
 	}
 }
 svear = {
@@ -235,8 +231,8 @@ svear = {
 		2 = anglo_saxon
 	}
 }
-dane = {
-	color = { 0.305 0.486 0.831 }
+jute = {
+	color = { 0.4 0.482 0.858 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
@@ -244,7 +240,11 @@ dane = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_things
-		tradition_ruling_caste
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
 	}
 	
 	# FP1 Traditions

@@ -1,56 +1,4 @@
 ﻿
-navarro_aragonese = {
-	color = { 0.80 0.67 0.24  }
-
-	parents = { mozarab }
-
-	created = 850.1.1
-	
-	ethos = ethos_bellicose
-	heritage = heritage_iberian
-	language = language_occitano_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_visigothic_codes
-		tradition_stand_and_fight
-		tradition_mountaineers
-	}
-
-	dlc_tradition = {
-		trait = tradition_fp2_ritualised_friendship
-		requires_dlc_flag = the_fate_of_iberia
-		fallback = tradition_wedding_ceremonies
-	}
-	
-	name_list = name_list_aragonese
-	
-	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
-	building_gfx = { iberian_building_gfx }
-	clothing_gfx = { iberia_clothing_gfx }
-	unit_gfx = { iberian_christian_unit_gfx iberian_unit_gfx western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = atlanto_mediterranean
-		95 = gracilemediterranid
-		95 = eurafricanid
-		68 = litorid
-		41 = berid
-		12 = west_alpinid
-		11 = dinarid
-		8 = transmediterranid
-		7 = baskid
-		5 = berberid
-		5 = paleo_sardinian
-		5 = arabid
-		4 = halstatt
-		4 = subnordid
-		2 = libyid
-		1 = canarid
-		1 = north_atlantid
-		1 = troender
-	}
-}
 iqritis = {
 	color = { 0.45 0.65 0.15 }
 
@@ -119,6 +67,58 @@ iqritis = {
 		1 = aralid
 		1 = halstatt
 		1 = alfoeld
+	}
+}
+navarro_aragonese = {
+	color = { 0.80 0.67 0.24  }
+
+	parents = { mozarab }
+
+	created = 850.1.1
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_occitano_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_visigothic_codes
+		tradition_stand_and_fight
+		tradition_mountaineers
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_wedding_ceremonies
+	}
+	
+	name_list = name_list_aragonese
+	
+	coa_gfx = { iberian_group_coa_gfx western_coa_gfx }
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberia_clothing_gfx }
+	unit_gfx = { iberian_christian_unit_gfx iberian_unit_gfx western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = atlanto_mediterranean
+		95 = gracilemediterranid
+		95 = eurafricanid
+		68 = litorid
+		41 = berid
+		12 = west_alpinid
+		11 = dinarid
+		8 = transmediterranid
+		7 = baskid
+		5 = berberid
+		5 = paleo_sardinian
+		5 = arabid
+		4 = halstatt
+		4 = subnordid
+		2 = libyid
+		1 = canarid
+		1 = north_atlantid
+		1 = troender
 	}
 }
 mozarab = {

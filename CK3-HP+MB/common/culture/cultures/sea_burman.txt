@@ -1,8 +1,8 @@
 ﻿
-kachin = {
-	color = kachin
+rakhine = {
+	color = rakhine
 
-	ethos = ethos_egalitarian
+	ethos = ethos_spiritual
 	heritage = heritage_burman
 	language = language_burmese
 	martial_custom = martial_custom_male_only
@@ -15,9 +15,10 @@ kachin = {
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
-		tradition_equal_inheritance
-		tradition_collective_lands
-		tradition_wedding_ceremonies
+		tradition_burman_royal_army
+		tradition_fervent_temple_builders
+		tradition_festivities
+		tradition_religion_blending
 	}
 
 
@@ -42,15 +43,15 @@ kachin = {
 		1 = tonkinesid
 	}
 }
-manipur = {
-	color = manipur
+kachin = {
+	color = kachin
 
-	ethos = ethos_spiritual
+	ethos = ethos_egalitarian
 	heritage = heritage_burman
 	language = language_burmese
 	martial_custom = martial_custom_male_only
 
-	name_list = name_list_manipur
+	name_list = name_list_burmese
 
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -58,10 +59,9 @@ manipur = {
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
-		tradition_burman_royal_army
-		tradition_fervent_temple_builders
-		tradition_festivities
-		tradition_religion_blending
+		tradition_equal_inheritance
+		tradition_collective_lands
+		tradition_wedding_ceremonies
 	}
 
 
@@ -130,10 +130,10 @@ burmese = {
 		1 = tonkinesid
 	}
 }
-rakhine = {
-	color = rakhine
+naga = {
+	color = naga
 
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_burman
 	language = language_burmese
 	martial_custom = martial_custom_male_only
@@ -146,10 +146,10 @@ rakhine = {
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
-		tradition_burman_royal_army
-		tradition_fervent_temple_builders
+		tradition_collective_lands
+		tradition_isolationist
+		tradition_storytellers
 		tradition_festivities
-		tradition_religion_blending
 	}
 
 
@@ -174,15 +174,15 @@ rakhine = {
 		1 = tonkinesid
 	}
 }
-naga = {
-	color = naga
+manipur = {
+	color = manipur
 
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_burman
 	language = language_burmese
 	martial_custom = martial_custom_male_only
 
-	name_list = name_list_burmese
+	name_list = name_list_manipur
 
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
@@ -190,10 +190,10 @@ naga = {
 	unit_gfx = { indian_unit_gfx }
 
 	traditions = {
-		tradition_collective_lands
-		tradition_isolationist
-		tradition_storytellers
+		tradition_burman_royal_army
+		tradition_fervent_temple_builders
 		tradition_festivities
+		tradition_religion_blending
 	}
 
 

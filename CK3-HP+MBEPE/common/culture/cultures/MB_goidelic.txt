@@ -1,0 +1,96 @@
+﻿
+manx = {
+	color = { 21 51 128 }
+	created = 800.1.1
+	parents = { irish }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_goidelic
+	language = language_goidelic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_practiced_pirates
+		tradition_battlefield_looters
+		tradition_fp1_the_right_to_prove
+		tradition_seafaring
+	}
+
+	name_list = name_list_gaelic
+	
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { celtic_building_gfx }
+	clothing_gfx = { gaelic_clothing_gfx }
+	unit_gfx = { irish_unit_gfx western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = keltic_nordid
+		58 = anglo_saxon
+		37 = halstatt
+		27 = troender
+		16 = paleo_atlantid
+		5 = borreby
+		5 = brunn
+		5 = faelid
+		5 = gracilemediterranid
+		5 = litorid
+		5 = norid
+		5 = west_alpinid
+		4 = eurafricanid
+		2 = berberid
+		2 = tavastid
+	}
+}
+gall_goidel = {
+	color = { 72 112 123 }
+	
+	created = 900.1.1 #The Norse–Gaels dominated much of the Irish Sea and Scottish Sea regions from the 9th to 12th centuries. 
+	parents = { gaelic norse }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_goidelic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fp1_northern_stories
+		tradition_fp1_coastal_warriors
+		tradition_poetry
+		tradition_maritime_mercantilism
+		tradition_pastoralists
+	}
+	
+	name_list = name_list_irish
+	
+	coa_gfx = { scottish_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { gaelic_clothing_gfx }
+	unit_gfx = { irish_unit_gfx western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		97 = paleo_atlantid
+		91 = brunn
+		87 = keltic_nordid
+		76 = borreby
+		73 = troender
+		49 = strandid
+		37 = faelid
+		30 = anglo_saxon
+		26 = north_atlantid
+		17 = tavastid
+		16 = litorid
+		9 = gracilemediterranid
+		7 = aisto_nordid
+		5 = subnordid
+		4 = eurafricanid
+		4 = west_alpinid
+		4 = dinarid
+		3 = scando_lappid
+		2 = west_baltid
+		2 = norid
+		2 = berid
+		1 = savolaxid
+		1 = north_lappid
+	}
+}
