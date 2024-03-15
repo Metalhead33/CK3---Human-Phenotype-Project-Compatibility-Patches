@@ -61,10 +61,12 @@ thracian = {
 	language = language_thracian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_adaptive_skirmishing # Cybr: Well known for skirmishing
+		#tradition_adaptive_skirmishing # Cybr: Well known for skirmishing
 		tradition_hit_and_run # Cybr: Known for being excellent cavalrymen
 		tradition_swords_for_hire # Cybr: Sought after mercenaries for Greeks and Romans, many served in Roman armies
-		tradition_pastoralists # Cybr: It's there in the region I guess
+		#tradition_pastoralists # Cybr: It's there in the region I guess
+		tradition_mystical_ancestors # Cybr: Thracian kings were believed to have divine origins
+		tradition_orpheus # Cybr: Orpheus was an important figure in Thracian culture and religion
 	}
 
 	dlc_tradition = { # Cybr: Persian and Greek influences

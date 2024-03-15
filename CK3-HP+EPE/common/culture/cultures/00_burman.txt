@@ -1,4 +1,50 @@
 ﻿
+mon = {
+	color = { 0.35 0.6 0.1 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_burmese
+	martial_custom = martial_custom_male_only
+	
+	name_list = name_list_mon
+	
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_religious_patronage
+	}
+	
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { burman_unit_gfx indian_unit_gfx }
+	
+
+	ethnicities = {
+		100 = shanid
+		61 = east_shanid
+		55 = south_palaungid
+		43 = palaungid
+		42 = kachinid
+		26 = chukiangid
+		21 = khmerid
+		14 = gracile_indid
+		7 = deutero_malayid
+		7 = changkiangid
+		4 = kham
+		4 = east_brachid
+		3 = east_palaungid
+		3 = senoid
+		2 = indo_brachid
+		1 = karnatid
+		1 = tibetid
+	}
+}
 burmese = {
 	color = burmese
 	
@@ -11,7 +57,7 @@ burmese = {
 	
 	coa_gfx = { burman_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { burmese_clothing_gfx }
+	clothing_gfx = { indian_clothing_gfx }
 	unit_gfx = { burman_unit_gfx indian_unit_gfx }
 	
 	traditions = {
@@ -41,51 +87,5 @@ burmese = {
 		2 = tibetid
 		1 = khmerid
 		1 = tonkinesid
-	}
-}
-mon = {
-	color = { 0.35 0.6 0.1 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_burman
-	language = language_burmese
-	martial_custom = martial_custom_male_only
-	
-	name_list = name_list_mon
-	
-	traditions = {
-		tradition_mystical_ancestors
-		tradition_religious_patronage
-	}
-	
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-
-	coa_gfx = { burman_group_coa_gfx }
-	building_gfx = { indian_building_gfx }
-	clothing_gfx = { burmese_clothing_gfx }
-	unit_gfx = { burman_unit_gfx indian_unit_gfx }
-	
-
-	ethnicities = {
-		100 = shanid
-		61 = east_shanid
-		55 = south_palaungid
-		43 = palaungid
-		42 = kachinid
-		26 = chukiangid
-		21 = khmerid
-		14 = gracile_indid
-		7 = deutero_malayid
-		7 = changkiangid
-		4 = kham
-		4 = east_brachid
-		3 = east_palaungid
-		3 = senoid
-		2 = indo_brachid
-		1 = karnatid
-		1 = tibetid
 	}
 }

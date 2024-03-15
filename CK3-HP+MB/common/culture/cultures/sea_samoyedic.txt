@@ -1,0 +1,48 @@
+﻿
+kott = {
+	color = { 20 155 200 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_samoyedic
+	language = language_khakas
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_winter_warriors
+	}
+
+	name_list = name_list_yeniseian
+
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+
+	ethnicities = {
+	}
+}
+solqumyt = {
+	color = solqumyt
+
+	ethos = ethos_bellicose
+	heritage = heritage_samoyedic
+	language = language_selkup
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_hunters
+		tradition_winter_warriors
+	}
+
+	name_list = name_list_yeniseian
+
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+
+	ethnicities = {
+	}
+}

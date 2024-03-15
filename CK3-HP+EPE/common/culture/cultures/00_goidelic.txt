@@ -20,7 +20,7 @@ gaelic = {
 	
 	coa_gfx = { scottish_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { gaelic_clothing_gfx }
+	clothing_gfx = { epe_gaelic_clothing_gfx }
 	unit_gfx = { irish_unit_gfx western_unit_gfx }
 	
 
@@ -60,7 +60,7 @@ irish = {
 	
 	coa_gfx = { irish_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
-	clothing_gfx = { gaelic_clothing_gfx }
+	clothing_gfx = { epe_gaelic_clothing_gfx }
 	unit_gfx = { irish_unit_gfx western_unit_gfx }
 	
 

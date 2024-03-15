@@ -1,8 +1,120 @@
 ﻿
-mercian = {
-	color = { 0.807 0.207 0.172 }
-	created = 500.1.1
+middle_anglian = {
+	color = { 0.777 0.177 0.142 }
+	created = 530.1.1 #Germanic Settlement in the Wash since at least the early 6th century
+	parents = { east_anglian }
+	
+	history_loc_override = middle_anglian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_quarrelsome
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { epe_english_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+	}
+}
+west_saxon = {
+	color = { 0.819 0.301 0.239 }
+	created = 550.1.1 #Technically the Gewisse of Wessex didn't call themselves as such until Cadwalla (ca. 650.), probably to unite Jutes and Gewisse; but due to Hwiccian divergence, needs to be earlier
+	parents = { gewisse }
+	
+	history_loc_override = west_saxon_history_loc
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_city_keepers
+		tradition_stalwart_defenders
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { epe_english_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+hwiccian = {
+	color = { 0.684 0.194 0.179 }
+	created = 550.1.1 #Evolved from the Gewisse in Hwicce, settlement dates to at least the 5th century
+	parents = { gewisse }
+	
+	history_loc_override = hwiccian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_loyal_soldiers
+		tradition_agrarian
+		tradition_hird		
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
+
+
+	ethnicities = {
+	}
+}
+east_saxon = {
+	color = { 0.729 0.221 0.229 }
+	created = 470.1.1 #Germanic Settlement since at least the 450's, probably even earlier as roman foderati
 	parents = { old_saxon }
+	
+	history_loc_override = east_saxon_history_loc
 	
 	ethos = ethos_courtly
 	heritage = heritage_west_germanic
@@ -10,7 +122,224 @@ mercian = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_the_witenagemot
-		tradition_city_keepers
+		tradition_seafaring
+		tradition_loyal_soldiers
+		tradition_hird
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+deiran = {
+	color = { 0.887 0.272 0.484 }
+	created = 490.1.1 #German Settlement in Deira/Deifr since at least the 450's, probably auxillary troops in the service of the Dux Britannorum and later Evrog 
+	parents = { old_anglian }
+	
+	history_loc_override = deiran_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring		
+		tradition_swords_for_hire
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp1_performative_honour
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_poetry
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
+
+
+	ethnicities = {
+	}
+}
+northumbrian = {
+	color = { 0.807 0.172 0.364 }
+	created = 700.1.1 #The Synthesis of the Deirans and Bernicians, a generation after the unification
+	parents = { bernician deiran }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_stand_and_fight
+		tradition_monastic_communities
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { epe_english_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+east_anglian = {
+	color = { 0.807 0.345 0.172 }
+	created = 470.1.1 #Germanic Settlement in East Anglia since at least the 450's 
+	parents = { old_anglian }
+	
+	history_loc_override = east_anglian_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_fishermen	
+		tradition_wetlanders
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { epe_english_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+old_anglian = {
+	color = { 0.5 0.2 0.2 } #Purely for ancestral cultures
+	
+	ethos = ethos_bellicose
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring		
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp1_performative_honour
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_poetry
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_old_saxon
+
+	coa_gfx = { western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
+
+
+	ethnicities = {
+	}
+}
+mercian = {
+	color = { 0.807 0.207 0.172 }
+	created = 590.1.1 #Evolved from Middle Anglian settlers in the marches, probably between Northumbria and Anglia, or between the Germanics and Welsh
+	parents = { middle_anglian }
+	
+	history_loc_override = mercian_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_eye_for_an_eye
 		tradition_quarrelsome
 		tradition_hird
 	}
@@ -19,7 +348,7 @@ mercian = {
 
 	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
+	clothing_gfx = { epe_english_clothing_gfx } 
 	unit_gfx = { english_unit_gfx western_unit_gfx }	
 
 
@@ -50,7 +379,58 @@ kentish = {
 	color = { 0.819 0.541 0.239 }
 	parents = { jute } 
 
-	created = 470.1.1 #Takeover of Cantiaca by Germanics in the mid 5th century
+	created = 470.1.1 #Takeover of Cantiaca by Germanics in the mid 5th century; settlement even earlier
+	
+	history_loc_override = kentish_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_west_germanic
+	language = language_anglic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_the_witenagemot
+		tradition_maritime_mercantilism
+		tradition_xenophilic
+		tradition_hird
+	}
+	
+	name_list = name_list_anglo_saxon
+
+	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { epe_english_clothing_gfx } 
+	unit_gfx = { english_unit_gfx western_unit_gfx }	
+
+
+	ethnicities = {
+		100 = keltic_nordid
+		94 = anglo_saxon
+		45 = halstatt
+		28 = borreby
+		17 = subnordid
+		12 = troender
+		12 = litorid
+		5 = west_alpinid
+		5 = paleo_atlantid
+		5 = north_atlantid
+		5 = norid
+		5 = gracilemediterranid
+		5 = faelid
+		5 = brunn
+		4 = eurafricanid
+		4 = tavastid
+		3 = dinarid
+		2 = berberid
+		2 = atlanto_mediterranean
+		1 = paleo_sardinian
+	}
+}
+south_saxon = {
+	color = { 0.744 0.395 0.292 }
+	created = 470.1.1 #Germanic Settlement since at least the 450's, probably former roman foderati
+	parents = { old_saxon }
+	
+	history_loc_override = south_saxon_history_loc
 	
 	ethos = ethos_stoic
 	heritage = heritage_west_germanic
@@ -58,180 +438,84 @@ kentish = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_the_witenagemot
-		tradition_city_keepers
-		tradition_culture_blending
-		tradition_hird
-	}
-	
-	name_list = name_list_anglo_saxon
-
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
-
-
-	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
-		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
-	}
-}
-west_saxon = {
-	color = { 0.819 0.301 0.239 }
-	created = 500.1.1
-	parents = { old_saxon }
-	
-	ethos = ethos_bureaucratic
-	heritage = heritage_west_germanic
-	language = language_anglic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_the_witenagemot
-		tradition_city_keepers
 		tradition_stalwart_defenders
+		tradition_agrarian
 		tradition_hird
 	}
 	
-	name_list = name_list_anglo_saxon
+	name_list = name_list_old_saxon
 
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	coa_gfx = { western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
 
 
 	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
-		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
 	}
 }
-northumbrian = {
-	color = { 0.807 0.172 0.364 }
-	created = 500.1.1
+gewisse = {
+	color = { 0.5 0.15 0.15 }
+	created = 490.1.1 #Saxon Mercenaries and Settlers, "the trustworthy", might have been in service of Romano-Brits in the Midlands till the 6th century
 	parents = { old_saxon }
+	
+	history_loc_override = gewisse_history_loc
 	
 	ethos = ethos_bellicose
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_the_witenagemot
-		tradition_city_keepers
-		tradition_eye_for_an_eye
-		tradition_hird
+		tradition_swords_for_hire
+		tradition_storytellers
 	}
 	
-	name_list = name_list_anglo_saxon
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	name_list = name_list_old_saxon
 
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	coa_gfx = { western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
 
 
 	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
-		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
 	}
 }
-east_anglian = {
-	color = { 0.807 0.345 0.172 }
-	created = 500.1.1
-	parents = { old_saxon }
+bernician = {
+	color = { 0.917 0.372 0.554 }
+	created = 560.1.1 #Formed after the death of Ida of Bernicia 
+	parents = { old_anglian }
 	
-	ethos = ethos_stoic
+	history_loc_override = bernician_history_loc
+	
+	ethos = ethos_bellicose
 	heritage = heritage_west_germanic
 	language = language_anglic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_the_witenagemot
-		tradition_city_keepers
-		tradition_wetlanders
-		tradition_hird
+		tradition_seafaring	
+		tradition_practiced_pirates
 	}
 	
-	name_list = name_list_anglo_saxon
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_old_saxon
 
-	coa_gfx = { anglo_saxon_coa_gfx western_coa_gfx } 
+	coa_gfx = { western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
-	clothing_gfx = { anglo_saxon_clothing_gfx } 
-	unit_gfx = { english_unit_gfx western_unit_gfx }	
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx } 
 
 
 	ethnicities = {
-		100 = keltic_nordid
-		94 = anglo_saxon
-		45 = halstatt
-		28 = borreby
-		17 = subnordid
-		12 = troender
-		12 = litorid
-		5 = west_alpinid
-		5 = paleo_atlantid
-		5 = north_atlantid
-		5 = norid
-		5 = gracilemediterranid
-		5 = faelid
-		5 = brunn
-		4 = eurafricanid
-		4 = tavastid
-		3 = dinarid
-		2 = berberid
-		2 = atlanto_mediterranean
-		1 = paleo_sardinian
 	}
 }

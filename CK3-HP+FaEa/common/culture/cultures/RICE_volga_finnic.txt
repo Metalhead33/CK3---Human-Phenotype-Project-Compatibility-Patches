@@ -1,0 +1,61 @@
+﻿
+moksha = {
+	color = { 0.08 0.32 0.58 } # 20, 81, 150 # 	7.8, 31.8, 58.8 #145196
+	#color = { 0.10 0.17 0.42 } # 25, 44, 108 #	9.8, 17.3, 42.4 #192c6c
+	#color = { 0.12 0.19 0.30 } # 32, 49, 77 # 	12.5, 19.2, 30.2 #20314d
+	#color = { 0.32 0.35 0.49 } # 82, 88, 125 # 32.2, 34.5, 49 # 52587d
+	
+	ethos = ethos_stoic
+	heritage = heritage_volga_finnic
+	language = language_volga_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_forest_wardens
+		#tradition_festivities
+		#tradition_stalwart_defenders
+		#tradition_warriors_by_merit
+		tradition_artisans		
+		#tradition_religion_blending
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp1_the_right_to_prove
+		requires_dlc_flag = the_northern_lords
+	}
+	
+	name_list = name_list_moksha # name_list_mordvin
+
+	coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+	
+	# coa_gfx = { steppe_coa_gfx volga_finnic_group_coa_gfx }
+	# building_gfx = { western_building_gfx }
+	# clothing_gfx = { balto_finnic_clothing_gfx }
+	# unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = ladogan
+		92 = neo_danubian
+		86 = north_pontid
+		41 = fenno_nordid
+		19 = gorid
+		13 = proto_nordid
+		8 = volgid
+		8 = norid
+		7 = aisto_nordid
+		7 = scythian
+		6 = pontid
+		6 = savolaxid
+		5 = andronovo_turanid
+		3 = west_baltid
+		3 = scando_lappid
+		2 = north_lappid
+		2 = troender
+		2 = dinarid
+		2 = carpathid
+	}
+}

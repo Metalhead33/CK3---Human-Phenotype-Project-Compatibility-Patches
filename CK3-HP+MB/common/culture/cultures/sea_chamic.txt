@@ -1,0 +1,80 @@
+﻿
+aceh = {
+	color = aceh
+
+	ethos = ethos_communal
+	heritage = heritage_chamic
+	language = language_cham
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_chamic
+
+	coa_gfx = { burman_group_coa_gfx  }
+	building_gfx = { austro_building_gfx indian_building_gfx }
+	clothing_gfx = { austronesian_clothing_gfx indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_culinary_art
+		tradition_zealous_people
+		tradition_stalwart_defenders
+	}
+
+
+	ethnicities = {
+		100 = deutero_malayid
+		33 = kachinid
+		19 = karnatid
+		19 = khmerid
+		5 = changkiangid
+		5 = chukiangid
+		5 = dayakid
+		5 = east_brachid
+		5 = east_shanid
+		5 = indo_brachid
+		5 = north_indid
+		5 = senoid
+		5 = south_palaungid
+		5 = toalid
+		3 = proto_malayid
+	}
+}
+cham = {
+	color = cham
+
+	ethos = ethos_egalitarian
+	heritage = heritage_chamic
+	language = language_cham
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_chamic
+
+	coa_gfx = { burman_group_coa_gfx  }
+	building_gfx = { austro_building_gfx indian_building_gfx }
+	clothing_gfx = { austronesian_clothing_gfx indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+
+	traditions = {
+		tradition_thalassocratic
+		tradition_seafaring
+		tradition_religion_blending
+	}
+
+
+	ethnicities = {
+		100 = annamid
+		100 = deutero_malayid
+		24 = south_palaungid
+		10 = khmerid
+		7 = changkiangid
+		7 = chukiangid
+		7 = east_shanid
+		6 = dayakid
+		6 = senoid
+		5 = kachinid
+		5 = tonkinesid
+		4 = nesiotid
+		2 = basic_melanesid
+		1 = karnatid
+	}
+}

@@ -1,25 +1,29 @@
 ﻿
-assyrian = {
-	color = assyrian
+aramean = {
+	color = { 0.8 0.2 0.1 }
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_semitic
 	language = language_aramaic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_formation_fighting
-		tradition_storytellers
-		tradition_quarrelsome
-		tradition_mystical_ancestors
+		tradition_parochialism # Cybr: Many different cities in the Mesopotamian region with own unique influences
+		tradition_language_scholars # Cybr: Not sure if there's a better way to represent Aramean being a lingua franca
+		tradition_zealous_people # Cybr: Formed an important core of early Christian communities
+		tradition_caravaneers # Cybr: Aramean kingdoms/city-states built on trade, like Palmyra
+	}
+
+	dlc_tradition = { # Cybr: Lived under the rule of many different states and cultures
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
 	}
 	
 	name_list = name_list_assyrian
 
-	coa_gfx = { arabic_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mena_building_gfx } 
-	clothing_gfx = { byzantine_clothing_gfx } 
-	clothing_gfx = { mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 		
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
 
 
 	ethnicities = {
@@ -48,30 +52,27 @@ assyrian = {
 		1 = proto_nordid
 	}
 }
-aramean = {
-	color = { 0.8 0.2 0.1 }
+assyrian = {
+	color = assyrian
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_semitic
 	language = language_aramaic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_parochialism # Cybr: Many different cities in the Mesopotamian region with own unique influences
-		tradition_language_scholars # Cybr: Not sure if there's a better way to represent Aramean being a lingua franca
-		tradition_zealous_people # Cybr: Formed an important core of early Christian communities
-	}
-
-	dlc_tradition = { # Cybr: Lived under the rule of many different states and cultures
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
+		tradition_formation_fighting
+		tradition_storytellers
+		tradition_quarrelsome
+		tradition_mystical_ancestors
 	}
 	
 	name_list = name_list_assyrian
 
-	coa_gfx = { arabic_group_coa_gfx } 
-	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
-	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 
+	coa_gfx = { arabic_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
 
 
 	ethnicities = {

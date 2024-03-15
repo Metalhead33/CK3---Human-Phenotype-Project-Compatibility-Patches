@@ -1,15 +1,16 @@
 ﻿
-hadhrami = {
-	color = { 0.25 0.4 0.35 }
+south_arabian = {
+	color = { 0.3 0.5 0.4 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_dryland_dwellers
+		tradition_seafaring
 		tradition_quarrelsome
-		tradition_storytellers
+		tradition_fishermen
+		tradition_maritime_mercantilism
 	}
 	
 	name_list = name_list_yemeni
@@ -34,18 +35,17 @@ hadhrami = {
 		1 = transmediterranid
 	}
 }
-south_arabian = {
-	color = { 0.3 0.5 0.4 }
+hadhrami = {
+	color = { 0.25 0.4 0.35 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_arabic
 	language = language_arabic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_seafaring
+		tradition_dryland_dwellers
 		tradition_quarrelsome
-		tradition_fishermen
-		tradition_maritime_mercantilism
+		tradition_storytellers
 	}
 	
 	name_list = name_list_yemeni

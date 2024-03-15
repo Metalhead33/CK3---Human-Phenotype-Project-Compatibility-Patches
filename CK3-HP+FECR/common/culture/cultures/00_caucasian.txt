@@ -1,10 +1,10 @@
 ﻿
-chechen = {
-	color = chechen
+udi = {
+	color = udi
 	
 	ethos = ethos_communal
 	heritage = heritage_kavkaz
-	language = language_nakh
+	language = language_lezgic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hereditary_hierarchy
@@ -14,7 +14,7 @@ chechen = {
 		tradition_caucasian_wolves
 	}
 	
-	name_list = name_list_chechen
+	name_list = name_list_udi
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -23,25 +23,16 @@ chechen = {
 	
 
 	ethnicities = {
-		100 = andronovo_turanid
-		58 = anatolid
-		39 = mtebid
-		9 = aralid
-		9 = scythian
-		9 = pontid
-		9 = plains_pamirid
-		8 = iranid
-		8 = transcaspian
-		8 = central_pamirid
-		7 = north_pontid
-		7 = asian_alpine
-		6 = proto_nordid
-		4 = dinarid
-		4 = armenoid
-		3 = east_pamirid
-		2 = neo_danubian
-		1 = arabid
-		1 = volgid
+		100 = armenoid
+		100 = asian_alpine
+		69 = iranid
+		37 = anatolid
+		37 = mtebid
+		37 = pontid
+		5 = arabid
+		5 = east_pamirid
+		5 = proto_iranid
+		4 = gracilemediterranid
 	}
 }
 circassian = {
@@ -90,42 +81,6 @@ circassian = {
 		1 = neo_danubian
 	}
 }
-udi = {
-	color = udi
-	
-	ethos = ethos_communal
-	heritage = heritage_kavkaz
-	language = language_lezgic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hereditary_hierarchy
-		#tradition_esteemed_hospitality
-		tradition_metal_craftsmanship
-		tradition_castle_keepers
-		tradition_caucasian_wolves
-	}
-	
-	name_list = name_list_udi
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = armenoid
-		100 = asian_alpine
-		69 = iranid
-		37 = anatolid
-		37 = mtebid
-		37 = pontid
-		5 = arabid
-		5 = east_pamirid
-		5 = proto_iranid
-		4 = gracilemediterranid
-	}
-}
 caucasian_avar = {
 	color = caucasian_avar
 	
@@ -167,5 +122,50 @@ caucasian_avar = {
 		3 = scythian
 		2 = gracilemediterranid
 		1 = assyroid
+	}
+}
+chechen = {
+	color = chechen
+	
+	ethos = ethos_communal
+	heritage = heritage_kavkaz
+	language = language_nakh
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		#tradition_esteemed_hospitality
+		tradition_metal_craftsmanship
+		tradition_castle_keepers
+		tradition_caucasian_wolves
+	}
+	
+	name_list = name_list_chechen
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = andronovo_turanid
+		58 = anatolid
+		39 = mtebid
+		9 = aralid
+		9 = scythian
+		9 = pontid
+		9 = plains_pamirid
+		8 = iranid
+		8 = transcaspian
+		8 = central_pamirid
+		7 = north_pontid
+		7 = asian_alpine
+		6 = proto_nordid
+		4 = dinarid
+		4 = armenoid
+		3 = east_pamirid
+		2 = neo_danubian
+		1 = arabid
+		1 = volgid
 	}
 }

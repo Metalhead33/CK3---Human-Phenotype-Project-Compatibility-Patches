@@ -1,36 +1,4 @@
 ﻿
-guanches = {
-	color = { 181 87 67 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_berber
-	language = language_berber
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_stalwart_defenders
-		tradition_mystical_ancestors
-		tradition_isolationist
-	}
-	
-	name_list = name_list_guanches
-	
-	coa_gfx = { west_african_group_coa_gfx }
-	building_gfx = { berber_group_building_gfx mena_building_gfx }
-	clothing_gfx = { african_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = eurafricanid
-		100 = transmediterranid
-		77 = berberid
-		75 = african_alpine
-		29 = libyid
-		25 = gracilemediterranid
-		4 = canarid
-		3 = moorish
-	}
-}
 baranis = {
 	color = baranis
 	
@@ -42,6 +10,7 @@ baranis = {
 		tradition_african_tolerance
 		tradition_family_entrepreneurship
 		tradition_mountain_herding
+		tradition_servile_soldiers
 	}
 	
 	name_list = name_list_baranis
@@ -83,6 +52,7 @@ butr = {
 		tradition_saharan_nomads
 		tradition_desert_ribat
 		tradition_equal_inheritance
+		tradition_servile_soldiers
 	}
 	
 	name_list = name_list_butr
@@ -122,5 +92,38 @@ butr = {
 		1 = middle_nile
 		1 = litorid
 		1 = basic_khoid
+	}
+}
+guanches = {
+	color = { 181 87 67 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_mystical_ancestors
+		tradition_isolationist
+		tradition_servile_soldiers
+	}
+	
+	name_list = name_list_guanches
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = eurafricanid
+		100 = transmediterranid
+		77 = berberid
+		75 = african_alpine
+		29 = libyid
+		25 = gracilemediterranid
+		4 = canarid
+		3 = moorish
 	}
 }

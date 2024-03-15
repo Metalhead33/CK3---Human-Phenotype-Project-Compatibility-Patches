@@ -17,8 +17,8 @@ qiang = {
 	
 	coa_gfx = { indian_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { han_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
+	clothing_gfx = { epe_han_chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx mongol_unit_gfx }
 	
 
 	ethnicities = {
@@ -53,8 +53,8 @@ tangut = {
 	
 	coa_gfx = { indian_coa_gfx }
 	building_gfx = { indian_building_gfx }
-	clothing_gfx = { han_clothing_gfx }
-	unit_gfx = { mongol_unit_gfx }
+	clothing_gfx = { epe_han_chinese_clothing_gfx }
+	unit_gfx = { chinese_unit_gfx mongol_unit_gfx }
 	
 
 	ethnicities = {

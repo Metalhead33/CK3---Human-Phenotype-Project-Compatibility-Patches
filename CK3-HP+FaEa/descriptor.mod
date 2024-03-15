@@ -4,7 +4,7 @@ tags={
 	"Historical"
 }
 name="CK3 Human Phenotype Project - Fallen Eagle Compatibility Patch"
-supported_version="1.7.1"
+supported_version="1.12.2.1"
 path = "mod/CK3-HP+FaEn"
 dependencies={
 	"CK3 Human Phenotype Project"

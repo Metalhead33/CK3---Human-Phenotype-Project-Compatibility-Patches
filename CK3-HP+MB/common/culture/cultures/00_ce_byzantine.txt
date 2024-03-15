@@ -1,0 +1,98 @@
+﻿
+lazi = {
+	color = { 0.8 0.349 0.509 }
+	
+	ethos = ethos_communal
+	heritage = heritage_caucasian 
+	language = language_laz
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_loyal_soldiers
+		#tradition_esteemed_hospitality
+		tradition_castle_keepers
+		tradition_caucasian_wolves
+	}
+	
+	name_list = name_list_georgian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+	}
+}
+dagestani = {
+	color = { 0.760 0.745 0.501 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_caucasian 
+	language = language_avaric
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caucasian_wolves
+		tradition_staunch_traditionalists
+		tradition_mountain_homes 
+	}
+	
+	name_list = name_list_alan
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = anatolid
+		81 = armenoid
+		39 = asian_alpine
+		38 = iranid
+		32 = mtebid
+		30 = transcaspian
+		29 = pontid
+		9 = aralid
+		7 = east_pamirid
+		7 = proto_iranid
+		4 = arabid
+		4 = proto_nordid
+		4 = central_pamirid
+		3 = plains_pamirid
+		3 = scythian
+		2 = gracilemediterranid
+		1 = assyroid
+	}
+}
+mandaic = {
+	color = { 0.72 0.54 0.79 }
+	created = 100.1.1
+	parents = { syriac }
+	
+	history_loc_override = mandaic_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_aramean
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_faith_bound
+		tradition_staunch_traditionalists
+
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx }		
+
+
+	ethnicities = {
+	}
+}

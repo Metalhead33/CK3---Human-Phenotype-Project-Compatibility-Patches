@@ -1,6 +1,6 @@
 ﻿
-svear = {
-	color = { 0.290 0.666 0.827 }
+jute = {
+	color = { 0.4 0.482 0.858 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
@@ -8,64 +8,11 @@ svear = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_things
-		tradition_zealous_people
 	}
 	
-	# FP1 Traditions
 	dlc_tradition = {
-		trait = tradition_fp1_coastal_warriors
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_hird
-	}
-	dlc_tradition = {
-		trait = tradition_fp1_performative_honour
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_poetry
-	}
-	dlc_tradition = {
-		trait = tradition_fp1_northern_stories
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_runestones
-	}
-	
-	name_list = name_list_norse
-	
-	coa_gfx = { norse_coa_gfx western_coa_gfx }
-	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { norse_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		43 = troender
-		33 = faelid
-		30 = borreby
-		25 = tavastid
-		19 = aisto_nordid
-		17 = paleo_atlantid
-		11 = strandid
-		6 = west_baltid
-		5 = north_atlantid
-		5 = subnordid
-		3 = west_alpinid
-		3 = savolaxid
-		2 = proto_nordid
-		2 = scando_lappid
-		2 = brunn
-		2 = anglo_saxon
-	}
-}
-dane = {
-	color = { 0.305 0.486 0.831 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_north_germanic
-	language = language_norse
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_things
-		tradition_ruling_caste
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
 	}
 	
 	# FP1 Traditions
@@ -114,66 +61,8 @@ dane = {
 		1 = gorid
 	}
 }
-geat = {
-	color = { 0.411 0.619 0.807 }
-	
-	ethos = ethos_stoic
-	heritage = heritage_north_germanic
-	language = language_norse
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_things
-	}
-	
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	# FP1 Traditions
-	dlc_tradition = {
-		trait = tradition_fp1_coastal_warriors
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_hird
-	}
-	dlc_tradition = {
-		trait = tradition_fp1_performative_honour
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_poetry
-	}
-	dlc_tradition = {
-		trait = tradition_fp1_northern_stories
-		requires_dlc_flag = the_northern_lords
-		fallback = tradition_runestones
-	}
-	
-	name_list = name_list_norse
-	
-	coa_gfx = { norse_coa_gfx western_coa_gfx }
-	building_gfx = { norse_building_gfx }
-	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
-	unit_gfx = { norse_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		59 = faelid
-		51 = borreby
-		25 = tavastid
-		13 = strandid
-		6 = aisto_nordid
-		6 = north_atlantid
-		6 = paleo_atlantid
-		6 = subnordid
-		6 = troender
-		6 = west_baltid
-		5 = brunn
-		4 = anglo_saxon
-		2 = west_alpinid
-	}
-}
-jute = {
-	color = { 0.4 0.482 0.858 }
+dane = {
+	color = { 0.305 0.486 0.831 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_north_germanic
@@ -181,11 +70,7 @@ jute = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_things
-	}
-	
-	dlc_tradition = {
-		trait = tradition_malleable_invaders
-		requires_dlc_flag = hybridize_culture
+		tradition_ruling_caste
 	}
 	
 	# FP1 Traditions
@@ -254,6 +139,121 @@ sitonian = {
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		43 = troender
+		33 = faelid
+		30 = borreby
+		25 = tavastid
+		19 = aisto_nordid
+		17 = paleo_atlantid
+		11 = strandid
+		6 = west_baltid
+		5 = north_atlantid
+		5 = subnordid
+		3 = west_alpinid
+		3 = savolaxid
+		2 = proto_nordid
+		2 = scando_lappid
+		2 = brunn
+		2 = anglo_saxon
+	}
+}
+geat = {
+	color = { 0.411 0.619 0.807 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_north_germanic
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_things
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	# FP1 Traditions
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_performative_honour
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_poetry
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	name_list = name_list_norse
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		59 = faelid
+		51 = borreby
+		25 = tavastid
+		13 = strandid
+		6 = aisto_nordid
+		6 = north_atlantid
+		6 = paleo_atlantid
+		6 = subnordid
+		6 = troender
+		6 = west_baltid
+		5 = brunn
+		4 = anglo_saxon
+		2 = west_alpinid
+	}
+}
+svear = {
+	color = { 0.290 0.666 0.827 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_norse
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_things
+		tradition_zealous_people
+	}
+	
+	# FP1 Traditions
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_performative_honour
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_poetry
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_northern_stories
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_runestones
+	}
+	
+	name_list = name_list_norse
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
 	
 
 	ethnicities = {

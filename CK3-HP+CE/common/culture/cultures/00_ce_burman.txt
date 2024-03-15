@@ -1,0 +1,145 @@
+﻿
+rakhine = {
+	color = { 0.55 0.58 0.34 }
+
+	# parents = { burmese }
+
+	# created = 1000.1.1
+	
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_burmese
+	martial_custom = martial_custom_male_only
+	
+	name_list = name_list_burmese
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { burman_unit_gfx indian_unit_gfx }
+	
+	traditions = {
+		tradition_burman_royal_army
+		tradition_fervent_temple_builders
+		tradition_festivities
+		tradition_religion_blending
+	}
+
+
+	ethnicities = {
+		100 = shanid
+		78 = palaungid
+		40 = gracile_indid
+		24 = east_brachid
+		21 = kachinid
+		19 = kham
+		5 = deutero_malayid
+		4 = changkiangid
+		4 = east_palaungid
+		4 = indo_brachid
+		3 = chukiangid
+		2 = karnatid
+		2 = east_shanid
+		2 = dayakid
+		2 = south_palaungid
+		2 = tibetid
+		1 = khmerid
+		1 = tonkinesid
+	}
+}
+meitei = {
+	color = { 126 110 150 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_meitei
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_burmese
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	traditions = {
+		tradition_burman_royal_army
+		tradition_fervent_temple_builders
+		tradition_festivities
+		tradition_religion_blending
+
+	}
+
+
+	ethnicities = {
+		100 = tibetid
+		98 = kham
+		41 = shanid
+		25 = kachinid
+		18 = changkiangid
+		18 = mountain_indid
+		12 = palaungid
+		8 = huanghoid
+		5 = east_brachid
+		5 = east_palaungid
+		5 = gobid
+		3 = plains_pamirid
+		3 = east_pamirid
+		2 = asian_alpine
+		2 = gracile_indid
+		2 = chukiangid
+		1 = indo_nordid
+		1 = indo_iranid
+		1 = indo_brachid
+		1 = manchukorean
+		1 = north_indid
+		1 = central_pamirid
+		1 = central_brachid
+		1 = armenoid
+	}
+}
+pyu = {
+	color = hsv{ 0.93 0.68 0.38 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_burman
+	language = language_pyu
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_burmese
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	traditions = {
+		tradition_burman_royal_army
+		tradition_religion_blending
+		tradition_city_keepers
+		tradition_pacifism
+
+	}
+
+
+	ethnicities = {
+		100 = shanid
+		78 = palaungid
+		40 = gracile_indid
+		24 = east_brachid
+		21 = kachinid
+		19 = kham
+		5 = deutero_malayid
+		4 = changkiangid
+		4 = east_palaungid
+		4 = indo_brachid
+		3 = chukiangid
+		2 = karnatid
+		2 = east_shanid
+		2 = dayakid
+		2 = south_palaungid
+		2 = tibetid
+		1 = khmerid
+		1 = tonkinesid
+	}
+}

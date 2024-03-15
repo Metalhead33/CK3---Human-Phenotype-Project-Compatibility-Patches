@@ -1,4 +1,28 @@
 ﻿
+mansi = {
+	color = { 0.345 0.525 0.33 }
+	
+	ethos = ethos_communal
+	heritage = heritage_ugro_permian
+	language = language_mansi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+		tradition_isolationist
+		tradition_adaptive_skirmishing
+	}
+	
+	name_list = name_list_khanty
+	
+	coa_gfx = { ugro_permian_group_coa_gfx steppe_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { epe_balto_finnic_clothing_gfx }
+	unit_gfx = { circumpolar_unit_gfx northern_unit_gfx }
+	
+
+	ethnicities = {
+	}
+}
 yeniseian = {
 	color = { 173 245 197 }
 
@@ -19,7 +43,6 @@ yeniseian = {
 	building_gfx = { steppe_building_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
-
 
 
 	ethnicities = {

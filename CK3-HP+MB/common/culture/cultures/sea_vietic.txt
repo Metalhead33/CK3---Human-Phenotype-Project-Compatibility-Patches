@@ -1,0 +1,53 @@
+﻿
+muong = {
+	color = muong
+
+	ethos = ethos_communal
+	heritage = heritage_vietic
+	language = language_vietnamese
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_vietnamese
+
+	coa_gfx = { chinese_group_coa_gfx  }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { han_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	traditions = {
+		tradition_collective_lands
+		tradition_culture_blending
+		tradition_medicinal_plants
+		tradition_adaptive_skirmishing
+	}
+
+
+	ethnicities = {
+	}
+}
+kinh = {
+	color = kinh
+
+	ethos = ethos_stoic
+	heritage = heritage_vietic
+	language = language_vietnamese
+	martial_custom = martial_custom_male_only
+
+	name_list = name_list_vietnamese
+
+	coa_gfx = { chinese_group_coa_gfx  }
+	building_gfx = { chinese_building_gfx indian_building_gfx }
+	clothing_gfx = { han_clothing_gfx chinese_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	traditions = {
+		tradition_agrarian
+		tradition_poetry
+		tradition_concubines
+		tradition_adaptive_skirmishing
+	}
+
+
+	ethnicities = {
+	}
+}

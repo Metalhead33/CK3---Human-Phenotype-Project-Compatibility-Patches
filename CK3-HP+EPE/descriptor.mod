@@ -4,7 +4,7 @@ tags={
 	"Historical"
 }
 name="CK3 Human Phenotype Project - Ethnicities & Portraits Expanded Compatibility Patch"
-supported_version="1.7.1"
+supported_version="1.12.2.1"
 path = "mod/CK3-HP+EPE"
 dependencies={
 	"Ethnicities and Portraits Expanded"

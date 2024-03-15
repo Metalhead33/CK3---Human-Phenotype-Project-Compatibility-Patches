@@ -1,17 +1,20 @@
 ﻿
-low_frankish = {
-	color = { 1.0 0.25 0.0 } 
-	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
-	parents = { frankish }
+brabantian = {
+	color = { 85 103 134 }
 	
-	ethos = ethos_courtly
+	parents = { low_frankish } #
+	
+	created = 1150.1.1 #Break off at the same point Dutch appears
+	
+	
+	ethos = ethos_communal
 	heritage = heritage_central_germanic
-	language = language_low_german
+	language = language_dutch
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
-		tradition_polders
+		tradition_isolationist
+		tradition_family_entrepreneurship
+		tradition_ruling_caste
 	}
 	
 	name_list = name_list_franconian
@@ -19,7 +22,7 @@ low_frankish = {
 	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 		
+	unit_gfx = { western_unit_gfx } 	
 
 
 	ethnicities = {
@@ -42,6 +45,57 @@ low_frankish = {
 		1 = atlanto_mediterranean
 	}
 }
+alsatian = {
+	color = { 236 236 208 }
+		
+	created = 1250.1.1 
+	parents = { swabian }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_metal_craftsmanship
+		tradition_parochialism
+	}
+	
+	name_list = name_list_swabian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = subnordid
+		76 = norid
+		59 = dinarid
+		50 = north_atlantid
+		30 = west_alpinid
+		23 = faelid
+		21 = halstatt
+		19 = borreby
+		18 = eurafricanid
+		14 = atlanto_mediterranean
+		10 = gracilemediterranid
+		8 = litorid
+		5 = brunn
+		4 = pre_slavic
+		3 = gorid
+		3 = keltic_nordid
+		3 = carpathid
+		3 = paleo_atlantid
+		3 = paleo_sardinian
+		2 = berid
+		2 = anglo_saxon
+		1 = neo_danubian
+		1 = proto_nordid
+		1 = tavastid
+	}
+}
 westphalian = {
 	color = { 45 55 45 }
 	created = 1250.1.1 #First attested in 1300
@@ -49,7 +103,7 @@ westphalian = {
 	
 	ethos = ethos_stoic
 	heritage = heritage_central_germanic
-	language = language_saxon
+	language = language_low_german
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_staunch_traditionalists
@@ -88,6 +142,51 @@ westphalian = {
 		1 = litorid
 	}
 }
+walloon = {
+	color = { 54 102 141 }
+	
+	parents = { french dutch } #Added Dutch to show it borrows aspects of it
+	
+	created = 1200.1.1 #Appeared between 8th and 12th century though it wasn't clearly defined till the 13th
+	
+	ethos = ethos_communal
+	heritage = heritage_frankish
+	language = language_walloon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_parochialism
+		tradition_city_keepers
+		tradition_artisans
+	}
+	
+	name_list = name_list_french
+	
+	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		100 = anglo_saxon
+		94 = subnordid
+		69 = borreby
+		63 = north_atlantid
+		44 = faelid
+		37 = norid
+		6 = west_alpinid
+		6 = brunn
+		6 = troender
+		6 = paleo_atlantid
+		5 = tavastid
+		4 = keltic_nordid
+		3 = dinarid
+		2 = litorid
+		2 = gracilemediterranid
+		1 = atlanto_mediterranean
+	}
+}
 flemish = {
 	color = { 220 205 186 }
 	
@@ -112,155 +211,6 @@ flemish = {
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
-
-
-	ethnicities = {
-		100 = halstatt
-		100 = anglo_saxon
-		94 = subnordid
-		69 = borreby
-		63 = north_atlantid
-		44 = faelid
-		37 = norid
-		6 = west_alpinid
-		6 = brunn
-		6 = troender
-		6 = paleo_atlantid
-		5 = tavastid
-		4 = keltic_nordid
-		3 = dinarid
-		2 = litorid
-		2 = gracilemediterranid
-		1 = atlanto_mediterranean
-	}
-}
-east_elbian = {
-	color = { 65 45 55 }
-	created = 1250.1.1
-	parents = { saxon }
-	
-	ethos = ethos_stoic
-	heritage = heritage_central_germanic
-	language = language_saxon
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_stand_and_fight
-		tradition_ruling_caste
-		tradition_astute_diplomats
-	}
-	
-	name_list = name_list_saxon
-
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = subnordid
-		75 = borreby
-		75 = tavastid
-		66 = west_baltid
-		49 = norid
-		49 = west_alpinid
-		49 = faelid
-		23 = halstatt
-		14 = neo_danubian
-		5 = gorid
-		5 = aisto_nordid
-		5 = north_atlantid
-		5 = north_pontid
-		5 = pontid
-		5 = pre_slavic
-		5 = proto_nordid
-		5 = dinarid
-		5 = troender
-		5 = brunn
-		5 = anglo_saxon
-		2 = carpathid
-	}
-}
-german_pommeranian = {
-	color = { 0.4 0.5 0.3 }
-	
-	created = 1250.1.1
-	parents = { pommeranian saxon  }
-	
-	ethos = ethos_stoic
-	heritage = heritage_west_slavic
-	language = language_east_saxon
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_maritime_mercantilism
-		tradition_adaptive_skirmishing
-	}
-	
-	dlc_tradition = {
-		trait = tradition_fp2_malleable_subjects
-		requires_dlc_flag = hybridize_culture
-	}
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_pommeranian
-	
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-	
-
-	ethnicities = {
-		100 = west_baltid
-		100 = borreby
-		100 = tavastid
-		83 = halstatt
-		65 = faelid
-		41 = subnordid
-		5 = anglo_saxon
-		5 = west_alpinid
-		5 = troender
-		5 = proto_nordid
-		5 = pre_slavic
-		5 = north_pontid
-		5 = norid
-		5 = neo_danubian
-		5 = gorid
-		5 = brunn
-		5 = aisto_nordid
-		3 = pontid
-		3 = savolaxid
-		1 = north_atlantid
-		1 = dinarid
-	}
-}
-brabantian = {
-	color = { 85 103 134 }
-	
-	parents = { low_frankish } #
-	
-	created = 1150.1.1 #Break off at the same point Dutch appears
-	
-	
-	ethos = ethos_communal
-	heritage = heritage_central_germanic
-	language = language_dutch
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_isolationist
-		tradition_family_entrepreneurship
-		tradition_ruling_caste
-	}
-	
-	name_list = name_list_franconian
-
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
 
 
 	ethnicities = {
@@ -393,48 +343,160 @@ high_alemannic = {
 		1 = paleo_atlantid
 	}
 }
-dutch = {
-	color = dutch
-	created = 1000.1.1 # Used by 1066 bookmark
-	parents = { low_frankish frisian }
+east_elbian = {
+	color = { 65 45 55 }
+	created = 1250.1.1
+	parents = { saxon }
 	
-	ethos = ethos_bureaucratic
+	ethos = ethos_stoic
 	heritage = heritage_central_germanic
-	language = language_dutch
+	language = language_low_german
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_agrarian
-		tradition_parochialism
-		tradition_maritime_mercantilism
-		tradition_polders
+		tradition_stand_and_fight
+		tradition_ruling_caste
+		tradition_astute_diplomats
 	}
 	
-	name_list = name_list_dutch
+	name_list = name_list_saxon
 
-	coa_gfx = { frisian_coa_gfx german_group_coa_gfx western_coa_gfx } 
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+		100 = subnordid
+		75 = borreby
+		75 = tavastid
+		66 = west_baltid
+		49 = norid
+		49 = west_alpinid
+		49 = faelid
+		23 = halstatt
+		14 = neo_danubian
+		5 = gorid
+		5 = aisto_nordid
+		5 = north_atlantid
+		5 = north_pontid
+		5 = pontid
+		5 = pre_slavic
+		5 = proto_nordid
+		5 = dinarid
+		5 = troender
+		5 = brunn
+		5 = anglo_saxon
+		2 = carpathid
+	}
+}
+ripuarian = {
+	color = { 0.4 0.5 0.6 }
+	
+	created = 640.1.1 # Same origin as 'Franconian' (a modern linguistic division) though specifically the Ripuarian Franks. 
+	parents = { frankish }
+	
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_astute_diplomats
+		tradition_welcoming
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
 	building_gfx = { western_building_gfx } 
 	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
 	unit_gfx = { western_unit_gfx } 		
 
 
 	ethnicities = {
-		100 = halstatt
-		100 = anglo_saxon
-		94 = subnordid
-		69 = borreby
-		63 = north_atlantid
-		44 = faelid
-		37 = norid
-		6 = west_alpinid
-		6 = brunn
-		6 = troender
-		6 = paleo_atlantid
+		100 = subnordid
+		81 = borreby
+		53 = faelid
+		50 = west_alpinid
+		42 = halstatt
+		33 = anglo_saxon
+		28 = north_atlantid
+		11 = norid
+		8 = dinarid
+		7 = gracilemediterranid
+		5 = brunn
 		5 = tavastid
-		4 = keltic_nordid
-		3 = dinarid
+		5 = pre_slavic
+		4 = neo_danubian
+		4 = troender
+		4 = gorid
+		3 = paleo_atlantid
+		3 = proto_nordid
 		2 = litorid
-		2 = gracilemediterranid
+		2 = north_pontid
+		2 = paleo_sardinian
+		2 = keltic_nordid
+		2 = eurafricanid
+		1 = pontid
+		1 = carpathid
 		1 = atlanto_mediterranean
+	}
+}
+german_pommeranian = {
+	color = { 0.4 0.5 0.3 }
+	
+	created = 1250.1.1
+	parents = { pommeranian saxon  }
+	
+	ethos = ethos_stoic
+	heritage = heritage_west_slavic
+	language = language_east_saxon
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_adaptive_skirmishing
+	}
+	
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = hybridize_culture
+	}
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_pommeranian
+	
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+	
+
+	ethnicities = {
+		100 = west_baltid
+		100 = borreby
+		100 = tavastid
+		83 = halstatt
+		65 = faelid
+		41 = subnordid
+		5 = anglo_saxon
+		5 = west_alpinid
+		5 = troender
+		5 = proto_nordid
+		5 = pre_slavic
+		5 = north_pontid
+		5 = norid
+		5 = neo_danubian
+		5 = gorid
+		5 = brunn
+		5 = aisto_nordid
+		3 = pontid
+		3 = savolaxid
+		1 = north_atlantid
+		1 = dinarid
 	}
 }
 thuringian = {
@@ -482,30 +544,28 @@ thuringian = {
 		3 = aisto_nordid
 	}
 }
-walloon = {
-	color = { 54 102 141 }
+low_frankish = {
+	color = { 1.0 0.25 0.0 } 
+	created = 640.1.1 # Frankish settlements appeared along the Rhine during the 7th century
+	parents = { frankish }
 	
-	parents = { french dutch } #Added Dutch to show it borrows aspects of it
-	
-	created = 1200.1.1 #Appeared between 8th and 12th century though it wasn't clearly defined till the 13th
-	
-	ethos = ethos_communal
-	heritage = heritage_frankish
-	language = language_walloon
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_low_frank
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_parochialism
-		tradition_city_keepers
-		tradition_artisans
+		tradition_hereditary_hierarchy
+		tradition_astute_diplomats
+		tradition_polders
 	}
 	
-	name_list = name_list_french
-	
-	coa_gfx = { french_coa_gfx frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { western_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
+	name_list = name_list_frisian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
 
 	ethnicities = {
 		100 = halstatt
@@ -525,109 +585,5 @@ walloon = {
 		2 = litorid
 		2 = gracilemediterranid
 		1 = atlanto_mediterranean
-	}
-}
-ripuarian = {
-	color = { 0.4 0.5 0.6 }
-	
-	created = 640.1.1 # Same origin as 'Franconian' (a modern linguistic division) though specifically the Ripuarian Franks. 
-	parents = { frankish }
-	
-	ethos = ethos_courtly
-	heritage = heritage_central_germanic
-	language = language_low_german
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_astute_diplomats
-		tradition_welcoming
-	}
-	
-	name_list = name_list_franconian
-
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 		
-
-
-	ethnicities = {
-		100 = subnordid
-		81 = borreby
-		53 = faelid
-		50 = west_alpinid
-		42 = halstatt
-		33 = anglo_saxon
-		28 = north_atlantid
-		11 = norid
-		8 = dinarid
-		7 = gracilemediterranid
-		5 = brunn
-		5 = tavastid
-		5 = pre_slavic
-		4 = neo_danubian
-		4 = troender
-		4 = gorid
-		3 = paleo_atlantid
-		3 = proto_nordid
-		2 = litorid
-		2 = north_pontid
-		2 = paleo_sardinian
-		2 = keltic_nordid
-		2 = eurafricanid
-		1 = pontid
-		1 = carpathid
-		1 = atlanto_mediterranean
-	}
-}
-alsatian = {
-	color = { 236 236 208 }
-		
-	created = 1250.1.1 
-	parents = { swabian }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_central_germanic
-	language = language_high_german
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_zealous_people
-		tradition_metal_craftsmanship
-		tradition_parochialism
-	}
-	
-	name_list = name_list_swabian
-
-	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
-	building_gfx = { western_building_gfx } 
-	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
-	unit_gfx = { western_unit_gfx } 	
-
-
-	ethnicities = {
-		100 = subnordid
-		76 = norid
-		59 = dinarid
-		50 = north_atlantid
-		30 = west_alpinid
-		23 = faelid
-		21 = halstatt
-		19 = borreby
-		18 = eurafricanid
-		14 = atlanto_mediterranean
-		10 = gracilemediterranid
-		8 = litorid
-		5 = brunn
-		4 = pre_slavic
-		3 = gorid
-		3 = keltic_nordid
-		3 = carpathid
-		3 = paleo_atlantid
-		3 = paleo_sardinian
-		2 = berid
-		2 = anglo_saxon
-		1 = neo_danubian
-		1 = proto_nordid
-		1 = tavastid
 	}
 }

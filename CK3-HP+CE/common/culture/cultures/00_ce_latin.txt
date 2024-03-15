@@ -1,4 +1,107 @@
 ﻿
+dalmatian_ce = {
+	color = { 0.6 0.7 0.77 }
+
+	parents = { roman }
+
+	created = 480.1.1
+	
+	ethos = ethos_stoic
+	heritage = heritage_latin
+	language = language_dalmatian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_republican_legacy
+		tradition_formation_fighting
+		tradition_seafaring
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_dalmatian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { italian_unit_gfx western_unit_gfx }
+	
+
+	ethnicities = {
+		100 = eurafricanid
+		100 = litorid
+		69 = dinarid
+		48 = norid
+		5 = atlanto_mediterranean
+		5 = berid
+		5 = carpathid
+		5 = gorid
+		5 = gracilemediterranid
+		5 = neo_danubian
+		5 = north_pontid
+		5 = pontid
+		5 = subnordid
+		5 = west_alpinid
+		3 = pre_slavic
+		2 = halstatt
+	}
+}
+african_roman = {
+	color = { 1.0 0.811 0.580 }
+
+	parents = { roman }
+
+	created = 500.1.1
+
+	history_loc_override = afri_history_loc
+
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_african_romance
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_isolationist
+		tradition_african_agriculture
+	}
+	
+	name_list = name_list_afri
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { epe_maghreb_clothing_gfx }
+	unit_gfx = { berber_unit_gfx mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = berid
+		67 = gracilemediterranid
+		63 = transmediterranid
+		63 = african_alpine
+		61 = arabid
+		58 = berberid
+		48 = litorid
+		46 = eurafricanid
+		33 = armenoid
+		24 = libyid
+		22 = paleo_sardinian
+		14 = west_alpinid
+		12 = atlanto_mediterranean
+		8 = canarid
+		7 = dinarid
+		7 = pontid
+		3 = fezzanid
+		2 = anatolid
+		1 = halstatt
+		1 = faelid
+		1 = norid
+		1 = north_atlantid
+		1 = carpathid
+		1 = borreby
+		1 = subnordid
+		1 = targid
+		1 = assyroid
+		1 = troender
+	}
+}
 venetian_ce = {
 	color = { 0.26 0.52 0.52 }
 
@@ -21,7 +124,7 @@ venetian_ce = {
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { italian_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { italian_unit_gfx western_unit_gfx }
 	
 
@@ -50,51 +153,6 @@ venetian_ce = {
 		3 = brunn
 	}
 }
-dalmatian_ce = {
-	color = { 0.6 0.7 0.77 }
-
-	parents = { roman }
-
-	created = 480.1.1
-	
-	ethos = ethos_stoic
-	heritage = heritage_latin
-	language = language_dalmatian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_republican_legacy
-		tradition_formation_fighting
-		tradition_seafaring
-		tradition_maritime_mercantilism
-	}
-	
-	name_list = name_list_dalmatian
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { italian_clothing_gfx }
-	unit_gfx = { italian_unit_gfx western_unit_gfx }
-	
-
-	ethnicities = {
-		100 = eurafricanid
-		100 = litorid
-		69 = dinarid
-		48 = norid
-		5 = atlanto_mediterranean
-		5 = berid
-		5 = carpathid
-		5 = gorid
-		5 = gracilemediterranid
-		5 = neo_danubian
-		5 = north_pontid
-		5 = pontid
-		5 = subnordid
-		5 = west_alpinid
-		3 = pre_slavic
-		2 = halstatt
-	}
-}
 pannonian_romance = {
 	color = { 0.64 0.72 0.64 }
 
@@ -121,7 +179,7 @@ pannonian_romance = {
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { italian_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
 	unit_gfx = { italian_unit_gfx western_unit_gfx }
 	
 
@@ -159,63 +217,5 @@ pannonian_romance = {
 		1 = armenoid
 		1 = anglo_saxon
 		1 = anatolid
-	}
-}
-african_roman = {
-	color = { 1.0 0.811 0.580 }
-
-	parents = { roman }
-
-	created = 500.1.1
-
-	history_loc_override = afri_history_loc
-
-	ethos = ethos_communal
-	heritage = heritage_latin
-	language = language_african_romance
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_zealous_people
-		tradition_isolationist
-		tradition_african_agriculture
-	}
-	
-	name_list = name_list_afri
-	
-	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { maghreb_clothing_gfx }
-	unit_gfx = { berber_unit_gfx mena_unit_gfx }
-	
-
-	ethnicities = {
-		100 = berid
-		67 = gracilemediterranid
-		63 = transmediterranid
-		63 = african_alpine
-		61 = arabid
-		58 = berberid
-		48 = litorid
-		46 = eurafricanid
-		33 = armenoid
-		24 = libyid
-		22 = paleo_sardinian
-		14 = west_alpinid
-		12 = atlanto_mediterranean
-		8 = canarid
-		7 = dinarid
-		7 = pontid
-		3 = fezzanid
-		2 = anatolid
-		1 = halstatt
-		1 = faelid
-		1 = norid
-		1 = north_atlantid
-		1 = carpathid
-		1 = borreby
-		1 = subnordid
-		1 = targid
-		1 = assyroid
-		1 = troender
 	}
 }

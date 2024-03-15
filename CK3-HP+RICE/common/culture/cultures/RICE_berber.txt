@@ -1,0 +1,51 @@
+﻿
+tuareg = {
+	color = { 0.20 0.03 0.62 }
+
+	parents = { butr zaghawa }
+
+	# Approximate date of Tin Hinan, legendary Tuareg ancestor
+	# However, while the Tuaregs' ancestors are recorded early on, they as a distinct group do not appear until the late timeframe
+	# As such, this date is for convenience
+	created = 300.1.1 
+	history_loc_override = tuareg_history_loc
+	
+	ethos = ethos_stoic
+	heritage = heritage_berber
+	language = language_berber
+	martial_custom = martial_custom_male_only
+	traditions = {	
+		tradition_desert_ribat #the description is a bit off but the MAA is literally a tuareg unit so...
+		tradition_poetry #poetry and the performance of it is valued form of entertainment 
+		tradition_saharan_nomads #the ogs of the sahara
+
+		# tradition_monogamous and tradition_equal_inheritance from BAP version are removed and replaced with 
+	}
+	
+	name_list = name_list_tuareg
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+
+	ethnicities = {
+		100 = berberid
+		91 = fezzanid
+		86 = targid
+		26 = libyid
+		14 = paleo_saharid
+		14 = saharan_ethiopid
+		6 = sudanid
+		5 = african_alpine
+		4 = moorish
+		4 = transmediterranid
+		3 = siwa
+		2 = arabid
+		2 = eurafricanid
+		1 = basic_khoid
+		1 = canarid
+		1 = west_ethiopid
+	}
+}

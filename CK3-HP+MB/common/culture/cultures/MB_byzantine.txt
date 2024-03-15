@@ -1,9 +1,43 @@
 ﻿
+udi = {
+	color = { 0.5 0.8 0.7 }
+	
+	ethos = ethos_communal
+	heritage = heritage_caucasian
+	language = language_udi
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caucasian_wolves
+		tradition_highland_warriors
+		tradition_hill_dwellers
+	}
+	
+	name_list = name_list_udi
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = armenoid
+		100 = asian_alpine
+		69 = iranid
+		37 = anatolid
+		37 = mtebid
+		37 = pontid
+		5 = arabid
+		5 = east_pamirid
+		5 = proto_iranid
+		4 = gracilemediterranid
+	}
+}
 circassian = {
 	color = { 0.55 0.2 0.1 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_caucasian
 	language = language_circassian
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -46,20 +80,126 @@ circassian = {
 		1 = neo_danubian
 	}
 }
-lezgi = {
-	color = { 0.760 0.745 0.501 }
+syriac = {
+	color = { 0.627 0.447 0.674 }
+	created = 300.1.1
+	parents = { roman } #+Aramean
 	
-	ethos = ethos_stoic
-	heritage = heritage_caucasian 
-	language = language_lezgi
+	history_loc_override = syriac_history_loc						  
+	
+	ethos = ethos_spiritual
+	heritage = heritage_aramean
+	language = language_aramaic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_caucasian_wolves
-		tradition_staunch_traditionalists
-		tradition_mountain_homes 
+		tradition_poetry
+		tradition_dryland_dwellers
+		tradition_loyal_soldiers
+		tradition_city_keepers
+
 	}
 	
-	name_list = name_list_alan
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+
+	ethnicities = {
+		100 = arabid
+		77 = assyroid
+		73 = asian_alpine
+		50 = armenoid
+		47 = iranid
+		27 = proto_iranid
+		23 = anatolid
+		17 = pontid
+		13 = litorid
+		10 = transmediterranid
+		6 = gracilemediterranid
+		6 = eurafricanid
+		4 = berberid
+		3 = indo_iranid
+		3 = yemenid
+		2 = egyptid
+		2 = berid
+		1 = indo_brachid
+		1 = libyid
+		1 = east_pamirid
+		1 = mtebid
+		1 = canarid
+		1 = proto_nordid
+	}
+}
+arberian = {
+	color = { 0.5 0.5 0.8 }
+	
+	created = 600.1.1
+	parents = { illyro_roman }
+	
+	ethos = ethos_communal
+	heritage = heritage_arberian
+	language = language_arberian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountain_homes #Albania is mountainous
+		tradition_stalwart_defenders
+		tradition_roman_legacy
+	}
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists #Illyrians
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_arberian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = dinarid
+		61 = eurafricanid
+		53 = litorid
+		29 = pontid
+		20 = borreby
+		13 = norid
+		12 = west_alpinid
+		5 = gracilemediterranid
+		5 = proto_nordid
+		5 = paleo_sardinian
+		5 = north_pontid
+		5 = neo_danubian
+		5 = anatolid
+		5 = gorid
+		5 = carpathid
+		5 = berid
+		5 = atlanto_mediterranean
+		5 = asian_alpine
+		4 = armenoid
+		2 = pre_slavic
+	}
+}
+svan = {
+	color = { 0.5 0.4 0.7 }
+	
+	ethos = ethos_communal
+	heritage = heritage_caucasian
+	language = language_georgian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_hunters
+		tradition_mountain_homes
+		tradition_caucasian_wolves
+	}
+	
+	name_list = name_list_georgian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -87,117 +227,20 @@ lezgi = {
 		1 = gorid
 	}
 }
-udi = {
-	color = { 0.5 0.8 0.7 }
-	
-	ethos = ethos_communal
-	heritage = heritage_byzantine
-	language = language_udi
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_horse_lords
-		tradition_mountaineers
-		tradition_steppe_tolerance
-		tradition_wedding_ceremonies
-	}
-	
-	name_list = name_list_udi
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = armenoid
-		100 = asian_alpine
-		69 = iranid
-		37 = anatolid
-		37 = mtebid
-		37 = pontid
-		5 = arabid
-		5 = east_pamirid
-		5 = proto_iranid
-		4 = gracilemediterranid
-	}
-}
-tsakonian = {
-	color = { 0.5 0.4 0.7 }
+lezgi = {
+	color = { 0.760 0.745 0.501 }
 	
 	ethos = ethos_stoic
-	heritage = heritage_byzantine
-	language = language_doric 
+	heritage = heritage_caucasian 
+	language = language_lezgi
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_isolationist
-		tradition_roman_legacy
-		tradition_formation_fighting
-		tradition_byzantine_succession
-	}
-	
-	name_list = name_list_greek
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = anatolid
-		81 = asian_alpine
-		71 = pontid
-		58 = litorid
-		48 = armenoid
-		26 = gracilemediterranid
-		14 = dinarid
-		7 = eurafricanid
-		5 = proto_iranid
-		5 = north_pontid
-		4 = paleo_sardinian
-		4 = east_pamirid
-		3 = arabid
-		3 = west_alpinid
-		3 = berid
-		3 = assyroid
-		3 = berberid
-		3 = carpathid
-		2 = transmediterranid
-		2 = iranid
-		2 = mtebid
-		2 = neo_danubian
-		2 = norid
-		2 = gorid
-		2 = atlanto_mediterranean
-		1 = borreby
-		1 = subnordid
-		1 = scythian
-		1 = proto_nordid
-		1 = pre_slavic
-		1 = andronovo_turanid
-		1 = plains_pamirid
-		1 = central_pamirid
-		1 = aralid
-		1 = halstatt
-		1 = alfoeld
-	}
-}
-svan = {
-	color = { 0.5 0.4 0.7 }
-	
-	ethos = ethos_communal
-	heritage = heritage_byzantine
-	language = language_georgian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_hereditary_hierarchy
-		tradition_hunters
-		tradition_mountain_homes
 		tradition_caucasian_wolves
+		tradition_staunch_traditionalists
+		tradition_mountain_homes 
 	}
 	
-	name_list = name_list_georgian
+	name_list = name_list_alan
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -269,102 +312,12 @@ pontic = {
 		1 = dinarid
 	}
 }
-arberian = {
-	color = { 0.5 0.5 0.8 }
-	
-	created = 600.1.1
-	parents = { illyro_roman }
-	
-	ethos = ethos_communal
-	heritage = heritage_byzantine
-	language = language_albanian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_mountain_homes #Albania is mountainous
-		tradition_stalwart_defenders
-		tradition_roman_legacy
-	}
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists #Illyrians
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_arberian
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = dinarid
-		61 = eurafricanid
-		53 = litorid
-		29 = pontid
-		20 = borreby
-		13 = norid
-		12 = west_alpinid
-		5 = gracilemediterranid
-		5 = proto_nordid
-		5 = paleo_sardinian
-		5 = north_pontid
-		5 = neo_danubian
-		5 = anatolid
-		5 = gorid
-		5 = carpathid
-		5 = berid
-		5 = atlanto_mediterranean
-		5 = asian_alpine
-		4 = armenoid
-		2 = pre_slavic
-	}
-}
-gothic = {
-	color = { 0.5 0.4 0.8 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_byzantine
-	language = language_crimeangothic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_legalistic
-		tradition_roman_legacy
-		tradition_formation_fighting
-		tradition_byzantine_succession
-	}
-	
-	name_list = name_list_gothic
-	
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
-	building_gfx = { mediterranean_building_gfx }
-	clothing_gfx = { byzantine_clothing_gfx }
-	unit_gfx = { eastern_unit_gfx }
-	
-
-	ethnicities = {
-		100 = halstatt
-		59 = faelid
-		51 = borreby
-		25 = tavastid
-		13 = strandid
-		6 = aisto_nordid
-		6 = north_atlantid
-		6 = paleo_atlantid
-		6 = subnordid
-		6 = troender
-		6 = west_baltid
-		5 = brunn
-		4 = anglo_saxon
-		2 = west_alpinid
-	}
-}
 abkhazians = {
 	color = { 0.75 0.3 0.7 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
-	language = language_circassian
+	heritage = heritage_caucasian
+	language = language_abazgi
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caucasian_wolves
@@ -400,12 +353,50 @@ abkhazians = {
 		1 = gorid
 	}
 }
+gothic = {
+	color = { 0.5 0.4 0.8 }
+	
+	ethos = ethos_communal
+	heritage = heritage_east_germanic
+	language = language_gothic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_staunch_traditionalists
+		tradition_loyal_soldiers
+		tradition_hit_and_run
+	}
+	
+	name_list = name_list_gothic
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = halstatt
+		59 = faelid
+		51 = borreby
+		25 = tavastid
+		13 = strandid
+		6 = aisto_nordid
+		6 = north_atlantid
+		6 = paleo_atlantid
+		6 = subnordid
+		6 = troender
+		6 = west_baltid
+		5 = brunn
+		4 = anglo_saxon
+		2 = west_alpinid
+	}
+}
 caucasian_avar = {
 	color = { 0.75 0.3 0.7 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
-	language = language_cauc_avar
+	heritage = heritage_caucasian 
+	language = language_avaric
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_mountaineers
@@ -441,11 +432,72 @@ caucasian_avar = {
 		1 = assyroid
 	}
 }
+tsakonian = {
+	color = { 0.5 0.4 0.7 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_byzantine
+	language = language_doric 
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_isolationist
+		tradition_roman_legacy
+		tradition_formation_fighting
+		tradition_byzantine_succession
+	}
+	
+	name_list = name_list_greek
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+
+	ethnicities = {
+		100 = anatolid
+		81 = asian_alpine
+		71 = pontid
+		58 = litorid
+		48 = armenoid
+		26 = gracilemediterranid
+		14 = dinarid
+		7 = eurafricanid
+		5 = proto_iranid
+		5 = north_pontid
+		4 = paleo_sardinian
+		4 = east_pamirid
+		3 = arabid
+		3 = west_alpinid
+		3 = berid
+		3 = assyroid
+		3 = berberid
+		3 = carpathid
+		2 = transmediterranid
+		2 = iranid
+		2 = mtebid
+		2 = neo_danubian
+		2 = norid
+		2 = gorid
+		2 = atlanto_mediterranean
+		1 = borreby
+		1 = subnordid
+		1 = scythian
+		1 = proto_nordid
+		1 = pre_slavic
+		1 = andronovo_turanid
+		1 = plains_pamirid
+		1 = central_pamirid
+		1 = aralid
+		1 = halstatt
+		1 = alfoeld
+	}
+}
 mingrelian = {
 	color = { 0.7 0.2 0.9 }
 	
 	ethos = ethos_communal
-	heritage = heritage_byzantine
+	heritage = heritage_caucasian
 	language = language_georgian
 	martial_custom = martial_custom_male_only
 	traditions = {
@@ -481,55 +533,5 @@ mingrelian = {
 		2 = proto_nordid
 		1 = transcaspian
 		1 = gorid
-	}
-}
-syriac = {
-	color = { 0.627 0.447 0.674 }
-	
-	ethos = ethos_spiritual
-	heritage = heritage_byzantine
-	language = language_aramaic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_poetry
-		tradition_dryland_dwellers
-		tradition_loyal_soldiers
-		tradition_city_keepers
-
-	}
-	
-	name_list = name_list_assyrian
-
-	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
-	building_gfx = { mena_building_gfx } 
-	clothing_gfx = { byzantine_clothing_gfx } 
-	clothing_gfx = { mena_clothing_gfx } 
-	unit_gfx = { mena_unit_gfx } 		
-
-
-	ethnicities = {
-		100 = arabid
-		77 = assyroid
-		73 = asian_alpine
-		50 = armenoid
-		47 = iranid
-		27 = proto_iranid
-		23 = anatolid
-		17 = pontid
-		13 = litorid
-		10 = transmediterranid
-		6 = gracilemediterranid
-		6 = eurafricanid
-		4 = berberid
-		3 = indo_iranid
-		3 = yemenid
-		2 = egyptid
-		2 = berid
-		1 = indo_brachid
-		1 = libyid
-		1 = east_pamirid
-		1 = mtebid
-		1 = canarid
-		1 = proto_nordid
 	}
 }

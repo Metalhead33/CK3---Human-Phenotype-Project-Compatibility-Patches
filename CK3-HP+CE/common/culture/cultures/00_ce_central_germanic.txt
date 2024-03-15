@@ -1,0 +1,166 @@
+﻿
+meissener = {
+	color = { 0.57 0.57 0.61 }
+	
+	created = 1050.1.1
+	parents = { sorbian thuringian }
+	
+	history_loc_override = meissener_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_castle_keepers
+		tradition_hard_working
+		tradition_esteemed_hospitality
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 	
+
+
+	ethnicities = {
+	}
+}
+markish = {
+	color = { 0.24 0.24 0.27 }
+	
+	created = 1050.1.1
+	parents = { polabian }
+	
+	history_loc_override = markish_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_central_germanic
+	language = language_low_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_castle_keepers
+		tradition_chivalry
+		tradition_hereditary_hierarchy
+	}
+	
+	name_list = name_list_saxon
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+
+	ethnicities = {
+	}
+}
+lausitzian = {
+	color = { 0.70 0.70 0.77 }
+	
+	created = 1200.1.1
+	parents = { silesian }
+	
+	history_loc_override = lausitzian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_loyal_soldiers
+		tradition_hard_working
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+
+	ethnicities = {
+	}
+}
+pomeranian = {
+	color = { 0.37 0.37 0.42 }
+	
+	created = 1050.1.1
+	parents = { pommeranian }
+	
+	history_loc_override = pomeranian_history_loc
+	
+	ethos = ethos_communal
+	heritage = heritage_central_germanic
+	language = language_low_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_city_keepers
+	}
+	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_saxon
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+
+	ethnicities = {
+	}
+}
+thuringian = {
+	color = { 0.67 0.67 0.67 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_central_germanic
+	language = language_high_german
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_loyal_soldiers
+		tradition_esteemed_hospitality
+	}
+	
+	name_list = name_list_franconian
+
+	coa_gfx = { german_group_coa_gfx western_coa_gfx } 
+	building_gfx = { western_building_gfx } 
+	clothing_gfx = { dde_hre_clothing_gfx western_clothing_gfx } 
+	unit_gfx = { western_unit_gfx } 		
+
+
+	ethnicities = {
+		100 = west_alpinid
+		100 = subnordid
+		46 = faelid
+		33 = borreby
+		33 = norid
+		5 = west_baltid
+		5 = troender
+		5 = tavastid
+		5 = proto_nordid
+		5 = pre_slavic
+		5 = pontid
+		5 = north_pontid
+		5 = north_atlantid
+		5 = neo_danubian
+		5 = halstatt
+		5 = gorid
+		5 = dinarid
+		5 = brunn
+		5 = anglo_saxon
+		3 = carpathid
+		3 = aisto_nordid
+	}
+}

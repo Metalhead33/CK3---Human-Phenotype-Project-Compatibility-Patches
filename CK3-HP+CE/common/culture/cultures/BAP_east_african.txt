@@ -1,37 +1,39 @@
 ﻿
-sidama = {
-	color = hsv { 29 0.867 0.353 }
+agaw = {
+	color = { 0.8 0.3 0.3 }
 	
-	ethos = ethos_communal
+	ethos = ethos_spiritual
 	heritage = heritage_east_african
 	language = language_cushitic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_sacred_rulership
-		tradition_nubian_warrior_queens
-		tradition_horn_mountain_skirmishing
+		tradition_zealous_people
+		tradition_amharic_highlanders
+		tradition_fervent_temple_builders
+		tradition_stalwart_defenders
 	}
-	dlc_tradition = {
-		trait = tradition_staunch_traditionalists
-		requires_dlc_flag = hybridize_culture
-	}
-	name_list = name_list_sidama
-		
+	
+	name_list = name_list_ethiopian
+	
 	coa_gfx = { east_african_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { east_african_clothing_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { east_african_unit_gfx mena_unit_gfx }
 	
 
 	ethnicities = {
-		100 = central_ethiopid
-		40 = east_ethiopid
-		36 = omotic
-		5 = north_ethiopid
-		5 = proto_ethiopid
-		3 = equatorialsudanid
-		2 = basic_bantuid
-		1 = dinkaid
+		100 = north_ethiopid
+		49 = proto_ethiopid
+		10 = dinkaid
+		7 = central_ethiopid
+		7 = east_ethiopid
+		4 = middle_nile
+		4 = omotic
+		2 = arabid
+		2 = equatorialsudanid
+		2 = eurafricanid
+		2 = moorish
+		1 = yemenid
 	}
 }
 tigray = {
@@ -52,7 +54,7 @@ tigray = {
 	
 	coa_gfx = { east_african_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { east_african_clothing_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { east_african_unit_gfx mena_unit_gfx }
 	
 
@@ -68,41 +70,39 @@ tigray = {
 		1 = arabian_veddoid
 	}
 }
-agaw = {
-	color = { 0.8 0.3 0.3 }
+sidama = {
+	color = hsv { 29 0.867 0.353 }
 	
-	ethos = ethos_spiritual
+	ethos = ethos_communal
 	heritage = heritage_east_african
 	language = language_cushitic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_zealous_people
-		tradition_amharic_highlanders
-		tradition_fervent_temple_builders
-		tradition_stalwart_defenders
+		tradition_sacred_rulership
+		tradition_nubian_warrior_queens
+		tradition_horn_mountain_skirmishing
 	}
-	
-	name_list = name_list_ethiopian
-	
+	dlc_tradition = {
+		trait = tradition_staunch_traditionalists
+		requires_dlc_flag = hybridize_culture
+	}
+	name_list = name_list_sidama
+		
 	coa_gfx = { east_african_coa_gfx }
 	building_gfx = { african_building_gfx mena_building_gfx }
-	clothing_gfx = { east_african_clothing_gfx }
+	clothing_gfx = { mena_clothing_gfx }
 	unit_gfx = { east_african_unit_gfx mena_unit_gfx }
 	
 
 	ethnicities = {
-		100 = north_ethiopid
-		49 = proto_ethiopid
-		10 = dinkaid
-		7 = central_ethiopid
-		7 = east_ethiopid
-		4 = middle_nile
-		4 = omotic
-		2 = arabid
-		2 = equatorialsudanid
-		2 = eurafricanid
-		2 = moorish
-		1 = yemenid
+		100 = central_ethiopid
+		40 = east_ethiopid
+		36 = omotic
+		5 = north_ethiopid
+		5 = proto_ethiopid
+		3 = equatorialsudanid
+		2 = basic_bantuid
+		1 = dinkaid
 	}
 }
 argobba = {
