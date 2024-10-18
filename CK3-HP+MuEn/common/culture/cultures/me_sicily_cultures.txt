@@ -1,0 +1,100 @@
+﻿siqilli = {
+	color = { 35 232 20 }
+	created = 856.1.1
+	parents = { maghrebi greek }
+	history_loc_override = siqilli_history_loc
+	
+	ethos = ethos_spiritual
+	heritage = heritage_arabic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_mubarizuns
+		tradition_poetry
+		tradition_xenophilic
+	}
+	
+	name_list = name_list_siqilli
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+
+	ethnicities = {
+		64 = berberid
+		60 = gracilemediterranid
+		47 = berid
+		45 = eurafricanid
+		45 = arabid
+		40 = litorid
+		39 = armenoid
+		17 = paleo_sardinian
+		14 = west_alpinid
+		10 = moorish
+		6 = pontid
+		5 = atlanto_mediterranean
+		4 = dinarid
+		4 = anatolid
+		3 = transmediterranid
+		2 = borreby
+		2 = faelid
+		2 = halstatt
+		2 = libyid
+		2 = norid
+		1 = north_atlantid
+		1 = sudanid
+		1 = troender
+	}
+}
+
+maltese = {
+	color = { 223 60 42 }
+	created = 1127.1.1
+	parents = { siqilli sicilian }
+	history_loc_override = maltese_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_latin
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_swords_for_hire
+		tradition_maritime_mercantilism
+		tradition_poetry
+		tradition_republican_legacy
+	}
+	
+	name_list = name_list_maltese
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		100 = gracilemediterranid
+		97 = berid
+		60 = litorid
+		49 = armenoid
+		27 = paleo_sardinian
+		24 = west_alpinid
+		16 = pontid
+		5 = eurafricanid
+		5 = berberid
+		5 = atlanto_mediterranean
+		5 = arabid
+		4 = dinarid
+		4 = anatolid
+		3 = transmediterranid
+		2 = borreby
+		2 = faelid
+		2 = halstatt
+		2 = libyid
+		2 = norid
+		1 = north_atlantid
+		1 = troender
+	}	
+}
