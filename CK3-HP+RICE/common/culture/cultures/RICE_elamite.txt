@@ -1,6 +1,5 @@
-﻿
-elamite = {
-	color = { 0.8 0.2 0.4 }
+﻿elamite = {
+	color = { 69 125 118 }
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_elamite 
@@ -18,10 +17,9 @@ elamite = {
 	
 	coa_gfx = { iranian_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { mena_unit_gfx }
 	
-
 	ethnicities = {
 		100 = iranid
 		72 = assyroid

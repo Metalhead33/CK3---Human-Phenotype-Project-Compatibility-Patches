@@ -1,5 +1,5 @@
 ﻿
-inuit = {
+inuit = { # Thule
 	color = { 208 222 250 }
 	
 	ethos = ethos_stoic
@@ -21,7 +21,6 @@ inuit = {
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
-
 	ethnicities = {
 		100 = basic_eskimid
 		13 = basic_silvid

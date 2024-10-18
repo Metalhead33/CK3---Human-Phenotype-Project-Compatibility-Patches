@@ -1,4 +1,8 @@
-﻿
+﻿# Also known as Wamo or Hunmo
+# Descendants of Han and other Gansu ethnicities assimilated into Tibetan during the Tibetan rule over the Gansu region
+# Mainly descended from slaves of the Tibetans, and did not consider themselves Chinese
+# Also included some other ethnicities including Tibetans of lower class who joined them for protection
+# Were also not considered "proper" Chinese by the Chinese
 wenmo = {
 	color = { 125 58 58 }
 
@@ -32,7 +36,6 @@ wenmo = {
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
-
 	ethnicities = {
 		100 = changkiangid
 		60 = kham

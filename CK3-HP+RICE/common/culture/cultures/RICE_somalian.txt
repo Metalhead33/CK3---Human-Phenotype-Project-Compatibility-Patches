@@ -1,0 +1,165 @@
+﻿
+
+
+# Dahalo - Cushitic speakers in Kenya, possible remnants of a San/Hadza-like people
+# "Dahalo" is considered offensive to them, as it is an exonym from the neighboring Aweer people meaning stupid or worthless
+# It is called "Dahalo" here for convenience, but localized differently in-game as "Guho Garimaani"
+dahalo = {
+	color = { 88 125 125 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_somalian
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_hunters
+		tradition_isolationist
+	}
+	
+	name_list = name_list_swahili
+	
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = { #Combined Beja and Somali
+		109 = north_ethiopid
+		105 = east_ethiopid
+		29 = central_ethiopid
+		15 = basic_bantuid
+		10 = omotic
+		10 = proto_ethiopid
+		9 = arabid
+		8 = yemenid
+		5 = middle_nile
+		3 = arabian_veddoid
+		2 = egyptid
+		2 = transmediterranid
+		1 = central_ethiopid
+		1 = dinkaid
+		1 = libyid
+		1 = moorish
+		1 = siwa
+		1 = eurafricanid
+	}
+}
+
+# Hunter-gatherers currently around the border regions of Kenya/Somalia
+aweer = {
+	color = { 88 125 125 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_somalian
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_forest_folk # Supplied forest products to Swahili/Indian Ocean trade
+		tradition_medicinal_plants # Some of these products were medicinal plants
+		tradition_hunters # Hunter-Gatherers traditionally
+	}
+	
+	name_list = name_list_swahili
+	
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = { #Combined Beja and Somali
+		109 = north_ethiopid
+		105 = east_ethiopid
+		29 = central_ethiopid
+		15 = basic_bantuid
+		10 = omotic
+		10 = proto_ethiopid
+		9 = arabid
+		8 = yemenid
+		5 = middle_nile
+		3 = arabian_veddoid
+		2 = egyptid
+		2 = transmediterranid
+		1 = central_ethiopid
+		1 = dinkaid
+		1 = libyid
+		1 = moorish
+		1 = siwa
+		1 = eurafricanid
+	}
+}
+
+# Borrowed from Africa Plus mod
+oromo = {
+	color = { 99 99 99 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_somalian
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_pastoralists
+		tradition_horn_mountain_skirmishing
+		tradition_noble_adoption # Moassa/Moggaasa system
+		#tradition_quarrelsome #free neighbor conquest cbs as proxy for migrations
+		#tradition_culture_conversion
+	}
+	
+	name_list = name_list_oromo
+	
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = { #Copied from Somali
+		100 = east_ethiopid
+		29 = central_ethiopid
+		15 = basic_bantuid
+		10 = omotic
+		9 = north_ethiopid
+		6 = proto_ethiopid
+		3 = arabid
+		3 = yemenid
+		2 = arabian_veddoid
+		1 = eurafricanid
+	}
+}
+
+# Integrated from Africa Plus mod and based on Fallen Eagle version I originally made
+harla = {
+	color = { 55 108 125 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_somalian #proto-somalis
+	language = language_cushitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_city_keepers
+		tradition_horn_mountain_skirmishing
+		tradition_ancient_miners
+		#tradition_dryland_dwellers
+		tradition_religion_blending
+	}
+	
+	name_list = name_list_somali
+	
+	coa_gfx = { east_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = { #Copied from afar
+		100 = east_ethiopid
+		100 = omotic
+		69 = north_ethiopid
+		16 = proto_ethiopid
+		6 = arabid
+		6 = central_ethiopid
+		6 = yemenid
+		5 = arabian_veddoid
+		1 = moorish
+	}
+}

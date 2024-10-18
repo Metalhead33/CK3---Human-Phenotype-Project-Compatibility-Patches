@@ -1,5 +1,4 @@
-﻿
-icelandic = {
+﻿icelandic = {
 	color = { 204 214 224 }
 	created = 930.1.1
 	parents = { norse irish }
@@ -38,7 +37,6 @@ icelandic = {
 	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { norse_unit_gfx }
 	
-
 	ethnicities = {
 		100 = borreby
 		100 = halstatt
@@ -52,6 +50,7 @@ icelandic = {
 		1 = scando_lappid
 	}
 }
+
 greenlandic = {
 	color = { 202 242 232 }
 	created = 980.1.1
@@ -86,7 +85,6 @@ greenlandic = {
 	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
 	unit_gfx = { norse_unit_gfx }
 	
-
 	ethnicities = {
 		100 = borreby
 		100 = halstatt

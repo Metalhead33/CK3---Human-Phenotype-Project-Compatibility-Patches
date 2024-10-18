@@ -1,5 +1,4 @@
-﻿
-dorset = {
+﻿dorset = { # Tuniit
 	color = { 228 225 200 }
 	
 	ethos = ethos_communal
@@ -20,7 +19,6 @@ dorset = {
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
-
 	ethnicities = {
 		100 = basic_eskimid
 		23 = basic_silvid

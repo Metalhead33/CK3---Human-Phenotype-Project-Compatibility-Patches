@@ -1,5 +1,4 @@
-﻿
-laurentian = {
+﻿laurentian = {
 	color = { 180 150 102 }
 	
 	ethos = ethos_communal
@@ -21,9 +20,30 @@ laurentian = {
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { northern_unit_gfx }
 	
-
 	ethnicities = {
 		100 = basic_silvid
 		21 = basic_centralid
+		6 = amerindian_3
+		6 = amerindian_4
+		5 = amerindian_5
+		6 = amerindian_6
+		5 = amerindian_7
+		5 = amerindian_8
+		5 = amerindian_9
+		3 = amerindian_10
+		2 = amerindian_11
+		3 = amerindian_12
+		3 = amerindian_13
+		4 = amerindian_14
+		3 = amerindian_15
+		6 = amerindian_16
+		2 = amerindian_17
+		6 = amerindian_18
+		3 = amerindian_19
+		2 = amerindian_20
+		3 = amerindian_21
+		3 = amerindian_22
+		5 = amerindian_23
+		2 = amerindian_24
 	}
 }

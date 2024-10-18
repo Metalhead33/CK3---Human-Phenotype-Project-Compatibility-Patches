@@ -1,4 +1,53 @@
-﻿
+﻿pamiri = {
+	color = { 58 69 152 } # 0.11 0.11 0.22
+	
+	ethos = ethos_communal
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_himalayan_settlers
+		tradition_pastoralists
+		tradition_mendicant_mystics
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp3_jirga
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_festivities 
+	}
+	
+	name_list = name_list_afghan # Should be their own but eh
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	#clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+	ethnicities = {
+		100 = east_pamirid
+		40 = indo_iranid
+		36 = central_pamirid
+		36 = indo_nordid
+		25 = asian_alpine
+		9 = scythian
+		7 = andronovo_turanid
+		7 = armenoid
+		7 = plains_pamirid
+		7 = north_indid
+		7 = iranid
+		7 = mountain_indid
+		6 = tibetid
+		6 = aralid
+		4 = indo_brachid
+		4 = berid
+		2 = kham
+		2 = east_brachid
+		2 = proto_nordid
+	}
+}
+
 hephthalite = {
 	color = { 0.35 0.03 0.19  }
 
@@ -27,10 +76,10 @@ hephthalite = {
 	name_list = name_list_hephthalite
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
 	clothing_gfx = { mongol_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-
+	unit_gfx = { iranian_unit_gfx }
 
 	ethnicities = {
 		100 = east_pamirid
@@ -54,8 +103,74 @@ hephthalite = {
 		2 = proto_nordid
 	}
 }
+
+turco_hephthalite = {
+	color = { 0.20 0.08 0.25  }
+
+	parents = { hephthalite turkish }
+
+	created = 665.1.1 # Approximate date of when Barha Tegin's rule begins
+	
+	ethos = ethos_stoic
+	heritage = heritage_iranian
+	language = language_scythian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		#tradition_mountain_homes # May have originated from the Pamir region
+		tradition_sacred_mountains # Zun was a solar mountain god
+		#tradition_city_keepers # Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
+		#tradition_fervent_temple_builders # Lots of Zun/Buddhist/Hindu religious sites
+		#tradition_RICE_white_huns
+		tradition_pastoralists # Turkic pastoralists
+	}
+
+	dlc_tradition = {
+		trait = tradition_culture_blending
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	# FP3 traditions
+	dlc_tradition = {
+		trait = tradition_fp3_frontier_warriors
+		requires_dlc_flag = legacy_of_persia
+		fallback = tradition_fervent_temple_builders
+	}
+	
+	name_list = name_list_hephthalite
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	#clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+
+
+	ethnicities = {
+		50 = andronovo_turanid
+		40 = east_pamirid
+		32 = aralid
+		25 = asian_alpine
+		23 = plains_pamirid
+		13 = central_pamirid
+		13 = indo_iranid
+		12 = indo_nordid
+		11 = scythian
+		7 = armenoid
+		7 = north_indid
+		7 = iranid
+		7 = mountain_indid
+		6 = tibetid
+		4 = indo_brachid
+		4 = berid
+		2 = kham
+		2 = east_brachid
+		2 = proto_nordid
+	}
+}
+
 elymaean = {
-	color = { 144 66 44 }
+	color = { 58 152 108 }
 
 	parents = { elamite persian }
 
@@ -75,14 +190,13 @@ elymaean = {
 		tradition_fervent_temple_builders # Cybr: Elamite ziggurats and temples
 	}
 	
-	name_list = name_list_persian
+	name_list = name_list_elamite
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 	
-
 	ethnicities = {
 		100 = iranid
 		72 = assyroid
@@ -99,109 +213,9 @@ elymaean = {
 		1 = transmediterranid
 	}
 }
-turco_hephthalite = {
-	color = { 0.20 0.08 0.25  }
 
-	parents = { hephthalite turkish }
-
-	created = 665.1.1 # Approximate date of when Barha Tegin's rule begins
-	
-	ethos = ethos_stoic
-	heritage = heritage_iranian
-	language = language_scythian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_mountain_homes # May have originated from the Pamir region
-		tradition_sacred_mountains # Zun was a solar mountain god
-		#tradition_city_keepers # Although they may (or may not) have started off as nomads, they often settled into cities, and according to recent scholarship the Kidarite/Hephthalite period was one of increased urban growth in the eastern Iranian worlds
-		tradition_fervent_temple_builders # Lots of Zun/Buddhist/Hindu religious sites
-		#tradition_RICE_white_huns
-	}
-
-	dlc_tradition = {
-		trait = tradition_culture_blending
-		requires_dlc_flag = hybridize_culture
-	}
-	
-	name_list = name_list_hephthalite
-	
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	clothing_gfx = { mongol_clothing_gfx }
-	#clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-
-
-	ethnicities = {
-		100 = east_pamirid
-		40 = indo_iranid
-		36 = central_pamirid
-		36 = indo_nordid
-		25 = asian_alpine
-		9 = scythian
-		7 = andronovo_turanid
-		7 = armenoid
-		7 = plains_pamirid
-		7 = north_indid
-		7 = iranid
-		7 = mountain_indid
-		6 = tibetid
-		6 = aralid
-		4 = indo_brachid
-		4 = berid
-		2 = kham
-		2 = east_brachid
-		2 = proto_nordid
-	}
-}
-pamiri = {
-	color = { 0.11 0.11 0.22  }
-	
-	ethos = ethos_communal
-	heritage = heritage_iranian
-	language = language_scythian
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_himalayan_settlers
-		tradition_pastoralists
-		tradition_mendicant_mystics
-		tradition_festivities
-	}
-	
-	name_list = name_list_afghan # Should be their own but eh
-	
-	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	#clothing_gfx = { indian_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
-
-
-	ethnicities = {
-		100 = east_pamirid
-		40 = indo_iranid
-		36 = central_pamirid
-		36 = indo_nordid
-		25 = asian_alpine
-		9 = scythian
-		7 = andronovo_turanid
-		7 = armenoid
-		7 = plains_pamirid
-		7 = north_indid
-		7 = iranid
-		7 = mountain_indid
-		6 = tibetid
-		6 = aralid
-		4 = indo_brachid
-		4 = berid
-		2 = kham
-		2 = east_brachid
-		2 = proto_nordid
-	}
-}
 khuzi = {
-	color = { 188 108 88 }
+	color = { 88 188 158 }
 
 	parents = { elymaean elamite }
 
@@ -227,11 +241,10 @@ khuzi = {
 	name_list = name_list_persian
 	
 	coa_gfx = { iranian_group_coa_gfx }
-	building_gfx = { mena_building_gfx }
-	clothing_gfx = { mena_clothing_gfx }
-	unit_gfx = { mena_unit_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
 	
-
 	ethnicities = {
 		100 = iranid
 		38 = assyroid

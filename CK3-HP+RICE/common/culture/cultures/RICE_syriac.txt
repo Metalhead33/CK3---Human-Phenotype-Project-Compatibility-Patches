@@ -1,0 +1,56 @@
+﻿
+# Nabataeans of Iraq, not to be confused with the ancient Nabataeans of the Levant who built Petra
+# Based mostly on Soraya's research and recommendations
+# The Last Pagans of Iraq: Ibn Wahshiyya And His Nabatean Agriculture by Jaakko Hämeen-Anttila was Soraya's main source
+# Wikipedia's page on them is decent as a starting point, too
+# Justifications for traditions/ethos are quoted in verbatim from Soraya
+nabati = {
+	color = { 100 108 125 }
+	
+	ethos = ethos_stoic # Hard work considered virtuous
+	heritage = heritage_syriac
+	language = language_aramaic
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_agrarian 			# Soraya: Associated strongly with farming, and their culture considered farming the most noble profession
+		tradition_isolationist 		# Soraya: Known for being non-adventurous
+		tradition_medicinal_plants 	# Soraya: Medieval Iraq was known for its medicine
+		tradition_religion_blending # Soraya: Local faiths blended pagan and Abrahamic beliefs
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = { #copied from levantine
+		100 = arabid
+		77 = assyroid
+		73 = asian_alpine
+		50 = armenoid
+		47 = iranid
+		27 = proto_iranid
+		23 = anatolid
+		17 = pontid
+		13 = litorid
+		10 = transmediterranid
+		6 = gracilemediterranid
+		6 = eurafricanid
+		4 = berberid
+		3 = indo_iranid
+		3 = yemenid
+		2 = egyptid
+		2 = berid
+		1 = indo_brachid
+		1 = libyid
+		1 = east_pamirid
+		1 = mtebid
+		1 = canarid
+		1 = proto_nordid
+	}
+}
+
+

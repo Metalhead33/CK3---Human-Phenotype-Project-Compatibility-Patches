@@ -1,5 +1,4 @@
-﻿
-asian_american = {
+﻿asian_american = {
 	color = { 255 255 0 }
 	created = 1776.7.4
 	parents = { han english }
@@ -29,7 +28,6 @@ asian_american = {
 	clothing_gfx = { mongol_clothing_gfx }
 	unit_gfx = { mongol_unit_gfx }
 	
-
 	ethnicities = {
 		100 = changkiangid
 		94 = huanghoid

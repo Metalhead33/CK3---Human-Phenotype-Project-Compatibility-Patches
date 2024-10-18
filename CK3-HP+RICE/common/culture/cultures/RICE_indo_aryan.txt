@@ -1,25 +1,28 @@
 ﻿
-burusho = {
-	color = { 0.39 0.19 0.09 }
+# Name is for compatibility with Dharmacakra mod
+# Localized as Peristani in-game as a catch-all for "Kafirs" like the Nuristani, Kalash, Dards, and other peoples in the region of Peristan
+nuristani = {
+	color = { 125 69 108 }
 	
-	ethos = ethos_stoic
+	ethos = ethos_bellicose
 	heritage = heritage_indo_aryan
-	language = language_burusho
+	language = language_nuristani
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_tribe_unity
-		tradition_festivities
+		tradition_isolationist
+		tradition_stalwart_defenders
+		tradition_equal_inheritance
 	}
 	
-	name_list = name_list_burusho
+	name_list = name_list_nuristani
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
-
 	ethnicities = {
 		100 = indo_nordid
 		79 = north_indid
@@ -43,28 +46,28 @@ burusho = {
 		2 = andronovo_turanid
 	}
 }
-nuristani = {
-	color = { 0.84 0.28 0.01 }
+
+burusho = { # Language isolate, but living in areas with mostly Indo-Aryan speakers
+	color = { 111 88 111 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_indo_aryan
-	language = language_nuristani
+	language = language_burusho
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_himalayan_settlers
-		tradition_isolationist
-		tradition_stalwart_defenders
+		tradition_tribe_unity
 		tradition_festivities
 	}
 	
-	name_list = name_list_nuristani
+	name_list = name_list_burusho
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }
 	building_gfx = { indian_building_gfx }
 	clothing_gfx = { indian_clothing_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
 	unit_gfx = { indian_unit_gfx }
 	
-
 	ethnicities = {
 		100 = indo_nordid
 		79 = north_indid
@@ -86,5 +89,40 @@ nuristani = {
 		2 = proto_nordid
 		2 = aralid
 		2 = andronovo_turanid
+	}
+}
+
+vedda = { # Indigenous people of Sri Lanka
+	color = { 208 180 150 }
+	
+	ethos = ethos_communal
+	heritage = heritage_indo_aryan
+	language = language_sinhalese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_collective_lands
+		tradition_hunters
+		tradition_adaptive_skirmishing # Cybr: Archers
+	}
+	
+	name_list = name_list_vedda
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		100 = vedda
+		25 = sinhalesid
+		15 = karnatid
+		8 = east_brachid
+		8 = gracile_indid
+		8 = indo_brachid
+		8 = north_indid
+		8 = palaungid
+		4 = malabarese
+		3 = deutero_malayid
+		3 = kolid
 	}
 }
